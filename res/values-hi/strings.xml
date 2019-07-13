@@ -233,7 +233,7 @@
     <string name="status_bar_show_weather_title">मौसम दिखाएँ</string>
     <string name="auto_power_save_never">कभी नहीं</string>
     <string name="power_notifications_vibrate_title">कंपन करें</string>
-    <string name="charging_sounds_ringtone_silent">मौन</string>
+    <string name="charging_sounds_ringtone_silent">शाँत</string>
     <string name="style_title">शैली</string>
     <string name="style_global_title">शैली</string>
     <string name="style_global_entry_light">हल्का</string>
