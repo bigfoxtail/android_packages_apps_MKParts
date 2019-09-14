@@ -25,7 +25,6 @@ import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v7.preference.PreferenceManager;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,6 +34,8 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import androidx.preference.PreferenceManager;
 
 import org.mokee.mkparts.widget.CustomDialogPreference;
 import org.mokee.mkparts.R;
@@ -75,6 +76,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
             mActiveControl = mKeyboardBrightness;
         }
         */
+        /*
         if (isButtonSupported()) {
             boolean isSingleValue = !context.getResources().getBoolean(
                     com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
@@ -88,6 +90,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
                     isSingleValue, defaultBrightness);
             mActiveControl = mButtonBrightness;
         }
+        */
 
         updateSummary();
     }
@@ -236,8 +239,11 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
                 || (deviceKeys & KEY_MASK_MENU) != 0
                 || (deviceKeys & KEY_MASK_ASSIST) != 0
                 || (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
+        /*
         boolean hasBacklight = res.getInteger(
                 com.android.internal.R.integer.config_buttonBrightnessSettingDefault) > 0;
+        */
+        boolean hasBacklight = false;
 
         return hasBacklightKey && hasBacklight;
     }

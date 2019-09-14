@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2019 The MoKee Project
+ * Copyright (C) 2014-2019 The MoKee Open Source Project
  * Copyright (C) 2017-2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,8 +19,8 @@ package org.mokee.mkparts.statusbar;
 
 import android.content.ContentResolver;
 import android.os.Bundle;
-import android.support.v7.preference.DropDownPreference;
-import android.support.v7.preference.Preference;
+import androidx.preference.DropDownPreference;
+import androidx.preference.Preference;
 
 import mokee.preference.MKSecureSettingSwitchPreference;
 import mokee.providers.MKSettings;

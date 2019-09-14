@@ -25,23 +25,24 @@ import android.content.Intent;
 import android.nfc.NfcAdapter;
 import android.nfc.Tag;
 import android.os.Bundle;
-import android.support.v14.preference.PreferenceFragment;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceScreen;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.android.settingslib.drawer.SettingsDrawerActivity;
+import androidx.fragment.app.FragmentActivity;
+import androidx.preference.PreferenceFragment;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import org.mokee.mkparts.profiles.NFCProfileTagCallback;
 import org.mokee.mkparts.widget.SwitchBar;
 import org.mokee.internal.mkparts.PartInfo;
 import org.mokee.internal.mkparts.PartsList;
 
-public class PartsActivity extends SettingsDrawerActivity implements
+public class PartsActivity extends FragmentActivity implements
         PreferenceFragment.OnPreferenceStartFragmentCallback,
         PreferenceFragment.OnPreferenceStartScreenCallback {
 
@@ -132,7 +133,7 @@ public class PartsActivity extends SettingsDrawerActivity implements
         searchItem.setIcon(R.drawable.ic_search_24dp);
         searchItem.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
         searchItem.setOnMenuItemClickListener(item -> {
-                Intent intent = new Intent("com.android.settings.action.SETTINGS_SEARCH");
+                Intent intent = new Intent(Settings.ACTION_APP_SEARCH_SETTINGS);
                 intent.setPackage("com.android.settings.intelligence");
                 startActivity(intent);
                 return true;

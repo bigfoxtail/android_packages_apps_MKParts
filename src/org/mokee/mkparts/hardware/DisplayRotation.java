@@ -21,10 +21,11 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v14.preference.SwitchPreference;
-import android.support.v7.preference.CheckBoxPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceScreen;
+
+import androidx.preference.CheckBoxPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.view.RotationPolicy;
 
@@ -68,9 +69,12 @@ public class DisplayRotation extends SettingsPreferenceFragment {
         mRotation180Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_180_PREF);
         mRotation270Pref = (CheckBoxPreference) prefSet.findPreference(ROTATION_270_PREF);
 
+        int mode = 0;
+/*
         int mode = Settings.System.getInt(getContentResolver(),
                 Settings.System.ACCELEROMETER_ROTATION_ANGLES,
                 ROTATION_0_MODE | ROTATION_90_MODE | ROTATION_270_MODE);
+*/
 
         mRotation0Pref.setChecked((mode & ROTATION_0_MODE) != 0);
         mRotation90Pref.setChecked((mode & ROTATION_90_MODE) != 0);
@@ -131,8 +135,10 @@ public class DisplayRotation extends SettingsPreferenceFragment {
                 mode |= ROTATION_0_MODE;
                 mRotation0Pref.setChecked(true);
             }
+/*
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ACCELEROMETER_ROTATION_ANGLES, mode);
+*/
             return true;
         }
 
