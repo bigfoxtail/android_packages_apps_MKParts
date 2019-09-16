@@ -3,8 +3,8 @@
 -keep class org.mokee.mkparts.*Picker
 -keep class org.mokee.mkparts.*Settings
 
--keep class org.mokee.mkparts.stats.*
 -keep class org.mokee.mkparts.contributors.*
+-keep class org.mokee.mkparts.gestures.*
 -keep class org.mokee.mkparts.hardware.*
 -keep class org.mokee.mkparts.input.*
 -keep class org.mokee.mkparts.livedisplay.*
@@ -13,6 +13,7 @@
 -keep class org.mokee.mkparts.privacyguard.*
 -keep class org.mokee.mkparts.profiles.*
 -keep class org.mokee.mkparts.sounds.*
+-keep class org.mokee.mkparts.stats.*
 
 -dontwarn cn.jpush.**
 -keep class cn.jpush.** { *;}
@@ -20,6 +21,11 @@
 
 -dontwarn cn.jiguang.**
 -keep class cn.jiguang.** { *;}
+
+# Keep keyhandler constructor
+-keep public class * implements com.android.internal.os.DeviceKeyHandler {
+   public <init>(android.content.Context);
+}
 
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
