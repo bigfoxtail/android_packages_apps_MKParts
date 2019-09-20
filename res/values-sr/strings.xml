@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="loading">Учитавам\u2026</string>
-    <string name="dlg_ok">У реду</string>
+    <string name="dlg_ok">ОК</string>
     <string name="cancel">Откажи</string>
     <string name="add">Додај</string>
     <string name="choose_app">Избор апликације</string>
@@ -30,8 +30,8 @@
     <string name="back">Назад</string>
     <string name="finish">Готово</string>
     <string name="next">Следеће</string>
-    <string name="on">Укључено</string>
-    <string name="off">Искључено</string>
+    <string name="on">Укљ.</string>
+    <string name="off">Искљ.</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="search">Претражи</string>
@@ -168,7 +168,7 @@
     <string name="hardware_keys_action_in_app_search">Претрага у апликацијама</string>
     <string name="hardware_keys_action_launch_camera">Покрени камеру</string>
     <string name="hardware_keys_action_sleep">Искључи екран</string>
-    <string name="hardware_keys_action_last_app">Последња апликација</string>
+    <string name="hardware_keys_action_last_app">Задња апликација</string>
     <string name="hardware_keys_action_split_screen">Подељени екран</string>
     <string name="hardware_keys_action_single_handed_left">Режим управљања једном руком (слева)</string>
     <string name="hardware_keys_action_single_handed_right">Режим управљања једном руком (здесна)</string>
@@ -280,8 +280,8 @@
     <string name="profile_app_group_category_title">Обавештења</string>
     <string name="profile_app_group_item_instructions">Додај или уклони групе</string>
     <string name="profile_app_group_item_instructions_summary">Измените подешавања обавештења за групе апликација у овом профилу.</string>
-    <string name="profile_entries_on">Укључено</string>
-    <string name="profile_entries_off">Искључено</string>
+    <string name="profile_entries_on">Укљ.</string>
+    <string name="profile_entries_off">Искљ.</string>
     <string name="profile_entries_no_override">Без промена</string>
     <string name="profile_name_title">Име</string>
     <string name="new_profile_name">&lt;нови профил&gt;</string>
@@ -317,7 +317,7 @@
     <string name="ringtone_title">Мелодија звона</string>
     <string name="soundtone_title">Звук обавештења</string>
     <string name="profile_appgroups_title">Групе апликација</string>
-    <string name="profile_applist_title">Апликације</string>
+    <string name="profile_applist_title">Програми</string>
     <string name="profile_new_appgroup">Нова група апликација</string>
     <string name="profile_delete_appgroup">Избрисати ову групу апликација?</string>
     <string name="profile_appgroup_name_prompt">Унесите име за групу апликација.</string>
@@ -343,7 +343,7 @@
     <string name="ring_mode_title">Режим звона</string>
     <string name="ring_mode_normal">Нормалан</string>
     <string name="ring_mode_vibrate">Вибрација</string>
-    <string name="ring_mode_mute">Искључи звук</string>
+    <string name="ring_mode_mute">Утишај</string>
     <string name="ring_volume_title">Јачина звука звона</string>
     <string name="incoming_call_volume_title">Мелодија звона</string>
     <string name="notification_volume_title">Обавештење</string>
@@ -355,7 +355,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">%1$s ивица статусне траке повлачи брза подешавања.</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Лево</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Десно</string>
-    <string name="status_bar_quick_qs_pulldown_off">Искључено</string>
+    <string name="status_bar_quick_qs_pulldown_off">Искљ.</string>
     <string name="status_bar_quick_qs_pulldown_left">Лево</string>
     <string name="status_bar_quick_qs_pulldown_right">Десно</string>
     <string name="status_bar_double_tap_to_sleep_title">Искључи екран при двоструком додиру</string>
@@ -372,7 +372,7 @@
     <string name="status_bar_clock_position_right">Десно</string>
     <string name="status_bar_clock_position_left">Лево</string>
     <string name="status_bar_clock_position_center">Центар</string>
-    <string name="status_bar_am_pm_title">Стил индикатора „AM/PM“</string>
+    <string name="status_bar_am_pm_title">Стил за „AM/PM“</string>
     <string name="status_bar_am_pm_info">Омогућен је 24-часовни формат времена.</string>
     <string name="status_bar_am_pm_normal">Нормалан</string>
     <string name="status_bar_am_pm_small">Мали</string>
@@ -402,7 +402,7 @@
     <string name="network_traffic_mode_up">Само слање</string>
     <string name="network_traffic_mode_down">Само преузимање</string>
     <string name="network_traffic_mode_all">Слање и преузимање</string>
-    <string name="network_traffic_autohide">Аутоматско сакривање</string>
+    <string name="network_traffic_autohide">Аутоматски сакриј</string>
     <string name="network_traffic_autohide_summary">Сакриј контролу протока у одсуству активности</string>
     <string name="protected_apps_manager_title">Заштићене апликације</string>
     <string name="protected_apps_manager_summary">Управљајте апликацијама које за покретање захтевају унос лозинке.</string>
