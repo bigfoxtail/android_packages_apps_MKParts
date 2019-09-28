@@ -130,10 +130,4 @@
           android:title="@string/trust_title"
           android:fragment="org.mokee.mkparts.trust.TrustPreferences"
           mk:xmlRes="@xml/trust_preferences" />
-
-    <part android:key="bottom_gesture_navigation_settings"
-          android:title="@string/bottom_gesture_navigation_settings_title"
-          android:fragment="org.mokee.mkparts.gestures.BottomGestureNavigationSettings"
-          mk:xmlRes="@xml/bottom_gesture_navigation_settings" />
-
 </parts-catalog>
