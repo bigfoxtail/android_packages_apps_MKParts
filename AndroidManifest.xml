@@ -315,7 +315,7 @@
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="mk/profile" />
+                <data android:mimeType="mokee/profile" />
             </intent-filter>
         </activity>
 
