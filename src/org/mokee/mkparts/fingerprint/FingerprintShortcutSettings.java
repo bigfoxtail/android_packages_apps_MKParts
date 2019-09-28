@@ -29,10 +29,11 @@ import android.os.CancellationSignal;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.UserHandle;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceGroup;
-import android.support.v7.preference.PreferenceScreen;
 import android.util.SparseArray;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceGroup;
+import androidx.preference.PreferenceScreen;
 
 import mokee.fingerprint.FingerprintShortcutManager;
 import mokee.fingerprint.FingerprintShortcutManager.Target;

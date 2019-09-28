@@ -19,10 +19,11 @@ package org.mokee.mkparts.fingerprint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.hardware.fingerprint.Fingerprint;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceViewHolder;
 
 import org.mokee.mkparts.R;
 
