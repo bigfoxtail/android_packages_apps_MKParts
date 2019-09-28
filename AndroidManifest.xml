@@ -37,8 +37,6 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
     <uses-permission android:name="android.permission.CHANGE_OVERLAY_PACKAGES" />
-    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-    <uses-permission android:name="android.permission.MANAGE_FINGERPRINT" />
 
     <uses-permission android:name="mokee.permission.MANAGE_REMOTE_PREFERENCES" />
 
@@ -302,27 +300,6 @@
                 android:resource="@string/summary_empty" />
         </activity-alias>
 
-        <!-- Fingerprint shortcut settings (Apps category) -->
-        <activity-alias
-            android:name=".fingerprint.FingerprintShortcutSettings"
-            android:label="@string/fingerprint_shortcut_settings_title"
-            android:targetActivity="PartsActivity">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-                <action android:name="org.mokee.mkparts.FINGERPRINT_SHORTCUT_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.apps" />
-            <meta-data
-                android:name="com.android.settings.order"
-                android:value="-150" />
-            <meta-data
-                android:name="com.android.settings.summary"
-                android:resource="@string/summary_empty" />
-        </activity-alias>
-
         <!-- Weather settings -->
         <activity-alias
             android:name=".weather.WeatherServiceSettings"
@@ -346,10 +323,6 @@
             android:name=".profiles.NFCProfileSelect"
             android:label="@string/profile_select"
             android:excludeFromRecents="true"/>
-
-        <activity
-            android:name=".fingerprint.FingerprintShortcutEditor"
-            android:label="@string/fingerprint_shortcut_editer" />
 
         <!-- MOKEE ANONYMOUS STATISTICS START -->
         <receiver android:name=".stats.ReportingServiceManager"

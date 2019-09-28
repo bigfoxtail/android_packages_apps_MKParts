@@ -115,11 +115,6 @@
           android:fragment="org.mokee.mkparts.gestures.TouchscreenGestureSettings"
           mk:xmlRes="@xml/touchscreen_gesture_settings" />
 
-    <part android:key="fingerprint_shortcut_settings"
-          android:title="@string/fingerprint_shortcut_settings_title"
-          android:fragment="org.mokee.mkparts.fingerprint.FingerprintShortcutSettings"
-          mk:xmlRes="@xml/fingerprint_shortcut_settings" />
-
     <part android:key="style"
           android:title="@string/style_title"
           android:summary="@string/style_summary"
