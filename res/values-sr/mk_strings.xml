@@ -16,14 +16,14 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="mkparts_title">МоКее Подешаванја</string>
+    <string name="mkparts_title">МоКее Подешавања</string>
     <string name="fingerprint_shortcut_settings_title">Пречице за отисак прста</string>
     <string name="fingerprint_shortcut_not_specified">Није дефинисано</string>
     <string name="fingerprint_shortcut_ok">ОК</string>
     <string name="fingerprint_shortcut_edit">Уреди</string>
     <string name="fingerprint_shortcut_delete">Избриши</string>
     <string name="fingerprint_shortcut_editer">Подесити пречицу за отисак прста</string>
-    <string name="fingerprint_shortcut_manage">Подешаванје отиска прста</string>
+    <string name="fingerprint_shortcut_manage">Подешавање отиска прста</string>
     <string name="push_notification">Нотификације које видите</string>
     <string name="text_copied">Текст који је у клиборду.</string>
 </resources>
