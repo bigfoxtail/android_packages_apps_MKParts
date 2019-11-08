@@ -76,11 +76,6 @@
           android:fragment="org.mokee.mkparts.input.PowerMenuActions"
           mokee:xmlRes="@xml/power_menu_settings" />
 
-    <part android:key="privacy_guard_manager"
-          android:title="@*mokee.platform:string/privacy_guard_manager_title"
-          android:fragment="org.mokee.mkparts.privacyguard.PrivacyGuardManager"
-          mokee:xmlRes="@xml/privacy_guard_prefs" />
-
     <part android:key="weather_settings"
           android:title="@string/weather_settings_title"
           android:fragment="org.mokee.mkparts.weather.WeatherServiceSettings"

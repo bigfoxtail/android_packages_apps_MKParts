@@ -43,8 +43,6 @@
         android:key="trust_category_tools"
         android:title="@string/trust_category_tools">
 
-        <org.mokee.internal.mkparts.MKPartsPreference
-            android:key="privacy_guard_manager" />
         <mokee.preference.MKSecureSettingSwitchPreference
             android:key="trust_restrict_usb"
             android:title="@string/trust_restrict_usb_title"
