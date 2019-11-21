@@ -22,6 +22,9 @@
 -dontwarn cn.jiguang.**
 -keep class cn.jiguang.** { *;}
 
+-dontwarn com.bun.miitmdid.core.**
+-keep class com.bun.miitmdid.core.** {*;} 
+
 # Keep keyhandler constructor
 -keep public class * implements com.android.internal.os.DeviceKeyHandler {
    public <init>(android.content.Context);
