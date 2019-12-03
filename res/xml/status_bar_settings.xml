@@ -34,7 +34,7 @@
         android:title="@string/status_bar_qs_tile_columns_title"
         android:entries="@array/status_bar_qs_tile_columns_entries"
         android:entryValues="@array/status_bar_qs_tile_columns_values"
-        android:defaultValue="3" />
+        android:defaultValue="4" />
 
     <PreferenceScreen
         android:fragment="org.mokee.mkparts.statusbar.NetworkTrafficSettings"
