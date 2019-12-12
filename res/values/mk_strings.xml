@@ -19,8 +19,4 @@
     <!-- Application name -->
     <string name="mkparts_title">MoKee Settings</string>
 
-    <!-- Push interface -->
-    <string name="push_notification">Push notification</string>
-    <string name="text_copied">Text copied to clipboard.</string>
-
 </resources>
