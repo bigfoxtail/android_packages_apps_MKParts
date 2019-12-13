@@ -42,6 +42,5 @@ android_app {
         "androidx.recyclerview_recyclerview",
         "jsr305",
         "org.mokee.platform.internal",
-        "mokee-push",
     ],
 }

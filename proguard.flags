@@ -15,13 +15,6 @@
 -keep class org.mokee.mkparts.sounds.*
 -keep class org.mokee.mkparts.stats.*
 
--dontwarn cn.jpush.**
--keep class cn.jpush.** { *;}
--keep class * extends cn.jpush.android.helpers.JPushMessageReceiver { *; }
-
--dontwarn cn.jiguang.**
--keep class cn.jiguang.** { *;}
-
 -dontwarn com.bun.miitmdid.core.**
 -keep class com.bun.miitmdid.core.** {*;} 
 
