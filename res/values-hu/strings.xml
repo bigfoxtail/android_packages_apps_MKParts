@@ -125,7 +125,7 @@
     <string name="live_display_color_profile_photography_summary">Tökéletes színreprodukció fotókhoz</string>
     <string name="live_display_color_profile_basic_title">Alap</string>
     <string name="live_display_color_profile_basic_summary">A kijelző használata kalibrálatlanul</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptív</string>
+    <string name="live_display_color_profile_adaptive_title">Alkalmazkodó</string>
     <string name="live_display_color_profile_adaptive_summary">A színek alkalmazkodnak a környezethez</string>
     <string name="live_display_color_profile_reading_title">Olvasó mód</string>
     <string name="live_display_color_profile_reading_summary">Melegebb színek kisebb szemfáradtságért</string>
