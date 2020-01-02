@@ -23,8 +23,6 @@
     <string name="on">खुला</string>
     <string name="yes">हो</string>
     <string name="search">खोज्नुहोस्</string>
-    <string name="privacy_guard_help_title">मद्दत</string>
-    <string name="privacy_guard_reset_title">पुनःसेट गर्नुहोस्</string>
     <string name="custom_time">अनुकूलन</string>
     <string name="dialog_delete_title">मेट्नुहोस्</string>
     <string name="color_red_title">रातो</string>
@@ -44,7 +42,4 @@
     <string name="profile_reset_title">पुनःसेट गर्नुहोस्</string>
     <string name="ring_mode_mute">आवाज बन्द गर्नुहोस्</string>
     <string name="status_bar_brightness_category">चमक</string>
-    <string name="style_title">शैली</string>
-    <string name="style_global_title">शैली</string>
-    <string name="style_automagic_dialog_positive">लागू गर्नुहोस्</string>
 </resources>

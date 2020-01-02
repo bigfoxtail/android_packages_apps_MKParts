@@ -24,9 +24,6 @@
     <string name="on">هەڵکردن</string>
     <string name="yes">بەڵێ</string>
     <string name="search">گه‌ڕان</string>
-    <string name="privacy_guard_help_title">یارمەتی</string>
-    <string name="privacy_guard_reset_title">ڕێکخستنەوە</string>
-    <string name="privacy_guard_manager_show_system_apps">پیشاندانی به‌رنامه‌-بنیاتنراو</string>
     <string name="custom_time">تایبەت بە خۆ</string>
     <string name="dialog_delete_title">سڕینه‌وه‌</string>
     <string name="color_red_title">سوور</string>
@@ -54,10 +51,4 @@
     <string name="protected_apps_manager_title">بەرنامە پارێزراوەکان</string>
     <string name="status_bar_show_weather_title">پیشاندانی کەش و هەوا</string>
     <string name="power_notifications_vibrate_title">له‌رینه‌وه‌</string>
-    <string name="style_title">شێواز</string>
-    <string name="style_global_title">شێواز</string>
-    <string name="style_automagic_dialog_positive">جێبه‌جێکردن</string>
-    <string name="trust_feature_root">ڕێگای ڕەگ</string>
-    <string name="trust_feature_root_value_adb">تەنها ADB</string>
-    <string name="trust_feature_root_value_apps">بەرنامەکان و ADB</string>
 </resources>

@@ -23,8 +23,6 @@
     <string name="on">በርቷል</string>
     <string name="yes">አዎ</string>
     <string name="search">ፍለጋ</string>
-    <string name="privacy_guard_help_title">እገዛ</string>
-    <string name="privacy_guard_reset_title">ዳግም አስጀምር</string>
     <string name="custom_time">ብጁ</string>
     <string name="dialog_delete_title">ሰርዝ</string>
     <string name="color_red_title">ቀይ</string>
@@ -44,7 +42,4 @@
     <string name="profile_reset_title">ዳግም አስጀምር</string>
     <string name="ring_mode_mute">ድምጽ-ከል አድርግ</string>
     <string name="status_bar_brightness_category">ብሩህነት</string>
-    <string name="style_title">ቅጥ</string>
-    <string name="style_global_title">ቅጥ</string>
-    <string name="style_automagic_dialog_positive">ተግብር</string>
 </resources>

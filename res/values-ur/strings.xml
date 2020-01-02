@@ -19,10 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">دوبارہ ترتیب دیں</string>
-    <string name="privacy_guard_dlg_text">جب رازداری کا گارڈ فعال ہوجاتا ہے تو، ایپ ذاتی ڈیٹا تک رسائی حاصل نہیں کرسکتا، جیسے رابطے، پیغامات یا کال لاگ ان. شراکت | درخواست کے حوالے.</string>
-    <string name="privacy_guard_dlg_system_app_text">بلٹ ان ایپ کے لئے پرائیویسی گارڈ کو فعال کرتے وقت، ایپ تک رسائی حاصل کرنے یا ذاتی ڈیٹا فراہم کرنے کے قابل نہیں ہو گا. اس سے دوسرے ایپس کو غلطی کا باعث بن سکتا ہے.</string>
-    <string name="privacy_guard_reset_title">دوبارہ ترتیب دیں</string>
-    <string name="privacy_guard_help_text">اس اسکرین میں آپ اس بات کا انتخاب کرسکتے ہیں کہ کون سا اطلاقات رازداری کے تحفظ کو صرف ان پر ٹپ کر کے لئے فعال ہونا چاہئے. منتخب کردہ ایپس آپ کے ذاتی ڈیٹا جیسے رابطے، پیغامات یا کال لاگ ان تک رسائی حاصل نہیں کرسکیں گے. اپلی کیشن کا اندراج طویل عرصہ تک اپنی ایپ کی تفصیلات اسکرین کو کھولتا ہے.\n\n بلٹ میں اطلاقات ڈیفالٹ کی طرف سے نہیں دکھایا جاتا ہے لیکن متعلقہ مینو اختیار کو منتخب کرکے ظاہر کیا جاسکتا ہے.</string>
     <string name="custom_time">حسب ضرورت</string>
     <string name="live_display_summary">پڑھنے کی صلاحیت کو بہتر بنانے اور آنکھ کی کمی کو کم کرنے کے لئے دن اور ماحول کے حالات پر مبنی آپ کی اسکرین کو بہتر بنائیں</string>
     <string name="live_display_outdoor_mode_summary">روشن سورج کی روشنی میں خود بخود چمکتا اور سنتریت میں اضافہ</string>
@@ -64,7 +60,4 @@
     <string name="expanded_desktop_settings_summary">حیثیت بار، نیوی گیشن بار، یا دونوں کو چھپا کرکے اپنے دستیاب ڈیسک ٹاپ کی جگہ کو بڑھاو</string>
     <string name="expanded_desktop_nothing_to_show_text">سوئچ آف کو آپ کے وسیع کردہ ڈیسک ٹاپ کو فی اے پی کی بنیاد پر اپنی مرضی کے مطابق کرنے کے لئے بند کریں</string>
     <string name="charging_sounds_enabled_summary">بجلی کا منسلک منسلک یا منقطع کرتے وقت آواز چلائیں</string>
-    <string name="style_title">طرز</string>
-    <string name="style_global_title">طرز</string>
-    <string name="style_automagic_dialog_positive">لاگو کریں</string>
 </resources>

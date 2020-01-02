@@ -19,7 +19,4 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="doze_title">Taisbeanadh cuairteach</string>
-    <string name="trust_feature_root">Inntrigeadh root</string>
-    <string name="trust_feature_root_value_adb">ADB a-mhàin</string>
-    <string name="trust_feature_root_value_apps">Aplacaidean is ADB</string>
 </resources>

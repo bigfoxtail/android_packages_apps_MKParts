@@ -25,9 +25,6 @@
     <string name="off">Izslēgt</string>
     <string name="yes">Jā</string>
     <string name="search">Meklēt</string>
-    <string name="privacy_guard_help_title">Palīdzība</string>
-    <string name="privacy_guard_reset_title">Atiestatīt</string>
-    <string name="privacy_guard_manager_show_system_apps">Rādīt iebūvētās lietotnes</string>
     <string name="custom_time">Pielāgots</string>
     <string name="dialog_delete_title">Dzēst</string>
     <string name="color_red_title">Sarkana</string>
@@ -56,10 +53,4 @@
     <string name="status_bar_brightness_category">Spilgtums</string>
     <string name="protected_apps_manager_title">Aizsargātās lietotnes</string>
     <string name="power_notifications_vibrate_title">Vibrēt</string>
-    <string name="style_title">Stils</string>
-    <string name="style_global_title">Stils</string>
-    <string name="style_automagic_dialog_positive">Lietot</string>
-    <string name="trust_feature_root">Root pieeja</string>
-    <string name="trust_feature_root_value_adb">Tikai ADB</string>
-    <string name="trust_feature_root_value_apps">Lietotnēm un ADB</string>
 </resources>

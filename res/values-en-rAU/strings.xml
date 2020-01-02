@@ -56,6 +56,7 @@
     <string name="volume_answer_call_title">Answer call</string>
     <string name="home_answer_call_title">Answer call</string>
     <string name="backlight_summary_disabled">Disabled</string>
+    <string name="navigation_bar_invert_layout_title">Invert layout</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_airplane_title">Aeroplane mode</string>
     <string name="torch_long_press_power_timeout_never">Never</string>
@@ -70,10 +71,7 @@
     <string name="charging_sounds_ringtone_silent">Silent</string>
     <string name="touchscreen_gesture_action_flashlight">Toggle the torch</string>
     <string name="touchscreen_gesture_action_dialer">Open the dialler</string>
-    <string name="style_accent_default_name">Default</string>
-    <string name="style_dark_overlay_default">Default</string>
     <string name="trust_feature_selinux_value_disabled">Disabled</string>
-    <string name="trust_feature_root_value_disabled">Disabled</string>
     <string name="trust_feature_encryption_value_disabled">Disabled</string>
     <string name="trust_category_tools">Privacy</string>
 </resources>

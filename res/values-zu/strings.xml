@@ -23,8 +23,6 @@
     <string name="on">Vuliwe</string>
     <string name="yes">Yebo</string>
     <string name="search">Sesha</string>
-    <string name="privacy_guard_help_title">Usizo</string>
-    <string name="privacy_guard_reset_title">Setha kabusha</string>
     <string name="custom_time">Ngokwezifiso</string>
     <string name="dialog_delete_title">Susa</string>
     <string name="color_red_title">Okubomvu</string>
@@ -44,7 +42,4 @@
     <string name="profile_reset_title">Setha kabusha</string>
     <string name="ring_mode_mute">Thulisa</string>
     <string name="status_bar_brightness_category">Ukugqama</string>
-    <string name="style_title">Isitayela</string>
-    <string name="style_global_title">Isitayela</string>
-    <string name="style_automagic_dialog_positive">Sebenzisa</string>
 </resources>

@@ -23,8 +23,6 @@
     <string name="on">Imewashwa</string>
     <string name="yes">Ndiyo</string>
     <string name="search">Tafuta</string>
-    <string name="privacy_guard_help_title">Usaidizi</string>
-    <string name="privacy_guard_reset_title">Weka upya</string>
     <string name="custom_time">Maalum</string>
     <string name="dialog_delete_title">Futa</string>
     <string name="color_red_title">Nyekundu</string>
@@ -44,7 +42,4 @@
     <string name="profile_reset_title">Weka upya</string>
     <string name="ring_mode_mute">Zima sauti</string>
     <string name="status_bar_brightness_category">Ung\'avu</string>
-    <string name="style_title">Mtindo</string>
-    <string name="style_global_title">Mtindo</string>
-    <string name="style_automagic_dialog_positive">Tekeleza</string>
 </resources>

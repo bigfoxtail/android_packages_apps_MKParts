@@ -19,7 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">Қайта реттеу</string>
-    <string name="privacy_guard_reset_title">Қайта реттеу</string>
     <string name="custom_time">Қалыпты</string>
     <string name="color_red_title">Қызыл</string>
     <string name="color_green_title">Жасыл</string>
@@ -29,7 +28,4 @@
     <string name="adj_contrast_title">Контраст</string>
     <string name="profile_reset_title">Қайта реттеу</string>
     <string name="status_bar_brightness_category">Жарықтығы</string>
-    <string name="style_title">Стиль</string>
-    <string name="style_global_title">Стиль</string>
-    <string name="style_automagic_dialog_positive">Қолдану</string>
 </resources>

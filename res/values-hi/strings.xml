@@ -34,10 +34,6 @@
     <string name="off">बंद</string>
     <string name="yes">हां</string>
     <string name="search">खोज</string>
-    <string name="privacy_guard_help_title">सहायता</string>
-    <string name="privacy_guard_reset_title">रीसेट करें</string>
-    <string name="privacy_guard_manager_show_system_apps">अंतःस्थापित ऐप दिखाएँ</string>
-    <string name="privacy_guard_advanced_settings_title">उन्नत</string>
     <string name="default_time">सामान्य</string>
     <string name="custom_time">कस्टम</string>
     <string name="dialog_delete_title">हटाएं</string>
@@ -107,7 +103,6 @@
     <string name="disable_navkeys_title">ऑन-स्क्रीन नेविगेशन पट्टी सक्षम करें</string>
     <string name="disable_navkeys_summary">ऑनस्क्रीन नाविगेशन पट्टी शुरू करें और हार्डवेअर बटन बंद करें</string>
     <string name="navigation_bar_category">नेविगेशन पट्टी</string>
-    <string name="navigation_bar_title">बटन और लेआउट</string>
     <string name="navigation_bar_left_summary">नेविगेशन पट्टी को स्क्रीन की बायीं और लैंड स्केप मोड में रखें</string>
     <string name="navigation_bar_arrow_keys_title">लिखते समय तीर कुंजियां दिखाएं</string>
     <string name="navigation_bar_arrow_keys_summary">लिखते समय बाएं और दायें कर्सर बटन को प्रदर्शित करें। आईएम्ई स्विचर की अनदेखी करें।</string>
@@ -224,12 +219,4 @@
     <string name="auto_power_save_never">कभी नहीं</string>
     <string name="power_notifications_vibrate_title">कंपन करें</string>
     <string name="charging_sounds_ringtone_silent">मौन</string>
-    <string name="style_title">शैली</string>
-    <string name="style_global_title">शैली</string>
-    <string name="style_global_entry_light">हल्का</string>
-    <string name="style_automagic_dialog_positive">*</string>
-    <string name="style_dark_overlay_black">काली</string>
-    <string name="trust_feature_root">मूल पहुँच</string>
-    <string name="trust_feature_root_value_adb">केवल एडीबी</string>
-    <string name="trust_feature_root_value_apps">ऐप और एडीबी</string>
 </resources>

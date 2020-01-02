@@ -25,9 +25,6 @@
     <string name="on">ئوچۇق</string>
     <string name="yes">ھەئە</string>
     <string name="search">ئىزدە</string>
-    <string name="privacy_guard_help_title">ياردەم</string>
-    <string name="privacy_guard_reset_title">ئەسلىگە قايتۇر</string>
-    <string name="privacy_guard_manager_show_system_apps">سىڭدۈرۈلگەن ئەپنى كۆرسەت</string>
     <string name="default_time">نورمال</string>
     <string name="custom_time">ئىختىيارىي</string>
     <string name="dialog_delete_title">ئۆچۈر</string>
@@ -74,11 +71,4 @@
     <string name="status_bar_show_weather_title">ھاۋارايىنى كۆرسەت</string>
     <string name="auto_power_save_never">ھەرگىز</string>
     <string name="power_notifications_vibrate_title">تىترەت</string>
-    <string name="style_title">ئۇسلۇب</string>
-    <string name="style_global_title">ئۇسلۇب</string>
-    <string name="style_global_entry_dark">قاراڭغۇ</string>
-    <string name="style_automagic_dialog_positive">قوللان</string>
-    <string name="trust_feature_root">Root ھوقۇقى</string>
-    <string name="trust_feature_root_value_adb">ADB لا</string>
-    <string name="trust_feature_root_value_apps">Apps ۋە ADB</string>
 </resources>

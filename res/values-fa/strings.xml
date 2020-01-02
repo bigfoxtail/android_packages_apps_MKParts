@@ -28,9 +28,6 @@
     <string name="on">فعال</string>
     <string name="yes">بله</string>
     <string name="search">جستجو</string>
-    <string name="privacy_guard_help_title">راهنما</string>
-    <string name="privacy_guard_reset_title">بازنشانی</string>
-    <string name="privacy_guard_manager_show_system_apps">نمایش برنامه‌های اصلی</string>
     <string name="custom_time">سفارشی</string>
     <string name="dialog_delete_title">حذف</string>
     <string name="notification_light_general_title">کلی</string>
@@ -74,11 +71,4 @@
     <string name="status_bar_show_weather_title">نمایش آب و هوا</string>
     <string name="auto_power_save_never">هرگز</string>
     <string name="power_notifications_vibrate_title">لرزش</string>
-    <string name="style_title">سبک</string>
-    <string name="style_global_title">سبک</string>
-    <string name="style_automagic_dialog_positive">اعمال‌ کردن</string>
-    <string name="style_dark_overlay_black">سیاه</string>
-    <string name="trust_feature_root">دسترسی روت</string>
-    <string name="trust_feature_root_value_adb">فقط ای‌دی‌بی</string>
-    <string name="trust_feature_root_value_apps">برنامه‌ها و ای‌دی‌بی</string>
 </resources>

@@ -26,8 +26,6 @@
     <string name="off">அணை</string>
     <string name="yes">ஆம்</string>
     <string name="no">இல்லை</string>
-    <string name="privacy_guard_reset_title">மீட்டமை</string>
-    <string name="privacy_guard_manager_show_system_apps">உள்ளமைந்த ஆப்களை காட்டு</string>
     <string name="default_time">இயல்பு</string>
     <string name="custom_time">தனிப்பயன்</string>
     <string name="pulse_length_normal">இயல்பு</string>
@@ -70,13 +68,4 @@
     <string name="auto_power_save_never">ஒருபோதுமில்லை</string>
     <string name="power_notifications_vibrate_title">அதிர்வு</string>
     <string name="charging_sounds_ringtone_silent">அமைதி</string>
-    <string name="style_title">நடை</string>
-    <string name="style_global_title">நடை</string>
-    <string name="style_global_entry_dark">அடர்</string>
-    <string name="style_automagic_dialog_positive">பயன்படுத்து</string>
-    <string name="style_accent_default_name">இயல்புநிலை</string>
-    <string name="style_dark_overlay_default">இயல்புநிலை</string>
-    <string name="trust_feature_root">மூல அணுகல்</string>
-    <string name="trust_feature_root_value_adb">ADB மட்டும்</string>
-    <string name="trust_feature_root_value_apps">ஆப்கள் மற்றும் ADB</string>
 </resources>

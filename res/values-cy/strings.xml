@@ -38,9 +38,6 @@
     <string name="disabled">Wedi\'i analluogi</string>
     <string name="enabled">Wedi\'i galluogi</string>
     <string name="privacy_settings_title">Preifatrwydd</string>
-    <string name="privacy_guard_reset_title">Ailosod</string>
-    <string name="privacy_guard_advanced_settings_title">Uwch</string>
-    <string name="privacy_guard_notification_title">Dangos hysbysiad</string>
     <string name="edit_light_settings">Addasu gosodiadau golau</string>
     <string name="default_time">Arferol</string>
     <string name="custom_time">Addasedig</string>
@@ -96,12 +93,7 @@
     <string name="profile_choose_app">Dewisa ap</string>
     <string name="network_traffic_mode_disable">Wedi\'i analluogi</string>
     <string name="display_rotation_180_title">180 gradd</string>
-    <string name="style_global_entry_dark">Tywyll</string>
     <string name="trust_feature_selinux_value_disabled">Wedi\'i analluogi</string>
-    <string name="trust_feature_root">Mynediad craidd</string>
-    <string name="trust_feature_root_value_disabled">Wedi\'i analluogi</string>
-    <string name="trust_feature_root_value_adb">ADB yn unig</string>
-    <string name="trust_feature_root_value_apps">Apiau ac ADB</string>
     <string name="trust_feature_encryption_value_enabled">Wedi\'i galluogi</string>
     <string name="trust_feature_encryption_value_disabled">Wedi\'i analluogi</string>
     <string name="trust_category_tools">Preifatrwydd</string>

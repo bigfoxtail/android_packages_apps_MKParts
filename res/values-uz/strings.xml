@@ -19,7 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">Tiklash</string>
-    <string name="privacy_guard_reset_title">Tiklash</string>
     <string name="custom_time">Maxsus</string>
     <string name="color_red_title">Qizil</string>
     <string name="color_green_title">Yashil</string>
@@ -31,7 +30,4 @@
     <string name="profile_reset_title">Tiklash</string>
     <string name="status_bar_brightness_category">Yorqinlik</string>
     <string name="auto_power_save_never">Hech qachon</string>
-    <string name="style_title">Uslub</string>
-    <string name="style_global_title">Uslub</string>
-    <string name="style_automagic_dialog_positive">Qo‘llash</string>
 </resources>

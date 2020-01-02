@@ -25,9 +25,6 @@
     <string name="yes">Jo</string>
     <string name="no">Nee</string>
     <string name="search">Sichen</string>
-    <string name="privacy_guard_help_title">Hëllef</string>
-    <string name="privacy_guard_reset_title">Zrécksetzen</string>
-    <string name="privacy_guard_manager_show_system_apps">Integréiert Appen uweisen</string>
     <string name="custom_time">Personaliséiert</string>
     <string name="dialog_delete_title">Läschen</string>
     <string name="notification_light_phonelist_title">Telefon</string>
@@ -67,13 +64,4 @@
     <string name="status_bar_show_weather_title">Wieder uweisen</string>
     <string name="power_notifications_vibrate_title">Vibréieren</string>
     <string name="charging_sounds_ringtone_silent">Roueg</string>
-    <string name="style_title">Stil</string>
-    <string name="style_global_title">Stil</string>
-    <string name="style_global_entry_dark">Däischter</string>
-    <string name="style_automagic_dialog_positive">Applizéieren</string>
-    <string name="style_accent_default_name">Standard</string>
-    <string name="style_dark_overlay_default">Standard</string>
-    <string name="trust_feature_root">Root-Zougrëff</string>
-    <string name="trust_feature_root_value_adb">Just ADB</string>
-    <string name="trust_feature_root_value_apps">Appen an ADB</string>
 </resources>

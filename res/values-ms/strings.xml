@@ -31,8 +31,6 @@
     <string name="no">Tidak</string>
     <string name="search">Carikan</string>
     <string name="disabled">Tidak-aktif</string>
-    <string name="privacy_guard_help_title">Bantuan</string>
-    <string name="privacy_guard_reset_title">Tetapkan semula</string>
     <string name="custom_time">Peribadi</string>
     <string name="dialog_delete_title">Padam</string>
     <string name="notification_light_phonelist_title">Telefon</string>
@@ -69,12 +67,6 @@
     <string name="charging_sounds_enabled_title">Mendayakan</string>
     <string name="charging_sounds_ringtone_silent">Senyap</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Malum balas secara haptik</string>
-    <string name="style_title">Gaya</string>
-    <string name="style_global_title">Gaya</string>
-    <string name="style_automagic_dialog_positive">Gunakan</string>
-    <string name="style_accent_default_name">Asal</string>
-    <string name="style_dark_overlay_default">Asal</string>
     <string name="trust_feature_selinux_value_disabled">Tidak-aktif</string>
-    <string name="trust_feature_root_value_disabled">Tidak-aktif</string>
     <string name="trust_feature_encryption_value_disabled">Tidak-aktif</string>
 </resources>

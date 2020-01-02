@@ -37,19 +37,6 @@
     <string name="search">Guetar</string>
     <string name="disabled">Deshabilitóse</string>
     <string name="privacy_settings_title">Privacidá</string>
-    <string name="privacy_guard_switch_label">Habilitar Guardián de privacidá</string>
-    <string name="privacy_guard_dlg_title">¿Habilitar Guardián de privacidá?</string>
-    <string name="privacy_guard_dlg_text">Cuando s\'habilita\'l Guardián de privacidá, l\'aplicación nun sedrá a acceder a datos personales como contautos, mensaxes o rexistros de llamaes.</string>
-    <string name="privacy_guard_dlg_system_app_text">Al habilitar el Guardián de privacidá pa una aplicación integrada, l\'aplicación nun sedrá a acceder o fornir datos personales. Esto quiciabes cause qu\'otres aplicaciones nun furrulen bien.</string>
-    <string name="privacy_guard_manager_summary">Xestiona les aplicaciones que tienen accesu a los tos datos personales</string>
-    <string name="privacy_guard_no_user_apps">Nun hai aplicaciones instalaes</string>
-    <string name="privacy_guard_help_title">Ayuda</string>
-    <string name="privacy_guard_reset_title">Reafitar</string>
-    <string name="privacy_guard_reset_text">¿Reafitar permisos?</string>
-    <string name="privacy_guard_help_text">Nesta pantalla pues escoyer les aplicaciones que deberíen tener activu\'l Guardián de privacidá calcando nelles. Les aplicaciones esbillaes nun sedrán a acceder a los tos datos personales como contautos, mensaxes o rexistros de llamaes. Un primíu llargu nuna entrada, abre los detalles de l\'aplicación.\n\nLes aplicaciones integraes nun s\'amuesen por defeutu pero puen facelo conseñando la opción correspondiente nel menú.</string>
-    <string name="privacy_guard_manager_show_system_apps">Amosar aplicaciones integraes</string>
-    <string name="privacy_guard_advanced_settings_title">Avanzao</string>
-    <string name="privacy_guard_notification_title">Amosar avisu</string>
     <string name="edit_light_settings">Editar axustes de lluz</string>
     <string name="dialog_delete_title">Desaniciar</string>
     <string name="dialog_delete_message">¿Desaniciar l\'elementu esbilláu?</string>
@@ -137,7 +124,7 @@
     <string name="backlight_timeout_unlimited">Nun apagar</string>
     <string name="backlight_summary_disabled">Deshabilitóse</string>
     <string name="navigation_bar_category">Barra de navegación</string>
-    <string name="navigation_bar_title">Botones y distribución</string>
+    <string name="navigation_bar_invert_layout_title">Diseñu inversu</string>
     <string name="navigation_bar_left_summary">Alluga la barra de navegación nel llau esquierdu de la pantalla nel mou apaisáu</string>
     <string name="power_menu_title">Menú d\'apagáu</string>
     <string name="power_menu_screenshot_title">Capturar pantalla</string>
@@ -340,12 +327,7 @@
     <string name="touchscreen_gesture_action_play_pause_music">Reproducir/posar música</string>
     <string name="touchscreen_gesture_action_previous_track">Navegar a la pista musical previa</string>
     <string name="touchscreen_gesture_action_next_track">Saltar a la pista musical de darréu</string>
-    <string name="style_dark_overlay_black">Prietu</string>
     <string name="trust_feature_selinux_value_disabled">Deshabilitóse</string>
-    <string name="trust_feature_root">Accesu root</string>
-    <string name="trust_feature_root_value_disabled">Deshabilitóse</string>
-    <string name="trust_feature_root_value_adb">Namái ADB</string>
-    <string name="trust_feature_root_value_apps">Aplicaciones y ADB</string>
     <string name="trust_feature_encryption_value_disabled">Deshabilitóse</string>
     <string name="trust_category_tools">Privacidá</string>
 </resources>

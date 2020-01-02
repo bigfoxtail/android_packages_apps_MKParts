@@ -20,8 +20,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">રીસેટ કરો</string>
     <string name="next">આગામી</string>
-    <string name="privacy_guard_reset_title">રીસેટ કરો</string>
-    <string name="privacy_guard_manager_show_system_apps">બિલ્ટ-ઇન એપ્લિકેશન્સ દર્શાવો</string>
     <string name="default_time">સામાન્ય</string>
     <string name="custom_time">કસ્ટમ</string>
     <string name="pulse_length_normal">સામાન્ય</string>
@@ -54,11 +52,4 @@
     <string name="display_rotation_270_title">270 અંશ</string>
     <string name="status_bar_show_weather_title">હવામાન દર્શાવો</string>
     <string name="power_notifications_vibrate_title">વાઇબ્રેટ</string>
-    <string name="style_title">શૈલી</string>
-    <string name="style_global_title">શૈલી</string>
-    <string name="style_global_entry_dark">ઘાટું</string>
-    <string name="style_automagic_dialog_positive">લાગુ કરો</string>
-    <string name="trust_feature_root">રૂટ ઍક્સેસ</string>
-    <string name="trust_feature_root_value_adb">ફક્ત ADB</string>
-    <string name="trust_feature_root_value_apps">એપ્લિકેશન્સ અને ADB</string>
 </resources>

@@ -23,8 +23,6 @@
     <string name="on">Идэвхтэй</string>
     <string name="yes">Тийм</string>
     <string name="search">Хайх</string>
-    <string name="privacy_guard_help_title">Тусламж</string>
-    <string name="privacy_guard_reset_title">Бүгдийг цэвэрлэх</string>
     <string name="custom_time">Тусгай</string>
     <string name="dialog_delete_title">Устгах</string>
     <string name="color_red_title">Улаан</string>
@@ -44,7 +42,4 @@
     <string name="profile_reset_title">Бүгдийг цэвэрлэх</string>
     <string name="ring_mode_mute">Дууг хаах</string>
     <string name="status_bar_brightness_category">Тодролт</string>
-    <string name="style_title">Загвар</string>
-    <string name="style_global_title">Загвар</string>
-    <string name="style_automagic_dialog_positive">Ашиглах</string>
 </resources>

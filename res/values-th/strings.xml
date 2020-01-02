@@ -26,9 +26,6 @@
     <string name="on">เปิด</string>
     <string name="yes">ใช่</string>
     <string name="search">ค้นหา</string>
-    <string name="privacy_guard_help_title">ความช่วยเหลือ</string>
-    <string name="privacy_guard_reset_title">รีเซ็ต</string>
-    <string name="privacy_guard_manager_show_system_apps">แสดงแอประบบ</string>
     <string name="default_time">ปกติ</string>
     <string name="custom_time">กำหนดเอง</string>
     <string name="dialog_delete_title">ลบ</string>
@@ -80,13 +77,4 @@
     <string name="display_rotation_270_title">270 องศา</string>
     <string name="status_bar_show_weather_title">แสดงสภาพอากาศ</string>
     <string name="power_notifications_vibrate_title">สั่น</string>
-    <string name="style_title">รูปแบบ</string>
-    <string name="style_global_title">รูปแบบ</string>
-    <string name="style_global_entry_dark">มืด</string>
-    <string name="style_automagic_dialog_positive">ใช้</string>
-    <string name="style_accent_default_name">ค่าเริ่มต้น</string>
-    <string name="style_dark_overlay_default">ค่าเริ่มต้น</string>
-    <string name="trust_feature_root">สิทธิผู้ดูแลระบบ</string>
-    <string name="trust_feature_root_value_adb">ADB เท่านั้น</string>
-    <string name="trust_feature_root_value_apps">แอปและ ADB</string>
 </resources>

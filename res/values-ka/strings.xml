@@ -23,8 +23,6 @@
     <string name="on">ჩართული</string>
     <string name="yes">დიახ</string>
     <string name="search">ძიება</string>
-    <string name="privacy_guard_help_title">დახმარება</string>
-    <string name="privacy_guard_reset_title">საწყის პრამეტრებზე დაბრუნება</string>
     <string name="custom_time">მორგებული</string>
     <string name="dialog_delete_title">წაშლა</string>
     <string name="color_red_title">წითელი</string>
@@ -44,7 +42,4 @@
     <string name="profile_reset_title">საწყის პრამეტრებზე დაბრუნება</string>
     <string name="ring_mode_mute">დადუმება</string>
     <string name="status_bar_brightness_category">სიკაშკაშე</string>
-    <string name="style_title">სტილი</string>
-    <string name="style_global_title">სტილი</string>
-    <string name="style_automagic_dialog_positive">გამოყენება</string>
 </resources>

@@ -29,9 +29,6 @@
     <string name="yes">Taip</string>
     <string name="no">Ne</string>
     <string name="search">Paieška</string>
-    <string name="privacy_guard_help_title">Pagalba</string>
-    <string name="privacy_guard_reset_title">Nust. iš naujo</string>
-    <string name="privacy_guard_manager_show_system_apps">Rodyti sistemos programas</string>
     <string name="custom_time">Tinkintas</string>
     <string name="dialog_delete_title">Ištrinti</string>
     <string name="notification_light_phonelist_title">Telefonas</string>
@@ -71,13 +68,4 @@
     <string name="auto_power_save_never">Niekada</string>
     <string name="power_notifications_vibrate_title">Vibruoti</string>
     <string name="charging_sounds_ringtone_silent">Tylus</string>
-    <string name="style_title">Stilius</string>
-    <string name="style_global_title">Stilius</string>
-    <string name="style_automagic_dialog_positive">Taikyti</string>
-    <string name="style_accent_default_name">Numatytas</string>
-    <string name="style_dark_overlay_default">Numatytas</string>
-    <string name="style_dark_overlay_black">Juodas</string>
-    <string name="trust_feature_root">Prieiga prie „Root“</string>
-    <string name="trust_feature_root_value_adb">Tik „Android“ derinimas</string>
-    <string name="trust_feature_root_value_apps">Programos ir „Android“ derinimas</string>
 </resources>

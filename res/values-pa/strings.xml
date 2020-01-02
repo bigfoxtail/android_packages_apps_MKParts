@@ -19,7 +19,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">ਰੀਸੈਟ ਕਰੋ</string>
-    <string name="privacy_guard_reset_title">ਰੀਸੈਟ ਕਰੋ</string>
     <string name="custom_time">ਕਸਟਮ</string>
     <string name="color_red_title">ਲਾਲ</string>
     <string name="color_green_title">ਹਰਾ</string>
@@ -29,7 +28,4 @@
     <string name="adj_contrast_title">ਕੰਟ੍ਰਾਸਟ</string>
     <string name="profile_reset_title">ਰੀਸੈਟ ਕਰੋ</string>
     <string name="status_bar_brightness_category">ਚਮਕ</string>
-    <string name="style_title">ਸਟਾਈਲ</string>
-    <string name="style_global_title">ਸਟਾਈਲ</string>
-    <string name="style_automagic_dialog_positive">ਲਾਗੂ ਕਰੋ</string>
 </resources>

@@ -22,7 +22,6 @@
     <string name="cancel">မလုပ်တော့</string>
     <string name="reset">ပြန်လည်စတင်စေရန်</string>
     <string name="next">နောက်</string>
-    <string name="privacy_guard_reset_title">ပြန်လည်စတင်စေရန်</string>
     <string name="custom_time">မိမိစိတ်ကြိုက်</string>
     <string name="notification_light_phonelist_title">ဖုန်း</string>
     <string name="live_display_night">ည</string>
@@ -37,7 +36,4 @@
     <string name="status_bar_brightness_category">အလင်းတောက်ပမှု</string>
     <string name="auto_power_save_never">ဘယ်တော့မှ</string>
     <string name="charging_sounds_ringtone_silent">အသံတိတ်</string>
-    <string name="style_title">စတိုင်လ်</string>
-    <string name="style_global_title">စတိုင်လ်</string>
-    <string name="style_automagic_dialog_positive">လုပ်ဆောင်ရန်</string>
 </resources>

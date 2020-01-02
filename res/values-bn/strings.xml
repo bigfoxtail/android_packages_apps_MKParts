@@ -26,8 +26,6 @@
     <string name="yes">হ্যাঁ</string>
     <string name="no">না</string>
     <string name="privacy_settings_title">প্রাইভেসি</string>
-    <string name="privacy_guard_reset_title">পুনরায় সেট করুন</string>
-    <string name="privacy_guard_manager_show_system_apps">স্থায়ী অ্যাপগুলি প্রদর্শন করুন</string>
     <string name="custom_time">কাস্টম</string>
     <string name="notification_light_phonelist_title">ফোন</string>
     <string name="notification_light_default_value">Default</string>
@@ -55,13 +53,5 @@
     <string name="auto_power_save_never">Never</string>
     <string name="charging_sounds_enabled_title">সক্রিয় করুন</string>
     <string name="power_notifications_vibrate_title">কম্পন</string>
-    <string name="style_title">শৈলী</string>
-    <string name="style_global_title">শৈলী</string>
-    <string name="style_automagic_dialog_positive">প্রয়োগ করুন</string>
-    <string name="style_accent_default_name">Default</string>
-    <string name="style_dark_overlay_default">Default</string>
-    <string name="trust_feature_root">রুট এক্সেস</string>
-    <string name="trust_feature_root_value_adb">শুধু মাত্র এডিবি</string>
-    <string name="trust_feature_root_value_apps">অ্যাপস এবং এডিবি</string>
     <string name="trust_category_tools">প্রাইভেসি</string>
 </resources>

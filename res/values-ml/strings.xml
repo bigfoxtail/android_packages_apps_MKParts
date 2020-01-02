@@ -23,8 +23,6 @@
     <string name="cancel">റദ്ദാക്കുക</string>
     <string name="reset">പുനഃസജ്ജമാക്കുക</string>
     <string name="next">അടുത്തത്</string>
-    <string name="privacy_guard_reset_title">പുനഃസജ്ജമാക്കുക</string>
-    <string name="privacy_guard_manager_show_system_apps">ബിൽറ്റ്-ഇൻ അപ്ലിക്കേഷനുകൾ ദൃശ്യമാക്കുക</string>
     <string name="default_time">സാധാരണ</string>
     <string name="custom_time">ഇഷ്‌ടാനുസൃതം</string>
     <string name="pulse_length_normal">സാധാരണ</string>
@@ -60,11 +58,4 @@
     <string name="status_bar_show_weather_title">കാലാവസ്ഥ ദൃശ്യമാക്കുക</string>
     <string name="auto_power_save_never">ഇതുവരെയില്ല</string>
     <string name="power_notifications_vibrate_title">വൈബ്രേറ്റുചെയ്യുക</string>
-    <string name="style_title">സ്റ്റൈൽ</string>
-    <string name="style_global_title">സ്റ്റൈൽ</string>
-    <string name="style_global_entry_dark">ഇരുണ്ട</string>
-    <string name="style_automagic_dialog_positive">പ്രയോഗിക്കുക</string>
-    <string name="trust_feature_root">റൂട്ട് പ്രവേശനം</string>
-    <string name="trust_feature_root_value_adb">ADB മാത്രം</string>
-    <string name="trust_feature_root_value_apps">അപ്ലിക്കേഷനുകളും ADB യും</string>
 </resources>

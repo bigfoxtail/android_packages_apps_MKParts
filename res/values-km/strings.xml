@@ -23,8 +23,6 @@
     <string name="on">បើក</string>
     <string name="yes">បាទ/ចាស</string>
     <string name="search">ស្វែងរក</string>
-    <string name="privacy_guard_help_title">ជំនួយ</string>
-    <string name="privacy_guard_reset_title">កំណត់​ឡើងវិញ</string>
     <string name="custom_time">តាម​តម្រូវ​ការ</string>
     <string name="dialog_delete_title">លុប</string>
     <string name="color_red_title">ពណ៌ក្រហម</string>
@@ -44,7 +42,4 @@
     <string name="profile_reset_title">កំណត់​ឡើងវិញ</string>
     <string name="ring_mode_mute">ស្ងាត់</string>
     <string name="status_bar_brightness_category">ពន្លឺ</string>
-    <string name="style_title">រចនាប័ទ្ម</string>
-    <string name="style_global_title">រចនាប័ទ្ម</string>
-    <string name="style_automagic_dialog_positive">អនុវត្ត</string>
 </resources>
