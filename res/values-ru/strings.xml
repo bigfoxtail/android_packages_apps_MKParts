@@ -526,4 +526,6 @@
     <string name="sms_security_check_limit_summary">Отображать предупреждение, если за 15 минут было отправлено более %s SMS-сообщений</string>
     <string name="sms_security_check_limit_summary_none">Приложениям запрещено отправлять сообщения без подтверждения</string>
     <string name="sms_security_check_limit_always_confirm">Всегда подтверждать</string>
+    <string name="bluetooth_found_message">Подключить эту гарнитуру?</string>
+    <string name="bluetooth_found_confirm">Нажмите, чтобы подключиться</string>
 </resources>
