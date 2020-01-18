@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
+ *               2020 The LineageOS Project
+ * Copyright (C) 2014-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,44 +17,27 @@
  */
 package org.mokee.mkparts.profiles.actions.item;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+import android.content.Context;
 
-import org.mokee.mkparts.profiles.actions.ItemListAdapter;
+public class Header extends Item {
+    private final int mNameResId;
 
-public class Header implements Item {
-    private final String name;
-
-    public Header(String name) {
-        this.name = name;
+    public Header(int nameResId) {
+        mNameResId = nameResId;
     }
 
     @Override
-    public ItemListAdapter.RowType getRowType() {
-        return ItemListAdapter.RowType.HEADER_ITEM;
+    public boolean isHeader() {
+        return true;
     }
 
     @Override
-    public View getView(LayoutInflater inflater, View convertView, ViewGroup parent) {
-        View view;
-        if (convertView == null) {
-            view = inflater.inflate(androidx.preference.R.layout.preference_category_material,
-                    parent, false);
-            // Do some initialization
-        } else {
-            view = convertView;
-        }
-
-        TextView text = (TextView) view.findViewById(android.R.id.title);
-        text.setText(name);
-
-        return view;
+    public String getTitle(Context context) {
+        return context.getString(mNameResId);
     }
 
     @Override
-    public boolean isEnabled() {
-        return false;
+    public String getSummary(Context context) {
+        return null;
     }
 }

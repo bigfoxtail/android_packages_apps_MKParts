@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
+ *               2020 The LineageOS Project
+ * Copyright (C) 2014-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +17,13 @@
  */
 package org.mokee.mkparts.profiles.actions.item;
 
+import android.content.Context;
+
 import org.mokee.mkparts.R;
-import org.mokee.mkparts.profiles.actions.ItemListAdapter;
 
 import mokee.profiles.RingModeSettings;
 
-public class RingModeItem extends BaseItem {
+public class RingModeItem extends Item {
     RingModeSettings mSettings;
 
     public RingModeItem(RingModeSettings ringModeSettings) {
@@ -32,23 +34,13 @@ public class RingModeItem extends BaseItem {
     }
 
     @Override
-    public ItemListAdapter.RowType getRowType() {
-        return ItemListAdapter.RowType.RINGMODE_ITEM;
+    public String getTitle(Context context) {
+        return context.getString(R.string.ring_mode_title);
     }
 
     @Override
-    public boolean isEnabled() {
-        return true;
-    }
-
-    @Override
-    public String getTitle() {
-        return getString(R.string.ring_mode_title);
-    }
-
-    @Override
-    public String getSummary() {
-        return getString(getModeString(mSettings));
+    public String getSummary(Context context) {
+        return context.getString(getModeString(mSettings));
     }
 
     public static int getModeString(RingModeSettings settings) {

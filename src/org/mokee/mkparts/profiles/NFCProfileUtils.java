@@ -41,7 +41,7 @@ public class NFCProfileUtils {
     };
 
     public static void vibrate(Context context) {
-        Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        Vibrator vibrator = context.getSystemService(Vibrator.class);
         vibrator.vibrate(VIBRATION_PATTERN, -1);
     }
 

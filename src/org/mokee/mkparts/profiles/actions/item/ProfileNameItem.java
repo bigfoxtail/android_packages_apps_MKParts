@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
+ *               2020 The LineageOS Project
+ * Copyright (C) 2014-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,34 +17,24 @@
  */
 package org.mokee.mkparts.profiles.actions.item;
 
-import org.mokee.mkparts.profiles.actions.ItemListAdapter;
+import android.content.Context;
 
 import mokee.app.Profile;
 
-public class ProfileNameItem extends BaseItem {
+public class ProfileNameItem extends Item {
     Profile mProfile;
 
     public ProfileNameItem(Profile profile) {
-        this.mProfile = profile;
+        mProfile = profile;
     }
 
     @Override
-    public ItemListAdapter.RowType getRowType() {
-        return ItemListAdapter.RowType.NAME_ITEM;
-    }
-
-    @Override
-    public boolean isEnabled() {
-        return true;
-    }
-
-    @Override
-    public String getTitle() {
+    public String getTitle(Context context) {
         return mProfile.getName();
     }
 
     @Override
-    public String getSummary() {
+    public String getSummary(Context context) {
         return null;
     }
 }

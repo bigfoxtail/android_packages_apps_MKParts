@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
- * Copyright (C) 2015 The MoKee Open Source Project
+ *               2020 The LineageOS Project
+ * Copyright (C) 2015-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,47 +17,32 @@
  */
 package org.mokee.mkparts.profiles.actions.item;
 
+import android.content.Context;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
-import org.mokee.mkparts.profiles.actions.ItemListAdapter;
-
-public class DisabledItem extends BaseItem {
-
+public class DisabledItem extends Item {
     private final int mResTitle;
     private final int mResSummary;
 
     public DisabledItem(int resTitle, int resSummary) {
-       mResTitle = resTitle;
-       mResSummary = resSummary;
+        mResTitle = resTitle;
+        mResSummary = resSummary;
     }
 
     @Override
-    public ItemListAdapter.RowType getRowType() {
-        return ItemListAdapter.RowType.DISABLED_ITEM;
+    public String getTitle(Context context) {
+        return context.getString(mResTitle);
     }
 
     @Override
-    public boolean isEnabled() {
+    public String getSummary(Context context) {
+        return context.getString(mResSummary);
+    }
+
+    @Override
+    public boolean isEnabled(Context context) {
         return false;
-    }
-
-    @Override
-    public String getTitle() {
-        return getString(mResTitle);
-    }
-
-    @Override
-    public String getSummary() {
-        return getString(mResSummary);
-    }
-
-    @Override
-    public View getView(LayoutInflater inflater, View convertView, ViewGroup parent) {
-        View view = super.getView(inflater, convertView, parent);
-        view.findViewById(android.R.id.title).setEnabled(false);
-        view.findViewById(android.R.id.summary).setEnabled(false);
-        return view;
     }
 }

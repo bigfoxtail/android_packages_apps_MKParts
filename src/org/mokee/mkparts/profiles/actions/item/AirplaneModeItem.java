@@ -1,6 +1,7 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- * Copyright (C) 2014 The MoKee Open Source Project
+ *               2020 The LineageOS Project
+ * Copyright (C) 2014-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,12 +17,13 @@
  */
 package org.mokee.mkparts.profiles.actions.item;
 
+import android.content.Context;
+
 import org.mokee.mkparts.R;
-import org.mokee.mkparts.profiles.actions.ItemListAdapter;
 
 import mokee.profiles.AirplaneModeSettings;
 
-public class AirplaneModeItem extends BaseItem {
+public class AirplaneModeItem extends Item {
     AirplaneModeSettings mSettings;
 
     public AirplaneModeItem(AirplaneModeSettings airplaneModeSettings) {
@@ -32,23 +34,13 @@ public class AirplaneModeItem extends BaseItem {
     }
 
     @Override
-    public ItemListAdapter.RowType getRowType() {
-        return ItemListAdapter.RowType.AIRPLANEMODE_ITEM;
+    public String getTitle(Context context) {
+        return context.getString(R.string.profile_airplanemode_title);
     }
 
     @Override
-    public boolean isEnabled() {
-        return true;
-    }
-
-    @Override
-    public String getTitle() {
-        return getString(R.string.profile_airplanemode_title);
-    }
-
-    @Override
-    public String getSummary() {
-        return getString(getModeString(mSettings));
+    public String getSummary(Context context) {
+        return context.getString(getModeString(mSettings));
     }
 
     public AirplaneModeSettings getSettings() {
