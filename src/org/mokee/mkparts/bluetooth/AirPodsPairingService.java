@@ -118,9 +118,11 @@ public class AirPodsPairingService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.v(TAG, "onStartCommand");
-        final String action = intent.getAction();
-        if (ACTION_CONFIRM.equals(action)) {
-            handleConfirm();
+        if (intent != null) {
+            final String action = intent.getAction();
+            if (ACTION_CONFIRM.equals(action)) {
+                handleConfirm();
+            }
         }
         return START_STICKY;
     }
