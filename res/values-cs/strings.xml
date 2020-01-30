@@ -30,8 +30,8 @@
     <string name="back">Zpět</string>
     <string name="finish">Dokončit</string>
     <string name="next">Další</string>
-    <string name="on">Zapnout</string>
-    <string name="off">Vypnout</string>
+    <string name="on">Zapnuto</string>
+    <string name="off">Vypnuto</string>
     <string name="yes">Ano</string>
     <string name="no">Ne</string>
     <string name="search">Vyhledat</string>
@@ -55,7 +55,7 @@
     <string name="pulse_length_very_long">Velmi dlouze</string>
     <string name="pulse_speed_very_fast">Velmi rychle</string>
     <string name="pulse_speed_fast">Rychle</string>
-    <string name="pulse_speed_normal">Normálně</string>
+    <string name="pulse_speed_normal">Normální</string>
     <string name="pulse_speed_slow">Pomalu</string>
     <string name="pulse_speed_very_slow">Velmi pomalu</string>
     <string name="light_brightness_title">Úroveně jasu</string>
@@ -164,7 +164,7 @@
     <string name="volbtn_music_controls_title">Ovládání přehrávání</string>
     <string name="volbtn_music_controls_summary">Při vypnuté obrazovce posouvat v hudebních stopách dlouhým stiskem tlačítek hlasitosti</string>
     <string name="volbtn_cursor_control_title">Ovládání kurzoru v textu</string>
-    <string name="volbtn_cursor_control_off">Nezobrazovat</string>
+    <string name="volbtn_cursor_control_off">Zakázáno</string>
     <string name="volbtn_cursor_control_on">Hlasitost nahoru/dolů posune kurzorem vlevo/vpravo</string>
     <string name="volbtn_cursor_control_on_reverse">Tlačítka hlasitosti nahoru/dolu posunou kurzor vpravo/vlevo</string>
     <string name="power_end_call_title">Ukončit hovor</string>
@@ -188,7 +188,7 @@
     <string name="keyboard_backlight_seekbar_title">Podsvícení klávesnice</string>
     <string name="backlight_timeout_title">Časový limit podsvícení</string>
     <string name="backlight_timeout_unlimited">Nevypínat</string>
-    <string name="backlight_summary_disabled">Nezobrazovat</string>
+    <string name="backlight_summary_disabled">Zakázáno</string>
     <string name="backlight_summary_enabled_with_timeout">Povoleno po <xliff:g id="timeout"> %s </xliff:g></string>
     <string name="backlight_summary_enabled">Povoleno</string>
     <string name="disable_navkeys_title">Povolit navigační lištu na obrazovce</string>
@@ -239,7 +239,6 @@
     <string name="no_wifi_triggers">Nejsou nastavený žádné přístupové body Wi\u2011Fi.\nPřed nastaveném spouštěčů se nejprve dotykem připojte k Wi\u2011Fi.</string>
     <string name="no_triggers_configured">Žádné aktivační události nenastaveny. Dotykem přidejte nové.</string>
     <string name="no_triggers_configured_nfc">Dotykem nastavte spouštěč NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Vyberte události, které aktivují tento profil</string>
     <string name="profile_setup_actions_description">Nyní proveďte nastavení toho, co se má stát, při aktivaci profilu</string>
     <string name="profiles_settings_title">Systémové profily</string>
     <string name="profiles_add">Přidat</string>
@@ -267,12 +266,12 @@
     <string name="profile_entries_on">Zapnuto</string>
     <string name="profile_entries_off">Vypnuto</string>
     <string name="profile_entries_no_override">Neměnit</string>
-    <string name="profile_name_title">Název</string>
+    <string name="profile_name_title">Jméno</string>
     <string name="new_profile_name">&lt; nový profil &gt;</string>
     <string name="rename_dialog_title">Přejmenovat</string>
     <string name="rename_dialog_message">Zadejte nový název</string>
     <string name="rename_dialog_hint">Zadejte název profilu</string>
-    <string name="profile_reset_title">Obnovit</string>
+    <string name="profile_reset_title">Restartovat</string>
     <string name="profile_reset_message">Odstranit všechny uživatelem vytvořené profily a skupiny aplikace a obnovit výchozí nastavení?</string>
     <string name="profile_app_delete_confirm">Odebrat tuto aplikaci?</string>
     <string name="profile_networkmode_2g">2G</string>
@@ -286,8 +285,6 @@
     <string name="profile_volume_override_checkbox_label">Měnit hlasitost</string>
     <string name="profile_profiles_manage">Profily</string>
     <string name="profile_profile_manage">Upravit profil</string>
-    <string name="profile_appgroups_manage">Skupiny aplikací</string>
-    <string name="profile_appgroup_manage">Upravit skupinu aplikací</string>
     <string name="profile_settings">Nastavení profilu</string>
     <string name="profile_trigger_connect">Při připojení</string>
     <string name="profile_trigger_disconnect">Při odpojení</string>
@@ -300,14 +297,6 @@
     <string name="choose_ringtone">Zvolte vyzváněcí tón</string>
     <string name="ringtone_title">Vyzváněcí tón telefonu</string>
     <string name="soundtone_title">Zvuk upozornění</string>
-    <string name="profile_appgroups_title">Skupiny aplikací</string>
-    <string name="profile_applist_title">Aplikace</string>
-    <string name="profile_new_appgroup">Nová skupina aplikací</string>
-    <string name="profile_delete_appgroup">Odstranit tuto skupinu aplikací?</string>
-    <string name="profile_appgroup_name_prompt">Zadejte název nové skupiny aplikací</string>
-    <string name="profile_appgroup_name_title">Název</string>
-    <string name="duplicate_appgroup_name">Duplicitní název skupiny!</string>
-    <string name="profile_choose_app">Zvolte aplikaci</string>
     <string name="profile_system_settings_title">Systémové nastavení</string>
     <string name="profile_lockmode_title">Režim zámku obrazovky</string>
     <string name="profile_lockmode_policy_disabled_summary">Tato volba profilu je zakázána ve Správci zařízení</string>
@@ -344,6 +333,7 @@
     <string name="status_bar_quick_qs_pulldown_right">Pravá</string>
     <string name="status_bar_double_tap_to_sleep_title">Dvojím klepnutím uspat</string>
     <string name="status_bar_double_tap_to_sleep_summary">Dvakrát klepnout na stavovou lištu pro vypntí displeje</string>
+    <string name="status_bar_qs_tile_columns_title">Sloupce dlaždic QS</string>
     <string name="status_bar_icons_title">Ikony stavové lišty</string>
     <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
     <string name="status_bar_notif_count_summary">Zobrazí počet nezobrazených upozornění v oznamovací oblasti</string>
@@ -380,10 +370,10 @@
     <string name="network_traffic_settings_title">Sledování síťového provozu</string>
     <string name="network_traffic_settings_summary">Zobrazit rychlost přenosu dat ve stavové liště</string>
     <string name="network_traffic_mode_title">Režim zobrazení</string>
-    <string name="network_traffic_mode_disable">Nezobrazovat</string>
+    <string name="network_traffic_mode_disable">Zakázáno</string>
     <string name="network_traffic_mode_up">Pouze odchozí data</string>
     <string name="network_traffic_mode_down">Pouze příchozí data</string>
-    <string name="network_traffic_mode_all">Přícjozí a odchozí data</string>
+    <string name="network_traffic_mode_all">Příchozí a odchozí data</string>
     <string name="network_traffic_autohide">Automaticky skrývat</string>
     <string name="network_traffic_autohide_summary">Skrýt indikátor datového provozu, pokud není žádná aktivita</string>
     <string name="protected_apps_manager_title">Chráněné aplikace</string>
@@ -392,13 +382,13 @@
     <string name="contributors_cloud_loading_message">Načítání přispěvatelů\u2026</string>
     <string name="contributors_cloud_failed_message">Nelze načíst data přispěvatelů</string>
     <string name="contributor_info_menu">Informace přispěvatele</string>
-    <string name="contributor_info_msg"><b>Jméno:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-<b>Přezdívka:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-<b>Potvrzení:</b> <xliff:g id="commits">%3$s</xliff:g></string>
+    <string name="contributor_info_msg">&lt;b&gt;Jméno:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Přezdívka:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Potvrzení:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="contributions_info_menu">Informace o přispěvatelích</string>
-    <string name="contributions_info_msg"><b>Celkem přispěvovatelů:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-<b>Celkem příspěvků:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-<b>Poslední aktualizace:</b> <xliff:g id="date">%3$s</xliff:g></string>
+    <string name="contributions_info_msg">&lt;b&gt;Celkem přispěvovatelů:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Celkem příspěvků:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Poslední aktualizace:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="accelerometer_title">Automatické otočení obrazovky</string>
     <string name="display_rotation_title">Nastavení překlápění</string>
     <string name="display_rotation_enabled">Je povolené automatické překlápění</string>
@@ -525,4 +515,7 @@
     <string name="sms_security_check_limit_summary">Aplikace může poslat %s zpráv za 1 minutu před tím, než bude vyžádáno ověření</string>
     <string name="sms_security_check_limit_summary_none">Aplikacím není umožněno bez předchozího potvrzení zasílat jakékoliv zprávy</string>
     <string name="sms_security_check_limit_always_confirm">Vždy potvrdit</string>
+    <string name="bluetooth_channel_pairing">Párování</string>
+    <string name="bluetooth_found_message">Připojit tato sluchátka?</string>
+    <string name="bluetooth_found_confirm">Klepnutím připojit</string>
 </resources>

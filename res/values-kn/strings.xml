@@ -232,7 +232,6 @@
     <string name="no_wifi_triggers">ಯಾವುದೇ ವೈ\u2011ಫೈ ಪ್ರವೇಶ ಕೇಂದ್ರಗಳನ್ನು ಸಂರಚಿಸಿಲ್ಲ.\nಪ್ರಚೋದಕಗಳನ್ನು ಸಂರಚಿಸುವ ಮುನ್ನ ವೈ\u2011ಫೈ ಸಂಪರ್ಕಿಸಲು ಸ್ಪರ್ಶಿಸಿ.</string>
     <string name="no_triggers_configured">ಯಾವುದೇ ಪ್ರಚೋದಕಗಳನ್ನು ಸಂರಚಿಸಿಲ್ಲ. ಮತ್ತಷ್ಟನ್ನು ಸೇರಿಸಲು ಸ್ಪರ್ಶಿಸಿ.</string>
     <string name="no_triggers_configured_nfc">ಹೊಸ NFC ಪ್ರಚೋದಕಗಳನ್ನು ಸಂಯೋಜಿಸಲು ಸ್ಪರ್ಶಿಸಿ.</string>
-    <string name="profile_setup_setup_triggers_description">ದಯವಿಟ್ಟು ಈ ಪ್ರೊಫೈಲ್‌ ಸಕ್ರಿಯಗೊಳಿಸುವ ಪ್ರಚೋದಕಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
     <string name="profile_setup_actions_description">ಯಾವಾಗ ಪ್ರೊಫೈಲ್‌ ಸಕ್ರಿಯಗೊಳ್ಳುವುದೋ ಆಗ ಏನಾಗಬೇಕೆಂದು ಈಗ ಸಂರಚಿಸಿ</string>
     <string name="profiles_settings_title">ಸಿಸ್ಟಂ ಪ್ರೊಫೈಲ್ಸ್</string>
     <string name="profiles_add">ಸೇರಿಸಿ</string>
@@ -277,8 +276,6 @@
     <string name="profile_volume_override_checkbox_label">ಧ್ವನಿಯ ಶಕ್ತಿ ಅತಿಕ್ರಮಿಸು</string>
     <string name="profile_profiles_manage">ಪ್ರೊಫೈಲ್ಗಳು</string>
     <string name="profile_profile_manage">ಪ್ರೊಫೈಲ್‌ ನಿರ್ವಹಿಸಿ</string>
-    <string name="profile_appgroups_manage">ತಂತ್ರಾಂಶ ಗುಂಪುಗಳು</string>
-    <string name="profile_appgroup_manage">ತಂತ್ರಾಂಶ ಗುಂಪು ನಿರ್ವಹಿಸಿ</string>
     <string name="profile_settings">ಪ್ರೊಫೈಲ್‌ ಸಂಯೋಜನೆಗಳು</string>
     <string name="profile_trigger_connect">ಸಂಪರ್ಕವಾದಾಗ</string>
     <string name="profile_trigger_disconnect">ಸಂಪರ್ಕ ಕಡಿದಾಗ</string>
@@ -291,14 +288,6 @@
     <string name="choose_ringtone">ಗಂಟೆನಾದ ಆರಿಸು</string>
     <string name="ringtone_title">ಫೋನ್ ರಿಂಗ್‌ಟೋನ್</string>
     <string name="soundtone_title">ಸೂಚನೆಯ ನಾದ</string>
-    <string name="profile_appgroups_title">ತಂತ್ರಾಂಶ ಗುಂಪುಗಳು</string>
-    <string name="profile_applist_title">ತಂತ್ರಾಂಶಗಳು</string>
-    <string name="profile_new_appgroup">ಹೊಸ ತಂತ್ರಾಂಶ ಗುಂಪು</string>
-    <string name="profile_delete_appgroup">ಈ ತಂತ್ರಾಂಶದ ಗುಂಪನ್ನು ಅಳಿಸಬೇಕೆ?</string>
-    <string name="profile_appgroup_name_prompt">ಹೊಸ ತಂತ್ರಾಂಶದ ಗುಂಪಿನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
-    <string name="profile_appgroup_name_title">ಹೆಸರು</string>
-    <string name="duplicate_appgroup_name">ತಂತ್ರಾಂಶ ಗುಂಪಿನ ಹೆಸರನ್ನು ನಕಲಿಸಿ!</string>
-    <string name="profile_choose_app">ತಂತ್ರಾಂಶ ಆಯ್ಕೆಮಾಡಿ</string>
     <string name="profile_system_settings_title">ಸಿಸ್ಟಂ ಸಂಯೋಜನೆಗಳು</string>
     <string name="profile_lockmode_title">ಪರದೆ ಮಾದರಿ ಲಾಕ್‌ ಮಾಡಿ</string>
     <string name="profile_lockmode_policy_disabled_summary">ಸಾಧನದ ನಿರ್ವಾಹಕರ ನೀತಿಯು ಪ್ರೊಫೈಲ್‌ ಆಯ್ಕೆಯಿಂದ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>

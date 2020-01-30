@@ -21,7 +21,7 @@
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
     </plurals>
     <plurals name="app_ops_count">
-        <item quantity="one">einmal</item>
-        <item quantity="other">%d Mal</item>
+        <item quantity="one">1 x</item>
+        <item quantity="other">%d x</item>
     </plurals>
 </resources>

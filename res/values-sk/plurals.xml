@@ -24,7 +24,7 @@
     </plurals>
     <plurals name="app_ops_count">
         <item quantity="one">raz</item>
-        <item quantity="few">%d krát</item>
+        <item quantity="few">%d razy</item>
         <item quantity="many">%d krát</item>
         <item quantity="other">%d krát</item>
     </plurals>

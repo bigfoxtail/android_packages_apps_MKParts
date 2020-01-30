@@ -239,10 +239,9 @@
     <string name="no_wifi_triggers">沒有已設定的 Wi\u2011Fi 連結。 \n設定前輕觸即可連線 Wi\u2011Fi</string>
     <string name="no_triggers_configured">觸發器未設定，輕觸即可建立。</string>
     <string name="no_triggers_configured_nfc">輕觸即可設定新的 NFC 觸發器。</string>
-    <string name="profile_setup_setup_triggers_description">請選擇啟動此設定檔的觸發器</string>
     <string name="profile_setup_actions_description">現在配置設定檔啟動時將發生的動作</string>
     <string name="profiles_settings_title">系統設定檔</string>
-    <string name="profiles_add">添加</string>
+    <string name="profiles_add">新增</string>
     <string name="profile_menu_delete">刪除</string>
     <string name="profile_settings_title">設定檔</string>
     <string name="profile_empty_list_profiles_off">開啟設定檔功能即可設定與使用設定檔。</string>
@@ -286,8 +285,6 @@
     <string name="profile_volume_override_checkbox_label">覆蓋音量</string>
     <string name="profile_profiles_manage">設定檔</string>
     <string name="profile_profile_manage">管理設定檔</string>
-    <string name="profile_appgroups_manage">應用程式群組</string>
-    <string name="profile_appgroup_manage">管理應用程式群組</string>
     <string name="profile_settings">設定檔設定</string>
     <string name="profile_trigger_connect">連線時</string>
     <string name="profile_trigger_disconnect">中斷連線時</string>
@@ -300,14 +297,6 @@
     <string name="choose_ringtone">選取鈴聲</string>
     <string name="ringtone_title">電話鈴聲</string>
     <string name="soundtone_title">通知鈴聲</string>
-    <string name="profile_appgroups_title">應用程式群組</string>
-    <string name="profile_applist_title">應用程式</string>
-    <string name="profile_new_appgroup">新應用程式群組</string>
-    <string name="profile_delete_appgroup">是否刪除此應用程式群組？</string>
-    <string name="profile_appgroup_name_prompt">為新應用程式群組輸入名稱</string>
-    <string name="profile_appgroup_name_title">名稱：</string>
-    <string name="duplicate_appgroup_name">重複的應用程式群組名稱！</string>
-    <string name="profile_choose_app">選擇應用程式</string>
     <string name="profile_system_settings_title">系統設定</string>
     <string name="profile_lockmode_title">鎖定畫面模式</string>
     <string name="profile_lockmode_policy_disabled_summary">此設定檔被裝置管理員停用</string>
@@ -437,7 +426,7 @@
     <string name="auto_power_save_title">自動省電</string>
     <string name="auto_power_save_summary_on">在 %d \u0025 電量時自動啟用省電模式</string>
     <string name="auto_power_save_summary_off">不要自動啟用省電模式</string>
-    <string name="auto_power_save_never">永不</string>
+    <string name="auto_power_save_never">Noway</string>
     <string name="expanded_desktop_settings_title">延伸桌面</string>
     <string name="expanded_desktop_settings_summary">透過隱藏狀態列、 導覽列，或兩者都延伸您可用的桌面空間</string>
     <string name="expanded_desktop_options_title">自訂選項</string>
@@ -505,7 +494,7 @@
     <string name="trust_feature_security_patches_value_new">已是最新版本！</string>
     <string name="trust_feature_security_patches_value_medium">幾個月未更新</string>
     <string name="trust_feature_security_patches_value_old">過時</string>
-    <string name="trust_feature_security_patches_explain">安全性修補由 Google 和 SoC 廠商每月發佈，用以修復可能會被惡意應用程式利用、繞過安全限制對您的裝置造成暫時或永久損壞的缺陷。\n平台修補每個月都會統一更新，但廠商修補只能每次從 OEM 取得。\n要保證您的裝置安全，請使用最新的 MoKee 版本。</string>
+    <string name="trust_feature_security_patches_explain">安全性修補由 Google 和 SoC 廠商每月發佈，用以修復可能會被惡意應用程式利用、繞過安全限制對您的裝置造成暫時或永久損壞的缺陷。\n平台修補每個月都會統一更新，但廠商修補只能每次從 OEM 取得。\n要保證您的裝置安全，請使用最新的 LineageOS 版本。</string>
     <string name="trust_feature_encryption">加密</string>
     <string name="trust_feature_encryption_value_enabled">已啓用</string>
     <string name="trust_feature_encryption_value_nolock">需要設定鎖定畫面密碼</string>

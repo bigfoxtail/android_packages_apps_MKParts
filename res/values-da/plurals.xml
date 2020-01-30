@@ -21,7 +21,7 @@
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> sekunder</item>
     </plurals>
     <plurals name="app_ops_count">
-        <item quantity="one">én gang</item>
+        <item quantity="one">1 gang</item>
         <item quantity="other">%d gange</item>
     </plurals>
 </resources>

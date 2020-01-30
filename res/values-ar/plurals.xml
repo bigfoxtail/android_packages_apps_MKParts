@@ -25,11 +25,11 @@
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> ثواني</item>
     </plurals>
     <plurals name="app_ops_count">
-        <item quantity="zero">%d مرات</item>
-        <item quantity="one">مرة</item>
-        <item quantity="two">%d مرات</item>
+        <item quantity="zero">ولا مرّة</item>
+        <item quantity="one">مرة واحدة</item>
+        <item quantity="two">مرّتان</item>
         <item quantity="few">%d مرّات</item>
-        <item quantity="many">%d مرّات</item>
-        <item quantity="other">%d مرات</item>
+        <item quantity="many">%d مرّة</item>
+        <item quantity="other">%d مرّة</item>
     </plurals>
 </resources>

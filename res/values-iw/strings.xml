@@ -31,7 +31,7 @@
     <string name="finish">סיום</string>
     <string name="next">הבא</string>
     <string name="on">מופעל</string>
-    <string name="off">כבוי</string>
+    <string name="off">ללא</string>
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="search">חיפוש</string>
@@ -57,7 +57,7 @@
     <string name="pulse_speed_slow">איטי</string>
     <string name="pulse_speed_very_slow">איטי מאוד</string>
     <string name="light_brightness_title">רמת בהירות</string>
-    <string name="light_brightness_normal">רגילה</string>
+    <string name="light_brightness_normal">רגיל</string>
     <string name="light_brightness_zen">נא לא להפריע</string>
     <string name="battery_light_title">נורית הסוללה</string>
     <string name="battery_low_pulse_title">הבהב כאשר הסוללה חלשה</string>
@@ -179,7 +179,7 @@
     <string name="keyboard_backlight_seekbar_title">בהירות מקשים</string>
     <string name="backlight_timeout_title">משך תאורה</string>
     <string name="backlight_timeout_unlimited">אל תכבה</string>
-    <string name="backlight_summary_disabled">מבוטל</string>
+    <string name="backlight_summary_disabled">מושבת</string>
     <string name="backlight_summary_enabled_with_timeout">מאיר למשך <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">מופעל</string>
     <string name="disable_navkeys_title">הפעל מקשי ניווט על המסך</string>
@@ -225,7 +225,6 @@
     <string name="no_wifi_triggers">לא הוגדרו נקודות Wi-Fi.\nהקש כדי להתחבר ל-Wi-Fi לפני הגדרת גורמים מפעילים.</string>
     <string name="no_triggers_configured">לא הוגדרו גורמים מפעילים. הקש כדי להגדיר עוד.</string>
     <string name="no_triggers_configured_nfc">הקש כדי להגדיר גורם מפעיל חדש מ-NFC.</string>
-    <string name="profile_setup_setup_triggers_description">בחר גורמים מפעילים להפעלת פרופיל זה</string>
     <string name="profile_setup_actions_description">עכשיו קבע מה קורה כאשר הפרופיל מופעל</string>
     <string name="profiles_settings_title">פרופילי מערכת</string>
     <string name="profiles_add">הוסף</string>
@@ -251,7 +250,7 @@
     <string name="profile_app_group_item_instructions">הוסף או הסר קבוצות</string>
     <string name="profile_app_group_item_instructions_summary">הוסף או הסר קבוצות יישומים לעקיפת התראות בפרופיל זה</string>
     <string name="profile_entries_on">מופעל</string>
-    <string name="profile_entries_off">כבוי</string>
+    <string name="profile_entries_off">ללא</string>
     <string name="profile_entries_no_override">ללא עקיפה</string>
     <string name="profile_name_title">שם</string>
     <string name="new_profile_name">&lt;פרופיל חדש&gt;</string>
@@ -272,8 +271,6 @@
     <string name="profile_volume_override_checkbox_label">עקוף עוצמת קול</string>
     <string name="profile_profiles_manage">פרופילים</string>
     <string name="profile_profile_manage">נהל פרופיל</string>
-    <string name="profile_appgroups_manage">קבוצות יישומים</string>
-    <string name="profile_appgroup_manage">נהל קבוצות יישומים</string>
     <string name="profile_settings">הגדרות פרופיל</string>
     <string name="profile_trigger_connect">בחיבור</string>
     <string name="profile_trigger_disconnect">בניתוק</string>
@@ -286,14 +283,6 @@
     <string name="choose_ringtone">בחר צלצול</string>
     <string name="ringtone_title">צלצול שיחה</string>
     <string name="soundtone_title">צליל התראה</string>
-    <string name="profile_appgroups_title">קבוצות יישומים</string>
-    <string name="profile_applist_title">יישומים</string>
-    <string name="profile_new_appgroup">קבוצת יישומים חדשה</string>
-    <string name="profile_delete_appgroup">למחוק קבוצת יישומים זו?</string>
-    <string name="profile_appgroup_name_prompt">הזן שם עבור קבוצת היישומים החדשה</string>
-    <string name="profile_appgroup_name_title">שם</string>
-    <string name="duplicate_appgroup_name">שם קבוצת היישומים כבר קיים!</string>
-    <string name="profile_choose_app">בחר יישום</string>
     <string name="profile_system_settings_title">הגדרות מערכת</string>
     <string name="profile_lockmode_title">מצב מסך הנעילה</string>
     <string name="profile_lockmode_policy_disabled_summary">אפשרות זאת מושבתת עקב מדיניות מנהל המכשיר</string>
@@ -312,7 +301,6 @@
     <string name="ring_mode_mute">מושתק</string>
     <string name="ring_volume_title">עוצמת הצלצול</string>
     <string name="incoming_call_volume_title">צלצול</string>
-    <string name="notification_volume_title">התראות</string>
     <string name="media_volume_title">מדיה</string>
     <string name="alarm_volume_title">שעון מעורר</string>
     <string name="doze_title">תצוגת התראות עמומה</string>
@@ -321,7 +309,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">משיכה מצד %1$s לפתיחה מהירה של ההגדרות המהירות</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">שמאל</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">ימין</string>
-    <string name="status_bar_quick_qs_pulldown_off">כבוי</string>
+    <string name="status_bar_quick_qs_pulldown_off">ללא</string>
     <string name="status_bar_quick_qs_pulldown_left">שמאל</string>
     <string name="status_bar_quick_qs_pulldown_right">ימין</string>
     <string name="status_bar_double_tap_to_sleep_title">הקשה כפולה לכיבוי המסך</string>
@@ -360,7 +348,7 @@
     <string name="network_traffic_settings_title">ניטור תעבורת רשת</string>
     <string name="network_traffic_settings_summary">הצג את מהירות תעבורת הרשת בזמן אמת בשורת המצב</string>
     <string name="network_traffic_mode_title">מצב תצוגה</string>
-    <string name="network_traffic_mode_disable">כבוי</string>
+    <string name="network_traffic_mode_disable">מושבת</string>
     <string name="network_traffic_mode_up">העלאה בלבד</string>
     <string name="network_traffic_mode_down">הורדה בלבד</string>
     <string name="network_traffic_mode_all">הורדה והעלאה</string>
@@ -416,7 +404,7 @@
     <string name="auto_power_save_title">חסכון חשמל אוטומטי</string>
     <string name="auto_power_save_summary_on">מפעיל אוטמטית את מצב חיסכון בחשמל ב־%s אחוזי סוללה</string>
     <string name="auto_power_save_summary_off">לא מפעיל את מצב חיסכון בחשמל אוטומטית</string>
-    <string name="auto_power_save_never">אף פעם</string>
+    <string name="auto_power_save_never">לעולם לא</string>
     <string name="expanded_desktop_settings_title">שולחן עבודה מורחב</string>
     <string name="expanded_desktop_settings_summary">הגדל את שטח התצוגה שלך על ידי הסתרת שורת מצב, סרגל ניווט או שינהם</string>
     <string name="expanded_desktop_options_title">התאם אישית אפשרויות</string>
@@ -427,7 +415,7 @@
     <string name="expanded_desktop_style_hide_both">הסתר את שניהם</string>
     <string name="expanded_desktop_nothing_to_show_text">כבה מתג זה להתאמה אישית של מסך מורחב לכל יישום</string>
     <string name="charging_sounds_settings_title">צלילי טעינה</string>
-    <string name="charging_sounds_enabled_title">אפשר</string>
+    <string name="charging_sounds_enabled_title">הפעל</string>
     <string name="charging_sounds_enabled_summary">השמע צליל בעת חיבור או ניתוק ממקור חשמל</string>
     <string name="power_notifications_vibrate_title">רטט</string>
     <string name="charging_sounds_ringtone_title">צליל התראה</string>
@@ -471,8 +459,8 @@
     <string name="touchscreen_gesture_action_next_track">עבור אל השיר הבא</string>
     <string name="touchscreen_gesture_action_volume_down">הנמך עוצמת מדיה</string>
     <string name="touchscreen_gesture_action_volume_up">הגבר עוצמת מדיה</string>
-    <string name="trust_feature_selinux_value_disabled">מבוטל</string>
+    <string name="trust_feature_selinux_value_disabled">מושבת</string>
     <string name="trust_feature_encryption_value_enabled">מופעל</string>
-    <string name="trust_feature_encryption_value_disabled">מבוטל</string>
+    <string name="trust_feature_encryption_value_disabled">מושבת</string>
     <string name="trust_category_tools">פרטיות</string>
 </resources>

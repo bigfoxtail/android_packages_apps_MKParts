@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="loading">Учитавам\u2026</string>
-    <string name="dlg_ok">У реду</string>
+    <string name="dlg_ok">ОК</string>
     <string name="cancel">Откажи</string>
     <string name="add">Додај</string>
     <string name="choose_app">Избор апликације</string>
@@ -30,8 +30,8 @@
     <string name="back">Назад</string>
     <string name="finish">Готово</string>
     <string name="next">Следеће</string>
-    <string name="on">Укључено</string>
-    <string name="off">Искључено</string>
+    <string name="on">Укљ</string>
+    <string name="off">Искључене</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="search">Претражи</string>
@@ -153,7 +153,7 @@
     <string name="hardware_keys_action_in_app_search">Претрага у апликацијама</string>
     <string name="hardware_keys_action_launch_camera">Покрени камеру</string>
     <string name="hardware_keys_action_sleep">Искључи екран</string>
-    <string name="hardware_keys_action_last_app">Последња апликација</string>
+    <string name="hardware_keys_action_last_app">Задња апликација</string>
     <string name="hardware_keys_action_split_screen">Подељени екран</string>
     <string name="hardware_keys_action_single_handed_left">Режим управљања једном руком (слева)</string>
     <string name="hardware_keys_action_single_handed_right">Режим управљања једном руком (здесна)</string>
@@ -219,7 +219,7 @@
     <string name="torch_long_press_power_timeout_2min">2 минута</string>
     <string name="torch_long_press_power_timeout_5min">5 минута</string>
     <string name="torch_long_press_power_timeout_10min">10 минута</string>
-    <string name="profile_menu_delete_title">Избриши</string>
+    <string name="profile_menu_delete_title">Брисање</string>
     <string name="profile_action_none">Без промена</string>
     <string name="profile_action_system">Подразумевано</string>
     <string name="profile_action_disable">Искључи</string>
@@ -239,11 +239,10 @@
     <string name="no_wifi_triggers">Нема сачуваних Wi-Fi мрежа.\nДодирните да бисте додали Wi-Fi мрежу и подесили његове окидаче.</string>
     <string name="no_triggers_configured">Окидачи нису подешени. Додирните да бисте их додали.</string>
     <string name="no_triggers_configured_nfc">Додирните да бисте подесили нови окидач за NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Изаберите окидаче који ће активирати овај профил.</string>
     <string name="profile_setup_actions_description">Сада подесите шта ће се догодити по активирању профила.</string>
     <string name="profiles_settings_title">Системски профили</string>
     <string name="profiles_add">Додај</string>
-    <string name="profile_menu_delete">Избриши</string>
+    <string name="profile_menu_delete">Брисање</string>
     <string name="profile_settings_title">Профил</string>
     <string name="profile_empty_list_profiles_off">Да бисте користили и подесили системске профиле, укључите функцију „Профили“.</string>
     <string name="profile_settings_summary_off">Профили су онемогућени.</string>
@@ -264,8 +263,8 @@
     <string name="profile_app_group_category_title">Обавештења</string>
     <string name="profile_app_group_item_instructions">Додај или уклони групе</string>
     <string name="profile_app_group_item_instructions_summary">Измените подешавања обавештења за групе апликација у овом профилу.</string>
-    <string name="profile_entries_on">Укључено</string>
-    <string name="profile_entries_off">Искључено</string>
+    <string name="profile_entries_on">Укљ</string>
+    <string name="profile_entries_off">Искључене</string>
     <string name="profile_entries_no_override">Без промена</string>
     <string name="profile_name_title">Име</string>
     <string name="new_profile_name">&lt;нови профил&gt;</string>
@@ -286,8 +285,6 @@
     <string name="profile_volume_override_checkbox_label">Промени јачину звука</string>
     <string name="profile_profiles_manage">Профили</string>
     <string name="profile_profile_manage">Управљање профилима</string>
-    <string name="profile_appgroups_manage">Групе апликација</string>
-    <string name="profile_appgroup_manage">Управљање групом апликација</string>
     <string name="profile_settings">Подешавања профила</string>
     <string name="profile_trigger_connect">При повезивању</string>
     <string name="profile_trigger_disconnect">При прекиду везе</string>
@@ -300,14 +297,6 @@
     <string name="choose_ringtone">Изаберите мелодију звона</string>
     <string name="ringtone_title">Мелодија звона</string>
     <string name="soundtone_title">Звук обавештења</string>
-    <string name="profile_appgroups_title">Групе апликација</string>
-    <string name="profile_applist_title">Апликације</string>
-    <string name="profile_new_appgroup">Нова група апликација</string>
-    <string name="profile_delete_appgroup">Избрисати ову групу апликација?</string>
-    <string name="profile_appgroup_name_prompt">Унесите име за групу апликација.</string>
-    <string name="profile_appgroup_name_title">Име</string>
-    <string name="duplicate_appgroup_name">Група апликација под тим именом већ постоји.</string>
-    <string name="profile_choose_app">Избор апликације</string>
     <string name="profile_system_settings_title">Подешавања система</string>
     <string name="profile_lockmode_title">Режим закључаног екрана</string>
     <string name="profile_lockmode_policy_disabled_summary">Ову опцију у профилу је онемогућио администратор уређаја.</string>
@@ -325,21 +314,21 @@
     <string name="toggleSync">Аутоматска синхронизација</string>
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">Режим звона</string>
-    <string name="ring_mode_normal">Нормалан</string>
+    <string name="ring_mode_normal">Нормално</string>
     <string name="ring_mode_vibrate">Вибрација</string>
-    <string name="ring_mode_mute">Искључи звук</string>
+    <string name="ring_mode_mute">Утишај</string>
     <string name="ring_volume_title">Јачина звука звона</string>
     <string name="incoming_call_volume_title">Мелодија звона</string>
-    <string name="notification_volume_title">Обавештење</string>
+    <string name="notification_volume_title">Обавештења</string>
     <string name="media_volume_title">Медији</string>
     <string name="alarm_volume_title">Аларм</string>
-    <string name="doze_title">Амбијентални екран</string>
+    <string name="doze_title">Амбијент приказ</string>
     <string name="status_bar_title">Статусна трака</string>
     <string name="status_bar_quick_qs_pulldown_title">Брзи приступ</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s ивица статусне траке повлачи брза подешавања.</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Лево</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Десно</string>
-    <string name="status_bar_quick_qs_pulldown_off">Искључено</string>
+    <string name="status_bar_quick_qs_pulldown_off">Искључене</string>
     <string name="status_bar_quick_qs_pulldown_left">Лево</string>
     <string name="status_bar_quick_qs_pulldown_right">Десно</string>
     <string name="status_bar_double_tap_to_sleep_title">Искључи екран при двоструком додиру</string>
@@ -356,9 +345,9 @@
     <string name="status_bar_clock_position_right">Десно</string>
     <string name="status_bar_clock_position_left">Лево</string>
     <string name="status_bar_clock_position_center">Центар</string>
-    <string name="status_bar_am_pm_title">Стил индикатора „AM/PM“</string>
+    <string name="status_bar_am_pm_title">Стил за „AM/PM“</string>
     <string name="status_bar_am_pm_info">Омогућен је 24-часовни формат времена.</string>
-    <string name="status_bar_am_pm_normal">Нормалан</string>
+    <string name="status_bar_am_pm_normal">Нормално</string>
     <string name="status_bar_am_pm_small">Мали</string>
     <string name="status_bar_am_pm_hidden">Скривено</string>
     <string name="status_bar_battery_title">Индикатор батерије</string>
@@ -384,7 +373,7 @@
     <string name="network_traffic_mode_up">Само слање</string>
     <string name="network_traffic_mode_down">Само преузимање</string>
     <string name="network_traffic_mode_all">Слање и преузимање</string>
-    <string name="network_traffic_autohide">Аутоматско сакривање</string>
+    <string name="network_traffic_autohide">Аутоматски сакриј</string>
     <string name="network_traffic_autohide_summary">Сакриј контролу протока у одсуству активности</string>
     <string name="protected_apps_manager_title">Заштићене апликације</string>
     <string name="protected_apps_manager_summary">Управљајте апликацијама које за покретање захтевају унос лозинке.</string>
@@ -392,13 +381,15 @@
     <string name="contributors_cloud_loading_message">Учитавам податке о сарадницима\u2026</string>
     <string name="contributors_cloud_failed_message">Не могу да учитам податке о сарадницима.</string>
     <string name="contributor_info_menu">Подаци о сарадницима</string>
-    <string name="contributor_info_msg">&lt;b&gt;Име:&lt;/b&gt; &lt;xliff:g id=\"name\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Надимак:&lt;/b&gt; &lt;xliff:g id=\"nick\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Доприноса:&lt;/b&gt; &lt;xliff:g id=\"commits\"&gt;%3$s&lt;/xliff:g&gt;;</string>
+    <string name="contributor_info_msg">&lt;b&gt;Име:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Надимак:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Доприноса:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;        ;
+    </string>
     <string name="contributions_info_menu">Општа статистика</string>
-    <string name="contributions_info_msg">&lt;b&gt;Укупно сарадника:&lt;/b&gt; &lt;xliff:g id=\"total_contributors\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Укупно доприноса:&lt;/b&gt; &lt;xliff:g id=\"total_commits\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Последња измена:&lt;/b&gt; &lt;xliff:g id=\"date\"&gt;%3$s&lt;/xliff:g&gt;;</string>
+    <string name="contributions_info_msg">&lt;b&gt;Укупно сарадника:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Укупно доприноса:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Последња измена:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;        ;
+    </string>
     <string name="accelerometer_title">Аутоматска ротација екрана</string>
     <string name="display_rotation_title">Подешавања ротације</string>
     <string name="display_rotation_enabled">Аутоматска ротација је омогућена.</string>
@@ -499,14 +490,14 @@
     <string name="trust_feature_selinux_value_enforcing">На силу</string>
     <string name="trust_feature_selinux_value_disabled">Онемогућено</string>
     <string name="trust_feature_selinux_explain">SELinux контролише приступе подацима на телефону.\nТиме се повећава безбедност и заштита од вируса и штетних апликација.</string>
-    <string name="trust_feature_security_patches">Андроид сигуроносна подешаванја</string>
+    <string name="trust_feature_security_patches">Андроид сигуроносна подешавања</string>
     <string name="trust_feature_security_patches_value_base">Platform: %1$s\nVendor: %2$s</string>
     <string name="trust_feature_security_patches_value_new">освежено</string>
-    <string name="trust_feature_security_patches_value_medium">прошло је неколико месеци од заднјег освежаванја</string>
+    <string name="trust_feature_security_patches_value_medium">прошло је неколико месеци од задњег освежавања</string>
     <string name="trust_feature_security_patches_value_old">застарело</string>
-    <string name="trust_feature_security_patches_explain">Сигуроносна освежаванја се раде на месечном нивоу од стране Гоогле-а. Производјач телефона је одговаран за брзину примена ових освежаванја ( updates) на ваш модел телефона. Да би вам телефон био што сигурнији увек радите сигуроносна освежаванја инсталиранјем најновије актуелне верзије МоКее Ром-а за ваш уредјај.</string>
+    <string name="trust_feature_security_patches_explain">Сигуроносна освежавања се раде на месечном нивоу од стране Гоогле-а. Произвођач телефона је одговаран за брзину примена ових освежавања ( updates) на ваш модел телефона. Да би вам телефон био што сигурнији увек радите сигуроносна освежавања инсталирањем најновије актуелне верзије MoKee Ром-а за ваш уређај. Такође проверите да је vendor image освежен на најновију верзију препоручену од стране MoKee.</string>
     <string name="trust_feature_encryption">Енкрипција</string>
-    <string name="trust_feature_encryption_value_enabled">Omogućeno</string>
+    <string name="trust_feature_encryption_value_enabled">Омогућено</string>
     <string name="trust_feature_encryption_value_nolock">Потребно је да имате закључавање екрана</string>
     <string name="trust_feature_encryption_value_disabled">Онемогућено</string>
     <string name="trust_feature_encryption_explain">Енкрипција ( шифровање) вашег уређаја је потребно ради заштите када на уређају није подигнут систем ( Андроид). Ово је потребно у случају крађе, уређаја или података са вашег уређаја. За енкрипцију је потребно да имате шифру на закључаном екрану.</string>
@@ -521,7 +512,7 @@
     <string name="trust_onboarding_done">Прихватам</string>
     <string name="trust_restrict_usb_title">Ограничи USB</string>
     <string name="trust_restrict_usb_summary">Онемогући нови USB уређај када је андроид уређај закључан</string>
-    <string name="sms_security_check_limit_title">СМС порука ограниченје</string>
+    <string name="sms_security_check_limit_title">СМС порука ограничење</string>
     <string name="sms_security_check_limit_summary">Апликација може да пошаље %s порука у једном минуту пре него је потребна потврда</string>
     <string name="sms_security_check_limit_summary_none">Апликацијама није дозвољено слање порука без потврде</string>
     <string name="sms_security_check_limit_always_confirm">Увек поврди</string>

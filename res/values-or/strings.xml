@@ -18,7 +18,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="next">ପରବର୍ତ୍ତୀ</string>
+    <string name="next">"ପରବର୍ତ୍ତୀ"</string>
     <string name="default_time">ସାଧାରଣ</string>
     <string name="pulse_length_normal">ସାଧାରଣ</string>
     <string name="pulse_speed_normal">ସାଧାରଣ</string>

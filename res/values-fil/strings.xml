@@ -30,7 +30,7 @@
     <string name="back">Bumalik</string>
     <string name="finish">Tapos na</string>
     <string name="next">Susunod</string>
-    <string name="on">Ang device ay nakabukas</string>
+    <string name="on">Naka-on</string>
     <string name="off">Patay</string>
     <string name="yes">Oo</string>
     <string name="no">Hindi</string>
@@ -228,7 +228,6 @@
     <string name="no_wifi_triggers">Walang Wi\u2011Fi na mga access point na naka-configure.\nI-Tap para ikonekta sa Wi\u2011Fi bago magsasaayos ng mga trigger.</string>
     <string name="no_triggers_configured">Walang mga trigger na nakaayos. I-Tap para magdagdag ng higit pa.</string>
     <string name="no_triggers_configured_nfc">Tapikin sa set-up ng isang bagong NFC tirgger.</string>
-    <string name="profile_setup_setup_triggers_description">Mangyaring pumili ng mga trigger na mag activate sa profile na ito</string>
     <string name="profile_setup_actions_description">Ngayon magcomfigure kung ano ang mangyayari kapag naka-activate ang profile</string>
     <string name="profiles_settings_title">Mga profile ng sistema</string>
     <string name="profiles_add">Idagdag</string>
@@ -253,7 +252,7 @@
     <string name="profile_app_group_category_title">Naka-override ang notipikasyon</string>
     <string name="profile_app_group_item_instructions">Magdagdag o mag-alis ng mga grupo</string>
     <string name="profile_app_group_item_instructions_summary">Magdagdag o mag-alis ng mga pangkat na nag-o-override ng notipikasyon sa profile na ito</string>
-    <string name="profile_entries_on">Ang device ay nakabukas</string>
+    <string name="profile_entries_on">Naka-on</string>
     <string name="profile_entries_off">Patay</string>
     <string name="profile_entries_no_override">Walang sumalansang</string>
     <string name="profile_name_title">Pangalan</string>
@@ -275,8 +274,6 @@
     <string name="profile_volume_override_checkbox_label">Pagpawalang-bisa ng volyum</string>
     <string name="profile_profiles_manage">Mga Profile</string>
     <string name="profile_profile_manage">Pamahalaan ang profile</string>
-    <string name="profile_appgroups_manage">Mga pangkat ng app</string>
-    <string name="profile_appgroup_manage">Mamahala sa pangkat ng mga app</string>
     <string name="profile_settings">Mga setting ng profile</string>
     <string name="profile_trigger_connect">Kumonekta sa</string>
     <string name="profile_trigger_disconnect">Magdisconnect sa</string>
@@ -289,14 +286,6 @@
     <string name="choose_ringtone">Pumili ng ringtone</string>
     <string name="ringtone_title">Ringtone ng telepono</string>
     <string name="soundtone_title">Tono ng notipikasyon</string>
-    <string name="profile_appgroups_title">Mga pangkat ng app</string>
-    <string name="profile_applist_title">Mga app</string>
-    <string name="profile_new_appgroup">Bagong pangkat ng app</string>
-    <string name="profile_delete_appgroup">Tanggalin ang pangkat ng app na ito?</string>
-    <string name="profile_appgroup_name_prompt">Maglagay ng pangalan para sa bagong pangkat ng app</string>
-    <string name="profile_appgroup_name_title">Pangalan</string>
-    <string name="duplicate_appgroup_name">May kagaya ang pangalan ng pangkat ng grupo!</string>
-    <string name="profile_choose_app">Pumili ng app</string>
     <string name="profile_system_settings_title">Mga setting ng sistema</string>
     <string name="profile_lockmode_title">Moda na naka-sarado ang iskren</string>
     <string name="profile_lockmode_policy_disabled_summary">Hindi pinapagana ang opsyon sa profile ng isang patakaran sa administrador ng aparato</string>

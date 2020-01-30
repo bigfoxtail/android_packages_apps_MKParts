@@ -30,8 +30,8 @@
     <string name="back">Назад</string>
     <string name="finish">Завършен</string>
     <string name="next">Следваща</string>
-    <string name="on">Включване</string>
-    <string name="off">Изключване</string>
+    <string name="on">Включено</string>
+    <string name="off">Изкл</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="search">Търсене</string>
@@ -40,7 +40,7 @@
     <string name="privacy_settings_title">Поверителност</string>
     <string name="edit_light_settings">Редактиране на настройките на светлинните индикации</string>
     <string name="pulse_speed_title">Продължителност и скорост на пулсирането</string>
-    <string name="default_time">Нормална</string>
+    <string name="default_time">Нормално</string>
     <string name="custom_time">По избор</string>
     <string name="dialog_delete_title">Изтриване</string>
     <string name="dialog_delete_message">Да премахна ли избраният елемент?</string>
@@ -48,12 +48,12 @@
     <string name="pulse_length_always_on">Винаги включен</string>
     <string name="pulse_length_very_short">Много кратко</string>
     <string name="pulse_length_short">Кратко</string>
-    <string name="pulse_length_normal">Нормална</string>
+    <string name="pulse_length_normal">Нормално</string>
     <string name="pulse_length_long">Дълго</string>
     <string name="pulse_length_very_long">Много дълго</string>
     <string name="pulse_speed_very_fast">Много бързо</string>
     <string name="pulse_speed_fast">Бързо</string>
-    <string name="pulse_speed_normal">Нормална</string>
+    <string name="pulse_speed_normal">Нормално</string>
     <string name="pulse_speed_slow">Бавно</string>
     <string name="pulse_speed_very_slow">Много бавно</string>
     <string name="light_brightness_title">Нива на яркост</string>
@@ -162,7 +162,7 @@
     <string name="volbtn_music_controls_title">Управление на музика</string>
     <string name="volbtn_music_controls_summary">Смяна на песни чрез дълъго натискане на бутоните на звука докато дисплеят е изключен</string>
     <string name="volbtn_cursor_control_title">Контрол на курсора</string>
-    <string name="volbtn_cursor_control_off">Изключен</string>
+    <string name="volbtn_cursor_control_off">Деактивирано</string>
     <string name="volbtn_cursor_control_on">Звука нагоре/надолу премества курсора наляво/надясно</string>
     <string name="volbtn_cursor_control_on_reverse">Звука нагоре/надолу премества курсора надясно/наляво</string>
     <string name="power_end_call_title">Край на повикването</string>
@@ -184,9 +184,9 @@
     <string name="keyboard_backlight_seekbar_title">Яркост на клавиатурата</string>
     <string name="backlight_timeout_title">Време на изчакване на осветлението</string>
     <string name="backlight_timeout_unlimited">Не изключвай</string>
-    <string name="backlight_summary_disabled">Деактивирани</string>
+    <string name="backlight_summary_disabled">Деактивирано</string>
     <string name="backlight_summary_enabled_with_timeout">Разрешена за <xliff:g id="timeout">%s </xliff:g></string>
-    <string name="backlight_summary_enabled">Активирани</string>
+    <string name="backlight_summary_enabled">Активирано</string>
     <string name="disable_navkeys_title">Разреши екранната лента за навигация</string>
     <string name="disable_navkeys_summary">Разреши екранна навигационна лента и забрани хардуерните бутони</string>
     <string name="navigation_bar_category">Навигационна лента</string>
@@ -234,7 +234,6 @@
     <string name="no_wifi_triggers">Няма настроени точки за достъп чрез Wi\u2011Fi.\nДокоснете за да се свържете с Wi\u2011Fi преди конфигурирането на превключвателите.</string>
     <string name="no_triggers_configured">Няма конфигуриран превключвател. Натиснете, за да добавите още.</string>
     <string name="no_triggers_configured_nfc">Натиснете, за да настройте нов NFC превключвател.</string>
-    <string name="profile_setup_setup_triggers_description">Моля, изберете превключватели, който ще активират този профил</string>
     <string name="profile_setup_actions_description">Сега конфигурирайте какво се случва когато е активиран профилът</string>
     <string name="profiles_settings_title">Системни профили</string>
     <string name="profiles_add">Добави</string>
@@ -259,8 +258,8 @@
     <string name="profile_app_group_category_title">Анулирай уведомленията</string>
     <string name="profile_app_group_item_instructions">Добавяне или премахване на групи</string>
     <string name="profile_app_group_item_instructions_summary">Добавяне или премахване на групи от приложения за анулиране на уведомления към този профил</string>
-    <string name="profile_entries_on">Включване</string>
-    <string name="profile_entries_off">Изключване</string>
+    <string name="profile_entries_on">Включено</string>
+    <string name="profile_entries_off">Изкл</string>
     <string name="profile_entries_no_override">Не презаписвай</string>
     <string name="profile_name_title">Име</string>
     <string name="new_profile_name">&lt;нов профил&gt;</string>
@@ -281,8 +280,6 @@
     <string name="profile_volume_override_checkbox_label">Отмяна силата на звука</string>
     <string name="profile_profiles_manage">Профили</string>
     <string name="profile_profile_manage">Управление на профила</string>
-    <string name="profile_appgroups_manage">Групи от приложения</string>
-    <string name="profile_appgroup_manage">Управление на група от приложения</string>
     <string name="profile_settings">Настройки на профила</string>
     <string name="profile_trigger_connect">При свързване</string>
     <string name="profile_trigger_disconnect">При изключване</string>
@@ -295,14 +292,6 @@
     <string name="choose_ringtone">Избор на мелодия</string>
     <string name="ringtone_title">Мелодия на телефона</string>
     <string name="soundtone_title">Мелодия за известия</string>
-    <string name="profile_appgroups_title">Групи от приложения</string>
-    <string name="profile_applist_title">Приложения</string>
-    <string name="profile_new_appgroup">Нова група от приложения</string>
-    <string name="profile_delete_appgroup">Да изтрия ли тази група от приложения?</string>
-    <string name="profile_appgroup_name_prompt">Въведете име за новата група от приложения</string>
-    <string name="profile_appgroup_name_title">Име</string>
-    <string name="duplicate_appgroup_name">Дублирано име на група от приложения!</string>
-    <string name="profile_choose_app">Изберете приложение</string>
     <string name="profile_system_settings_title">Системни настройки</string>
     <string name="profile_lockmode_title">Режим на заключване на екрана</string>
     <string name="profile_lockmode_policy_disabled_summary">Тази профил е забранен от правилата за управление на устройството</string>
@@ -320,7 +309,7 @@
     <string name="toggleSync">Авто-синхронизиране на данни</string>
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">Режим на звънене</string>
-    <string name="ring_mode_normal">Нормален</string>
+    <string name="ring_mode_normal">Нормално</string>
     <string name="ring_mode_vibrate">Вибрация</string>
     <string name="ring_mode_mute">Без звук</string>
     <string name="ring_volume_title">Сила на звънене</string>
@@ -328,13 +317,13 @@
     <string name="notification_volume_title">Известия</string>
     <string name="media_volume_title">Медии</string>
     <string name="alarm_volume_title">Аларма</string>
-    <string name="doze_title">Активнен дисплей</string>
+    <string name="doze_title">Активен дисплей</string>
     <string name="status_bar_title">Лента на състоянието</string>
     <string name="status_bar_quick_qs_pulldown_title">Бързи настройки</string>
     <string name="status_bar_quick_qs_pulldown_summary">Дръпнете %1$s лентата на състоянието за бързи настройки</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Вляво</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Вдясно</string>
-    <string name="status_bar_quick_qs_pulldown_off">Изключен</string>
+    <string name="status_bar_quick_qs_pulldown_off">Изкл</string>
     <string name="status_bar_quick_qs_pulldown_left">Вляво</string>
     <string name="status_bar_quick_qs_pulldown_right">Вдясно</string>
     <string name="status_bar_double_tap_to_sleep_title">Двукратно почукване за заспиване</string>
@@ -353,7 +342,7 @@
     <string name="status_bar_clock_position_center">По средата</string>
     <string name="status_bar_am_pm_title">AM/PM стил</string>
     <string name="status_bar_am_pm_info">Включен 24-часов формат за време</string>
-    <string name="status_bar_am_pm_normal">Нормален</string>
+    <string name="status_bar_am_pm_normal">Нормално</string>
     <string name="status_bar_am_pm_small">Малък</string>
     <string name="status_bar_am_pm_hidden">Скрит</string>
     <string name="status_bar_battery_title">Батерия</string>
@@ -443,11 +432,11 @@
     <string name="expanded_desktop_nothing_to_show_text">Изключите персонализирането на вашия разширен екран на база на броя на приложенията</string>
     <string name="long_screen_settings_title">Апликации на цял екран</string>
     <string name="charging_sounds_settings_title">Звуци при зареждане</string>
-    <string name="charging_sounds_enabled_title">Активиране</string>
+    <string name="charging_sounds_enabled_title">Разрешени</string>
     <string name="charging_sounds_enabled_summary">Възпроизвежда звук, когато включвате или изключвате източник на захранване</string>
     <string name="power_notifications_vibrate_title">Вибрация</string>
     <string name="charging_sounds_ringtone_title">Тон за уведомяване</string>
-    <string name="charging_sounds_ringtone_silent">Без звук</string>
+    <string name="charging_sounds_ringtone_silent">Безшумно</string>
     <string name="touchscreen_gesture_settings_title">Тъчскрийн жестове</string>
     <string name="touchscreen_gesture_settings_summary">Изпълнява различни бързи действия чрез жестове върху сензорния екран</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Вибрация при докосване</string>
@@ -494,7 +483,7 @@
     <string name="trust_feature_security_patches_value_medium">необновявано от няколко месеца</string>
     <string name="trust_feature_security_patches_value_old">неактуален</string>
     <string name="trust_feature_encryption">Криптиране</string>
-    <string name="trust_feature_encryption_value_enabled">Вкл.</string>
+    <string name="trust_feature_encryption_value_enabled">Активирано</string>
     <string name="trust_feature_encryption_value_nolock">Нуждае се от заключване на екрана</string>
     <string name="trust_feature_encryption_value_disabled">Деактивирано</string>
     <string name="trust_category_tools">Поверителност</string>

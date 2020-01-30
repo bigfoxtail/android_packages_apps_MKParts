@@ -236,7 +236,6 @@
     <string name="no_wifi_triggers">No hay puntos Wi-Fi de acceso configurados. Toca para activar la conexión Wi-Fi antes de configurar los eventos.</string>
     <string name="no_triggers_configured">Sin eventos configurados. Toca para añadir más.</string>
     <string name="no_triggers_configured_nfc">Toca para configurar un nuevo evento NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Por favor, selecciona qué eventos activarán este perfil</string>
     <string name="profile_setup_actions_description">Ahora configura que sucederá cuando el perfil sea activado</string>
     <string name="profiles_settings_title">Perfiles del sistema</string>
     <string name="profiles_add">Añadir</string>
@@ -283,8 +282,6 @@
     <string name="profile_volume_override_checkbox_label">Anular volumen</string>
     <string name="profile_profiles_manage">Perfiles</string>
     <string name="profile_profile_manage">Administrar perfil</string>
-    <string name="profile_appgroups_manage">Grupos de aplicaciones</string>
-    <string name="profile_appgroup_manage">Administrar grupo de aplicaciones</string>
     <string name="profile_settings">Ajustes del perfil</string>
     <string name="profile_trigger_connect">Al conectar</string>
     <string name="profile_trigger_disconnect">Al desconectar</string>
@@ -297,14 +294,6 @@
     <string name="choose_ringtone">Elegir el tono de llamada</string>
     <string name="ringtone_title">Tono de llamada del teléfono</string>
     <string name="soundtone_title">Tono de notificación</string>
-    <string name="profile_appgroups_title">Grupos de aplicaciones</string>
-    <string name="profile_applist_title">Aplicaciones</string>
-    <string name="profile_new_appgroup">Nuevo grupo de aplicación</string>
-    <string name="profile_delete_appgroup">¿Eliminar este grupo de aplicaciones?</string>
-    <string name="profile_appgroup_name_prompt">Introduce un nombre para el nuevo grupo de aplicaciones</string>
-    <string name="profile_appgroup_name_title">Nombre </string>
-    <string name="duplicate_appgroup_name">¡Nombre de grupo de aplicación duplicado!</string>
-    <string name="profile_choose_app">Seleccionar aplicación</string>
     <string name="profile_system_settings_title">Configuración del sistema</string>
     <string name="profile_lockmode_title">Bloqueo de pantalla</string>
     <string name="profile_lockmode_policy_disabled_summary">Esta opción de perfil se desactivó por una política del administrador del dispositivo</string>

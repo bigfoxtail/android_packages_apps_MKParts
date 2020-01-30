@@ -229,7 +229,6 @@
     <string name="no_wifi_triggers">Wi\u2011Fi verkkoja ei määritetty.\nPaina yhdistääksesi Wi\u2011Fi-verkkoon ennen käynnistimien määrittämistä.</string>
     <string name="no_triggers_configured">Käynnistimiä ei määritetty. Paina lisätäksesi.</string>
     <string name="no_triggers_configured_nfc">Paina asettaaksesi uuden NFC-käynnistimen.</string>
-    <string name="profile_setup_setup_triggers_description">Valitse käynnistimet jotka aktivoivat tämän profiilin</string>
     <string name="profile_setup_actions_description">Määritä nyt mitä tapahtuu kun profiili on aktivoitu</string>
     <string name="profiles_settings_title">Järjestelmäprofiilit</string>
     <string name="profiles_add">Lisää</string>
@@ -276,8 +275,6 @@
     <string name="profile_volume_override_checkbox_label">Ohita äänenvoimakkuus</string>
     <string name="profile_profiles_manage">Profiilit</string>
     <string name="profile_profile_manage">Hallitse profiilia</string>
-    <string name="profile_appgroups_manage">Sovellusryhmät</string>
-    <string name="profile_appgroup_manage">Hallitse sovellusryhmää</string>
     <string name="profile_settings">Profiilin asetukset</string>
     <string name="profile_trigger_connect">Yhdistettäessä</string>
     <string name="profile_trigger_disconnect">Yhteyttä katkaistaessa</string>
@@ -290,14 +287,6 @@
     <string name="choose_ringtone">Valitse soittoääni</string>
     <string name="ringtone_title">Puhelun soittoääni</string>
     <string name="soundtone_title">Ilmoitusääni</string>
-    <string name="profile_appgroups_title">Sovellusryhmät</string>
-    <string name="profile_applist_title">Sovellukset</string>
-    <string name="profile_new_appgroup">Uusi sovellusryhmä</string>
-    <string name="profile_delete_appgroup">Poista tämä sovellusryhmä?</string>
-    <string name="profile_appgroup_name_prompt">Anna uuden sovellusryhmän nimi</string>
-    <string name="profile_appgroup_name_title">Nimi</string>
-    <string name="duplicate_appgroup_name">Sovellusryhmän nimi on jo käytössä!</string>
-    <string name="profile_choose_app">Valitse sovellus</string>
     <string name="profile_system_settings_title">Järjestelmän asetukset</string>
     <string name="profile_lockmode_title">Lukitusnäytön tyyppi</string>
     <string name="profile_lockmode_policy_disabled_summary">Laitteen järjestelmänvalvoja on poistanut tämän asetuksen käytöstä</string>
@@ -330,8 +319,8 @@
     <string name="status_bar_quick_qs_pulldown_summary_left">Vasen</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Oikea</string>
     <string name="status_bar_quick_qs_pulldown_off">Pois</string>
-    <string name="status_bar_quick_qs_pulldown_left">Vasen reuna</string>
-    <string name="status_bar_quick_qs_pulldown_right">Oikea reuna</string>
+    <string name="status_bar_quick_qs_pulldown_left">Vasen</string>
+    <string name="status_bar_quick_qs_pulldown_right">Oikea</string>
     <string name="status_bar_double_tap_to_sleep_title">Lepotila kaksoisnapautuksella</string>
     <string name="status_bar_double_tap_to_sleep_summary">Sulje laitteen näyttö tuplanapauttamalla tilapalkkia</string>
     <string name="status_bar_icons_title">Tilapalkin kuvakkeet</string>
@@ -367,7 +356,7 @@
     <string name="status_bar_toggle_brightness">Kirkkauden säätö</string>
     <string name="status_bar_toggle_brightness_summary">Säädä kirkkautta liu\'ttamalla tilapalkkia pitkin</string>
     <string name="network_traffic_mode_title">Näyttötila</string>
-    <string name="network_traffic_mode_disable">Poistettu käytöstä</string>
+    <string name="network_traffic_mode_disable">Pois käytöstä</string>
     <string name="network_traffic_mode_up">Vain lähetys</string>
     <string name="network_traffic_mode_down">Vain lataus</string>
     <string name="network_traffic_mode_all">Lähetys ja lataus</string>
@@ -474,9 +463,9 @@
     <string name="touchscreen_gesture_action_next_track">Siirry seuraavaan musiikkikappaleeseen</string>
     <string name="touchscreen_gesture_action_volume_down">Pienennä median äänenvoimakkuutta</string>
     <string name="touchscreen_gesture_action_volume_up">Nosta median äänenvoimakkuutta</string>
-    <string name="trust_feature_selinux_value_disabled">Poistettu käytöstä</string>
-    <string name="trust_feature_encryption_value_enabled">Ota käyttöön</string>
-    <string name="trust_feature_encryption_value_disabled">Poistettu käytöstä</string>
+    <string name="trust_feature_selinux_value_disabled">Pois käytöstä</string>
+    <string name="trust_feature_encryption_value_enabled">Käytössä</string>
+    <string name="trust_feature_encryption_value_disabled">Pois käytöstä</string>
     <string name="trust_category_tools">Tietosuoja</string>
     <string name="trust_onboarding_title">Toivota Trust tervetulleeksi</string>
     <string name="trust_onboarding_description">Trust auttaa sinua pitämään laitteesi turvassa ja suojaa yksityisyyttäsi.\nTrust-kuvake näkyy vain kun sivun sisältö on varmistettu.</string>

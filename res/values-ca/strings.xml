@@ -30,8 +30,8 @@
     <string name="back">Enrera</string>
     <string name="finish">Finalitza</string>
     <string name="next">Següent</string>
-    <string name="on">Sí</string>
-    <string name="off">No</string>
+    <string name="on">Activat</string>
+    <string name="off">Desactivat</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="search">Cerca</string>
@@ -176,7 +176,7 @@
     <string name="backlight_timeout_unlimited">No apaguis</string>
     <string name="backlight_summary_disabled">Deshabilitat</string>
     <string name="backlight_summary_enabled_with_timeout">Activada durant <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Activada</string>
+    <string name="backlight_summary_enabled">Habilitat</string>
     <string name="disable_navkeys_title">Habilita la barra de navegació en pantalla</string>
     <string name="disable_navkeys_summary">Habilita la barra de navegació en pantalla i deshabilita els botons físics</string>
     <string name="navigation_bar_category">Barra de navegació</string>
@@ -220,7 +220,6 @@
     <string name="no_wifi_triggers">No hi ha punts d\'accés Wi\u2011Fi configurats. \nPica per connectar el Wi\u2011Fi abans de configurar els activadors.</string>
     <string name="no_triggers_configured">No hi ha activadors configurats. Pica per afegir-ne més.</string>
     <string name="no_triggers_configured_nfc">Pica per configurar un nou activador NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Si us plau selecciona quins activadors activaran aquest perfil</string>
     <string name="profile_setup_actions_description">Configura ara el que passa quan s\'activa el perfil</string>
     <string name="profiles_settings_title">Perfils del sistema</string>
     <string name="profiles_add">Afegeix</string>
@@ -245,8 +244,8 @@
     <string name="profile_app_group_category_title">Anul·lació de notificacions</string>
     <string name="profile_app_group_item_instructions">Afegeix o treu grups</string>
     <string name="profile_app_group_item_instructions_summary">Afegeix o treu grups d\'aplicacions que anul·lin les notificacions en aquest perfil</string>
-    <string name="profile_entries_on">Sí</string>
-    <string name="profile_entries_off">No</string>
+    <string name="profile_entries_on">Activat</string>
+    <string name="profile_entries_off">Desactivat</string>
     <string name="profile_entries_no_override">No anul·lis</string>
     <string name="profile_name_title">Nom</string>
     <string name="new_profile_name">&lt;nou perfil&gt;</string>
@@ -262,8 +261,6 @@
     <string name="profile_volume_override_checkbox_label">Anul·la el volum</string>
     <string name="profile_profiles_manage">Perfils</string>
     <string name="profile_profile_manage">Gestiona un perfil</string>
-    <string name="profile_appgroups_manage">Grups d\'aplicacions</string>
-    <string name="profile_appgroup_manage">Gestiona un grup d\'aplicacions</string>
     <string name="profile_settings">Configuració dels perfils</string>
     <string name="profile_trigger_connect">En connectar</string>
     <string name="profile_trigger_disconnect">En desconnectar</string>
@@ -276,14 +273,6 @@
     <string name="choose_ringtone">Tria un to de trucada</string>
     <string name="ringtone_title">To de trucada del telèfon</string>
     <string name="soundtone_title">To de les notificacions</string>
-    <string name="profile_appgroups_title">Grups d\'aplicacions</string>
-    <string name="profile_applist_title">Aplicacions</string>
-    <string name="profile_new_appgroup">Nou grup d\'aplicacions</string>
-    <string name="profile_delete_appgroup">Vols esborrar aquest grup d\'aplicacions?</string>
-    <string name="profile_appgroup_name_prompt">Introdueix un nom pel nou grup d\'aplicacions</string>
-    <string name="profile_appgroup_name_title">Nom</string>
-    <string name="duplicate_appgroup_name">Nom del grup d\'aplicacions duplicat!</string>
-    <string name="profile_choose_app">Tria una aplicació</string>
     <string name="profile_system_settings_title">Configuració del sistema</string>
     <string name="profile_lockmode_title">Mode del bloqueig de pantalla</string>
     <string name="profile_lockmode_policy_disabled_summary">Aquesta opció de perfil està deshabilitada per una política d\'administració de dispositiu</string>
@@ -298,7 +287,7 @@
     <string name="toggleSync">Sincronització automàtica de dades</string>
     <string name="ring_mode_title">Mode del to de trucada</string>
     <string name="ring_mode_normal">Normal</string>
-    <string name="ring_mode_vibrate">Vibra</string>
+    <string name="ring_mode_vibrate">Vibració</string>
     <string name="ring_mode_mute">Silencia</string>
     <string name="ring_volume_title">Volum del to de trucada</string>
     <string name="incoming_call_volume_title">To de trucada</string>
@@ -311,7 +300,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">La vora %1$s de la barra d\'estat desplega el panell d\'ajustos ràpids</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Esquerra</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Dreta</string>
-    <string name="status_bar_quick_qs_pulldown_off">No</string>
+    <string name="status_bar_quick_qs_pulldown_off">Desactivat</string>
     <string name="status_bar_quick_qs_pulldown_left">Esquerra</string>
     <string name="status_bar_quick_qs_pulldown_right">Dreta</string>
     <string name="status_bar_double_tap_to_sleep_title">Pica dues vegades per posar en repòs</string>
@@ -339,7 +328,7 @@
     <string name="status_bar_battery_percentage_default">Amagat</string>
     <string name="status_bar_battery_percentage_text_inside">Dins la icona</string>
     <string name="status_bar_battery_percentage_text_next">Al costat de la icona</string>
-    <string name="status_bar_brightness_category">Lluminositat</string>
+    <string name="status_bar_brightness_category">Brillantor</string>
     <string name="status_bar_brightness_slider_title">Barra de lluminositat</string>
     <string name="status_bar_brightness_slider_summary">Ajusta la lluminositat des de la configuració ràpida</string>
     <string name="status_bar_brightness_slider_auto_title">Lluminositat automàtica</string>
@@ -415,7 +404,7 @@
     <string name="charging_sounds_settings_title">Sons de càrrega</string>
     <string name="charging_sounds_enabled_title">Habilita</string>
     <string name="charging_sounds_enabled_summary">Reprodueix un so en connectar o desconnectar d\'una font d\'energia</string>
-    <string name="power_notifications_vibrate_title">Vibra</string>
+    <string name="power_notifications_vibrate_title">Vibració</string>
     <string name="charging_sounds_ringtone_title">So de la notificació</string>
     <string name="charging_sounds_ringtone_silent">Silenci</string>
     <string name="touchscreen_gesture_settings_title">Gestos a la pantalla tàctil</string>
@@ -457,8 +446,8 @@
     <string name="touchscreen_gesture_action_next_track">Vés a la següent pista de música</string>
     <string name="touchscreen_gesture_action_volume_down">Abaixa el volum multimèdia</string>
     <string name="touchscreen_gesture_action_volume_up">Apuja el volum multimèdia</string>
-    <string name="trust_feature_selinux_value_disabled">Desactivat</string>
+    <string name="trust_feature_selinux_value_disabled">Deshabilitat</string>
     <string name="trust_feature_encryption_value_enabled">Habilitat</string>
-    <string name="trust_feature_encryption_value_disabled">Desactivat</string>
+    <string name="trust_feature_encryption_value_disabled">Deshabilitat</string>
     <string name="trust_category_tools">Privadesa</string>
 </resources>

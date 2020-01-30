@@ -21,7 +21,7 @@
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> δευτερόλεπτα</item>
     </plurals>
     <plurals name="app_ops_count">
-        <item quantity="one">μία φορά</item>
+        <item quantity="one">μια φορά</item>
         <item quantity="other">%d φορές</item>
     </plurals>
 </resources>

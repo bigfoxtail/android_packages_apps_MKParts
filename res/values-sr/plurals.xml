@@ -22,7 +22,7 @@
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> секунди</item>
     </plurals>
     <plurals name="app_ops_count">
-        <item quantity="one">%d пут</item>
+        <item quantity="one">једном</item>
         <item quantity="few">%d пута</item>
         <item quantity="other">%d пута</item>
     </plurals>

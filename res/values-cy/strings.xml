@@ -30,8 +30,6 @@
     <string name="back">Nôl</string>
     <string name="finish">Gorffen</string>
     <string name="next">Nesaf</string>
-    <string name="on">Ymlaen</string>
-    <string name="off">I ffwrdd</string>
     <string name="yes">Iawn</string>
     <string name="no">Na</string>
     <string name="search">Chwilio</string>
@@ -39,7 +37,6 @@
     <string name="enabled">Wedi\'i galluogi</string>
     <string name="privacy_settings_title">Preifatrwydd</string>
     <string name="edit_light_settings">Addasu gosodiadau golau</string>
-    <string name="default_time">Arferol</string>
     <string name="custom_time">Addasedig</string>
     <string name="dialog_delete_title">Dileu</string>
     <string name="dialog_delete_message">Tynnu\'r eitem dan sylw?</string>
@@ -47,12 +44,10 @@
     <string name="pulse_length_always_on">Ymlaen o hyd</string>
     <string name="pulse_length_very_short">Byr iawn</string>
     <string name="pulse_length_short">Byr</string>
-    <string name="pulse_length_normal">Arferol</string>
     <string name="pulse_length_long">Hir</string>
     <string name="pulse_length_very_long">Hir iawn</string>
     <string name="pulse_speed_very_fast">Cyflym iawn</string>
     <string name="pulse_speed_fast">Cyflym</string>
-    <string name="pulse_speed_normal">Arferol</string>
     <string name="notification_light_advanced_title">Uwch</string>
     <string name="live_display_color_profile_title">Proffil lliwiau</string>
     <string name="live_display_color_profile_standard_title">Safonol</string>
@@ -89,8 +84,6 @@
     <string name="profile_name_title">Enw</string>
     <string name="new_profile_name">&lt;proffil newydd&gt;</string>
     <string name="profile_reset_title">Ailosod</string>
-    <string name="profile_appgroup_name_title">Enw</string>
-    <string name="profile_choose_app">Dewisa ap</string>
     <string name="network_traffic_mode_disable">Wedi\'i analluogi</string>
     <string name="display_rotation_180_title">180 gradd</string>
     <string name="trust_feature_selinux_value_disabled">Wedi\'i analluogi</string>

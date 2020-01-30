@@ -30,7 +30,7 @@
     <string name="back">Natrag</string>
     <string name="finish">Završeno</string>
     <string name="next">Dalje</string>
-    <string name="on">Uključen</string>
+    <string name="on">Uključeno</string>
     <string name="off">Isključen</string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
@@ -234,7 +234,6 @@
     <string name="no_wifi_triggers">Nema konfiguriranih Wi-Fi pristupnih točaka.\nDodirnite da spojite Wi-Fi prije konfiguriranja okidača.</string>
     <string name="no_triggers_configured">Nema postavljenih okidača. Dodirnite za dodavanje.</string>
     <string name="no_triggers_configured_nfc">Dodirnite za postavljanje novog NFC okidača.</string>
-    <string name="profile_setup_setup_triggers_description">Molimo odaberite okidače koji će aktivirati profil</string>
     <string name="profile_setup_actions_description">Sada konfiguriraj što će se dogoditi kada je profil aktiviran</string>
     <string name="profiles_settings_title">Sistemski profili</string>
     <string name="profiles_add">Dodaj</string>
@@ -259,7 +258,7 @@
     <string name="profile_app_group_category_title">Obavijest nadjačava</string>
     <string name="profile_app_group_item_instructions">Dodaj ili ukloni grupe</string>
     <string name="profile_app_group_item_instructions_summary">Dodaj ili ukloni aplikaciju za preuzimanje obavijesti za ovaj profil</string>
-    <string name="profile_entries_on">Uključen</string>
+    <string name="profile_entries_on">Uključeno</string>
     <string name="profile_entries_off">Isključen</string>
     <string name="profile_entries_no_override">Bez nadjačavanja</string>
     <string name="profile_name_title">Naziv</string>
@@ -281,8 +280,6 @@
     <string name="profile_volume_override_checkbox_label">Prekorači jačinu</string>
     <string name="profile_profiles_manage">Profili</string>
     <string name="profile_profile_manage">Upravljanje profilima</string>
-    <string name="profile_appgroups_manage">Aplikacijske grupe</string>
-    <string name="profile_appgroup_manage">Upravljaj grupom aplikacija</string>
     <string name="profile_settings">Postavke profila</string>
     <string name="profile_trigger_connect">Prilikom povezivanja</string>
     <string name="profile_trigger_disconnect">Prilikom prekida veze</string>
@@ -295,14 +292,6 @@
     <string name="choose_ringtone">Odaberite melodiju zvona</string>
     <string name="ringtone_title">Odaberite melodiju zvona</string>
     <string name="soundtone_title">Ton obavijesti</string>
-    <string name="profile_appgroups_title">Aplikacijske grupe</string>
-    <string name="profile_applist_title">Aplikacije</string>
-    <string name="profile_new_appgroup">Nova grupa aplikacija</string>
-    <string name="profile_delete_appgroup">Izbrisati ovu grupu aplikacija?</string>
-    <string name="profile_appgroup_name_prompt">Unesite ime nove grupe aplikacija</string>
-    <string name="profile_appgroup_name_title">Naziv</string>
-    <string name="duplicate_appgroup_name">Dvostruki naziv grupe aplikacija!</string>
-    <string name="profile_choose_app">Odaberite aplikaciju</string>
     <string name="profile_system_settings_title">Postavke sustava</string>
     <string name="profile_lockmode_title">Zaključavanje zaslona</string>
     <string name="profile_lockmode_policy_disabled_summary">Ova opcija profila je onemogućena od strane administratora uređaja</string>
@@ -321,14 +310,14 @@
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">Način zvonjenja</string>
     <string name="ring_mode_normal">Normalan</string>
-    <string name="ring_mode_vibrate">Vibriraj</string>
+    <string name="ring_mode_vibrate">Vibracija</string>
     <string name="ring_mode_mute">Isključi zvuk</string>
     <string name="ring_volume_title">Glasnoća zvona</string>
     <string name="incoming_call_volume_title">Zvuk zvona</string>
     <string name="notification_volume_title">Obavijest</string>
     <string name="media_volume_title">Medija</string>
     <string name="alarm_volume_title">Alarm</string>
-    <string name="doze_title">Ambijentni prikaz</string>
+    <string name="doze_title">Ambijentalni zaslon</string>
     <string name="status_bar_title">Traka statusa</string>
     <string name="status_bar_quick_qs_pulldown_title">Brzo potezanje</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s rub trake stanja povlači dolje Brze postavke</string>

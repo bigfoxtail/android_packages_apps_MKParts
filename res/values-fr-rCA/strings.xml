@@ -239,7 +239,6 @@
     <string name="no_wifi_triggers">Aucun point d\'accès Wi\u2011Fi configuré.\nAppuyez pour connecter le Wi\u2011Fi avant de configurer les actions.</string>
     <string name="no_triggers_configured">Aucune action configurée. Appuyez pour en ajouter.</string>
     <string name="no_triggers_configured_nfc">Appuyez pour configurer une nouvelle action NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Veuillez sélectionner les actions qui activeront ce profil</string>
     <string name="profile_setup_actions_description">Configurer maintenant ce qu\'il se passe lorsque le profil est activé</string>
     <string name="profiles_settings_title">Profils système</string>
     <string name="profiles_add">Ajouter</string>
@@ -286,8 +285,6 @@
     <string name="profile_volume_override_checkbox_label">Modifier le volume</string>
     <string name="profile_profiles_manage">Profils</string>
     <string name="profile_profile_manage">Gérer le profil</string>
-    <string name="profile_appgroups_manage">Groupe d\'applications</string>
-    <string name="profile_appgroup_manage">Gérer le groupe d\'applications</string>
     <string name="profile_settings">Paramètres du profil</string>
     <string name="profile_trigger_connect">À la connexion</string>
     <string name="profile_trigger_disconnect">À la déconnexion</string>
@@ -300,14 +297,6 @@
     <string name="choose_ringtone">Choisir une sonnerie</string>
     <string name="ringtone_title">Sonnerie du téléphone</string>
     <string name="soundtone_title">Son de notification</string>
-    <string name="profile_appgroups_title">Groupe d\'applications</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="profile_new_appgroup">Nouveau groupe d\'applications</string>
-    <string name="profile_delete_appgroup">Supprimer ce groupe d\'applications?</string>
-    <string name="profile_appgroup_name_prompt">Entrez un nom pour le nouveau groupe d\'applications</string>
-    <string name="profile_appgroup_name_title">Nom: </string>
-    <string name="duplicate_appgroup_name">Nom du groupe d\'applications déjà utilisé !</string>
-    <string name="profile_choose_app">Choisissez une application</string>
     <string name="profile_system_settings_title">Paramètres Système</string>
     <string name="profile_lockmode_title">Mode de verrouillage de l\'écran</string>
     <string name="profile_lockmode_policy_disabled_summary">Ce profil a été désactivé par une politique de gestion des périphériques</string>
@@ -354,8 +343,8 @@
     <string name="status_bar_clock_show_seconds_title">Afficher les secondes</string>
     <string name="status_bar_clock_show_seconds_summary">Afficher les heures, minutes et secondes</string>
     <string name="status_bar_clock_position_title">Position de l’horloge</string>
-    <string name="status_bar_clock_position_right">À droite</string>
-    <string name="status_bar_clock_position_left">À gauche</string>
+    <string name="status_bar_clock_position_right">Droite</string>
+    <string name="status_bar_clock_position_left">Gauche</string>
     <string name="status_bar_clock_position_center">Au centre</string>
     <string name="status_bar_am_pm_title">Style AM/PM</string>
     <string name="status_bar_am_pm_info">L’affichage sur 24 heures est activé</string>

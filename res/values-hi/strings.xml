@@ -159,12 +159,6 @@
     <string name="choose_ringtone">रिंगटोन का चयन करें</string>
     <string name="ringtone_title">फ़ोन रिंगटोन</string>
     <string name="soundtone_title">अधिसूचना टोन</string>
-    <string name="profile_new_appgroup">नया ऐप समूह</string>
-    <string name="profile_delete_appgroup">इस समूह को हटायें</string>
-    <string name="profile_appgroup_name_prompt">नये एप ग्रुप के लिए नाम दर्ज करें</string>
-    <string name="profile_appgroup_name_title">नाम</string>
-    <string name="duplicate_appgroup_name">डुप्लिकेट ऐप समूह का नाम!</string>
-    <string name="profile_choose_app">ऐप का चयन करे</string>
     <string name="profile_system_settings_title">सिस्टम सेटिंग</string>
     <string name="profile_lockmode_title">लॉक स्क्रीन मोड</string>
     <string name="profile_lockmode_policy_disabled_summary">यह प्रोफ़ाइल विकल्प किसी डिवाइस व्यवस्थापक नीति द्वारा अक्षम किया गया है</string>
@@ -182,11 +176,11 @@
     <string name="toggleSync">ऑटो-सिंक्रोनाइज़ डेटा</string>
     <string name="toggleNfc">एनएफसी</string>
     <string name="ring_mode_normal">सामान्य</string>
-    <string name="ring_mode_vibrate">कंपन करें</string>
+    <string name="ring_mode_vibrate">वाइब्रेट</string>
     <string name="ring_mode_mute">म्यूट करें</string>
     <string name="ring_volume_title">रिंग वोल्यूम</string>
     <string name="incoming_call_volume_title">रिंगटोन</string>
-    <string name="notification_volume_title">अधिसूचना</string>
+    <string name="notification_volume_title">सूचनाएँ</string>
     <string name="media_volume_title">माध्यम</string>
     <string name="alarm_volume_title">अलार्म</string>
     <string name="doze_title">परिवेशी प्रदर्शन</string>
@@ -217,6 +211,6 @@
     <string name="protected_apps_manager_title">रक्षित ऐप</string>
     <string name="status_bar_show_weather_title">मौसम दिखाएँ</string>
     <string name="auto_power_save_never">कभी नहीं</string>
-    <string name="power_notifications_vibrate_title">कंपन करें</string>
-    <string name="charging_sounds_ringtone_silent">मौन</string>
+    <string name="power_notifications_vibrate_title">वाइब्रेट</string>
+    <string name="charging_sounds_ringtone_silent">शाँत</string>
 </resources>

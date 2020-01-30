@@ -61,7 +61,7 @@
     <string name="status_bar_double_tap_to_sleep_summary">ئېكراننى تاقاش ئۈچۈن ھالەت بالداقنى قوش چېكىڭ</string>
     <string name="status_bar_am_pm_normal">نورمال</string>
     <string name="status_bar_battery_style_text">تېكىست</string>
-    <string name="status_bar_brightness_category">يورۇقلۇق</string>
+    <string name="status_bar_brightness_category">يورۇقلۇق دەرىجىسى</string>
     <string name="protected_apps_manager_title">قوغدالغان ئەپلەر</string>
     <string name="protected_apps_manager_summary">بىخەتەر قۇلۇپ تەرىپىدىن يوشۇرۇپ قويۇلغان ئەپنى باشقۇرۇش</string>
     <string name="display_rotation_0_title">0 گىرادۇس</string>

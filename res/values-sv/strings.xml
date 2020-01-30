@@ -30,7 +30,7 @@
     <string name="back">Tillbaka</string>
     <string name="finish">Avsluta </string>
     <string name="next">Nästa</string>
-    <string name="on">På</string>
+    <string name="on">Aktiverad</string>
     <string name="off">Av</string>
     <string name="yes">Ja</string>
     <string name="no">Nej</string>
@@ -132,10 +132,10 @@
     <string name="hardware_keys_action_sleep">Stäng av skärmen</string>
     <string name="hardware_keys_action_last_app">Senaste app</string>
     <string name="hardware_keys_action_split_screen">Delad skärm</string>
-    <string name="camera_launch_title">Starta kamera</string>
+    <string name="camera_launch_title">Öppna kamera</string>
     <string name="volbtn_music_controls_title">Kontrollera uppspelning</string>
     <string name="volbtn_cursor_control_title">Tangentbordsmarkörkontroll</string>
-    <string name="volbtn_cursor_control_off">Inaktiverad</string>
+    <string name="volbtn_cursor_control_off">Avaktiverad</string>
     <string name="volbtn_cursor_control_on">Volym upp/ner flyttar markören vänster/höger</string>
     <string name="volbtn_cursor_control_on_reverse">Volym upp/ner flyttar markören höger/vänster</string>
     <string name="power_end_call_title">Avsluta samtal</string>
@@ -186,7 +186,7 @@
     <string name="no_triggers_configured_nfc">Tryck för att ställa in en ny NFC-utlösare.</string>
     <string name="profiles_settings_title">Systemprofiler</string>
     <string name="profiles_add">Lägg till</string>
-    <string name="profile_menu_delete">Radera</string>
+    <string name="profile_menu_delete">Ta bort</string>
     <string name="profile_settings_title">Profil</string>
     <string name="profile_empty_list_profiles_off">För att konfigurera och använda systemprofiler, slå på profiler.</string>
     <string name="profile_settings_summary_off">Profiler inaktiverat</string>
@@ -199,7 +199,7 @@
     <string name="profile_menu_fill_from_state">Importera nuvarande enhetsinställningar</string>
     <string name="profile_remove_current_profile">Kan inte ta bort nuvarande profil!</string>
     <string name="profile_app_group_item_instructions">Lägg till eller ta bort grupper</string>
-    <string name="profile_entries_on">På</string>
+    <string name="profile_entries_on">Aktiverad</string>
     <string name="profile_entries_off">Av</string>
     <string name="profile_name_title">Namn</string>
     <string name="new_profile_name">&lt;ny profil&gt;</string>
@@ -218,8 +218,6 @@
     <string name="volume_override_summary">Ställ till %1$s/%2$s</string>
     <string name="profile_profiles_manage">Profiler</string>
     <string name="profile_profile_manage">Hantera profil</string>
-    <string name="profile_appgroups_manage">Appgrupper</string>
-    <string name="profile_appgroup_manage">Hantera appgrupp</string>
     <string name="profile_settings">Profilinställningar</string>
     <string name="profile_trigger_connect">Vid anslutning</string>
     <string name="profile_trigger_disconnect">Vid frånkoppling</string>
@@ -229,13 +227,6 @@
     <string name="vibrate_mode">Vibrationsläge</string>
     <string name="choose_ringtone">Välj rignsignal</string>
     <string name="ringtone_title">Ringsignal för telefonen</string>
-    <string name="profile_appgroups_title">Appgrupper</string>
-    <string name="profile_applist_title">Appar</string>
-    <string name="profile_new_appgroup">Ny app-grupp</string>
-    <string name="profile_delete_appgroup">Ta bort den här app-gruppen?</string>
-    <string name="profile_appgroup_name_prompt">Ange ett namn för den nya appgruppen</string>
-    <string name="profile_appgroup_name_title">Namn</string>
-    <string name="profile_choose_app">Välj app</string>
     <string name="profile_system_settings_title">Systeminställningar</string>
     <string name="profile_lockmode_title">Låsskärmsläge</string>
     <string name="profile_lockmode_insecure_summary">Fråga inte efter PIN eller lösenord</string>
@@ -258,7 +249,6 @@
     <string name="notification_volume_title">Notifikation</string>
     <string name="media_volume_title">Media</string>
     <string name="alarm_volume_title">Alarm</string>
-    <string name="doze_title">Omgivningsskärm</string>
     <string name="status_bar_title">Statusfält</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Vänster</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Höger</string>
@@ -291,7 +281,7 @@
     <string name="status_bar_brightness_slider_auto_title">Automatisk ljusstyrka</string>
     <string name="status_bar_toggle_brightness">Ljusstyrkekontroll</string>
     <string name="network_traffic_mode_title">Visningsläge</string>
-    <string name="network_traffic_mode_disable">Inaktiverad</string>
+    <string name="network_traffic_mode_disable">Avaktiverad</string>
     <string name="protected_apps_manager_title">Skyddade appar</string>
     <string name="protected_apps_manager_summary">Hantera vilka appar som döljs bakom ett säkert lås</string>
     <string name="accelerometer_title">Rotera skärmen automatiskt</string>
@@ -333,7 +323,7 @@
     <string name="charging_sounds_enabled_title">Aktivera</string>
     <string name="power_notifications_vibrate_title">Vibrera</string>
     <string name="charging_sounds_ringtone_title">Aviseringsljud</string>
-    <string name="charging_sounds_ringtone_silent">Tyst</string>
+    <string name="charging_sounds_ringtone_silent">Ljudlös</string>
     <string name="touchscreen_gesture_settings_title">Touchscreen-gester</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Haptisk feedback</string>
     <string name="touchscreen_gesture_two_finger_down_swipe_title">Dra ner med två fingrar</string>
@@ -363,10 +353,10 @@
     <string name="touchscreen_gesture_action_previous_track">Navigera till föregående musikspår</string>
     <string name="touchscreen_gesture_action_next_track">Hoppa till nästa musikspår</string>
     <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_disabled">Inaktiverad</string>
+    <string name="trust_feature_selinux_value_disabled">Avaktiverad</string>
     <string name="trust_feature_encryption_value_enabled">Aktiverad</string>
-    <string name="trust_feature_encryption_value_disabled">Inaktiverad</string>
-    <string name="trust_category_tools">Integritet</string>
+    <string name="trust_feature_encryption_value_disabled">Avaktiverad</string>
+    <string name="trust_category_tools">Sekretess</string>
     <string name="trust_onboarding_learn_more">Läs mer</string>
     <string name="trust_onboarding_done">Förstått</string>
 </resources>

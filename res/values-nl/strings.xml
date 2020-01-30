@@ -234,7 +234,6 @@
     <string name="no_wifi_triggers">Geen draadloze toegangspunten ingesteld.\nTik om met wifi te verbinden alvorens triggers in te stellen.</string>
     <string name="no_triggers_configured">Geen triggers ingesteld. Tik om toe te voegen.</string>
     <string name="no_triggers_configured_nfc">Tik om nieuwe NFC-trigger in te stellen.</string>
-    <string name="profile_setup_setup_triggers_description">Selecteer de triggers die dit profiel activeren</string>
     <string name="profile_setup_actions_description">Selecteer nu wat er moet gebeuren wanneer dit profiel wordt geactiveerd</string>
     <string name="profiles_settings_title">Systeemprofielen</string>
     <string name="profiles_add">Toevoegen</string>
@@ -281,8 +280,6 @@
     <string name="profile_volume_override_checkbox_label">Volume geforceerd wijzigen</string>
     <string name="profile_profiles_manage">Profielen</string>
     <string name="profile_profile_manage">Profiel beheren</string>
-    <string name="profile_appgroups_manage">App-groepen</string>
-    <string name="profile_appgroup_manage">App-groep beheren</string>
     <string name="profile_settings">Profielinstellingen</string>
     <string name="profile_trigger_connect">Bij verbinden</string>
     <string name="profile_trigger_disconnect">Bij verbroken verbinding</string>
@@ -295,14 +292,6 @@
     <string name="choose_ringtone">Beltoon kiezen</string>
     <string name="ringtone_title">Beltoon</string>
     <string name="soundtone_title">Meldingsgeluid</string>
-    <string name="profile_appgroups_title">App-groepen</string>
-    <string name="profile_applist_title">Apps</string>
-    <string name="profile_new_appgroup">Nieuwe app-groep</string>
-    <string name="profile_delete_appgroup">Deze app-groep verwijderen?</string>
-    <string name="profile_appgroup_name_prompt">Naam invoeren voor nieuwe app-groep</string>
-    <string name="profile_appgroup_name_title">Naam</string>
-    <string name="duplicate_appgroup_name">Naam bestaat al</string>
-    <string name="profile_choose_app">App selecteren</string>
     <string name="profile_system_settings_title">Systeeminstellingen</string>
     <string name="profile_lockmode_title">Type schermvergrendeling</string>
     <string name="profile_lockmode_policy_disabled_summary">Deze profieloptie is uitgeschakeld door het beleid van de apparaatbeheerder</string>
@@ -348,8 +337,8 @@
     <string name="status_bar_clock_show_seconds_title">Toon seconden</string>
     <string name="status_bar_clock_show_seconds_summary">Toon uren, minuten en seconden</string>
     <string name="status_bar_clock_position_title">Indeling klok</string>
-    <string name="status_bar_clock_position_right">Rechts</string>
-    <string name="status_bar_clock_position_left">Links</string>
+    <string name="status_bar_clock_position_right">Rechterkant</string>
+    <string name="status_bar_clock_position_left">Linkerkant</string>
     <string name="status_bar_clock_position_center">Midden</string>
     <string name="status_bar_am_pm_title">AM/PM-stijl</string>
     <string name="status_bar_am_pm_info">24-uurs klok is ingeschakeld</string>

@@ -218,7 +218,6 @@
     <string name="no_wifi_triggers">Ingen Wi\u2011Fi-adgangspunkter konfigureret.\nTryk for at forbinde til Wi\u2011Fi, før du konfigurerer udløsere.</string>
     <string name="no_triggers_configured">Ingen udløsere er konfigureret. Tryk her for at tilføje flere.</string>
     <string name="no_triggers_configured_nfc">Tryk for at konfigurere en ny NFC-udløser.</string>
-    <string name="profile_setup_setup_triggers_description">Vælg udløsere, som vil aktivere denne profil</string>
     <string name="profile_setup_actions_description">Nu skal du konfigurere, hvad der sker, når profilen er aktiveret</string>
     <string name="profiles_settings_title">Systemprofiler</string>
     <string name="profiles_add">Tilføj</string>
@@ -260,8 +259,6 @@
     <string name="profile_volume_override_checkbox_label">Tilsidesæt lydstyrke</string>
     <string name="profile_profiles_manage">Profiler</string>
     <string name="profile_profile_manage">Administrér profil</string>
-    <string name="profile_appgroups_manage">App-grupper</string>
-    <string name="profile_appgroup_manage">Administrér app-gruppe</string>
     <string name="profile_settings">Profilindstillinger</string>
     <string name="profile_trigger_connect">Ved tilslutning</string>
     <string name="profile_trigger_disconnect">Ved frakobling</string>
@@ -274,13 +271,6 @@
     <string name="choose_ringtone">Vælg ringetone</string>
     <string name="ringtone_title">Ringetone</string>
     <string name="soundtone_title">Underretningslyd</string>
-    <string name="profile_appgroups_title">App-grupper</string>
-    <string name="profile_new_appgroup">Ny app-gruppe</string>
-    <string name="profile_delete_appgroup">Slet denne app-gruppe?</string>
-    <string name="profile_appgroup_name_prompt">Angiv et navn for den nye app-gruppe</string>
-    <string name="profile_appgroup_name_title">Navn</string>
-    <string name="duplicate_appgroup_name">Duplikér app-gruppenavn!</string>
-    <string name="profile_choose_app">Vælg app</string>
     <string name="profile_system_settings_title">Systemindstillinger</string>
     <string name="profile_lockmode_title">Skærmlåstilstand</string>
     <string name="profile_lockmode_policy_disabled_summary">Denne profil-indstilling er deaktiveret af en administrator-enhedspolitik</string>
@@ -296,7 +286,7 @@
     <string name="toggleSync">Auto-synk. data</string>
     <string name="ring_mode_title">Lydtilstand</string>
     <string name="ring_mode_normal">Normal</string>
-    <string name="ring_mode_vibrate">Vibration</string>
+    <string name="ring_mode_vibrate">Vibrér</string>
     <string name="ring_mode_mute">Gør lydløs</string>
     <string name="ring_volume_title">Lydstyrke for ringetone</string>
     <string name="incoming_call_volume_title">Ringetone</string>
@@ -345,7 +335,7 @@
     <string name="status_bar_toggle_brightness">Lysstyrkeregulering</string>
     <string name="status_bar_toggle_brightness_summary">Justér lysstyrken ved at stryge på tværs af statuslinjen</string>
     <string name="network_traffic_mode_title">Visningstilstand</string>
-    <string name="network_traffic_mode_disable">Inaktiv</string>
+    <string name="network_traffic_mode_disable">Deaktiveret</string>
     <string name="protected_apps_manager_title">Beskyttede apps</string>
     <string name="protected_apps_manager_summary">Administrer, hvilke apps, der er skjult bag en sikker lås</string>
     <string name="contributors_cloud_fragment_title">Bidragydere</string>
@@ -442,8 +432,8 @@
     <string name="touchscreen_gesture_action_play_pause_music">Afspilning/pause for musik</string>
     <string name="touchscreen_gesture_action_previous_track">Navigér til forrige musiknummer</string>
     <string name="touchscreen_gesture_action_next_track">Spring til næste musiknummer</string>
-    <string name="trust_feature_selinux_value_disabled">Inaktiv</string>
+    <string name="trust_feature_selinux_value_disabled">Deaktiveret</string>
     <string name="trust_feature_encryption_value_enabled">Aktiveret</string>
-    <string name="trust_feature_encryption_value_disabled">Inaktiv</string>
+    <string name="trust_feature_encryption_value_disabled">Deaktiveret</string>
     <string name="trust_category_tools">Privatliv</string>
 </resources>

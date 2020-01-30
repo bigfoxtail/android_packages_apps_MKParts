@@ -31,7 +31,7 @@
     <string name="finish">Končaj</string>
     <string name="next">Naprej</string>
     <string name="on">Vklopljeno</string>
-    <string name="off">Izklopljeno</string>
+    <string name="off">Izklopljen</string>
     <string name="yes">Da</string>
     <string name="no">Ne</string>
     <string name="search">Išči</string>
@@ -40,7 +40,7 @@
     <string name="privacy_settings_title">Zasebnost</string>
     <string name="edit_light_settings">Uredite nastavitve lučke</string>
     <string name="pulse_speed_title">Dolžina in hitrost utripanja</string>
-    <string name="default_time">Običajna</string>
+    <string name="default_time">Običajno</string>
     <string name="custom_time">Po meri</string>
     <string name="dialog_delete_title">Izbriši</string>
     <string name="dialog_delete_message">Odstrani izbrani predmet?</string>
@@ -48,21 +48,21 @@
     <string name="pulse_length_always_on">Vedno vklopljena</string>
     <string name="pulse_length_very_short">Zelo kratka</string>
     <string name="pulse_length_short">Kratka</string>
-    <string name="pulse_length_normal">Običajna</string>
+    <string name="pulse_length_normal">Običajno</string>
     <string name="pulse_length_long">Dolga</string>
     <string name="pulse_length_very_long">Zelo dolga</string>
     <string name="pulse_speed_very_fast">Zelo hitra</string>
     <string name="pulse_speed_fast">Hitra</string>
-    <string name="pulse_speed_normal">Običajna</string>
+    <string name="pulse_speed_normal">Običajno</string>
     <string name="pulse_speed_slow">Počasna</string>
     <string name="pulse_speed_very_slow">Zelo počasna</string>
     <string name="light_brightness_title">Ravni svetlosti</string>
-    <string name="light_brightness_normal">Običajna</string>
+    <string name="light_brightness_normal">Običajno</string>
     <string name="light_brightness_zen">Ne moti</string>
     <string name="battery_light_title">Lučka za baterijo</string>
-    <string name="battery_low_pulse_title">Utripaj, če je baterija skoraj prazna</string>
+    <string name="battery_low_pulse_title">Utripaj, če je akumulator skoraj prazen</string>
     <string name="battery_light_list_title">Barve</string>
-    <string name="battery_light_low_color_title">Nizko stanje baterije</string>
+    <string name="battery_light_low_color_title">Nizko stanje akumulatorja</string>
     <string name="battery_light_medium_color_title">Polnjenje</string>
     <string name="battery_light_full_color_title">Napolnjena</string>
     <string name="notification_light_title">Lučka za obvestila</string>
@@ -162,7 +162,7 @@
     <string name="volbtn_music_controls_title">Nadzor predvajanja</string>
     <string name="volbtn_music_controls_summary">Iščite skladbe z dolgim pritiskom na tipki za glasnost med izklopljenim zaslonom</string>
     <string name="volbtn_cursor_control_title">Nadzor kazalca s tipkovnico</string>
-    <string name="volbtn_cursor_control_off">Onemogočen</string>
+    <string name="volbtn_cursor_control_off">Onemogočeno</string>
     <string name="volbtn_cursor_control_on">Glasnost gor/dol premakne kazalec levo/desno</string>
     <string name="volbtn_cursor_control_on_reverse">Glasnost gor/dol premakne kazalec desno/levo</string>
     <string name="power_end_call_title">Končaj klic</string>
@@ -184,9 +184,9 @@
     <string name="keyboard_backlight_seekbar_title">Svetlost tipkovnice</string>
     <string name="backlight_timeout_title">Časovna omejitev osvetlitve</string>
     <string name="backlight_timeout_unlimited">Ne izklopi</string>
-    <string name="backlight_summary_disabled">Onemogočena</string>
+    <string name="backlight_summary_disabled">Onemogočeno</string>
     <string name="backlight_summary_enabled_with_timeout">Omogočena za <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Omogočena</string>
+    <string name="backlight_summary_enabled">Omogočeno</string>
     <string name="disable_navkeys_title">Omogoči vrstico za krmarjenje na zaslonu</string>
     <string name="disable_navkeys_summary">Omogoči vrstico za krmarjenje na zaslonu in onemogoči fizične gumbe</string>
     <string name="navigation_bar_category">Vrstica za krmarjenje</string>
@@ -235,7 +235,6 @@
     <string name="no_wifi_triggers">Nobene dostopne točke Wi\u2011Fi ni nastavljene.\nTapnite, da povežete Wi\u2011Fi pred nastavitvijo sprožilcev.</string>
     <string name="no_triggers_configured">Ni nastavljenih sprožilcev. Tapnite, da jih dodate.</string>
     <string name="no_triggers_configured_nfc">Tapnite za namestitev novega sprožilca NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Izberite sprožilce, ki bodo omogočili ta profil</string>
     <string name="profile_setup_actions_description">Zdaj nastavite, kaj naj se zgodi, ko je profil omogočen</string>
     <string name="profiles_settings_title">Sistemski profili</string>
     <string name="profiles_add">Dodaj</string>
@@ -261,7 +260,7 @@
     <string name="profile_app_group_item_instructions">Dodaj ali odstrani skupine</string>
     <string name="profile_app_group_item_instructions_summary">Dodaj ali odstrani skupine aplikacij za preglasitev obvestil iz tega profila</string>
     <string name="profile_entries_on">Vklopljeno</string>
-    <string name="profile_entries_off">Izklopljeno</string>
+    <string name="profile_entries_off">Izklopljen</string>
     <string name="profile_entries_no_override">Brez preglasitev</string>
     <string name="profile_name_title">Ime</string>
     <string name="new_profile_name">&lt;nov profil&gt;</string>
@@ -282,8 +281,6 @@
     <string name="profile_volume_override_checkbox_label">Preglasi glasnost</string>
     <string name="profile_profiles_manage">Profili</string>
     <string name="profile_profile_manage">Upravljaj s profilom</string>
-    <string name="profile_appgroups_manage">Skupine aplikacij</string>
-    <string name="profile_appgroup_manage">Upravljaj s skupinami aplikacij</string>
     <string name="profile_settings">Nastavitve profila</string>
     <string name="profile_trigger_connect">Ob povezavi</string>
     <string name="profile_trigger_disconnect">Ob prekinitvi povezave</string>
@@ -296,14 +293,6 @@
     <string name="choose_ringtone">Izberite melodijo zvonjenja</string>
     <string name="ringtone_title">Melodija zvonjenja</string>
     <string name="soundtone_title">Ton obvestila</string>
-    <string name="profile_appgroups_title">Skupine aplikacij</string>
-    <string name="profile_applist_title">Aplikacije</string>
-    <string name="profile_new_appgroup">Nova skupina aplikacij</string>
-    <string name="profile_delete_appgroup">Izbriši to skupino aplikacij?</string>
-    <string name="profile_appgroup_name_prompt">Vnesite ime za novo skupino aplikacij</string>
-    <string name="profile_appgroup_name_title">Ime</string>
-    <string name="duplicate_appgroup_name">Podvojeno ime skupine aplikacij!</string>
-    <string name="profile_choose_app">Izberite aplikacijo</string>
     <string name="profile_system_settings_title">Sistemske nastavitve</string>
     <string name="profile_lockmode_title">Način zaklepanja zaslona</string>
     <string name="profile_lockmode_policy_disabled_summary">To možnost profila je onemogočilo pravilo skrbnika naprave</string>
@@ -322,7 +311,7 @@
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">Način zvonjenja</string>
     <string name="ring_mode_normal">Običajno</string>
-    <string name="ring_mode_vibrate">Vibriraj</string>
+    <string name="ring_mode_vibrate">Vibriranje</string>
     <string name="ring_mode_mute">Utišaj</string>
     <string name="ring_volume_title">Glasnost zvonjenja</string>
     <string name="incoming_call_volume_title">Melodija zvonjenja</string>
@@ -335,9 +324,9 @@
     <string name="status_bar_quick_qs_pulldown_summary">%1$s rob vrstice stanja spusti Hitre nastavitve</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Levo</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Desno</string>
-    <string name="status_bar_quick_qs_pulldown_off">Izklopljeno</string>
-    <string name="status_bar_quick_qs_pulldown_left">Levi</string>
-    <string name="status_bar_quick_qs_pulldown_right">Desni</string>
+    <string name="status_bar_quick_qs_pulldown_off">Izklopljen</string>
+    <string name="status_bar_quick_qs_pulldown_left">Levo</string>
+    <string name="status_bar_quick_qs_pulldown_right">Desno</string>
     <string name="status_bar_double_tap_to_sleep_title">Dvojni tap za spanje</string>
     <string name="status_bar_double_tap_to_sleep_summary">Dvakrat tapnite na vrstico stanja, da izklopite zaslon</string>
     <string name="status_bar_icons_title">Ikone vrstice stanja</string>
@@ -357,12 +346,12 @@
     <string name="status_bar_am_pm_normal">Običajno</string>
     <string name="status_bar_am_pm_small">Majhno</string>
     <string name="status_bar_am_pm_hidden">Skrito</string>
-    <string name="status_bar_battery_title">Stanje baterije</string>
-    <string name="status_bar_battery_style_title">Slog stanja baterije</string>
+    <string name="status_bar_battery_title">Stanje akumulatorja</string>
+    <string name="status_bar_battery_style_title">Slog stanja akumulatorja</string>
     <string name="status_bar_battery_style_icon_portrait">Pokončna ikona</string>
     <string name="status_bar_battery_style_circle">Krog</string>
     <string name="status_bar_battery_style_text">Besedilo</string>
-    <string name="status_bar_battery_percentage_title">Odstotek baterije</string>
+    <string name="status_bar_battery_percentage_title">Odstotek napolnjenosti akumulatorja</string>
     <string name="status_bar_battery_percentage_default">Skrito</string>
     <string name="status_bar_battery_percentage_text_inside">V ikoni</string>
     <string name="status_bar_battery_percentage_text_next">Poleg ikone</string>
@@ -376,7 +365,7 @@
     <string name="network_traffic_settings_title">Nadzornik omrežnega prometa</string>
     <string name="network_traffic_settings_summary">Prikaz trenutnih ravni omrežnega prometa v vrstici stanja</string>
     <string name="network_traffic_mode_title">Način prikaza</string>
-    <string name="network_traffic_mode_disable">Onemogočen</string>
+    <string name="network_traffic_mode_disable">Onemogočeno</string>
     <string name="network_traffic_mode_up">Samo poslano</string>
     <string name="network_traffic_mode_down">Samo prejeto</string>
     <string name="network_traffic_mode_all">Poslano in prejeto</string>
@@ -420,7 +409,7 @@
     <string name="weather_settings_keyword">vreme</string>
     <string name="status_bar_show_weather_title">Prikaži vreme</string>
     <string name="status_bar_show_weather_summary">Prikaži trenutno temperaturo v vrstici stanja</string>
-    <string name="perf_profile_settings_title">Ohranjevalnik baterije in zmogljivost</string>
+    <string name="perf_profile_settings_title">Varčevanje z energijo akumulatorja in zmogljivost</string>
     <string name="perf_profile_settings_summary">Prilagodi značilnosti varčevanja z energijo in zmogljivost naprave</string>
     <string name="perf_profile_overview_summary">Trenutni profil: <xliff:g id="perf_profile_name">%1$s</xliff:g></string>
     <string name="perf_profile_category_title">Zmogljivost naprave</string>
@@ -430,7 +419,7 @@
     <string name="power_save_title">Strogo varčevanje z energijo</string>
     <string name="power_save_summary">Omeji zmogljivost naprave in dejavnosti v ozadju za prihranek energije</string>
     <string name="auto_power_save_title">Samodejno varčevanje z energijo</string>
-    <string name="auto_power_save_summary_on">Samodejno omogoči način varčevanja z energijo, ko je stanje baterije %s</string>
+    <string name="auto_power_save_summary_on">Samodejno omogoči način varčevanja z energijo, ko je stanje akumulatorja %s</string>
     <string name="auto_power_save_summary_off">Ne omogočaj načina varčevanja z energijo samodejno</string>
     <string name="auto_power_save_never">Nikoli</string>
     <string name="expanded_desktop_settings_title">Razširjeno namizje</string>
@@ -447,7 +436,7 @@
     <string name="charging_sounds_settings_title">Zvoki ob polnjenju</string>
     <string name="charging_sounds_enabled_title">Omogoči</string>
     <string name="charging_sounds_enabled_summary">Predvajaj zvok ob priključitvi ali izključitvi vira napajanja</string>
-    <string name="power_notifications_vibrate_title">Vibriraj</string>
+    <string name="power_notifications_vibrate_title">Vibriranje</string>
     <string name="charging_sounds_ringtone_title">Zvok obvestila</string>
     <string name="charging_sounds_ringtone_silent">Tiho</string>
     <string name="touchscreen_gesture_settings_title">Poteze na zaslonu na dotik</string>
@@ -502,7 +491,7 @@
     <string name="trust_feature_security_patches_value_old">zastareli</string>
     <string name="trust_feature_security_patches_explain">Varnostni popravki so izdani mesečno s strani Googla v sodelovanju s proizvajalci SoC-ov, da naslovijo pomanjkljivosti, ki jih lahko zlonamerne aplikacije izrabijo za obvoz varnostnih omejitev in lahko povzročijo trajne poškodbe vaše naprave. Popravki s strani Googla so na vseh podprtih napravah uveljavljeni vsak mesec, vendar so lahko popravki lastniške kode uveljavljeni samo s strani proizvajalca naprave. Da ohranite vašo napravo varno, poskrbite, da je vaša izgradnja MoKee vedno posodobljena in (v kolikor je na voljo) odtis dobavitelja posodobobljen na zadnjo različico priporočeno s strani MoKee.</string>
     <string name="trust_feature_encryption">Enkripcija</string>
-    <string name="trust_feature_encryption_value_enabled">Omogočen</string>
+    <string name="trust_feature_encryption_value_enabled">Omogočeno</string>
     <string name="trust_feature_encryption_value_nolock">Potreben je varni zaklenjen zaslon</string>
     <string name="trust_feature_encryption_value_disabled">Onemogočeno</string>
     <string name="trust_feature_encryption_explain">Šifriranje vaše naprave prepreči dostop do vaših podatkov, ko vaš telefon ni zagnan v Android. To je še posebej pomembno, če vam telefon ukradejo, saj prepreči osebam brez gesla branje vaših sporočil, stikov ali drugih zasebnih podatkov.

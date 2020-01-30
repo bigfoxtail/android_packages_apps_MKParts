@@ -239,7 +239,6 @@
     <string name="no_wifi_triggers">Ühtegi Wi\u2011Fi pöörduspunkti ei ole seadistatud.\nKoputa Wi\u2011Fi ühendamiseks enne päästikute seadistamist.</string>
     <string name="no_triggers_configured">Ühtegi päästikut pole seadistatud. Koputa lisamiseks.</string>
     <string name="no_triggers_configured_nfc">Koputa uue NFC-päästiku seadistamiseks.</string>
-    <string name="profile_setup_setup_triggers_description">Palun vali päästikud, mis aktiveerivad selle profiili</string>
     <string name="profile_setup_actions_description">Nüüd seadista, mis juhtub, kui profiil aktiveeritakse</string>
     <string name="profiles_settings_title">Süsteemi profiilid</string>
     <string name="profiles_add">Lisa</string>
@@ -286,8 +285,6 @@
     <string name="profile_volume_override_checkbox_label">Sunni antud helitugevust</string>
     <string name="profile_profiles_manage">Profiilid</string>
     <string name="profile_profile_manage">Halda profiili</string>
-    <string name="profile_appgroups_manage">Rakenduste grupid</string>
-    <string name="profile_appgroup_manage">Halda rakenduste gruppi</string>
     <string name="profile_settings">Profiili seaded</string>
     <string name="profile_trigger_connect">Ühendamisel</string>
     <string name="profile_trigger_disconnect">Ühenduse katkemisel</string>
@@ -300,14 +297,6 @@
     <string name="choose_ringtone">Vali helin</string>
     <string name="ringtone_title">Telefoni helin</string>
     <string name="soundtone_title">Teavituse toon</string>
-    <string name="profile_appgroups_title">Rakenduste grupid</string>
-    <string name="profile_applist_title">Rakendused</string>
-    <string name="profile_new_appgroup">Uus rakenduste grupp</string>
-    <string name="profile_delete_appgroup">Kustutad selle rakendustegrupi?</string>
-    <string name="profile_appgroup_name_prompt">Sisesta uuele rakendustegrupile nimi</string>
-    <string name="profile_appgroup_name_title">Nimi</string>
-    <string name="duplicate_appgroup_name">Topelt rakendustegrupi nimi!</string>
-    <string name="profile_choose_app">Vali rakendus</string>
     <string name="profile_system_settings_title">Süsteemi seaded</string>
     <string name="profile_lockmode_title">Lukustusekraani tüüp</string>
     <string name="profile_lockmode_policy_disabled_summary">See profiilivalik on seadme administraatori poliitikaga keelatud</string>
@@ -393,13 +382,13 @@
     <string name="contributors_cloud_loading_message">Laadin toetajate infot\u2026</string>
     <string name="contributors_cloud_failed_message">Toetajate andmete laadimine ebaõnnestus</string>
     <string name="contributor_info_menu">Toetajate info</string>
-    <string name="contributor_info_msg">&lt;b&gt;Nimi:&lt;/b&gt; &lt;xliff:g id=\"name\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Hüüdnimi:&lt;/b&gt; &lt;xliff:g id=\"nick\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Muudatused:&lt;/b&gt; &lt;xliff:g id=\"commits\"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributor_info_msg">&lt;b&gt;Nimi:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Hüüdnimi:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Muudatused:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="contributions_info_menu">Toetuste info</string>
-    <string name="contributions_info_msg">&lt;b&gt;Toetajaid kokku:&lt;/b&gt; &lt;xliff:g id=\"total_contributors\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Muudatusi kokku:&lt;/b&gt; &lt;xliff:g id=\"total_commits\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Viimane uuendus:&lt;/b&gt; &lt;xliff:g id=\"date\"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributions_info_msg">&lt;b&gt;Toetajaid kokku:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Muudatusi kokku:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Viimane uuendus:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="accelerometer_title">Pööra ekraani automaatselt</string>
     <string name="display_rotation_title">Pööramise seaded</string>
     <string name="display_rotation_enabled">Automaatne pööramine lubatud</string>

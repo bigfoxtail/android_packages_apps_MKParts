@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">રીસેટ કરો</string>
-    <string name="next">આગામી</string>
+    <string name="next">"આગામી"</string>
     <string name="default_time">સામાન્ય</string>
     <string name="custom_time">કસ્ટમ</string>
     <string name="pulse_length_normal">સામાન્ય</string>

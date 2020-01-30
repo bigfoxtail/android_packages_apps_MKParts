@@ -236,7 +236,6 @@
     <string name="no_wifi_triggers">No hay puntos de acceso Wi\u2011Fi configurados. \nPulsa para activar la conexión Wi\u2011Fi antes de configurar los eventos.</string>
     <string name="no_triggers_configured">Sin eventos configurados. Pulsa para añadir más.</string>
     <string name="no_triggers_configured_nfc">Pulsa para configurar un nuevo evento NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Seleccionar qué eventos activarán este perfil</string>
     <string name="profile_setup_actions_description">Ahora configura qué sucederá al activar el perfil</string>
     <string name="profiles_settings_title">Perfiles del sistema</string>
     <string name="profiles_add">Añadir</string>
@@ -283,8 +282,6 @@
     <string name="profile_volume_override_checkbox_label">Anular volumen</string>
     <string name="profile_profiles_manage">Perfiles</string>
     <string name="profile_profile_manage">Gestionar perfil</string>
-    <string name="profile_appgroups_manage">Grupo de aplicaciones</string>
-    <string name="profile_appgroup_manage">Administrar grupo de aplicaciones</string>
     <string name="profile_settings">Ajustes de perfil</string>
     <string name="profile_trigger_connect">Al conectar</string>
     <string name="profile_trigger_disconnect">Al desconectar</string>
@@ -297,14 +294,6 @@
     <string name="choose_ringtone">Elegir el tono de llamada</string>
     <string name="ringtone_title">Tono de llamada del teléfono</string>
     <string name="soundtone_title">Tono de notificación</string>
-    <string name="profile_appgroups_title">Grupo de aplicaciones</string>
-    <string name="profile_applist_title">Aplicaciones</string>
-    <string name="profile_new_appgroup">Nuevo grupo de aplicaciones</string>
-    <string name="profile_delete_appgroup">¿Eliminar este grupo de aplicaciones?</string>
-    <string name="profile_appgroup_name_prompt">Introducir un nombre para el nuevo grupo de aplicaciones</string>
-    <string name="profile_appgroup_name_title">Nombre </string>
-    <string name="duplicate_appgroup_name">¡Nombre de grupo de aplicaciones duplicado!</string>
-    <string name="profile_choose_app">Elegir aplicación</string>
     <string name="profile_system_settings_title">Ajustes del sistema</string>
     <string name="profile_lockmode_title">Modo de bloqueo de pantalla</string>
     <string name="profile_lockmode_policy_disabled_summary">Esta opción de perfil se desactivó por una política del administrador del dispositivo</string>
@@ -337,8 +326,8 @@
     <string name="status_bar_quick_qs_pulldown_summary_left">Izquierdo</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Derecho</string>
     <string name="status_bar_quick_qs_pulldown_off">Desactivado</string>
-    <string name="status_bar_quick_qs_pulldown_left">Izquierda</string>
-    <string name="status_bar_quick_qs_pulldown_right">Derecha</string>
+    <string name="status_bar_quick_qs_pulldown_left">Izquierdo</string>
+    <string name="status_bar_quick_qs_pulldown_right">Derecho</string>
     <string name="status_bar_double_tap_to_sleep_title">Doble toque para suspender</string>
     <string name="status_bar_double_tap_to_sleep_summary">Pulsa dos veces la barra de estado para apagar la pantalla</string>
     <string name="status_bar_icons_title">Iconos de la barra de estado</string>
@@ -350,8 +339,8 @@
     <string name="status_bar_clock_show_seconds_title">Mostrar segundos</string>
     <string name="status_bar_clock_show_seconds_summary">Mostrar horas, minutos y segundos</string>
     <string name="status_bar_clock_position_title">Posición del reloj</string>
-    <string name="status_bar_clock_position_right">Derecha</string>
-    <string name="status_bar_clock_position_left">Izquierda</string>
+    <string name="status_bar_clock_position_right">Derecho</string>
+    <string name="status_bar_clock_position_left">Izquierdo</string>
     <string name="status_bar_clock_position_center">Centrado</string>
     <string name="status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="status_bar_am_pm_info">Formato de 24 horas activado</string>
@@ -389,13 +378,13 @@
     <string name="contributors_cloud_loading_message">Cargando datos de colaboradores\u2026</string>
     <string name="contributors_cloud_failed_message">No se pueden cargar los datos de colaboradores</string>
     <string name="contributor_info_menu">Información del colaborador</string>
-    <string name="contributor_info_msg"><b>Nombre:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Sobrenombre:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Contribuciones:</b> <xliff:g id="commits">%3$s</xliff:g></string>
+    <string name="contributor_info_msg">&lt;b&gt;Nombre:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Sobrenombre:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Contribuciones:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="contributions_info_menu">Información de las contribuciones</string>
-    <string name="contributions_info_msg"><b>Colaboradores totales:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Contribuciones totales:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Última actualización:</b> <xliff:g id="date">%3$s</xliff:g></string>
+    <string name="contributions_info_msg">&lt;b&gt;Colaboradores totales:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Contribuciones totales:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Última actualización:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="accelerometer_title">Rotación automática de la pantalla</string>
     <string name="display_rotation_title">Ajustes de rotación</string>
     <string name="display_rotation_enabled">Rotación automática activada</string>
@@ -495,25 +484,25 @@
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Obligatorio</string>
     <string name="trust_feature_selinux_value_disabled">Deshabilitado</string>
-    <string name="trust_feature_selinux_explain">SELinux dicta qué procesos tienen acceso a qué archivos en el dispositivo.\n Esto evita que las aplicaciones y servicios tengan acceso a archivos con los que no deben tratar: de esta manera, un proceso malicioso tiene acceso limitado, por lo que su seguridad se mantiene.</string>
+    <string name="trust_feature_selinux_explain">SELinux dicta qué procesos tienen acceso a qué archivos en el dispositivo.\n Esto evita que las aplicaciones y servicios tengan acceso a archivos con los que no deben tratar: de esta manera, un proceso malicioso tiene acceso limitado, por lo que tu seguridad se mantiene.</string>
     <string name="trust_feature_security_patches">Parches de Seguridad de Android</string>
     <string name="trust_feature_security_patches_value_base">Plataforma: %1$s\nProveedor: %2$s</string>
     <string name="trust_feature_security_patches_value_new">actualizado</string>
     <string name="trust_feature_security_patches_value_medium">hace algunos meses</string>
     <string name="trust_feature_security_patches_value_old">desactualizado</string>
-    <string name="trust_feature_security_patches_explain">Los parches de seguridad son publicados mensualmente por Google y los proveedores de SoC para tratar las vulnerabilidades del sistema que podrían ser aprovechadas por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños temporales o permanentes al dispositivo.\nMientras que los parches de la plataforma son actualizados globalmente cada mes, los parches de los vendedores son actualizados por el OEM de vez en cuando.\nPara mantener el dispositivo seguro, asegúrese de que el sistema MoKee esté siempre actualizado.</string>
+    <string name="trust_feature_security_patches_explain">Los parches de seguridad son publicados mensualmente por Google y los proveedores de SoC para tratar las vulnerabilidades del sistema que podrían ser aprovechadas por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños temporales o permanentes al dispositivo.\nMientras que los parches de la plataforma son actualizados globalmente cada mes, los parches de los vendedores son actualizados por el Oem de vez en cuando.\nPara mantener el dispositivo seguro, asegúrate de tener la última versión de Mokee, (y si es aplicable) asegúrate ede tener actualizada la imagen de tu fabricante a la última recomendada por Mokee.</string>
     <string name="trust_feature_encryption">Cifrado</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>
     <string name="trust_feature_encryption_value_nolock">Necesita una pantalla de bloqueo segura</string>
     <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
-    <string name="trust_feature_encryption_explain">El cifrado del dispositivo impide el acceso a los datos cuando el teléfono está apagado o en modo de recuperación. Esto es particularmente importante si el teléfono es robado, e impide que la gente lea sus mensajes, contactos y otra información privada sin la contraseña.\nPara realizar un cifrado más eficiente, debes establecer una pantalla de bloqueo segura.</string>
+    <string name="trust_feature_encryption_explain">El cifrado del dispositivo impide el acceso a los datos cuando el teléfono no está ejecutando Android. Esto es particularmente importante si el teléfono es robado, e impide que la gente lea sus mensajes, contactos y otra información privada sin la contraseña.\nPara realizar un cifrado más eficiente, debes establecer una pantalla de bloqueo segura.</string>
     <string name="trust_category_tools">Privacidad</string>
     <string name="trust_notification_alerts_title">Alertas de Seguridad</string>
     <string name="trust_warnings_alerts_intro">Puedes seleccionar los problemas de seguridad de los que deseas ser avisado. Para tu seguridad, se recomienda habilitar todas las alertas</string>
     <string name="trust_warnings_selinux">Estado de SELinux</string>
     <string name="trust_warnings_keys">Firma de compilación</string>
     <string name="trust_onboarding_title">Saluda a Trust</string>
-    <string name="trust_onboarding_description">Trust ayuda a mantener el dispositivo seguro y protege su privacidad.\nEl icono de Trust aparecerá para ayudarle a comprobar la seguridad de los contenidos</string>
+    <string name="trust_onboarding_description">Trust ayuda a mantener el dispositivo seguro y protege tu privacidad.\nEl icono de Trust aparecerá para ayudarle a comprobar la seguridad de los contenidos.</string>
     <string name="trust_onboarding_learn_more">Saber más</string>
     <string name="trust_onboarding_done">Entiendo</string>
     <string name="trust_restrict_usb_title">Restringir USB</string>

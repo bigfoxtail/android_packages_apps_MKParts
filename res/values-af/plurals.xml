@@ -22,6 +22,6 @@
     </plurals>
     <plurals name="app_ops_count">
         <item quantity="one">een keer</item>
-        <item quantity="other">%d keere</item>
+        <item quantity="other">%d keer</item>
     </plurals>
 </resources>

@@ -30,8 +30,6 @@
     <string name="back">Volver</string>
     <string name="finish">Rematar</string>
     <string name="next">Seguinte</string>
-    <string name="on">Encendido</string>
-    <string name="off">Apagado</string>
     <string name="yes">Si</string>
     <string name="no">Non</string>
     <string name="search">Procurar</string>
@@ -151,7 +149,7 @@
     <string name="volbtn_music_controls_title">Controla la reproducción</string>
     <string name="volbtn_music_controls_summary">Buscar pistas de música por longo presionando as teclas de volume mentres o visor está desactivado</string>
     <string name="volbtn_cursor_control_title">Control do cursor</string>
-    <string name="volbtn_cursor_control_off">Desactivada</string>
+    <string name="volbtn_cursor_control_off">Desactivado</string>
     <string name="volbtn_cursor_control_on">Os botóns de subir e baixar o volume, moverán o cursor á esquerda e á dereita</string>
     <string name="volbtn_cursor_control_on_reverse">Os botóns de subir e baixar o volume, moverán o cursor á dereita e á esquerda</string>
     <string name="power_end_call_title">Terminar chamada</string>
@@ -170,7 +168,7 @@
     <string name="keyboard_backlight_seekbar_title">Brillo do teclado</string>
     <string name="backlight_timeout_title">Tempo de espera da iluminación</string>
     <string name="backlight_timeout_unlimited">Non apagar</string>
-    <string name="backlight_summary_disabled">Desactivada</string>
+    <string name="backlight_summary_disabled">Desactivado</string>
     <string name="backlight_summary_enabled_with_timeout">Activo durante <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Habilitar</string>
     <string name="disable_navkeys_title">Habilitar barra de navegación</string>
@@ -198,7 +196,7 @@
     <string name="torch_long_press_power_timeout_2min">2 minutos</string>
     <string name="torch_long_press_power_timeout_5min">5 minutos</string>
     <string name="torch_long_press_power_timeout_10min">10 minutos</string>
-    <string name="profile_menu_delete_title">Borrar</string>
+    <string name="profile_menu_delete_title">Eliminar</string>
     <string name="profile_action_none">Deixar sen cambiar</string>
     <string name="profile_action_system">Predefinida do sistema</string>
     <string name="profile_action_disable">Apagar</string>
@@ -215,11 +213,10 @@
     <string name="no_wifi_triggers">Non hai pontos de acesso wi\u2011fi configurados.\nToque para conectar o Wi\u2011Fi antes de configurar os activadores.</string>
     <string name="no_triggers_configured">Non hai activadores configurados. Toque para engadir.</string>
     <string name="no_triggers_configured_nfc">Toque para estabelecer un novo activador NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Seleccione os activadores que activarán este perfil</string>
     <string name="profile_setup_actions_description">Agora configure o que sucederá cando se active o perfil</string>
     <string name="profiles_settings_title">Perfís do sistema</string>
     <string name="profiles_add">Engadir</string>
-    <string name="profile_menu_delete">Borrar</string>
+    <string name="profile_menu_delete">Eliminar</string>
     <string name="profile_settings_title">Perfil</string>
     <string name="profile_empty_list_profiles_off">Para configurar e empregar os perfís do sistema, actívaos.</string>
     <string name="profile_settings_summary_off">Perfís están desactivados</string>
@@ -240,8 +237,6 @@
     <string name="profile_app_group_category_title">Modificacións das notificacións</string>
     <string name="profile_app_group_item_instructions">Engadir ou eliminar grupos</string>
     <string name="profile_app_group_item_instructions_summary">Engadir ou eliminar grupos de modificacións de aplicacións neste perfil</string>
-    <string name="profile_entries_on">Acender</string>
-    <string name="profile_entries_off">Apagado</string>
     <string name="profile_entries_no_override">Non modificar</string>
     <string name="profile_name_title">Nome</string>
     <string name="new_profile_name">&lt;novo perfil&gt;</string>
@@ -257,8 +252,6 @@
     <string name="profile_volume_override_checkbox_label">Modificar o volume</string>
     <string name="profile_profiles_manage">Perfís</string>
     <string name="profile_profile_manage">Xestionar o perfil</string>
-    <string name="profile_appgroups_manage">Grupo de aplicacións</string>
-    <string name="profile_appgroup_manage">Xestionar o grupo de aplicacións</string>
     <string name="profile_settings">Configuración do perfil</string>
     <string name="profile_trigger_connect">Ao conectar</string>
     <string name="profile_trigger_disconnect">Ao desconectar</string>
@@ -271,14 +264,6 @@
     <string name="choose_ringtone">Escoller ton de chamada</string>
     <string name="ringtone_title">Ton de chamada</string>
     <string name="soundtone_title">Ton de notificación</string>
-    <string name="profile_appgroups_title">Grupo de aplicacións</string>
-    <string name="profile_applist_title">Aplicacións</string>
-    <string name="profile_new_appgroup">Novo grupo de aplicacións</string>
-    <string name="profile_delete_appgroup">Quere borrar este grupo de aplicacións?</string>
-    <string name="profile_appgroup_name_prompt">Introducir un nombre para o novo grupo de aplicacións</string>
-    <string name="profile_appgroup_name_title">Nome</string>
-    <string name="duplicate_appgroup_name">Ese nome de grupo de aplicacións xa existe!</string>
-    <string name="profile_choose_app">Escoller aplicación</string>
     <string name="profile_system_settings_title">Configuración do sistema</string>
     <string name="profile_lockmode_title">Bloqueo de pantalla</string>
     <string name="profile_lockmode_policy_disabled_summary">Desactivouse esta opción de perfil debido á política do administrador do dispositivo</string>
@@ -292,21 +277,18 @@
     <string name="toggleData">Conexión de datos</string>
     <string name="toggleSync">Sincronización automática dos datos</string>
     <string name="ring_mode_title">Modo de chamada</string>
-    <string name="ring_mode_normal">Enerxía normal</string>
     <string name="ring_mode_vibrate">Vibrar</string>
     <string name="ring_mode_mute">Silenciar</string>
     <string name="ring_volume_title">Volume das chamadas</string>
     <string name="incoming_call_volume_title">Ton de chamada</string>
-    <string name="notification_volume_title">Notificación</string>
     <string name="media_volume_title">Multimedia</string>
     <string name="alarm_volume_title">Alarma</string>
-    <string name="doze_title">Visualización ambiental</string>
+    <string name="doze_title">Visualización de ambiente</string>
     <string name="status_bar_title">Barra de estado</string>
     <string name="status_bar_quick_qs_pulldown_title">Tirar para abaixo</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s na esquina da barra de estado abre a Configuración rápida</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Esquerda</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Dereita</string>
-    <string name="status_bar_quick_qs_pulldown_off">Apagado</string>
     <string name="status_bar_quick_qs_pulldown_left">Esquerda</string>
     <string name="status_bar_quick_qs_pulldown_right">Dereita</string>
     <string name="status_bar_double_tap_to_sleep_title">Doble toque para apagar a pantalla</string>
@@ -406,7 +388,6 @@
     <string name="charging_sounds_enabled_summary">Reproducir un son ao conectar e desconectar a fonte de alimentación</string>
     <string name="power_notifications_vibrate_title">Vibrar</string>
     <string name="charging_sounds_ringtone_title">Son de notificación</string>
-    <string name="charging_sounds_ringtone_silent">Silencio</string>
     <string name="touchscreen_gesture_settings_title">Xestos na pantalla táctil</string>
     <string name="touchscreen_gesture_settings_summary">Realizar varios xestos na pantalla para accions rápidas</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Resposta háptica</string>
@@ -447,7 +428,7 @@
     <string name="touchscreen_gesture_action_volume_down">Baixar o volume dos medios</string>
     <string name="touchscreen_gesture_action_volume_up">Subir o volume dos medios</string>
     <string name="trust_feature_selinux_value_disabled">Desactivado</string>
-    <string name="trust_feature_encryption_value_enabled">Activado</string>
+    <string name="trust_feature_encryption_value_enabled">Habilitar</string>
     <string name="trust_feature_encryption_value_disabled">Desactivado</string>
     <string name="trust_category_tools">Privacidade</string>
 </resources>

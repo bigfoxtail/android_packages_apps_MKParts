@@ -30,8 +30,8 @@
     <string name="back">Înapoi</string>
     <string name="finish">Finalizați</string>
     <string name="next">Înainte</string>
-    <string name="on">Activat</string>
-    <string name="off">Dezactivat</string>
+    <string name="on">Activată</string>
+    <string name="off">Oprit</string>
     <string name="yes">Da</string>
     <string name="no">Nu</string>
     <string name="search">Căutați</string>
@@ -57,7 +57,7 @@
     <string name="pulse_speed_slow">Încet</string>
     <string name="pulse_speed_very_slow">Foarte încet</string>
     <string name="light_brightness_title">Nivelele luminozității</string>
-    <string name="light_brightness_normal">Normală</string>
+    <string name="light_brightness_normal">Normal</string>
     <string name="light_brightness_zen">Nu Deranja</string>
     <string name="battery_light_title">Lumină baterie</string>
     <string name="battery_low_pulse_title">Pulsează dacă bateria este slabă</string>
@@ -234,7 +234,6 @@
     <string name="no_wifi_triggers">Niciun punct de acces Wi\u2011Fi configurat.\nApăsați pentru a conecta Wi\u2011Fi înainte de configurarea declanșatorilor.</string>
     <string name="no_triggers_configured">Niciun declanșator configurat. Atingeți pentru a adăuga mai multe.</string>
     <string name="no_triggers_configured_nfc">Atingeți pentru a configura un nou declanșator NFC.</string>
-    <string name="profile_setup_setup_triggers_description">Selectați declanșatoarele care vor activa acest profil</string>
     <string name="profile_setup_actions_description">Acum configurați ceea ce se întâmplă atunci când este activat profilul</string>
     <string name="profiles_settings_title">Profile de sistem</string>
     <string name="profiles_add">Adăugați</string>
@@ -259,8 +258,8 @@
     <string name="profile_app_group_category_title">Suprascriere notificări</string>
     <string name="profile_app_group_item_instructions">Adăugați sau eliminați grupuri</string>
     <string name="profile_app_group_item_instructions_summary">Adăugați sau eliminați suprascriea notificărilor pentru grupuri de aplicații pentru acest profil</string>
-    <string name="profile_entries_on">Activat</string>
-    <string name="profile_entries_off">Dezactivat</string>
+    <string name="profile_entries_on">Activată</string>
+    <string name="profile_entries_off">Oprit</string>
     <string name="profile_entries_no_override">Fără suprascriere</string>
     <string name="profile_name_title">Nume</string>
     <string name="new_profile_name">&lt;profil nou&gt;</string>
@@ -281,8 +280,6 @@
     <string name="profile_volume_override_checkbox_label">Suprascrie volumul</string>
     <string name="profile_profiles_manage">Profile</string>
     <string name="profile_profile_manage">Gestionați profil</string>
-    <string name="profile_appgroups_manage">Grupuri aplicații</string>
-    <string name="profile_appgroup_manage">Gestionați grup aplicații</string>
     <string name="profile_settings">Setări profil</string>
     <string name="profile_trigger_connect">La conectare</string>
     <string name="profile_trigger_disconnect">La deconectare</string>
@@ -295,14 +292,6 @@
     <string name="choose_ringtone">Alegeți tonul de apel</string>
     <string name="ringtone_title">Ton de apel al telefonului</string>
     <string name="soundtone_title">Tonul notificării</string>
-    <string name="profile_appgroups_title">Grupuri aplicații</string>
-    <string name="profile_applist_title">Aplicații</string>
-    <string name="profile_new_appgroup">Grup nou de aplicații</string>
-    <string name="profile_delete_appgroup">Ștergeți acest grup de aplicații?</string>
-    <string name="profile_appgroup_name_prompt">Introduceți un nume pentru noul grup de aplicații</string>
-    <string name="profile_appgroup_name_title">Nume</string>
-    <string name="duplicate_appgroup_name">Nume de grup de aplicații duplicat!</string>
-    <string name="profile_choose_app">Alegeți aplicația</string>
     <string name="profile_system_settings_title">Setări de sistem</string>
     <string name="profile_lockmode_title">Mod ecran de blocare</string>
     <string name="profile_lockmode_policy_disabled_summary">Această opțiune a profilului este dezactivată de o politică a administratorului dispozitivului</string>
@@ -321,7 +310,7 @@
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">Modul tonului de apel</string>
     <string name="ring_mode_normal">Normal</string>
-    <string name="ring_mode_vibrate">Vibrare</string>
+    <string name="ring_mode_vibrate">Vibrează</string>
     <string name="ring_mode_mute">Mut</string>
     <string name="ring_volume_title">Volum sonerie</string>
     <string name="incoming_call_volume_title">Ton de apel</string>
@@ -334,7 +323,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">Marginea %1$s a bării de stare aduce în jos Setările Rapide</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Stânga</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Dreapta</string>
-    <string name="status_bar_quick_qs_pulldown_off">Dezactivat</string>
+    <string name="status_bar_quick_qs_pulldown_off">Oprit</string>
     <string name="status_bar_quick_qs_pulldown_left">Stânga</string>
     <string name="status_bar_quick_qs_pulldown_right">Dreapta</string>
     <string name="status_bar_double_tap_to_sleep_title">Apăsare dublă pentru a opri ecranul</string>
@@ -443,7 +432,7 @@
     <string name="charging_sounds_settings_title">Sunete de încărcare</string>
     <string name="charging_sounds_enabled_title">Activați</string>
     <string name="charging_sounds_enabled_summary">Redă un sunet la conectarea sau deconectarea unei surse de alimentare</string>
-    <string name="power_notifications_vibrate_title">Vibrare</string>
+    <string name="power_notifications_vibrate_title">Vibrează</string>
     <string name="charging_sounds_ringtone_title">Sunet notificare</string>
     <string name="charging_sounds_ringtone_silent">Silențios</string>
     <string name="touchscreen_gesture_settings_title">Gesturi touchscreen</string>
@@ -492,6 +481,6 @@
     <string name="trust_feature_encryption">Criptare</string>
     <string name="trust_feature_encryption_value_enabled">Activat</string>
     <string name="trust_feature_encryption_value_disabled">Dezactivat</string>
-    <string name="trust_category_tools">Confidențialitate</string>
+    <string name="trust_category_tools">Intimitate</string>
     <string name="trust_onboarding_learn_more">Aflați mai multe</string>
 </resources>
