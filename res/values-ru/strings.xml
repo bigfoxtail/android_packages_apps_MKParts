@@ -383,13 +383,13 @@
     <string name="contributors_cloud_loading_message">Загрузка данных...</string>
     <string name="contributors_cloud_failed_message">Не удалось загрузить сведения об участниках проекта</string>
     <string name="contributor_info_menu">Сведения об участнике</string>
-    <string name="contributor_info_msg">&lt;b&gt;Имя:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Псевдоним:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Коммитов:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributor_info_msg">&lt;b&gt;Имя:&lt;/b&gt; &lt;xliff:g id=\"name\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Псевдоним:&lt;/b&gt; &lt;xliff:g id=\"nick\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+                 &lt;b&gt;Коммитов:&lt;/b&gt; &lt;xliff:g id=\"commits\"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="contributions_info_menu">Общая статистика</string>
-    <string name="contributions_info_msg">&lt;b&gt;Всего участников:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Всего коммитов:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-&lt;b&gt;Последнее обновление:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributions_info_msg">&lt;b&gt;Всего участников:&lt;/b&gt; &lt;xliff:g id=\"total_contributors\"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Всего коммитов:&lt;/b&gt; &lt;xliff:g id=\"total_commits\"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;Последнее обновление:&lt;/b&gt; &lt;xliff:g id=\"date\"&gt;%3$s&lt;/xliff:g&gt;</string>
     <string name="accelerometer_title">Автоповорот экрана</string>
     <string name="display_rotation_title">Параметры вращения</string>
     <string name="display_rotation_enabled">Автоповорот включен</string>

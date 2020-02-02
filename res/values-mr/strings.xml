@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">रीसेट करा</string>
-    <string name="next">"पुढील"</string>
+    <string name="next">पुढील</string>
     <string name="default_time">सामान्य</string>
     <string name="custom_time">सानुकूल</string>
     <string name="pulse_length_normal">सामान्य</string>

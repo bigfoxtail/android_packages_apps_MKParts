@@ -22,7 +22,7 @@
     <string name="dlg_ok">ശരി</string>
     <string name="cancel">റദ്ദാക്കുക</string>
     <string name="reset">പുനഃസജ്ജമാക്കുക</string>
-    <string name="next">"അടുത്തത്"</string>
+    <string name="next">അടുത്തത്</string>
     <string name="default_time">സാധാരണ</string>
     <string name="custom_time">ഇഷ്‌ടാനുസൃതം</string>
     <string name="pulse_length_normal">സാധാരണ</string>
