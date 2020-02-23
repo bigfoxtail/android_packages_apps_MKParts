@@ -514,7 +514,4 @@
     <string name="sms_security_check_limit_summary">Aplikace může poslat %s zpráv za 1 minutu před tím, než bude vyžádáno ověření</string>
     <string name="sms_security_check_limit_summary_none">Aplikacím není umožněno bez předchozího potvrzení zasílat jakékoliv zprávy</string>
     <string name="sms_security_check_limit_always_confirm">Vždy potvrdit</string>
-    <string name="bluetooth_channel_pairing">Párování</string>
-    <string name="bluetooth_found_message">Připojit tato sluchátka?</string>
-    <string name="bluetooth_found_confirm">Klepnutím připojit</string>
 </resources>

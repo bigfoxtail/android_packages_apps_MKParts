@@ -453,6 +453,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Csúsztatás lefelé egy ujjal</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Csúsztatás balra egy ujjal</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Csúsztatás jobbra egy ujjal</string>
+    <string name="touchscreen_gesture_single_tap_title">Egyszeri érintés</string>
     <string name="touchscreen_gesture_up_arrow_title">Rajzoljon egy \"Λ\" jelet</string>
     <string name="touchscreen_gesture_down_arrow_title">Rajzoljon egy \"V\" betűt</string>
     <string name="touchscreen_gesture_left_arrow_title">Rajzoljon egy \"&lt;\" jelet</string>
@@ -483,6 +484,7 @@
     <string name="touchscreen_gesture_action_next_track">Következő zeneszámra ugrás</string>
     <string name="touchscreen_gesture_action_volume_down">Médiahangerő-csökkentés</string>
     <string name="touchscreen_gesture_action_volume_up">Médiahangerő-növelés</string>
+    <string name="touchscreen_gesture_action_ambient_display">A Környezeti kijelző megjelenítése</string>
     <string name="trust_category_features">Állapot</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Kényszerítve</string>
@@ -514,7 +516,4 @@
     <string name="sms_security_check_limit_summary">Figyelmeztet, ha 15 percen belül több mint %s SMS-üzenet került elküldésre</string>
     <string name="sms_security_check_limit_summary_none">Az alkalmazások nem küldhetnek üzeneteket előzetes megerősítés nélkül</string>
     <string name="sms_security_check_limit_always_confirm">Mindig kell megerősítés</string>
-    <string name="bluetooth_channel_pairing">Párosítás</string>
-    <string name="bluetooth_found_message">Csatlakoztatja ezt a fejhallgatót?</string>
-    <string name="bluetooth_found_confirm">A csatlakoztatáshoz érintse meg</string>
 </resources>

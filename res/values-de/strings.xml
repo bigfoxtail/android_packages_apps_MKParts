@@ -514,7 +514,4 @@
     <string name="sms_security_check_limit_summary">Apps können %s Nachrichten in einer minute senden bevor eine Bestätigung erforderlich ist</string>
     <string name="sms_security_check_limit_summary_none">Apps dürfen keine Nachricht ohne Bestätigung versenden</string>
     <string name="sms_security_check_limit_always_confirm">Immer bestätigen</string>
-    <string name="bluetooth_channel_pairing">Koppeln</string>
-    <string name="bluetooth_found_message">Diesen Kopfhörer verbinden?</string>
-    <string name="bluetooth_found_confirm">Kurz antippen, um zu verbinden</string>
 </resources>

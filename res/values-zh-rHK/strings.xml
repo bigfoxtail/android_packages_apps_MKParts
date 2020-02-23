@@ -514,7 +514,4 @@
     <string name="sms_security_check_limit_summary">在使用者認可之前，應用程式在 1 分鐘內只能傳送 %s 則訊息</string>
     <string name="sms_security_check_limit_summary_none">未經確認的應用程式不允許傳送任何訊息</string>
     <string name="sms_security_check_limit_always_confirm">一律確認</string>
-    <string name="bluetooth_channel_pairing">配對中</string>
-    <string name="bluetooth_found_message">連接這個耳機嗎?</string>
-    <string name="bluetooth_found_confirm">輕觸即可連接</string>
 </resources>

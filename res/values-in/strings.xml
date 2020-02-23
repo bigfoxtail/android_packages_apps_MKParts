@@ -510,7 +510,4 @@
     <string name="sms_security_check_limit_summary">Aplikasi dapat mengirim %s pesan dalam 1 menit sebelum konfirmasi</string>
     <string name="sms_security_check_limit_summary_none">Aplikasi tidak diperbolehkan untuk mengirim pesan tanpa konfirmasi</string>
     <string name="sms_security_check_limit_always_confirm">Selalu konfirmasi</string>
-    <string name="bluetooth_channel_pairing">Menghubungkan</string>
-    <string name="bluetooth_found_message">Hubungkan ke headset ini?</string>
-    <string name="bluetooth_found_confirm">Tekan untuk menghubungkan</string>
 </resources>

@@ -438,6 +438,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Выключите, чтобы настроить режим расширенного рабочего стола для каждого приложения</string>
     <string name="long_screen_settings_title">Полноэкранные приложения</string>
     <string name="long_screen_settings_summary">Принудительное использование полноэкранного соотношения сторон старыми приложениями</string>
+    <string name="long_screen_settings_no_apps">Нету приложений</string>
     <string name="charging_sounds_settings_title">Звук при зарядке</string>
     <string name="charging_sounds_enabled_title">Включить</string>
     <string name="charging_sounds_enabled_summary">Воспроизводить звук при подключении или отключении источника питания</string>
@@ -454,6 +455,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Провести вниз одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Провести влево одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Провести вправо одним пальцем</string>
+    <string name="touchscreen_gesture_single_tap_title">Одиночное нажатие</string>
     <string name="touchscreen_gesture_up_arrow_title">Нарисуйте «Λ»</string>
     <string name="touchscreen_gesture_down_arrow_title">Нарисуйте «V»</string>
     <string name="touchscreen_gesture_left_arrow_title">Нарисуйте «&lt;»</string>
@@ -515,7 +517,4 @@
     <string name="sms_security_check_limit_summary">Отображать предупреждение, если за 15 минут было отправлено более %s SMS-сообщений</string>
     <string name="sms_security_check_limit_summary_none">Приложениям запрещено отправлять сообщения без подтверждения</string>
     <string name="sms_security_check_limit_always_confirm">Всегда подтверждать</string>
-    <string name="bluetooth_channel_pairing">Pairing</string>
-    <string name="bluetooth_found_message">Подключить эту гарнитуру?</string>
-    <string name="bluetooth_found_confirm">Нажмите, чтобы подключиться</string>
 </resources>

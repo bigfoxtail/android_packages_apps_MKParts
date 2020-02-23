@@ -513,7 +513,4 @@
     <string name="sms_security_check_limit_summary">Le applicazioni possono inviare %s messaggi in 1 minuto prima di richiedere conferma</string>
     <string name="sms_security_check_limit_summary_none">Non è consentito alle app l\'invio di messaggi senza conferma</string>
     <string name="sms_security_check_limit_always_confirm">Conferma sempre</string>
-    <string name="bluetooth_channel_pairing">Accoppiamento</string>
-    <string name="bluetooth_found_message">Collegare queste cuffie?</string>
-    <string name="bluetooth_found_confirm">Tocca per connettere</string>
 </resources>

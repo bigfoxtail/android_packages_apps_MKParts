@@ -453,6 +453,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">单指向下滑动</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">单指向左滑动</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">单指向右滑动</string>
+    <string name="touchscreen_gesture_single_tap_title">单击</string>
     <string name="touchscreen_gesture_up_arrow_title">绘制一个\"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">绘制一个\"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">绘制一个\"&lt;\"</string>
@@ -514,7 +515,4 @@
     <string name="sms_security_check_limit_summary">在 15 分钟内发送超过 %s 条短信时显示警报</string>
     <string name="sms_security_check_limit_summary_none">应用在发送任何短信前必须获得您的确认</string>
     <string name="sms_security_check_limit_always_confirm">总需批准</string>
-    <string name="bluetooth_channel_pairing">配对</string>
-    <string name="bluetooth_found_message">连接此耳机？</string>
-    <string name="bluetooth_found_confirm">轻触以连接</string>
 </resources>

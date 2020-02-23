@@ -453,6 +453,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Viipa ühe sõrmega alla</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Viipa ühe sõrmega vasakule</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Viipa ühe sõrmega paremale</string>
+    <string name="touchscreen_gesture_single_tap_title">Üks puudutus</string>
     <string name="touchscreen_gesture_up_arrow_title">Joonista \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Joonista \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Joonista \"&lt;\"</string>
@@ -483,6 +484,7 @@
     <string name="touchscreen_gesture_action_next_track">Vali järgmine lugu</string>
     <string name="touchscreen_gesture_action_volume_down">Alanda meedia helitugevust</string>
     <string name="touchscreen_gesture_action_volume_up">Suurenda meedia helitugevust</string>
+    <string name="touchscreen_gesture_action_ambient_display">Kuva ambientne ekraan</string>
     <string name="trust_category_features">Staatus</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Sundiv</string>
@@ -514,7 +516,4 @@
     <string name="sms_security_check_limit_summary">Rakendused saavad 1 minuti jooksul saata %s sõnumit, enne kui vajavad kinnitust</string>
     <string name="sms_security_check_limit_summary_none">Rakendused ei tohi saata ühtegi sõnumit ilma kinnituseta</string>
     <string name="sms_security_check_limit_always_confirm">Küsi alati kinnitust</string>
-    <string name="bluetooth_channel_pairing">Sidumine</string>
-    <string name="bluetooth_found_message">Kas ühendada see peakomplekt?</string>
-    <string name="bluetooth_found_confirm">Puuduta ühendamiseks</string>
 </resources>
