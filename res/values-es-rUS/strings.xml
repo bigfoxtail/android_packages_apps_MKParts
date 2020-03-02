@@ -93,7 +93,7 @@
     <string name="live_display_outdoor_mode_title">Modo automático al aire libre</string>
     <string name="live_display_outdoor_mode_summary">Aumentar automáticamente el brillo y la saturación con la luz del sol</string>
     <string name="live_display_low_power_title">Reducir el consumo de energía</string>
-    <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin degradación</string>
+    <string name="live_display_low_power_summary">Ajusta la pantalla al mínimo consumo de energía sin degradación</string>
     <string name="live_display_enhance_color_title">Mejorar colores</string>
     <string name="live_display_enhance_color_summary">Mejorar la viveza de color de tonos de piel, paisajes y otras imágenes</string>
     <string name="live_display_color_profile_title">Perfil de color</string>
@@ -437,6 +437,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Apagar el interruptor para personalizar el escritorio extendido sobre una base por aplicación</string>
     <string name="long_screen_settings_title">Aplicaciones a pantalla completa</string>
     <string name="long_screen_settings_summary">Forzar a las aplicaciones antiguas, a utilizar la relación de aspecto a pantalla completa</string>
+    <string name="long_screen_settings_no_apps">No hay aplicaciones</string>
     <string name="charging_sounds_settings_title">Sonidos al cargar el dispositivo</string>
     <string name="charging_sounds_enabled_title">Activado</string>
     <string name="charging_sounds_enabled_summary">Reproducir un sonido al conectar o desconectar el cargador</string>
@@ -453,6 +454,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar hacia abajo con un dedo</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar hacia la izquierda con un dedo</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar a la derecha con un dedo</string>
+    <string name="touchscreen_gesture_single_tap_title">Toque simple</string>
     <string name="touchscreen_gesture_up_arrow_title">Dibujar un \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Dibujar una \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Dibujar un \"&lt;\"</string>
@@ -483,6 +485,7 @@
     <string name="touchscreen_gesture_action_next_track">Saltar a la siguiente pista de música</string>
     <string name="touchscreen_gesture_action_volume_down">Reducir volumen multimedia</string>
     <string name="touchscreen_gesture_action_volume_up">Aumentar volumen multimedia</string>
+    <string name="touchscreen_gesture_action_ambient_display">Mostrar pantalla ambiente</string>
     <string name="trust_category_features">Estado</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Obligatorio</string>
@@ -493,19 +496,19 @@
     <string name="trust_feature_security_patches_value_new">actualizado</string>
     <string name="trust_feature_security_patches_value_medium">hace algunos meses</string>
     <string name="trust_feature_security_patches_value_old">desactualizado</string>
-    <string name="trust_feature_security_patches_explain">Los parches de seguridad son publicados mensualmente por Google y los proveedores de SoC para tratar las vulnerabilidades del sistema que podrían ser aprovechadas por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños temporales o permanentes al dispositivo.\nMientras que los parches de la plataforma son actualizados globalmente cada mes, los parches de los vendedores son actualizados por el Oem de vez en cuando.\nPara mantener el dispositivo seguro, asegúrate de tener la última versión de Mokee, (y si es aplicable) asegúrate ede tener actualizada la imagen de tu fabricante a la última recomendada por Mokee.</string>
+    <string name="trust_feature_security_patches_explain">Los parches de seguridad son publicados mensualmente por Google y los proveedores de SoC para tratar las vulnerabilidades del sistema que podrían ser aprovechadas por aplicaciones maliciosas para eludir las restricciones de seguridad y causar daños temporales o permanentes al dispositivo.\nMientras que los parches de la plataforma son actualizados globalmente cada mes, los parches de los fabricantes son actualizados por el fabricante de vez en cuando.\nPara mantener el dispositivo seguro, asegúrate de tener la última versión de Mokee, (y si es aplicable) asegúrate de tener actualizada la imagen de tu fabricante a la última recomendada por Mokee.</string>
     <string name="trust_feature_encryption">Cifrado</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>
     <string name="trust_feature_encryption_value_nolock">Necesita una pantalla de bloqueo segura</string>
     <string name="trust_feature_encryption_value_disabled">Deshabilitado</string>
-    <string name="trust_feature_encryption_explain">El cifrado del dispositivo impide el acceso a los datos cuando el teléfono no está ejecutando Android. Esto es particularmente importante si el teléfono es robado, e impide que la gente lea sus mensajes, contactos y otra información privada sin la contraseña.\nPara realizar un cifrado más eficiente, debes establecer una pantalla de bloqueo segura.</string>
+    <string name="trust_feature_encryption_explain">El cifrado del dispositivo impide el acceso a los datos cuando el teléfono no está ejecutando Android. Esto es particularmente importante si el teléfono es robado, e impide que la gente lea tus mensajes, contactos y otra información privada sin la contraseña.\nPara realizar un cifrado más eficiente, debes establecer una pantalla de bloqueo segura.</string>
     <string name="trust_category_tools">Privacidad</string>
     <string name="trust_notification_alerts_title">Alertas de Seguridad</string>
     <string name="trust_warnings_alerts_intro">Puedes seleccionar los problemas de seguridad de los que deseas ser avisado. Para tu seguridad, se recomienda habilitar todas las alertas</string>
     <string name="trust_warnings_selinux">Estado de SELinux</string>
     <string name="trust_warnings_keys">Firma de compilación</string>
     <string name="trust_onboarding_title">Saluda a Trust</string>
-    <string name="trust_onboarding_description">Trust ayuda a mantener el dispositivo seguro y protege tu privacidad.\nEl icono de Trust aparecerá para ayudarle a comprobar la seguridad de los contenidos.</string>
+    <string name="trust_onboarding_description">Trust te ayuda a mantener tu dispositivo seguro y a proteger tu privacidad.\nEl icono de Trust sólo se mostrará cuando se verifique el contenido de la página.</string>
     <string name="trust_onboarding_learn_more">Saber más</string>
     <string name="trust_onboarding_done">Entiendo</string>
     <string name="trust_restrict_usb_title">Restringir USB</string>

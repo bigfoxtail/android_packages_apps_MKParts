@@ -34,9 +34,11 @@
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="search">Szukaj</string>
+    <string name="search_menu">Szukaj ustawień</string>
     <string name="disabled">Wyłączone</string>
     <string name="enabled">Włączone</string>
     <string name="privacy_settings_title">Prywatność</string>
+    <string name="channel_light_settings_name">Podgląd ustawień światła</string>
     <string name="edit_light_settings">Edytuj ustawienia diody powiadomień</string>
     <string name="pulse_speed_title">Długość i szybkość migania</string>
     <string name="default_time">Normalny</string>
@@ -168,6 +170,8 @@
     <string name="power_end_call_summary">Zakończ bieżące połączenie, naciskając przycisk zasilania</string>
     <string name="swap_volume_buttons_title">Zmiana orientacji</string>
     <string name="swap_volume_buttons_summary">Zamieniaj przyciski głośności, gdy ekran jest obrócony</string>
+    <string name="volume_panel_on_left_title">Pokaż panel głośności po lewej</string>
+    <string name="volume_panel_on_left_summary">Pokaż panel głośności po lewej stronie ekranu</string>
     <string name="button_wake_title">Wybudź urządzenie</string>
     <string name="volume_answer_call_title">Odbieranie połączeń</string>
     <string name="volume_answer_call_summary">Odbieraj połączenia przychodzące za pomocą przycisków głośności</string>
@@ -328,6 +332,7 @@
     <string name="status_bar_quick_qs_pulldown_right">Po prawej</string>
     <string name="status_bar_double_tap_to_sleep_title">Dwukrotnie dotknij, aby uśpić</string>
     <string name="status_bar_double_tap_to_sleep_summary">Dotknij dwukrotnie pasek stanu, aby zablokować ekran</string>
+    <string name="status_bar_qs_tile_columns_title">Kolumny kafelków szybkich ustawień</string>
     <string name="status_bar_icons_title">Ikony paska stanu</string>
     <string name="status_bar_notif_count_title">Pokaż liczbę powiadomień</string>
     <string name="status_bar_notif_count_summary">Wyświetla licznik oczekujących powiadomień</string>
@@ -432,6 +437,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Wyłącz przełącznik, aby dostosować rozszerzony pulpit do twoich aplikacji</string>
     <string name="long_screen_settings_title">Aplikacje pełnoekranowe</string>
     <string name="long_screen_settings_summary">Wymuś na starszych aplikacjach korzystanie z pełnych proporcji ekranu</string>
+    <string name="long_screen_settings_no_apps">Brak aplikacji</string>
     <string name="charging_sounds_settings_title">Dźwięki ładowania</string>
     <string name="charging_sounds_enabled_title">Włącz</string>
     <string name="charging_sounds_enabled_summary">Odtwarzaj dźwięk podczas podłączania lub odłączania źródła zasilania</string>
@@ -448,6 +454,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Przesuń palcem w dół</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Przesuń palcem w lewo</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Przesuń palcem w prawo</string>
+    <string name="touchscreen_gesture_single_tap_title">Pojedynczy dotknięcie</string>
     <string name="touchscreen_gesture_up_arrow_title">Narysuj znak \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Narysuj znak \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Narysuj \"&lt;\"</string>
@@ -478,6 +485,7 @@
     <string name="touchscreen_gesture_action_next_track">Przejdź do następnego utworu muzycznego</string>
     <string name="touchscreen_gesture_action_volume_down">Mniejsza głośność multimediów</string>
     <string name="touchscreen_gesture_action_volume_up">Większa głośność multimediów</string>
+    <string name="touchscreen_gesture_action_ambient_display">Pokaż na Ambient Display</string>
     <string name="trust_category_features">Status</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Wymuszanie</string>
@@ -503,6 +511,7 @@
     <string name="trust_onboarding_description">Trust pomaga utrzymać twoje urządzenie bezpiecznym oraz chronić twoją prywatność.\nIkona Trust wyświetli się by pomóc ci przez sprawdzanie bezpieczeństwa zawartości</string>
     <string name="trust_onboarding_learn_more">Dowiedz się więcej</string>
     <string name="trust_onboarding_done">Zrozumiałem</string>
+    <string name="trust_restrict_usb_title">Ogranicz połączenie USB</string>
     <string name="trust_restrict_usb_summary">Wyłącz nowe urządzenia USB gdy urządzenie jest zablokowane</string>
     <string name="sms_security_check_limit_title">Limit wiadomości SMS</string>
     <string name="sms_security_check_limit_summary">Aplikacje mogą wysłać %s wiadomości przez 1 minutę, nim konieczne będzie potwierdzenie</string>

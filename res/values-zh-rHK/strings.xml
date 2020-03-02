@@ -437,6 +437,7 @@
     <string name="expanded_desktop_nothing_to_show_text">關閉此開關即可根據每個應用程式自訂延伸桌面</string>
     <string name="long_screen_settings_title">全螢幕應用程式</string>
     <string name="long_screen_settings_summary">強制舊型應用程式使用全螢幕的比例</string>
+    <string name="long_screen_settings_no_apps">沒有應用程式</string>
     <string name="charging_sounds_settings_title">充電音效</string>
     <string name="charging_sounds_enabled_title">啓用</string>
     <string name="charging_sounds_enabled_summary">接上或移除電源時播放音效</string>
@@ -453,6 +454,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">用一根手指向下滑動</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">用一根手指向左滑動</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">用一根手指向右滑動</string>
+    <string name="touchscreen_gesture_single_tap_title">按一下</string>
     <string name="touchscreen_gesture_up_arrow_title">畫出一個「Λ」</string>
     <string name="touchscreen_gesture_down_arrow_title">畫出一個「V」</string>
     <string name="touchscreen_gesture_left_arrow_title">畫出一個「&lt;」</string>
@@ -483,6 +485,7 @@
     <string name="touchscreen_gesture_action_next_track">跳到下一首音樂曲目</string>
     <string name="touchscreen_gesture_action_volume_down">較低的媒體音量</string>
     <string name="touchscreen_gesture_action_volume_up">提高媒體音量</string>
+    <string name="touchscreen_gesture_action_ambient_display">顯示環境顯示</string>
     <string name="trust_category_features">狀態</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">執行中</string>

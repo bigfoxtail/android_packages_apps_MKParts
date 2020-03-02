@@ -437,6 +437,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Lülita valik välja, et kohandada oma laiendatud töölauda rakendusepõhiselt</string>
     <string name="long_screen_settings_title">Täisekraanis rakendused</string>
     <string name="long_screen_settings_summary">Luba pärandrakendustel kasutada täielikku ekraani kuvasuhet</string>
+    <string name="long_screen_settings_no_apps">Rakendusi pole</string>
     <string name="charging_sounds_settings_title">Laadimise helid</string>
     <string name="charging_sounds_enabled_title">Luba</string>
     <string name="charging_sounds_enabled_summary">Mängi heli vooluallika ühendamisel või lahtiühendamisel</string>

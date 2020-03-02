@@ -437,6 +437,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Mettre sur off pour personnaliser le bureau étendu pour chaque application</string>
     <string name="long_screen_settings_title">Applications en plein écran</string>
     <string name="long_screen_settings_summary">Forcer l\'affichage des anciennes applications en plein écran</string>
+    <string name="long_screen_settings_no_apps">Aucune application</string>
     <string name="charging_sounds_settings_title">Tonalité de charge</string>
     <string name="charging_sounds_enabled_title">Activé</string>
     <string name="charging_sounds_enabled_summary">Émettre un son lors de la connexion ou de la déconnexion d\'une source d\'alimentation</string>
@@ -453,6 +454,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Glisser vers le bas avec un doigt</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Glisser vers la gauche avec un doigt</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Glisser vers la droite avec un doigt</string>
+    <string name="touchscreen_gesture_single_tap_title">Appui simple</string>
     <string name="touchscreen_gesture_up_arrow_title">Dessiner un « Λ »</string>
     <string name="touchscreen_gesture_down_arrow_title">Dessiner un « V »</string>
     <string name="touchscreen_gesture_left_arrow_title">Dessiner un « &lt; »</string>
@@ -483,6 +485,7 @@
     <string name="touchscreen_gesture_action_next_track">Piste de musique suivante</string>
     <string name="touchscreen_gesture_action_volume_down">Diminuer le volume du média</string>
     <string name="touchscreen_gesture_action_volume_up">Augmenter le volume du média</string>
+    <string name="touchscreen_gesture_action_ambient_display">Affichage ambiant</string>
     <string name="trust_category_features">État</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Application</string>

@@ -437,6 +437,7 @@
     <string name="expanded_desktop_nothing_to_show_text">Kapcsolja ki a kapcsolót a kiterjesztett képernyő alkalmazásonkénti testreszabásához</string>
     <string name="long_screen_settings_title">Teljesképernyős alkalmazások</string>
     <string name="long_screen_settings_summary">A régi alkalmazások kényszerítése, hogy teljes képernyős oldalarányt használjanak</string>
+    <string name="long_screen_settings_no_apps">Nincsenek alkalmazások</string>
     <string name="charging_sounds_settings_title">Töltési hangjelzések</string>
     <string name="charging_sounds_enabled_title">Engedélyezés</string>
     <string name="charging_sounds_enabled_summary">Hangjelzés töltő csatlakoztatása, vagy leválasztása esetén</string>

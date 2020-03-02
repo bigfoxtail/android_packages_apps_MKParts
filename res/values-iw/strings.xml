@@ -363,8 +363,8 @@
                  <b>כינוי:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
                  <b>שינויים:</b> <xliff:g id="commits">%3$s</xliff:g></string>
     <string name="contributions_info_menu">פרטי תורמים</string>
-    <string name="contributions_info_msg"><b>סה"כ תורמים:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>סה"כ חלקי קוד:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+    <string name="contributions_info_msg"><b>סה\"כ תורמים:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+                 <b>סה\"כ חלקי קוד:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
                  <b>עדכון אחרון:</b> <xliff:g id="date">%3$s</xliff:g></string>
     <string name="accelerometer_title">סיבוב אוטומטי של המסך</string>
     <string name="display_rotation_title">הגדרות סיבוב</string>

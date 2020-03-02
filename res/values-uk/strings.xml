@@ -477,6 +477,9 @@
     <string name="touchscreen_gesture_action_next_track">Перехід до наступного музичного треку</string>
     <string name="touchscreen_gesture_action_volume_down">Зменшити гучність мультимедіа</string>
     <string name="touchscreen_gesture_action_volume_up">Збільшити гучність мультимедіа</string>
+    <string name="trust_category_features">Статус</string>
+    <string name="trust_feature_selinux">SELinux</string>
+    <string name="trust_feature_selinux_value_enforcing">Застосовано</string>
     <string name="trust_feature_selinux_value_disabled">Вимкнено</string>
     <string name="trust_feature_encryption_value_enabled">Увімкнено</string>
     <string name="trust_feature_encryption_value_disabled">Вимкнено</string>
