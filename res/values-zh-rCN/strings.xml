@@ -437,6 +437,7 @@
     <string name="expanded_desktop_nothing_to_show_text">关闭开关以自定义您每个应用的扩展桌面</string>
     <string name="long_screen_settings_title">全屏应用</string>
     <string name="long_screen_settings_summary">强制旧式应用程序使用全屏长宽比</string>
+    <string name="long_screen_settings_no_apps">没有应用</string>
     <string name="charging_sounds_settings_title">充电提示音</string>
     <string name="charging_sounds_enabled_title">启用</string>
     <string name="charging_sounds_enabled_summary">连接或断开电源时发出声音</string>
