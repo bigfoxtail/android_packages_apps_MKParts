@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod project
  * Copyright (C) 2016-2018 The MoKee Open Source project
- * Copyright (C) 2017-2018 The LineageOS project
+ *               2017-2020 The LineageOS project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -79,6 +79,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_NAVIGATION_HOME_DOUBLE_TAP = "navigation_home_double_tap";
     private static final String KEY_NAVIGATION_APP_SWITCH_LONG_PRESS =
             "navigation_app_switch_long_press";
+    private static final String KEY_EDGE_LONG_SWIPE = "navigation_bar_edge_long_swipe";
     private static final String KEY_POWER_END_CALL = "power_end_call";
     private static final String KEY_HOME_ANSWER_CALL = "home_answer_call";
     private static final String KEY_VOLUME_MUSIC_CONTROLS = "volbtn_music_controls";
@@ -118,6 +119,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mNavigationHomeLongPressAction;
     private ListPreference mNavigationHomeDoubleTapAction;
     private ListPreference mNavigationAppSwitchLongPressAction;
+    private ListPreference mEdgeLongSwipeAction;
     private SwitchPreference mPowerEndCall;
     private SwitchPreference mHomeAnswerCall;
     private SwitchPreference mTorchLongPressPowerGesture;
@@ -213,6 +215,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
                 MKSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
+        Action edgeLongSwipeAction = Action.fromSettings(resolver,
+                MKSettings.System.KEY_EDGE_LONG_SWIPE_ACTION,
+                Action.NOTHING);
 
         // Navigation bar home long press
         mNavigationHomeLongPressAction = initList(KEY_NAVIGATION_HOME_LONG_PRESS,
@@ -225,6 +230,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         // Navigation bar app switch long press
         mNavigationAppSwitchLongPressAction = initList(KEY_NAVIGATION_APP_SWITCH_LONG_PRESS,
                 appSwitchLongPressAction);
+
+        // Edge long swipe gesture
+        mEdgeLongSwipeAction = initList(KEY_EDGE_LONG_SWIPE, edgeLongSwipeAction);
 
         final MKHardwareManager hardware = MKHardwareManager.getInstance(getActivity());
 
@@ -241,10 +249,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             // Remove keys that can be provided by the navbar
             updateDisableNavkeysOption();
             mNavigationPreferencesCat.setEnabled(mDisableNavigationKeys.isChecked());
-            updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
         } else {
             prefScreen.removePreference(mDisableNavigationKeys);
         }
+        updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked(), /* force */ true);
 
         if (hasPowerKey) {
             if (!TelephonyUtils.isVoiceCapable(getActivity())) {
@@ -470,6 +478,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
             mNavigationAppSwitchLongPressAction.setEntries(actionEntriesGo);
             mNavigationAppSwitchLongPressAction.setEntryValues(actionValuesGo);
+
+            mEdgeLongSwipeAction.setEntries(actionEntriesGo);
+            mEdgeLongSwipeAction.setEntryValues(actionValuesGo);
         }
     }
 
@@ -570,6 +581,10 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             handleListChange(mTorchLongPressPowerTimeout, newValue,
                     MKSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT);
             return true;
+        } else if (preference == mEdgeLongSwipeAction) {
+            handleListChange(mEdgeLongSwipeAction, newValue,
+                    MKSettings.System.KEY_EDGE_LONG_SWIPE_ACTION);
+            return true;
         }
         return false;
     }
@@ -586,7 +601,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         mDisableNavigationKeys.setChecked(enabled);
     }
 
-    private void updateDisableNavkeysCategories(boolean navbarEnabled) {
+    private void updateDisableNavkeysCategories(boolean navbarEnabled, boolean force) {
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         /* Disable hw-key options if they're disabled */
@@ -612,14 +627,31 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         /* Toggle hardkey control availability depending on navbar state */
         if (mNavigationPreferencesCat != null) {
-            if (navbarEnabled) {
-                mNavigationPreferencesCat.addPreference(mNavigationHomeLongPressAction);
-                mNavigationPreferencesCat.addPreference(mNavigationHomeDoubleTapAction);
-                mNavigationPreferencesCat.addPreference(mNavigationAppSwitchLongPressAction);
+            if (force || navbarEnabled) {
+                if (DeviceUtils.isEdgeToEdgeEnabled(getContext())) {
+                    mNavigationPreferencesCat.addPreference(mEdgeLongSwipeAction);
+
+                    mNavigationPreferencesCat.removePreference(mNavigationHomeLongPressAction);
+                    mNavigationPreferencesCat.removePreference(mNavigationHomeDoubleTapAction);
+                    mNavigationPreferencesCat.removePreference(mNavigationAppSwitchLongPressAction);
+                } else if (DeviceUtils.isSwipeUpEnabled(getContext())) {
+                    mNavigationPreferencesCat.addPreference(mNavigationHomeLongPressAction);
+                    mNavigationPreferencesCat.addPreference(mNavigationHomeDoubleTapAction);
+
+                    mNavigationPreferencesCat.removePreference(mNavigationAppSwitchLongPressAction);
+                    mNavigationPreferencesCat.removePreference(mEdgeLongSwipeAction);
+                } else {
+                    mNavigationPreferencesCat.addPreference(mNavigationHomeLongPressAction);
+                    mNavigationPreferencesCat.addPreference(mNavigationHomeDoubleTapAction);
+                    mNavigationPreferencesCat.addPreference(mNavigationAppSwitchLongPressAction);
+
+                    mNavigationPreferencesCat.removePreference(mEdgeLongSwipeAction);
+                }
             } else {
                 mNavigationPreferencesCat.removePreference(mNavigationHomeLongPressAction);
                 mNavigationPreferencesCat.removePreference(mNavigationHomeDoubleTapAction);
                 mNavigationPreferencesCat.removePreference(mNavigationAppSwitchLongPressAction);
+                mNavigationPreferencesCat.removePreference(mEdgeLongSwipeAction);
             }
         }
         if (homeCategory != null) {
@@ -694,13 +726,13 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mNavigationPreferencesCat.setEnabled(false);
             writeDisableNavkeysOption(getActivity(), mDisableNavigationKeys.isChecked());
             updateDisableNavkeysOption();
-            updateDisableNavkeysCategories(true);
+            updateDisableNavkeysCategories(true, false);
             mHandler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
                     mDisableNavigationKeys.setEnabled(true);
                     mNavigationPreferencesCat.setEnabled(mDisableNavigationKeys.isChecked());
-                    updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked());
+                    updateDisableNavkeysCategories(mDisableNavigationKeys.isChecked(), false);
                 }
             }, 1000);
         } else if (preference == mPowerEndCall) {
