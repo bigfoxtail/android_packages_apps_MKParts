@@ -23,4 +23,16 @@
     <string name="fingerprint_shortcut_delete">Видалити</string>
     <string name="fingerprint_shortcut_editer">Додати відбиток</string>
     <string name="fingerprint_shortcut_manage">Управління відбитками</string>
+    <string name="bottom_gesture_navigation_settings_title">Нижні жести навігації</string>
+    <string name="bottom_gesture_navigation_settings_summary">Використовувати жести знизу вгору для навігації</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Використовувати жести знизу вгору замість апаратних кнопок</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Використовувати жести знизу вгору замість кнопок навігації екрану</string>
+    <string name="bottom_gesture_navigation_settings_text">Доступні жести:\n\nназад\n- Провести вгору по лівій чи правій частині\n\nГоловна\n- Провести в центр\n\nОстанні програми\n- Провести в центр і вверх і втримати\n\nУтримання кнопки \"Додому\"\n- Короткий свайп вгору та утримуйте в центрі</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Висота області жестів</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Висота знизу екрану для спрацьовування жестів</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Час обробки жесту</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Час очікування до початку виконання жесту</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>
