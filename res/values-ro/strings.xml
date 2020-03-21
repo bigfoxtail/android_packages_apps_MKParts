@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -419,15 +419,6 @@
     <string name="auto_power_save_summary_on">Activează automat modul de economisire a energiei la baterie %s</string>
     <string name="auto_power_save_summary_off">Nu activa automat modul de economisire a energiei</string>
     <string name="auto_power_save_never">Niciodată</string>
-    <string name="expanded_desktop_settings_title">Desktop extins</string>
-    <string name="expanded_desktop_settings_summary">Extinde spațiul desktop disponibil prin ascunderea bării de stare, a bării de navigare sau ambele</string>
-    <string name="expanded_desktop_options_title">Opţiuni de personalizare</string>
-    <string name="expanded_desktop_style_title">Stil desktop extins</string>
-    <string name="expanded_desktop_style_hide_nothing">Nu ascunde nimic</string>
-    <string name="expanded_desktop_style_hide_status">Ascunde bara de stare</string>
-    <string name="expanded_desktop_style_hide_navigation">Ascunde bara de navigare</string>
-    <string name="expanded_desktop_style_hide_both">Ascunde ambele</string>
-    <string name="expanded_desktop_nothing_to_show_text">Dezactivați comutatorul pentru a personaliza desktop-ul extins pe o bază per aplicație</string>
     <string name="charging_sounds_settings_title">Sunete de încărcare</string>
     <string name="charging_sounds_enabled_title">Activați</string>
     <string name="charging_sounds_enabled_summary">Redă un sunet la conectarea sau deconectarea unei surse de alimentare</string>

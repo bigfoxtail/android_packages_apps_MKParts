@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -423,15 +423,6 @@
     <string name="auto_power_save_summary_on">Otomatis mengaktifkan mode hemat daya saat baterai %s</string>
     <string name="auto_power_save_summary_off">Jangan hidupkan mode hemat daya otomatis</string>
     <string name="auto_power_save_never">Jangan pernah</string>
-    <string name="expanded_desktop_settings_title">Desktop diperluas</string>
-    <string name="expanded_desktop_settings_summary">Memperluas ruang desktop anda tersedia dengan menyembunyikan status bar, navigasi, atau keduanya</string>
-    <string name="expanded_desktop_options_title">Pilihan penyesuaian</string>
-    <string name="expanded_desktop_style_title">Gaya desktop diperluas</string>
-    <string name="expanded_desktop_style_hide_nothing">Tidak menyembunyikan apapun</string>
-    <string name="expanded_desktop_style_hide_status">Sembunyikan status bar</string>
-    <string name="expanded_desktop_style_hide_navigation">Sembunyikan navigasi bar</string>
-    <string name="expanded_desktop_style_hide_both">Sembunyikan keduanya</string>
-    <string name="expanded_desktop_nothing_to_show_text">Matikan saklar untuk menyesuaikan desktop diperluas pada basis per-app</string>
     <string name="long_screen_settings_title">Aplikasi layar penuh</string>
     <string name="long_screen_settings_summary">Paksa aplikasi lawas untuk menggunakan rasio aspek layar penuh</string>
     <string name="charging_sounds_settings_title">Suara pengisian daya</string>

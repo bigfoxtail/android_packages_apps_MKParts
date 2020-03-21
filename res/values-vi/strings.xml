@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -420,15 +420,6 @@
     <string name="auto_power_save_summary_on">Tự động kích hoạt chế độ tiết kiệm pin tại mức %s</string>
     <string name="auto_power_save_summary_off">Không cho phép chế độ tiết kiệm pin tự động</string>
     <string name="auto_power_save_never">Không bao giờ</string>
-    <string name="expanded_desktop_settings_title">Mở rộng màn hình</string>
-    <string name="expanded_desktop_settings_summary">Mở rộng không gian màn hình có sẵn của bạn bằng cách ẩn thanh trạng thái, thanh điều hướng, hoặc cả hai</string>
-    <string name="expanded_desktop_options_title">Tuỳ chọn tuỳ chỉnh</string>
-    <string name="expanded_desktop_style_title">Kiểu mở rộng màn hình</string>
-    <string name="expanded_desktop_style_hide_nothing">Không ẩn gì cả</string>
-    <string name="expanded_desktop_style_hide_status">Ẩn thanh trạng thái</string>
-    <string name="expanded_desktop_style_hide_navigation">Ẩn thanh điều hướng</string>
-    <string name="expanded_desktop_style_hide_both">Ẩn cả hai</string>
-    <string name="expanded_desktop_nothing_to_show_text">Tắt chuyển đổi để tùy chỉnh mở rộng màn hình của bạn trên một ứng dụng gốc</string>
     <string name="long_screen_settings_title">Ứng dụng toàn màn hình</string>
     <string name="long_screen_settings_summary">Buộc ứng dụng cũ sử dụng tỷ lệ cỡ ảnh toàn màn hình</string>
     <string name="charging_sounds_settings_title">Âm báo đang sạc</string>

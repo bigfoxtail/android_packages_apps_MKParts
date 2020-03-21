@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -377,15 +377,6 @@
     <string name="auto_power_save_summary_on">Aktiver strømsparing automatisk på %s batteriprosent</string>
     <string name="auto_power_save_summary_off">Ikke slå på strømsparingsmodus automatisk</string>
     <string name="auto_power_save_never">Aldri</string>
-    <string name="expanded_desktop_settings_title">Utvidet skrivebord</string>
-    <string name="expanded_desktop_settings_summary">Utvide tilgjengelig plass på skrivebordet ved å skjule statuslinjen, navigasjonslinjen eller begge</string>
-    <string name="expanded_desktop_options_title">Tilpasningsalternativer</string>
-    <string name="expanded_desktop_style_title">Utvidet skrivebordsstil</string>
-    <string name="expanded_desktop_style_hide_nothing">Skjul ingenting</string>
-    <string name="expanded_desktop_style_hide_status">Skjul statuslinjen</string>
-    <string name="expanded_desktop_style_hide_navigation">Skjul navigasjonslinjen</string>
-    <string name="expanded_desktop_style_hide_both">Skjul begge</string>
-    <string name="expanded_desktop_nothing_to_show_text">Slå av for å tilpasse utvidet skrivebord på per-app basis</string>
     <string name="charging_sounds_settings_title">Lade-lyder</string>
     <string name="charging_sounds_enabled_title">Aktiver</string>
     <string name="charging_sounds_enabled_summary">Spill av en lyd når du kobler til eller fra en strømkilde</string>

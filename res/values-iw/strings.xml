@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -404,15 +404,6 @@
     <string name="auto_power_save_summary_on">מפעיל אוטמטית את מצב חיסכון בחשמל ב־%s אחוזי סוללה</string>
     <string name="auto_power_save_summary_off">לא מפעיל את מצב חיסכון בחשמל אוטומטית</string>
     <string name="auto_power_save_never">לעולם לא</string>
-    <string name="expanded_desktop_settings_title">שולחן עבודה מורחב</string>
-    <string name="expanded_desktop_settings_summary">הגדל את שטח התצוגה שלך על ידי הסתרת שורת מצב, סרגל ניווט או שינהם</string>
-    <string name="expanded_desktop_options_title">התאם אישית אפשרויות</string>
-    <string name="expanded_desktop_style_title">סוג המסך המורחב</string>
-    <string name="expanded_desktop_style_hide_nothing">אל תסתיר כלום</string>
-    <string name="expanded_desktop_style_hide_status">הסתר שורת מצב</string>
-    <string name="expanded_desktop_style_hide_navigation">הסתר סרגל ניווט</string>
-    <string name="expanded_desktop_style_hide_both">הסתר את שניהם</string>
-    <string name="expanded_desktop_nothing_to_show_text">כבה מתג זה להתאמה אישית של מסך מורחב לכל יישום</string>
     <string name="charging_sounds_settings_title">צלילי טעינה</string>
     <string name="charging_sounds_enabled_title">הפעל</string>
     <string name="charging_sounds_enabled_summary">השמע צליל בעת חיבור או ניתוק ממקור חשמל</string>

@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -391,15 +391,6 @@
     <string name="auto_power_save_summary_on">Habilita el mode d\'estalvi d\'energia automàticament quan s\'arribi al %s per cent de bateria</string>
     <string name="auto_power_save_summary_off">No habilitis el mode d\'estalvi d\'energia automàticament</string>
     <string name="auto_power_save_never">Mai</string>
-    <string name="expanded_desktop_settings_title">Escriptori extès</string>
-    <string name="expanded_desktop_settings_summary">Amplia el teu espai disponible a l\'escriptori amagant la barra d\'estat, la barra de navegació o els dos</string>
-    <string name="expanded_desktop_options_title">Opcions de personalització</string>
-    <string name="expanded_desktop_style_title">Estil d\'escriptori extès</string>
-    <string name="expanded_desktop_style_hide_nothing">No amaguis res</string>
-    <string name="expanded_desktop_style_hide_status">Amaga la barra d\'estat</string>
-    <string name="expanded_desktop_style_hide_navigation">Amaga la barra de navegació</string>
-    <string name="expanded_desktop_style_hide_both">Amaga els dos</string>
-    <string name="expanded_desktop_nothing_to_show_text">Apaga l\'interruptor per personalitzar el teu escriptori extès segons cada aplicació</string>
     <string name="charging_sounds_settings_title">Sons de càrrega</string>
     <string name="charging_sounds_enabled_title">Habilita</string>
     <string name="charging_sounds_enabled_summary">Reprodueix un so en connectar o desconnectar d\'una font d\'energia</string>

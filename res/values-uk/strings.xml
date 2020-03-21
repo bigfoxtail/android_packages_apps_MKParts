@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -34,9 +34,11 @@
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="search">Пошук</string>
+    <string name="search_menu">Пошук налаштувань</string>
     <string name="disabled">Вимкнено</string>
     <string name="enabled">Увімкнено</string>
     <string name="privacy_settings_title">Конфіденційність</string>
+    <string name="channel_light_settings_name">Попередній перегляд налаштувань освітлення</string>
     <string name="edit_light_settings">Змінити налаштування світлового індикатора</string>
     <string name="pulse_speed_title">Тривалість та швидкість мигання</string>
     <string name="default_time">Нормально</string>
@@ -168,6 +170,8 @@
     <string name="power_end_call_summary">Завершення поточного виклику натисненням кнопки живлення</string>
     <string name="swap_volume_buttons_title">Переорієнтувати</string>
     <string name="swap_volume_buttons_summary">Поміняти кнопки регулювання гучності, коли екран повернений</string>
+    <string name="volume_panel_on_left_title">Панель гучності зліва</string>
+    <string name="volume_panel_on_left_summary">Змінити розташування панелі регулювання гучності з правого боку на ліву</string>
     <string name="button_wake_title">Розбудити пристрій</string>
     <string name="volume_answer_call_title">Відповісти на виклик</string>
     <string name="volume_answer_call_summary">Відповідати на вхідний виклик натисненням кнопок гучності</string>
@@ -189,12 +193,14 @@
     <string name="disable_navkeys_title">Увімкнути екранну панель навігації</string>
     <string name="disable_navkeys_summary">Увімкнути екранну панель навігації і вимкнути апаратні кнопки</string>
     <string name="navigation_bar_category">Панель навігації</string>
+    <string name="navigation_bar_invert_layout_title">Інвертувати порядок кнопок</string>
     <string name="navigation_bar_left_summary">Показувати панель навігації зліва в альбомній орієнтації</string>
     <string name="navigation_bar_arrow_keys_title">Показувати стрілки під час введення тексту</string>
     <string name="navigation_bar_arrow_keys_summary">Показувати кнопки переміщення курсору вліво або вправо при введенні. Кнопка вибору методу введення не буде відображатися.</string>
     <string name="navigation_bar_home_long_press_title">Дія при довгому натисканні кнопки \"Додому\"</string>
     <string name="navigation_bar_home_double_tap_title">Дія при подвійному натисканні на кнопку \"Додому\"</string>
     <string name="navigation_bar_app_switch_long_press_title">Дія довгого натискання недавніх програм</string>
+    <string name="navigation_bar_edge_long_swipe_title">Дія по довгому свайпу по краю</string>
     <string name="power_menu_title">Меню кнопки живлення</string>
     <string name="power_menu_screenshot_title">Скріншот</string>
     <string name="power_menu_screenshot_summary">Утримуйте для скріншоту виділеної області</string>
@@ -327,6 +333,7 @@
     <string name="status_bar_quick_qs_pulldown_right">Справа</string>
     <string name="status_bar_double_tap_to_sleep_title">Подвійне натискання для сну</string>
     <string name="status_bar_double_tap_to_sleep_summary">Подвійне натисканя на рядок стану, щоб вимкнути екран</string>
+    <string name="status_bar_qs_tile_columns_title">Швидкі налаштування стовпців плитки</string>
     <string name="status_bar_icons_title">Значки в рядку стану</string>
     <string name="status_bar_notif_count_title">Показувати кількість сповіщень</string>
     <string name="status_bar_notif_count_summary">Показувати кількість нових повідомлень у рядку стану</string>
@@ -420,17 +427,9 @@
     <string name="auto_power_save_summary_on">Автоматично активувати режим енергозбереження при %s батареї</string>
     <string name="auto_power_save_summary_off">Не вмикати режим енергозбереження автоматично</string>
     <string name="auto_power_save_never">Ніколи</string>
-    <string name="expanded_desktop_settings_title">Розширений робочий стіл</string>
-    <string name="expanded_desktop_settings_summary">Збільшення доступного місця екрану, приховуючи рядок стану та/або панель навігації</string>
-    <string name="expanded_desktop_options_title">Налаштування</string>
-    <string name="expanded_desktop_style_title">Режим розширеного робочого столу</string>
-    <string name="expanded_desktop_style_hide_nothing">Нічого не ховати</string>
-    <string name="expanded_desktop_style_hide_status">Приховувати рядок стану</string>
-    <string name="expanded_desktop_style_hide_navigation">Приховувати панель навігації</string>
-    <string name="expanded_desktop_style_hide_both">Приховувати обидві</string>
-    <string name="expanded_desktop_nothing_to_show_text">Вимкнути налаштування розширеного робочого столу для кожного додатку</string>
     <string name="long_screen_settings_title">Повноекранні додатки</string>
     <string name="long_screen_settings_summary">Примусове використання повноекранного режиму застарілими застосунками</string>
+    <string name="long_screen_settings_no_apps">Додатків немає.</string>
     <string name="charging_sounds_settings_title">Звуки зарядки</string>
     <string name="charging_sounds_enabled_title">Увімкнути</string>
     <string name="charging_sounds_enabled_summary">Грати звук при підключенні чи від\'єднанні від зарядного пристрою</string>
@@ -447,6 +446,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Проведіть вниз одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Проведіть вліво одним пальцем</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Проведіть вправо одним пальцем</string>
+    <string name="touchscreen_gesture_single_tap_title">Одиночне натискання</string>
     <string name="touchscreen_gesture_up_arrow_title">Намалюйте \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Намалюйте \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Намалюйте \"&lt;\"</string>
@@ -477,13 +477,34 @@
     <string name="touchscreen_gesture_action_next_track">Перехід до наступного музичного треку</string>
     <string name="touchscreen_gesture_action_volume_down">Зменшити гучність мультимедіа</string>
     <string name="touchscreen_gesture_action_volume_up">Збільшити гучність мультимедіа</string>
+    <string name="touchscreen_gesture_action_ambient_display">Екран завжди включений</string>
     <string name="trust_category_features">Статус</string>
     <string name="trust_feature_selinux">SELinux</string>
-    <string name="trust_feature_selinux_value_enforcing">Застосовано</string>
+    <string name="trust_feature_selinux_value_enforcing">Блокування</string>
     <string name="trust_feature_selinux_value_disabled">Вимкнено</string>
+    <string name="trust_feature_selinux_explain">SELinux визначає, які процеси мають доступ до файлів на вашому пристрої.\nЦе запобігає доступу додатків і сервісів до файлів, з якими вони не повинні мати справу: таким чином, шкідливий процес має обмежений доступ, щоб ваша безпека була збережена.</string>
+    <string name="trust_feature_security_patches">Патч безпеки Android</string>
+    <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nВиробник: %2$s</string>
+    <string name="trust_feature_security_patches_value_new">Немає оновлень</string>
+    <string name="trust_feature_security_patches_value_medium">застарілий на кілька місяців</string>
+    <string name="trust_feature_security_patches_value_old">Застарілий</string>
+    <string name="trust_feature_security_patches_explain">Пакети безпеки випускаються щомісяця компанією Google і постачальниками SoC для усунення недоліків в системі, які можуть бути використані шкідливими додатками для обходу обмежень безпеки і можуть завдати тимчасової або постійної шкоди вашому пристрою. В той час, як патчі платформи оновлюються щомісяця, самі виробники пристроїв оновлюють патчі не поспішаючи. Для того, щоб ваш пристрій був безпечним, переконайтеся, що ваша збірка MoKee завжди актуальна.</string>
+    <string name="trust_feature_encryption">Шифрування</string>
     <string name="trust_feature_encryption_value_enabled">Увімкнено</string>
+    <string name="trust_feature_encryption_value_nolock">Потребує захисний екран блокування</string>
     <string name="trust_feature_encryption_value_disabled">Вимкнено</string>
+    <string name="trust_feature_encryption_explain">Шифрування вашого пристрою запобігає доступу до ваших даних, коли ваш телефон вимкнений або знаходиться в режимі відновлення. Це особливо важливо, якщо ваш телефон вкрадений, шифрування не дозволяє людям читати ваші повідомлення, контакти та іншу особисту інформацію без пароля.\nЩоб зробити шифрування більш ефективним, вам потрібно встановити захисний екран блокування.</string>
     <string name="trust_category_tools">Конфіденційність</string>
+    <string name="trust_notification_alerts_title">Оповіщення системи безпеки</string>
+    <string name="trust_warnings_alerts_intro">Ви можете вказати проблему безпеки, про які ви хочете попередити. Для вашої безпеки рекомендується включити всі оповіщення.</string>
+    <string name="trust_warnings_selinux">Статус SELinux</string>
+    <string name="trust_warnings_keys">Підпис збірки</string>
+    <string name="trust_onboarding_title">Скажіть \"Привіт\" Trust</string>
+    <string name="trust_onboarding_description">Trust допомагає вам захистити ваш пристрій і вашу конфіденційність.\nЗначок Trust відображається для того, щоб допомогти вам перевірити безпеку вмісту.</string>
+    <string name="trust_onboarding_learn_more">Детальніше</string>
+    <string name="trust_onboarding_done">Зрозуміло</string>
+    <string name="trust_restrict_usb_title">Обмежити USB</string>
+    <string name="trust_restrict_usb_summary">Відключити визначення нових USB-гаджетів, коли пристрій заблоковано</string>
     <string name="sms_security_check_limit_title">Обмеження SMS-повідомлень</string>
     <string name="sms_security_check_limit_summary">Запитати дозвіл при відправці більше %s повідомлень протягом хвилини</string>
     <string name="sms_security_check_limit_summary_none">Додаткам не дозволено надсилати будь-які повідомлення без підтвердження</string>

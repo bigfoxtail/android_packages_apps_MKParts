@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -373,15 +373,6 @@
     <string name="auto_power_save_summary_on">Activar automáticamente o modo de aforro de enerxía ao %s da batería</string>
     <string name="auto_power_save_summary_off">Non activar o modo de aforro de enerxía automáticamente</string>
     <string name="auto_power_save_never">Nunca</string>
-    <string name="expanded_desktop_settings_title">Escritorio estendido</string>
-    <string name="expanded_desktop_settings_summary">Ampliar o seu espazo de traballo dispoñible, ocultando a barra de estado, barra de navegación, ou ambos</string>
-    <string name="expanded_desktop_options_title">Opcions de personalización</string>
-    <string name="expanded_desktop_style_title">Estilo do escritorio expandido</string>
-    <string name="expanded_desktop_style_hide_nothing">Non agochar nada</string>
-    <string name="expanded_desktop_style_hide_status">Agochar barra de estado</string>
-    <string name="expanded_desktop_style_hide_navigation">Agochar barra de navegación</string>
-    <string name="expanded_desktop_style_hide_both">Agochar ámbalas dúas</string>
-    <string name="expanded_desktop_nothing_to_show_text">Desactivar a chave de personalizar o seu escritorio expandida nunha base per-app</string>
     <string name="charging_sounds_settings_title">Sons de carga</string>
     <string name="charging_sounds_enabled_title">Activar</string>
     <string name="charging_sounds_enabled_summary">Reproducir un son ao conectar e desconectar a fonte de alimentación</string>

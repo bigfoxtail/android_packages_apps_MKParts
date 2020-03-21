@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -426,15 +426,6 @@
     <string name="auto_power_save_summary_on">电量 %s 时自动启用省电</string>
     <string name="auto_power_save_summary_off">不要自动启用省电</string>
     <string name="auto_power_save_never">永不</string>
-    <string name="expanded_desktop_settings_title">扩展桌面</string>
-    <string name="expanded_desktop_settings_summary">隐藏状态栏或导航栏或两者以扩大您的可用桌面空间</string>
-    <string name="expanded_desktop_options_title">自定义选项</string>
-    <string name="expanded_desktop_style_title">扩展桌面样式</string>
-    <string name="expanded_desktop_style_hide_nothing">不隐藏</string>
-    <string name="expanded_desktop_style_hide_status">隐藏状态栏</string>
-    <string name="expanded_desktop_style_hide_navigation">隐藏导航栏</string>
-    <string name="expanded_desktop_style_hide_both">同时隐藏</string>
-    <string name="expanded_desktop_nothing_to_show_text">关闭开关以自定义您每个应用的扩展桌面</string>
     <string name="long_screen_settings_title">全屏应用</string>
     <string name="long_screen_settings_summary">强制旧式应用程序使用全屏长宽比</string>
     <string name="long_screen_settings_no_apps">没有应用</string>

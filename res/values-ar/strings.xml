@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -426,15 +426,6 @@
     <string name="auto_power_save_summary_on">تشغيل وضع توفير الطاقة عندما يتبقى %s من البطارية</string>
     <string name="auto_power_save_summary_off">لا تُفعل وضع توفير الطاقة تلقائيًا</string>
     <string name="auto_power_save_never">أبداً</string>
-    <string name="expanded_desktop_settings_title">سطح المكتب الموسع</string>
-    <string name="expanded_desktop_settings_summary">توسيع مساحة سطح مكتبك المتاحة عن طريق إخفاء شريط الحالة وشريط التنقل أو كليهما</string>
-    <string name="expanded_desktop_options_title">خيارات التخصيص</string>
-    <string name="expanded_desktop_style_title">نمط سطح المكتب الموسّع</string>
-    <string name="expanded_desktop_style_hide_nothing">لا تخفِ شيئاً</string>
-    <string name="expanded_desktop_style_hide_status">إخفاء شريط الحالة</string>
-    <string name="expanded_desktop_style_hide_navigation">إخفاء شريط التنقل</string>
-    <string name="expanded_desktop_style_hide_both">إخفاء كليهما</string>
-    <string name="expanded_desktop_nothing_to_show_text">إيقاف تشغيل مفتاح التبديل لتخصيص سطح المكتب الموسع حسب كل تطبيق</string>
     <string name="long_screen_settings_title">تطبيقات الشاشة الكاملة</string>
     <string name="long_screen_settings_summary">اجبِر التطبيقات القديمة على استخدام نسبة العرض إلى الارتفاع على كامل الشاشة</string>
     <string name="charging_sounds_settings_title">أصوات الشحن</string>

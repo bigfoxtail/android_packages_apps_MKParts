@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -421,15 +421,6 @@
     <string name="auto_power_save_summary_on">バッテリー残量%sで省電力モードを自動的に有効にする</string>
     <string name="auto_power_save_summary_off">省電力モードを自動的に有効にしない</string>
     <string name="auto_power_save_never">無期限</string>
-    <string name="expanded_desktop_settings_title">拡張デスクトップ</string>
-    <string name="expanded_desktop_settings_summary">ステータスバーまたはナビゲーションバー、もしくは両方を非表示にして利用できるデスクトップスペースを拡張する</string>
-    <string name="expanded_desktop_options_title">カスタマイズのオプション</string>
-    <string name="expanded_desktop_style_title">拡張デスクトップのスタイル</string>
-    <string name="expanded_desktop_style_hide_nothing">非表示にしない</string>
-    <string name="expanded_desktop_style_hide_status">ステータスバーを非表示</string>
-    <string name="expanded_desktop_style_hide_navigation">ナビゲーションバーを非表示</string>
-    <string name="expanded_desktop_style_hide_both">両方を非表示</string>
-    <string name="expanded_desktop_nothing_to_show_text">拡張デスクトップをアプリごとにカスタマイズするにはスイッチをオフにして下さい</string>
     <string name="long_screen_settings_title">全画面表示のアプリ</string>
     <string name="long_screen_settings_summary">従来のアプリに全画面表示のアスペクト比を使用させる</string>
     <string name="charging_sounds_settings_title">充電時の音</string>

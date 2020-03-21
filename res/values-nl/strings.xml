@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -419,15 +419,6 @@
     <string name="auto_power_save_summary_on">Energiebesparende modus automatisch inschakelen op %s accu</string>
     <string name="auto_power_save_summary_off">Energiebesparende modus niet automatisch inschakelen</string>
     <string name="auto_power_save_never">Nooit</string>
-    <string name="expanded_desktop_settings_title">Uitgebreid bureaublad</string>
-    <string name="expanded_desktop_settings_summary">Uw beschikbare desktopruimte uitbreiden door de statusbalk, navigatiebalk of beide te verbergen</string>
-    <string name="expanded_desktop_options_title">Aanpassingsopties</string>
-    <string name="expanded_desktop_style_title">Stijl uitgebreid bureaublad</string>
-    <string name="expanded_desktop_style_hide_nothing">Niets verbergen</string>
-    <string name="expanded_desktop_style_hide_status">Statusbalk verbergen</string>
-    <string name="expanded_desktop_style_hide_navigation">Navigatiebalk verbergen</string>
-    <string name="expanded_desktop_style_hide_both">Beide verbergen</string>
-    <string name="expanded_desktop_nothing_to_show_text">Uitschakelen om het uitgebreide bureaublad per app te kunnen aanpassen</string>
     <string name="charging_sounds_settings_title">Opladergeluid</string>
     <string name="charging_sounds_enabled_title">Inschakelen</string>
     <string name="charging_sounds_enabled_summary">Geluid afspelen bij het aansluiten of loskoppelen van een lader</string>

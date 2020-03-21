@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -426,15 +426,6 @@
     <string name="auto_power_save_summary_on">Den Energiesparmodus bei %s Akkuladung automatisch aktivieren</string>
     <string name="auto_power_save_summary_off">Den Energiesparmodus nicht automatisch aktivieren</string>
     <string name="auto_power_save_never">Nie</string>
-    <string name="expanded_desktop_settings_title">Erweiterter Desktop</string>
-    <string name="expanded_desktop_settings_summary">Vergrößern Sie den verfügbaren Bildschirmplatz durch Ausblenden der Statusleiste und/oder der Navigationsleiste.</string>
-    <string name="expanded_desktop_options_title">Anpassungsoptionen</string>
-    <string name="expanded_desktop_style_title">Stil des erweiterten Desktops</string>
-    <string name="expanded_desktop_style_hide_nothing">Nichts ausblenden</string>
-    <string name="expanded_desktop_style_hide_status">Statusleiste ausblenden</string>
-    <string name="expanded_desktop_style_hide_navigation">Navigationsleiste ausblenden</string>
-    <string name="expanded_desktop_style_hide_both">Beides ausblenden</string>
-    <string name="expanded_desktop_nothing_to_show_text">Deaktivieren Sie den Schalter, um den erweiterten Desktop für jede App einzeln anzupassen</string>
     <string name="long_screen_settings_title">Vollbild Apps</string>
     <string name="long_screen_settings_summary">Zwinge vorherige Apps in den Vollbild-Modus</string>
     <string name="charging_sounds_settings_title">Ladegeräte-Töne</string>

@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -56,7 +56,5 @@
     <string name="status_bar_show_weather_summary">موجودہ درجہ حرارت کو بار بار پر دکھائیں</string>
     <string name="perf_profile_settings_summary">بجلی کی بچت کی خصوصیات اور آلہ کی کارکردگی کو ایڈجسٹ کریں</string>
     <string name="power_save_summary">اقتدار کو بچانے کیلئے آلہ کی کارکردگی اور پس منظر کی سرگرمی کو محدود کریں</string>
-    <string name="expanded_desktop_settings_summary">حیثیت بار، نیوی گیشن بار، یا دونوں کو چھپا کرکے اپنے دستیاب ڈیسک ٹاپ کی جگہ کو بڑھاو</string>
-    <string name="expanded_desktop_nothing_to_show_text">سوئچ آف کو آپ کے وسیع کردہ ڈیسک ٹاپ کو فی اے پی کی بنیاد پر اپنی مرضی کے مطابق کرنے کے لئے بند کریں</string>
     <string name="charging_sounds_enabled_summary">بجلی کا منسلک منسلک یا منقطع کرتے وقت آواز چلائیں</string>
 </resources>

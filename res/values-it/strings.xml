@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -425,15 +425,6 @@
     <string name="auto_power_save_summary_on">Attiva automaticamente la modalità di risparmio energetico al %s di batteria</string>
     <string name="auto_power_save_summary_off">Non attivare la modalità di risparmio energia automaticamente</string>
     <string name="auto_power_save_never">Mai</string>
-    <string name="expanded_desktop_settings_title">Schermo esteso</string>
-    <string name="expanded_desktop_settings_summary">Espandi lo spazio disponibile sullo schermo nascondendo la barra di stato, barra di navigazione o entrambi</string>
-    <string name="expanded_desktop_options_title">Opzioni personalizzazione</string>
-    <string name="expanded_desktop_style_title">Stile schermo esteso</string>
-    <string name="expanded_desktop_style_hide_nothing">Non nascondere nulla</string>
-    <string name="expanded_desktop_style_hide_status">Nascondi la barra di stato</string>
-    <string name="expanded_desktop_style_hide_navigation">Nascondi barra di navigazione</string>
-    <string name="expanded_desktop_style_hide_both">Nascondi entrambe</string>
-    <string name="expanded_desktop_nothing_to_show_text">Spegni l\'interruttore per personalizzare lo schermo esteso basato su ogni singola app</string>
     <string name="long_screen_settings_title">App a schermo intero</string>
     <string name="long_screen_settings_summary">Forza le app ad utilizzare lo schermo intero</string>
     <string name="charging_sounds_settings_title">Suoni di ricarica</string>

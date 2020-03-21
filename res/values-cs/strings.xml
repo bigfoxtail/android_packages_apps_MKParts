@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -426,15 +426,6 @@
     <string name="auto_power_save_summary_on">Automaticky zapnout úsporný režim při %s baterie</string>
     <string name="auto_power_save_summary_off">Nezapínat automaticky režim snížené spotřeby</string>
     <string name="auto_power_save_never">Nikdy</string>
-    <string name="expanded_desktop_settings_title">Režim rozšířené plochy</string>
-    <string name="expanded_desktop_settings_summary">Rozšířit prostor na ploše skrytím stavového řádku, navigační lišty nebo obojí</string>
-    <string name="expanded_desktop_options_title">Možnost vlastního nastavení</string>
-    <string name="expanded_desktop_style_title">Vzhled rozšířené plochy</string>
-    <string name="expanded_desktop_style_hide_nothing">Nic neskrývat</string>
-    <string name="expanded_desktop_style_hide_status">Skrýt stavovou lištu</string>
-    <string name="expanded_desktop_style_hide_navigation">Skrýt navigační lištu</string>
-    <string name="expanded_desktop_style_hide_both">Skrýt oboji</string>
-    <string name="expanded_desktop_nothing_to_show_text">Vypněte upravení rozšířené plochy na základě aplikací</string>
     <string name="long_screen_settings_title">Aplikace na celou obrazovku</string>
     <string name="long_screen_settings_summary">Přimět starší aplikace na použití poměrů na celou obrazovku</string>
     <string name="charging_sounds_settings_title">Zvuky při nabíjení</string>

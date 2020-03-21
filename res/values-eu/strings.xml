@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -381,15 +381,6 @@
     <string name="auto_power_save_summary_on">Gaitu energia aurrezteko modua automatikoki bateriak %s duenean</string>
     <string name="auto_power_save_summary_off">Ez gaitu energia aurrezteko modua automatikoki</string>
     <string name="auto_power_save_never">Inoiz ez</string>
-    <string name="expanded_desktop_settings_title">Idazmahai hedatua</string>
-    <string name="expanded_desktop_settings_summary">Hedatu mahaigaineko espazio erabilgarria egoera-barra, nabigazio-barra edo biak ezkutatuz</string>
-    <string name="expanded_desktop_options_title">Pertsonalizazio aukerak</string>
-    <string name="expanded_desktop_style_title">Mahaigain hedatuaren estiloa</string>
-    <string name="expanded_desktop_style_hide_nothing">Ez ezkutatu ezer</string>
-    <string name="expanded_desktop_style_hide_status">Ezkutatu egoera-barra</string>
-    <string name="expanded_desktop_style_hide_navigation">Ezkutatu nabigazio-barra</string>
-    <string name="expanded_desktop_style_hide_both">Ezkutatu biak</string>
-    <string name="expanded_desktop_nothing_to_show_text">Itzali zure mahaigain hedatua aplikazioz aplikazio pertsonalizatzeko</string>
     <string name="charging_sounds_settings_title">Kargatze-soinuak</string>
     <string name="charging_sounds_enabled_title">Gaitu</string>
     <string name="charging_sounds_enabled_summary">Soinua jo kargadorea konektatu edo deskonektatzean</string>

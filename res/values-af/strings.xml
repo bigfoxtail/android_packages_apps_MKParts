@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -383,15 +383,6 @@
     <string name="auto_power_save_summary_on">Aktiveer outomaties krag spaar modus by %s battery</string>
     <string name="auto_power_save_summary_off">Moenie outomatoes kragspaarmodus aktiveer nie</string>
     <string name="auto_power_save_never">Nooit</string>
-    <string name="expanded_desktop_settings_title">Uitgebreide werkskerm</string>
-    <string name="expanded_desktop_settings_summary">Brei jou werkskerm spasie uit deur die statusbalk, navigasiebalk of beide weg te steek</string>
-    <string name="expanded_desktop_options_title">Aanpassings opsies</string>
-    <string name="expanded_desktop_style_title">Uitgebreide werkskerm styl</string>
-    <string name="expanded_desktop_style_hide_nothing">Verberg niks</string>
-    <string name="expanded_desktop_style_hide_status">Versteek statusbalk</string>
-    <string name="expanded_desktop_style_hide_navigation">Versteek navigasiebalk</string>
-    <string name="expanded_desktop_style_hide_both">Versteek beide</string>
-    <string name="expanded_desktop_nothing_to_show_text">Skakel die skakelaar af om jou uitgebreide werkskerm op \'n per toep basis pas te maak</string>
     <string name="charging_sounds_settings_title">Laai klanke</string>
     <string name="charging_sounds_enabled_title">Aktiveer</string>
     <string name="charging_sounds_enabled_summary">Speel \'n klank met die koppeling of ontkoppeling van \'n kragbron</string>

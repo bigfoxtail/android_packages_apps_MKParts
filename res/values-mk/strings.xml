@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -373,15 +373,6 @@
     <string name="auto_power_save_summary_on">Автоматски вклучи режим за штедење на енергија на %s на батеријата</string>
     <string name="auto_power_save_summary_off">Не овозможувај автоматски режим за штедење</string>
     <string name="auto_power_save_never">Никогаш</string>
-    <string name="expanded_desktop_settings_title">Проширена работна површина</string>
-    <string name="expanded_desktop_settings_summary">Проширете го вашиот достапен работен простор со криење на лентата за статус, лента за навигација или и двете</string>
-    <string name="expanded_desktop_options_title">Опции за прилагодување</string>
-    <string name="expanded_desktop_style_title">Стил на проширен работен простор</string>
-    <string name="expanded_desktop_style_hide_nothing">Не сокривај ништо</string>
-    <string name="expanded_desktop_style_hide_status">Сокриј ја лентата за статус</string>
-    <string name="expanded_desktop_style_hide_navigation">Сокриј ја лентата за навигација</string>
-    <string name="expanded_desktop_style_hide_both">Сокриј ги двете</string>
-    <string name="expanded_desktop_nothing_to_show_text">Исклучете го прекинувачот за да ја прилагодите проширената работна површина за секоја апликација</string>
     <string name="charging_sounds_settings_title">Звуци за полнење</string>
     <string name="charging_sounds_enabled_title">Овозможи</string>
     <string name="charging_sounds_enabled_summary">Репродуцирај звук при поврзување или исклучување на извор на енергија</string>

@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -269,15 +269,6 @@
     <string name="auto_power_save_summary_on">Habilítase automáticamente\'l mou d\'aforru d\'enerxía al %s de batería</string>
     <string name="auto_power_save_summary_off">Nun s\'habilita automáticamente\'l mou d\'aforru d\'enerxía</string>
     <string name="auto_power_save_never">Enxamás</string>
-    <string name="expanded_desktop_settings_title">Escritoriu estendíu</string>
-    <string name="expanded_desktop_settings_summary">Espande\'l to espaciu disponible d\'escritoriu anubriendo la barra d\'estáu, de navegación o dambes</string>
-    <string name="expanded_desktop_options_title">Opciones de personalización</string>
-    <string name="expanded_desktop_style_title">Estilu d\'escritoriu estendíu</string>
-    <string name="expanded_desktop_style_hide_nothing">Nun anubrir nada</string>
-    <string name="expanded_desktop_style_hide_status">Anubrir barra d\'estáu</string>
-    <string name="expanded_desktop_style_hide_navigation">Anubrir barra de navegación</string>
-    <string name="expanded_desktop_style_hide_both">Anubrir dambes</string>
-    <string name="expanded_desktop_nothing_to_show_text">Da-y al interruptor pa personalizar el to escritoriu estendíu según cada aplicación</string>
     <string name="charging_sounds_settings_title">Soníos de carga</string>
     <string name="charging_sounds_enabled_title">Habilitar</string>
     <string name="charging_sounds_enabled_summary">Reproduz un soníu al coneutase o desconeutase d\'una fonte enerxética</string>

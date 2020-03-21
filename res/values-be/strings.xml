@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -420,15 +420,6 @@
     <string name="auto_power_save_summary_on">Аўтаматычна ўключаць энергазберажэнне на %s батарэі</string>
     <string name="auto_power_save_summary_off">Не ўключаць энергазберажэнне аўтаматычна</string>
     <string name="auto_power_save_never">Ніколі</string>
-    <string name="expanded_desktop_settings_title">Рэжым пашыранага экрану</string>
-    <string name="expanded_desktop_settings_summary">Пашырэнне даступнай прасторы экрана шляхам ўтойвання радка стану і/або панэлі навігацыі</string>
-    <string name="expanded_desktop_options_title">Налады</string>
-    <string name="expanded_desktop_style_title">Рэжым пашыранага экрану</string>
-    <string name="expanded_desktop_style_hide_nothing">Нічога не хаваць</string>
-    <string name="expanded_desktop_style_hide_status">Хаваць радок стану</string>
-    <string name="expanded_desktop_style_hide_navigation">Схаваць навігацыйны радок</string>
-    <string name="expanded_desktop_style_hide_both">Схаваць абедзве</string>
-    <string name="expanded_desktop_nothing_to_show_text">Выключыце, каб наладзіць рэжым пашыранага працоўнага стала для кожнага прыкладання</string>
     <string name="long_screen_settings_title">Поўнаэкранныя праграмы</string>
     <string name="long_screen_settings_summary">Прымусовае выкарыстанне поўнаэкранных суадносін бакоў старымі праграмамі</string>
     <string name="charging_sounds_settings_title">Гукі зарадкі</string>

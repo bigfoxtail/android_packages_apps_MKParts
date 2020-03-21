@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -411,15 +411,6 @@
     <string name="auto_power_save_summary_on">Ota virransäästötila automaattisesti käyttöön kun akkua on jäljellä %s prosenttia</string>
     <string name="auto_power_save_summary_off">Älä ota virransäästötilaa käyttöön automaattisesti</string>
     <string name="auto_power_save_never">Ei koskaan</string>
-    <string name="expanded_desktop_settings_title">Laajennettu työpöytä</string>
-    <string name="expanded_desktop_settings_summary">Laajenna käytettävissä oleva työpöydän tila piilottamalla tilapalkki, navigointipalkki tai molemmat</string>
-    <string name="expanded_desktop_options_title">Mukautusasetukset</string>
-    <string name="expanded_desktop_style_title">Laajennetun työpöydän tyyli</string>
-    <string name="expanded_desktop_style_hide_nothing">Älä piilota mitään</string>
-    <string name="expanded_desktop_style_hide_status">Piilota tilarivi</string>
-    <string name="expanded_desktop_style_hide_navigation">Piilota navigointipalkki</string>
-    <string name="expanded_desktop_style_hide_both">Piilota molemmat</string>
-    <string name="expanded_desktop_nothing_to_show_text">Poista käytöstä mukauttaaksesi laajennetun työpöydän asetuksia sovelluskohtaisesti</string>
     <string name="charging_sounds_settings_title">Latausäänet</string>
     <string name="charging_sounds_enabled_title">Ota käyttöön</string>
     <string name="charging_sounds_enabled_summary">Anna äänimerkki, kun virtalähde liitetään tai irrotetaan</string>

@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -420,15 +420,6 @@
     <string name="auto_power_save_summary_on">배터리가 %s 이하로 내려가면 자동으로 전원 절약 모드 사용</string>
     <string name="auto_power_save_summary_off">자동으로 전원 절약 모드를 사용하지 않음</string>
     <string name="auto_power_save_never">끄지 않음</string>
-    <string name="expanded_desktop_settings_title">확장 데스크탑</string>
-    <string name="expanded_desktop_settings_summary">상태 표시줄, 내비게이션 바 또는 둘 모두를 숨겨 데스크탑 공간 확장</string>
-    <string name="expanded_desktop_options_title">사용자 정의 옵션</string>
-    <string name="expanded_desktop_style_title">확장 데스크탑 스타일</string>
-    <string name="expanded_desktop_style_hide_nothing">숨기지 않음</string>
-    <string name="expanded_desktop_style_hide_status">상태 표시줄 숨기기</string>
-    <string name="expanded_desktop_style_hide_navigation">내비게이션 바 숨기기</string>
-    <string name="expanded_desktop_style_hide_both">모두 숨기기</string>
-    <string name="expanded_desktop_nothing_to_show_text">각각의 앱에 확장 데스크탑을 적용하려면 스위치를 끄세요</string>
     <string name="long_screen_settings_title">전체 화면 앱</string>
     <string name="long_screen_settings_summary">예전 앱에서 전체 화면 가로 세로 비율 강제 사용</string>
     <string name="charging_sounds_settings_title">충전 소리</string>

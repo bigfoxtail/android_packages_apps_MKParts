@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -405,15 +405,6 @@
     <string name="auto_power_save_summary_on">Αυτόματη ενεργοποίηση λειτουργίας εξοικονόμησης ενέργειας στο %s της μπαταρίας</string>
     <string name="auto_power_save_summary_off">Να μην ενεργοποιείται αυτόματα η λειτουργία εξοικονόμησης ενέργειας</string>
     <string name="auto_power_save_never">Ποτέ</string>
-    <string name="expanded_desktop_settings_title">Επέκταση επιφάνειας</string>
-    <string name="expanded_desktop_settings_summary">Αναπτύξτε το διαθέσιμο χώρο της επιφάνεια εργασίας σας με την απόκρυψη της γραμμής κατάστασης, της γραμμής πλοήγησης, ή και των δύο</string>
-    <string name="expanded_desktop_options_title">Επιλογές προσαρμογής</string>
-    <string name="expanded_desktop_style_title">Στυλ επέκτασης επιφάνειας</string>
-    <string name="expanded_desktop_style_hide_nothing">Καμία απόκρυψη</string>
-    <string name="expanded_desktop_style_hide_status">Απόκρυψη γραμμής κατάστασης</string>
-    <string name="expanded_desktop_style_hide_navigation">Απόκρυψη γραμμής πλοήγησης</string>
-    <string name="expanded_desktop_style_hide_both">Απόκρυψη όλων</string>
-    <string name="expanded_desktop_nothing_to_show_text">Απενεργοποιήστε το διακόπτη για να προσαρμόσετε την επέκταση επιφάνειας ανά εφαρμογή</string>
     <string name="charging_sounds_settings_title">Ήχοι φόρτισης</string>
     <string name="charging_sounds_enabled_title">Ενεργοποίηση</string>
     <string name="charging_sounds_enabled_summary">Αναπαραγωγή ήχου κατά τη σύνδεση ή την αποσύνδεση μιας πηγής ισχύος</string>

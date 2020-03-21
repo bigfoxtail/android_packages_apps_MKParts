@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -427,15 +427,6 @@
     <string name="auto_power_save_summary_on">Аутоматски омогућава уштеду енергије када је ниво напуњености %s.</string>
     <string name="auto_power_save_summary_off">Не омогућава режим уштеде енергије.</string>
     <string name="auto_power_save_never">Никад</string>
-    <string name="expanded_desktop_settings_title">Проширени екран</string>
-    <string name="expanded_desktop_settings_summary">Проширите слободан простор екрана скривајући статусну или навигациону траку.</string>
-    <string name="expanded_desktop_options_title">Прилагођавања</string>
-    <string name="expanded_desktop_style_title">Стил проширеног екрана</string>
-    <string name="expanded_desktop_style_hide_nothing">Ништа не сакривај</string>
-    <string name="expanded_desktop_style_hide_status">Сакриј статусну траку</string>
-    <string name="expanded_desktop_style_hide_navigation">Сакриј навигациону траку</string>
-    <string name="expanded_desktop_style_hide_both">Сакриј обе траке</string>
-    <string name="expanded_desktop_nothing_to_show_text">Искључите да бисте подесили проширени екран за појединачне апликације.</string>
     <string name="long_screen_settings_title">Апликације преко целог екрана</string>
     <string name="long_screen_settings_summary">Приморај застареле апликације да користе цео екран</string>
     <string name="charging_sounds_settings_title">Звук при пуњењу</string>

@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -420,15 +420,6 @@
     <string name="auto_power_save_summary_on">Automatski omogućite način uštede energije na %s baterije.</string>
     <string name="auto_power_save_summary_off">Ne omogućuj automatski način uštede energije</string>
     <string name="auto_power_save_never">Nikad</string>
-    <string name="expanded_desktop_settings_title">Proširena radna površina</string>
-    <string name="expanded_desktop_settings_summary">Proširi prostora radne površine koje skriva traku statusa, navigacijsku traku ili oboje</string>
-    <string name="expanded_desktop_options_title">Mogućnosti prilagodbe</string>
-    <string name="expanded_desktop_style_title">Stil proširene radne površine</string>
-    <string name="expanded_desktop_style_hide_nothing">Ne skrivaj ništa</string>
-    <string name="expanded_desktop_style_hide_status">Sakrij traku statusa</string>
-    <string name="expanded_desktop_style_hide_navigation">Sakrij navigacijsku traku</string>
-    <string name="expanded_desktop_style_hide_both">Sakrij oboje</string>
-    <string name="expanded_desktop_nothing_to_show_text">Isključite promjenu prilagodbe vaše proširene radne površine na svaku pojedinu aplikaciju</string>
     <string name="long_screen_settings_title">Apl. koje koriste cijeli zaslon</string>
     <string name="long_screen_settings_summary">Prisili naslijeđene aplikacije za korištenje omjera slike na cijelom zaslonu</string>
     <string name="charging_sounds_settings_title">Zvukovi punjenja</string>

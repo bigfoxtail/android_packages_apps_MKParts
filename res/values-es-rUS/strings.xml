@@ -2,7 +2,7 @@
 <!--
 	Copyright (C) 2015 The CyanogenMod Project
 	Copyright (C) 2015-2019 The MoKee Open Source Project
-	Copyright (C) 2017-2019 The LineageOS Project
+	              2017-2020 The LineageOS Project
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -426,15 +426,6 @@
     <string name="auto_power_save_summary_on">Activar automáticamente el modo de ahorro de energía al %s de batería</string>
     <string name="auto_power_save_summary_off">No activar el modo de ahorro de energía automáticamente</string>
     <string name="auto_power_save_never">Nunca</string>
-    <string name="expanded_desktop_settings_title">Escritorio extendido</string>
-    <string name="expanded_desktop_settings_summary">Ampliar el espacio disponible en el escritorio ocultando la barra de estado, barra de navegación o ambos</string>
-    <string name="expanded_desktop_options_title">Opciones de personalización</string>
-    <string name="expanded_desktop_style_title">Estilo del escritorio extendido</string>
-    <string name="expanded_desktop_style_hide_nothing">No ocultar nada</string>
-    <string name="expanded_desktop_style_hide_status">Ocultar la barra de estado</string>
-    <string name="expanded_desktop_style_hide_navigation">Ocultar la barra de navegación</string>
-    <string name="expanded_desktop_style_hide_both">Ocultar ambas</string>
-    <string name="expanded_desktop_nothing_to_show_text">Apagar el interruptor para personalizar el escritorio extendido sobre una base por aplicación</string>
     <string name="long_screen_settings_title">Aplicaciones a pantalla completa</string>
     <string name="long_screen_settings_summary">Forzar a las aplicaciones antiguas, a utilizar la relación de aspecto a pantalla completa</string>
     <string name="long_screen_settings_no_apps">No hay aplicaciones</string>
