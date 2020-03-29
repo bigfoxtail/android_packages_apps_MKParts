@@ -200,6 +200,7 @@
     <string name="navigation_bar_home_long_press_title">Ana ekran tuşuna uzun basma eylemi</string>
     <string name="navigation_bar_home_double_tap_title">Ana ekran tuşuna çift dokunma eylemi</string>
     <string name="navigation_bar_app_switch_long_press_title">Son uygulamalar tuşuna uzun basma eylemi</string>
+    <string name="navigation_bar_edge_long_swipe_title">Kenar boyunca kaydırma eylemi</string>
     <string name="power_menu_title">Güç menüsü</string>
     <string name="power_menu_screenshot_title">Ekran görüntüsü</string>
     <string name="power_menu_screenshot_summary">Kısmi ekran görüntüsü için basılı tutun</string>

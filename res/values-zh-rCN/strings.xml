@@ -200,6 +200,7 @@
     <string name="navigation_bar_home_long_press_title">Home 键的长按操作</string>
     <string name="navigation_bar_home_double_tap_title">Home 键双击行为</string>
     <string name="navigation_bar_app_switch_long_press_title">最近应用键的长按操作</string>
+    <string name="navigation_bar_edge_long_swipe_title">边缘长滑动作</string>
     <string name="power_menu_title">电源菜单</string>
     <string name="power_menu_screenshot_title">屏幕截图</string>
     <string name="power_menu_screenshot_summary">长按以进行局部截图</string>
@@ -476,6 +477,7 @@
     <string name="touchscreen_gesture_action_next_track">转到下一曲目</string>
     <string name="touchscreen_gesture_action_volume_down">降低媒体音量</string>
     <string name="touchscreen_gesture_action_volume_up">提高媒体音量</string>
+    <string name="touchscreen_gesture_action_ambient_display">打开环境显示</string>
     <string name="trust_category_features">状态</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">执行中</string>
