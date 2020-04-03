@@ -200,6 +200,7 @@
     <string name="navigation_bar_home_long_press_title">主畫面鍵長按動作</string>
     <string name="navigation_bar_home_double_tap_title">主畫面輕觸兩下動作</string>
     <string name="navigation_bar_app_switch_long_press_title">多工鍵長按動作</string>
+    <string name="navigation_bar_edge_long_swipe_title">邊緣長滑動作</string>
     <string name="power_menu_title">電源選單</string>
     <string name="power_menu_screenshot_title">擷取螢幕畫面</string>
     <string name="power_menu_screenshot_summary">長按即可部分螢幕擷取</string>
