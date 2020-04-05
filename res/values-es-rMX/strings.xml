@@ -183,6 +183,8 @@
     <string name="power_end_call_summary">Finalizar la llamada actual pulsando el botón de encendido</string>
     <string name="swap_volume_buttons_title">Reorientar</string>
     <string name="swap_volume_buttons_summary">Cambiar los botones de volumen cuando se gire la pantalla</string>
+    <string name="volume_panel_on_left_title">Mostrar panel a la izquierda</string>
+    <string name="volume_panel_on_left_summary">Mostrar el panel de volumen en el lado izquierdo de la pantalla</string>
     <string name="button_wake_title">Despertar dispositivo</string>
     <string name="volume_answer_call_title">Responder llamada</string>
     <string name="volume_answer_call_summary">Responder llamadas entrantes presionando botones del volumen</string>
