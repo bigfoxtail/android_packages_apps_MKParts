@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
- *               2017 The LineageOS Project
- *               2017 The MoKee Open Source Project
+ *               2017,2019-2020 The LineageOS Project
+ *               2017-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -19,6 +19,7 @@
 package org.mokee.mkparts.sounds;
 
 import android.app.Activity;
+import android.database.Cursor;
 import android.content.Context;
 import android.content.Intent;
 import android.media.Ringtone;
@@ -26,7 +27,9 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Vibrator;
+import android.provider.MediaStore;
 import android.provider.Settings;
+import android.view.View;
 
 import androidx.preference.Preference;
 
@@ -43,10 +46,15 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
     // Used for power notification uri string if set to silent
     private static final String RINGTONE_SILENT_URI_STRING = "silent";
 
+    private static final String DEFAULT_POWER_SOUND =
+            "/system/product/media/audio/ui/WirelessChargingStarted.ogg";
+
     // Request code for charging notification ringtone picker
     private static final int REQUEST_CODE_CHARGING_NOTIFICATIONS_RINGTONE = 1;
 
     private Preference mChargingSoundsRingtone;
+
+    private Uri mDefaultPowerSoundUri;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,41 +68,69 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
         }
 
         mChargingSoundsRingtone = findPreference(KEY_CHARGING_SOUNDS_RINGTONE);
-        String curTone = MKSettings.Global.getString(getContentResolver(),
-                MKSettings.Global.POWER_NOTIFICATIONS_RINGTONE);
-        if (curTone == null) {
-            updateChargingRingtone(Settings.System.DEFAULT_NOTIFICATION_URI.toString(), true);
-        } else {
-            updateChargingRingtone(curTone, false);
-        }
     }
 
-    private void updateChargingRingtone(String toneUriString, boolean persist) {
-        final String toneName;
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        String curTone = MKSettings.Global.getString(getContentResolver(),
+                MKSettings.Global.POWER_NOTIFICATIONS_RINGTONE);
+
+        // Convert default sound file path to a media uri so that we can
+        // set a proper default for the ringtone picker.
+        mDefaultPowerSoundUri = audioFileToUri(getContext(), DEFAULT_POWER_SOUND);
+
+        updateChargingRingtone(curTone);
+    }
+
+    private Uri audioFileToUri(Context context, String audioFile) {
+        Cursor cursor = context.getContentResolver().query(
+                MediaStore.Audio.Media.INTERNAL_CONTENT_URI,
+                new String[] { MediaStore.Audio.Media._ID },
+                MediaStore.Audio.Media.DATA + "=? ",
+                new String[] { audioFile }, null);
+        if (cursor == null) {
+            return null;
+        }
+        if (!cursor.moveToFirst()) {
+            cursor.close();
+            return null;
+        }
+        int id = cursor.getInt(cursor.getColumnIndex(MediaStore.MediaColumns._ID));
+        cursor.close();
+        return Uri.withAppendedPath(MediaStore.Audio.Media.INTERNAL_CONTENT_URI,
+                Integer.toString(id));
+    }
+
+    private void updateChargingRingtone(String toneUriString) {
+        final String toneTitle;
+
+        if ((toneUriString == null || toneUriString.equals(DEFAULT_POWER_SOUND))
+                && mDefaultPowerSoundUri != null) {
+            toneUriString = mDefaultPowerSoundUri.toString();
+        }
 
         if (toneUriString != null && !toneUriString.equals(RINGTONE_SILENT_URI_STRING)) {
             final Ringtone ringtone = RingtoneManager.getRingtone(getActivity(),
                     Uri.parse(toneUriString));
             if (ringtone != null) {
-                toneName = ringtone.getTitle(getActivity());
+                toneTitle = ringtone.getTitle(getActivity());
             } else {
                 // Unlikely to ever happen, but is possible if the ringtone
                 // previously chosen is removed during an upgrade
-                toneName = "";
+                toneTitle = "";
                 toneUriString = Settings.System.DEFAULT_NOTIFICATION_URI.toString();
-                persist = true;
             }
         } else {
             // Silent
-            toneName = getString(R.string.charging_sounds_ringtone_silent);
+            toneTitle = getString(R.string.charging_sounds_ringtone_silent);
             toneUriString = RINGTONE_SILENT_URI_STRING;
         }
 
-        mChargingSoundsRingtone.setSummary(toneName);
-        if (persist) {
-            MKSettings.Global.putString(getContentResolver(),
-                    MKSettings.Global.POWER_NOTIFICATIONS_RINGTONE, toneUriString);
-        }
+        mChargingSoundsRingtone.setSummary(toneTitle);
+        MKSettings.Global.putString(getContentResolver(),
+                MKSettings.Global.POWER_NOTIFICATIONS_RINGTONE, toneUriString);
     }
 
     @Override
@@ -114,8 +150,7 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
                 getString(R.string.charging_sounds_ringtone_title));
         intent.putExtra(RingtoneManager.EXTRA_RINGTONE_TYPE,
                 RingtoneManager.TYPE_NOTIFICATION);
-        intent.putExtra(RingtoneManager.EXTRA_RINGTONE_DEFAULT_URI,
-                Settings.System.DEFAULT_NOTIFICATION_URI);
+        intent.putExtra(RingtoneManager.EXTRA_RINGTONE_DEFAULT_URI, mDefaultPowerSoundUri);
         if (toneUriString != null && !toneUriString.equals(RINGTONE_SILENT_URI_STRING)) {
             Uri uri = Uri.parse(toneUriString);
             if (uri != null) {
@@ -132,7 +167,7 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
         if (requestCode == REQUEST_CODE_CHARGING_NOTIFICATIONS_RINGTONE
                 && resultCode == Activity.RESULT_OK) {
             Uri uri = data.getParcelableExtra(RingtoneManager.EXTRA_RINGTONE_PICKED_URI);
-            updateChargingRingtone(uri != null ? uri.toString() : null, true);
+            updateChargingRingtone(uri != null ? uri.toString() : null);
         }
     }
 }
