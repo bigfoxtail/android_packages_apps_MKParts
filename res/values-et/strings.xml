@@ -309,7 +309,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Kaasaskantav Wi\u2011Fi kuumkoht</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Asukoht</string>
     <string name="toggleData">Andmeside</string>
     <string name="toggleSync">Andmete automaatne sünkroonimine</string>
     <string name="toggleNfc">NFC</string>

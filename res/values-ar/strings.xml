@@ -308,7 +308,7 @@
     <string name="toggleWifi">Wi‑Fi</string>
     <string name="toggleWifiAp">نقطة اتصال Wi-Fi المحمولة</string>
     <string name="toggleBluetooth">بلوتوث</string>
-    <string name="toggleGPS">نظام تحديد المواقع</string>
+    <string name="toggleLocation">الموقع</string>
     <string name="toggleData">اتصال البيانات</string>
     <string name="toggleSync">مزامنة البيانات تلقائيًا</string>
     <string name="toggleNfc">الاتصال بالحقل القريب</string>

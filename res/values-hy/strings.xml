@@ -45,6 +45,7 @@
     <string name="profile_entries_on">Միացված է</string>
     <string name="profile_entries_off">Անջ.</string>
     <string name="profile_reset_title">Վերակայել</string>
+    <string name="toggleLocation">Տեղադրություն</string>
     <string name="ring_mode_normal">Նորմալ</string>
     <string name="ring_mode_vibrate">Թրթռալ</string>
     <string name="ring_mode_mute">Խլացնել</string>

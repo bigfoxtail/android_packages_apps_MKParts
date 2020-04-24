@@ -310,7 +310,7 @@
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Точка доступа Wi-Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS-модуль</string>
+    <string name="toggleLocation">Место</string>
     <string name="toggleData">Мобильные данные</string>
     <string name="toggleSync">Автосинхронизация</string>
     <string name="toggleNfc">NFC</string>

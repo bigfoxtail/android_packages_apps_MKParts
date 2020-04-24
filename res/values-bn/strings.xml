@@ -42,7 +42,6 @@
     <string name="profile_entries_off">Off</string>
     <string name="profile_reset_title">পুনরায় সেট করুন</string>
     <string name="connection_state_enabled">সক্রিয় করুন</string>
-    <string name="toggleGPS">জিপিএস</string>
     <string name="ring_mode_vibrate">কম্পন</string>
     <string name="media_volume_title">মিডিয়া</string>
     <string name="status_bar_quick_qs_pulldown_off">Off</string>

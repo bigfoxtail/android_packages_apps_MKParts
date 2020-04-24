@@ -282,6 +282,7 @@
     <string name="profile_brightness_override_summary">Estableix a %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Anul·la la lluminositat</string>
     <string name="toggleWifiAp">Punt d\'accés Wi\u2011Fi portàtil</string>
+    <string name="toggleLocation">Ubicació</string>
     <string name="toggleData">Connexió de dades</string>
     <string name="toggleSync">Sincronització automàtica de dades</string>
     <string name="ring_mode_title">Mode del to de trucada</string>

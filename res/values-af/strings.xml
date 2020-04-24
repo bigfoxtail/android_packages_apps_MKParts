@@ -280,6 +280,7 @@
     <string name="profile_brightness_override_summary">Stel na %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Verander helderheid</string>
     <string name="toggleWifiAp">Draagbare Wi\u2011Fi warmkol</string>
+    <string name="toggleLocation">Ligging</string>
     <string name="toggleData">Dataverbinding</string>
     <string name="toggleSync">Outo-Sinkroniseer data</string>
     <string name="ring_mode_title">Luitoon modus</string>

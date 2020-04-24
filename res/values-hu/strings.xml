@@ -309,7 +309,7 @@
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Hordozható Wi-Fi hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Hely</string>
     <string name="toggleData">Adatkapcsolat</string>
     <string name="toggleSync">Automatikus szinkron</string>
     <string name="toggleNfc">NFC</string>

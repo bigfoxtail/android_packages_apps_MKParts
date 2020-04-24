@@ -292,6 +292,7 @@
     <string name="profile_brightness_override_summary">הגדר ל־%1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">עקוף את הבהירות</string>
     <string name="toggleWifiAp">‏נקודה חמה ניידת של Wi-Fi</string>
+    <string name="toggleLocation">מיקום</string>
     <string name="toggleData">חיבור נתונים</string>
     <string name="toggleSync">סנכרון נתונים אוטומטי</string>
     <string name="ring_mode_title">מצב צלצול</string>

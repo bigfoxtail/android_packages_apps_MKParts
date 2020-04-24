@@ -308,7 +308,7 @@
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Преносни Wi-Fi хотспот</string>
     <string name="toggleBluetooth">Блутут</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Локација</string>
     <string name="toggleData">Мобилни подаци</string>
     <string name="toggleSync">Аутоматска синхронизација</string>
     <string name="toggleNfc">NFC</string>

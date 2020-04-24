@@ -303,7 +303,7 @@
     <string name="toggleWifi">Wifi</string>
     <string name="toggleWifiAp">Draagbare wifi-hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Locatie</string>
     <string name="toggleData">Gegevensverbinding</string>
     <string name="toggleSync">Gegevenssynchronisatie</string>
     <string name="toggleNfc">NFC</string>

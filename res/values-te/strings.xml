@@ -36,6 +36,7 @@
     <string name="button_backlight_title">వెనక లైట్</string>
     <string name="torch_long_press_power_timeout_never">ఎప్పటికీ వద్దు</string>
     <string name="profile_reset_title">రీసెట్ చేయి</string>
+    <string name="toggleLocation">స్థానం</string>
     <string name="ring_mode_normal">సాధారణం</string>
     <string name="ring_mode_vibrate">వైబ్రేట్</string>
     <string name="media_volume_title">మీడియా</string>

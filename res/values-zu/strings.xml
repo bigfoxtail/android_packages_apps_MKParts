@@ -39,6 +39,7 @@
     <string name="profile_menu_delete">Susa</string>
     <string name="profile_entries_on">Vuliwe</string>
     <string name="profile_reset_title">Setha kabusha</string>
+    <string name="toggleLocation">Indawo</string>
     <string name="ring_mode_mute">Thulisa</string>
     <string name="status_bar_brightness_category">Ukugqama</string>
 </resources>

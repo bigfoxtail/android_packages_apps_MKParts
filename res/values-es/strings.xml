@@ -307,7 +307,7 @@
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Punto de acceso Wi\u2011Fi portátil</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Ubicación</string>
     <string name="toggleData">Conexión de datos</string>
     <string name="toggleSync">Sincronización automática</string>
     <string name="toggleNfc">NFC</string>

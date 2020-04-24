@@ -39,6 +39,7 @@
     <string name="profile_menu_delete">លុប</string>
     <string name="profile_entries_on">បើក</string>
     <string name="profile_reset_title">កំណត់​ឡើងវិញ</string>
+    <string name="toggleLocation">ទីកន្លែង</string>
     <string name="ring_mode_mute">ស្ងាត់</string>
     <string name="status_bar_brightness_category">ពន្លឺ</string>
 </resources>

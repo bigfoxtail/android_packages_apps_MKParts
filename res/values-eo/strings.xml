@@ -27,4 +27,5 @@
     <string name="torch_long_press_power_timeout_10min">10 minutoj</string>
     <string name="profile_menu_delete_title">Forigi</string>
     <string name="profile_menu_delete">Forigi</string>
+    <string name="toggleLocation">Loko</string>
 </resources>

@@ -307,7 +307,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Prenosný Wi\u2011Fi hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Poloha</string>
     <string name="toggleData">Dátové pripojenie</string>
     <string name="toggleSync">Automatická synchronizácia dát</string>
     <string name="toggleNfc">NFC</string>

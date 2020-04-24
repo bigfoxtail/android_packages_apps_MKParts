@@ -39,6 +39,7 @@
     <string name="profile_menu_delete">ሰርዝ</string>
     <string name="profile_entries_on">በርቷል</string>
     <string name="profile_reset_title">ዳግም አስጀምር</string>
+    <string name="toggleLocation">አካባቢ</string>
     <string name="ring_mode_mute">ድምጽ-ከል አድርግ</string>
     <string name="status_bar_brightness_category">ብሩህነት</string>
 </resources>

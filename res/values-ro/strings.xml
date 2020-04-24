@@ -303,7 +303,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Hotspot portabil Wi\u2011Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Locație</string>
     <string name="toggleData">Conexiune de date</string>
     <string name="toggleSync">Auto-sincronizare date</string>
     <string name="toggleNfc">NFC</string>

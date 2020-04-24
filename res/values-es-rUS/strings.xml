@@ -200,6 +200,7 @@
     <string name="navigation_bar_home_long_press_title">Acción de pulsación larga en Inicio</string>
     <string name="navigation_bar_home_double_tap_title">Acción de doble pulsación en Inicio</string>
     <string name="navigation_bar_app_switch_long_press_title">Acción de pulsación larga en recientes</string>
+    <string name="navigation_bar_edge_long_swipe_title">Acción de deslizamiento largo del borde</string>
     <string name="power_menu_title">Menú de apagado</string>
     <string name="power_menu_screenshot_title">Capturar pantalla</string>
     <string name="power_menu_screenshot_summary">Mantener pulsado para una captura de pantalla parcial</string>
@@ -308,7 +309,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Punto de acceso Wi\u2011Fi portátil</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Ubicación</string>
     <string name="toggleData">Conexión de datos</string>
     <string name="toggleSync">Sincronización automática</string>
     <string name="toggleNfc">NFC</string>

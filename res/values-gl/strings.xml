@@ -273,6 +273,7 @@
     <string name="profile_brightness_override_summary">Estabelecer en %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Cambiar o comportamento do brillo</string>
     <string name="toggleWifiAp">Punto de acceso wifi portátil</string>
+    <string name="toggleLocation">Localización</string>
     <string name="toggleData">Conexión de datos</string>
     <string name="toggleSync">Sincronización automática dos datos</string>
     <string name="ring_mode_title">Modo de chamada</string>

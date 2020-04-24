@@ -46,6 +46,7 @@
     <string name="profile_menu_delete">Silin</string>
     <string name="profile_entries_on">Aktiv</string>
     <string name="profile_reset_title">Sıfırla</string>
+    <string name="toggleLocation">Məkan</string>
     <string name="ring_mode_vibrate">Titrəmə</string>
     <string name="ring_mode_mute">Susdurun</string>
     <string name="doze_title">Bildiriş ekranı</string>

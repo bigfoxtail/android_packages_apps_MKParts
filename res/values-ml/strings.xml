@@ -40,6 +40,7 @@
     <string name="power_menu_screenshot_title">സ്ക്രീൻഷോട്ട്</string>
     <string name="torch_long_press_power_timeout_never">ഇതുവരെയില്ല</string>
     <string name="profile_reset_title">പുനഃസജ്ജമാക്കുക</string>
+    <string name="toggleLocation">ലൊക്കേഷൻ</string>
     <string name="ring_mode_normal">സാധാരണ</string>
     <string name="ring_mode_vibrate">വൈബ്രേറ്റുചെയ്യുക</string>
     <string name="media_volume_title">മീഡിയ</string>

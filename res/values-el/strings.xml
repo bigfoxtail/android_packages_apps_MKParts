@@ -291,7 +291,7 @@
     <string name="profile_brightness_override_checkbox_label">Παράκαμψη φωτεινότητας</string>
     <string name="toggleWifiAp">Φορητό Wi\u2011Fi hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Τοποθεσία</string>
     <string name="toggleData">Σύνδεση δεδομένων</string>
     <string name="toggleSync">Αυτόματος συγχρονισμός</string>
     <string name="toggleNfc">NFC</string>

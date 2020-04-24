@@ -294,6 +294,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Portable Wi\u2011Fi hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleLocation">Lokasyon</string>
     <string name="toggleData">Koneksyon ng data</string>
     <string name="toggleSync">Data na auto-sync</string>
     <string name="toggleNfc">NFC</string>

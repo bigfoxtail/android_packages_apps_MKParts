@@ -34,9 +34,11 @@
     <string name="yes">Có</string>
     <string name="no">Không</string>
     <string name="search">Tìm kiếm</string>
+    <string name="search_menu">Cài đặt tìm kiếm</string>
     <string name="disabled">Đã tắt</string>
     <string name="enabled">Đã bật</string>
     <string name="privacy_settings_title">Quyền riêng tư</string>
+    <string name="channel_light_settings_name">Xem trước cài đặt Light</string>
     <string name="edit_light_settings">Chỉnh sửa cài đặt đèn báo</string>
     <string name="pulse_speed_title">Chiều dài rung và tốc độ</string>
     <string name="default_time">Bình thường</string>
@@ -168,6 +170,8 @@
     <string name="power_end_call_summary">Kết thúc cuộc gọi hiện tại bằng cách nhấn phím nguồn</string>
     <string name="swap_volume_buttons_title">Đảo chiều phím âm lượng</string>
     <string name="swap_volume_buttons_summary">Đảo vị trí các nút âm lượng khi màn hình xoay</string>
+    <string name="volume_panel_on_left_title">Hiển thị bảng điều khiển âm lượng bên trái</string>
+    <string name="volume_panel_on_left_summary">Bảng điều khiển âm lượng hiển thị ở bên trái màn hình</string>
     <string name="button_wake_title">Đánh thức thiết bị</string>
     <string name="volume_answer_call_title">Trả lời cuộc gọi</string>
     <string name="volume_answer_call_summary">Trả lời cuộc gọi đến bằng cách nhấn nút âm lượng</string>
@@ -189,12 +193,14 @@
     <string name="disable_navkeys_title">Bật thanh điều hướng trên màn hình</string>
     <string name="disable_navkeys_summary">Bật thanh điều hướng trên màn hình và tắt các phím cứng</string>
     <string name="navigation_bar_category">Thanh điều hướng</string>
+    <string name="navigation_bar_invert_layout_title">Đảo ngược bố cục</string>
     <string name="navigation_bar_left_summary">Đặt thanh điều hướng bên trái màn hình ở chế độ ngang</string>
     <string name="navigation_bar_arrow_keys_title">Hiển thị phím mũi tên trong khi nhập liệu</string>
     <string name="navigation_bar_arrow_keys_summary">Hiển thị các nút con trỏ bên trái và bên phải khi nhập liệu. Ghi đè bộ chuyển IME.</string>
     <string name="navigation_bar_home_long_press_title">Hành động khi nhấn giữ phím Trang chính</string>
     <string name="navigation_bar_home_double_tap_title">Hành động nhấn phím Trang chính hai lần</string>
     <string name="navigation_bar_app_switch_long_press_title">Thao tác nhấn giữ phím gần đây</string>
+    <string name="navigation_bar_edge_long_swipe_title">Hành động vuốt dài từ cạnh</string>
     <string name="power_menu_title">Trình đơn nguồn</string>
     <string name="power_menu_screenshot_title">Chụp ảnh màn hình</string>
     <string name="power_menu_screenshot_summary">Nhấn giữ để chụp ảnh màn hình một phần</string>
@@ -303,7 +309,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Điểm truy cập Wi\u2011Fi di động</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Vị trí</string>
     <string name="toggleData">Kết nối dữ liệu</string>
     <string name="toggleSync">Tự động đồng bộ dữ liệu</string>
     <string name="toggleNfc">NFC</string>
@@ -327,6 +333,7 @@
     <string name="status_bar_quick_qs_pulldown_right">Phải</string>
     <string name="status_bar_double_tap_to_sleep_title">Chạm hai lần để tắt màn hình</string>
     <string name="status_bar_double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái để tắt màn hình</string>
+    <string name="status_bar_qs_tile_columns_title">Tiêu đề cột cài đặt nhanh</string>
     <string name="status_bar_icons_title">Biểu tượng thanh trạng thái</string>
     <string name="status_bar_notif_count_title">Hiện số lượng thông báo</string>
     <string name="status_bar_notif_count_summary">Màn hình hiển thị số lượng thông báo đang chờ</string>
@@ -422,6 +429,7 @@
     <string name="auto_power_save_never">Không bao giờ</string>
     <string name="long_screen_settings_title">Ứng dụng toàn màn hình</string>
     <string name="long_screen_settings_summary">Buộc ứng dụng cũ sử dụng tỷ lệ cỡ ảnh toàn màn hình</string>
+    <string name="long_screen_settings_no_apps">Không có ứng dụng</string>
     <string name="charging_sounds_settings_title">Âm báo đang sạc</string>
     <string name="charging_sounds_enabled_title">Bật</string>
     <string name="charging_sounds_enabled_summary">Phát âm báo khi cắm sạc hoặc rút sạc</string>
@@ -438,6 +446,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Vuốt xuống bằng một ngón tay</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Vuốt sang trái bằng một ngón tay</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Vuốt sang phải bằng một ngón tay</string>
+    <string name="touchscreen_gesture_single_tap_title">Chạm đơn</string>
     <string name="touchscreen_gesture_up_arrow_title">Vẽ một \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Vẽ một \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Vẽ một \"&lt;\"</string>
@@ -468,6 +477,7 @@
     <string name="touchscreen_gesture_action_next_track">Bỏ qua bài kế tiếp</string>
     <string name="touchscreen_gesture_action_volume_down">Âm lượng phương tiện thấp hơn</string>
     <string name="touchscreen_gesture_action_volume_up">Âm lượng phương tiện cao hơn</string>
+    <string name="touchscreen_gesture_action_ambient_display">Hiển thị màn hình xem nhanh</string>
     <string name="trust_category_features">Trạng thái</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Thực thi</string>
@@ -493,6 +503,8 @@
     <string name="trust_onboarding_description">Trust giúp bạn giữ an toàn cho thiết bị của mình và bảo vệ quyền riêng tư của bạn.\nBiểu tượng Trust sẽ chỉ hiển thị khi nội dung của trang đã được xác minh.</string>
     <string name="trust_onboarding_learn_more">Tìm hiểu thêm</string>
     <string name="trust_onboarding_done">Hiểu rồi</string>
+    <string name="trust_restrict_usb_title">Hạn chế USB</string>
+    <string name="trust_restrict_usb_summary">Vô hiệu hóa các tiện ích USB mới khi thiết bị bị khóa</string>
     <string name="sms_security_check_limit_title">Giới hạn tin nhắn SMS</string>
     <string name="sms_security_check_limit_summary">Ứng dụng có thể gửi tin nhắn %s trong 1 phút trước khi yêu cầu xác nhận</string>
     <string name="sms_security_check_limit_summary_none">Ứng dụng không được phép gửi bất kỳ tin nhắn nào mà không được xác nhận</string>

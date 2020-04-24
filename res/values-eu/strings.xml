@@ -279,6 +279,7 @@
     <string name="profile_brightness_override_summary">Ezarri %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Gainidatzi distira</string>
     <string name="toggleWifiAp">Wi\u2011Fi gune eramangarria</string>
+    <string name="toggleLocation">Kokalekua</string>
     <string name="toggleData">Datu-konexioa</string>
     <string name="toggleSync">Automatikoki sinkronizatu datuak</string>
     <string name="ring_mode_title">Doinu modua</string>

@@ -54,6 +54,7 @@
     <string name="profile_name_title">Pavadinimas: </string>
     <string name="rename_dialog_title">Pervardinti</string>
     <string name="profile_reset_title">Nust. iš naujo</string>
+    <string name="toggleLocation">Vieta</string>
     <string name="ring_mode_vibrate">Vibruoti</string>
     <string name="ring_mode_mute">Nutildyti</string>
     <string name="media_volume_title">Medija</string>

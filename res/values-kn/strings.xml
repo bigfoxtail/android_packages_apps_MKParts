@@ -302,7 +302,7 @@
     <string name="toggleWifi">ವೈ\u2011ಫೈ</string>
     <string name="toggleWifiAp">ಚಲಿಸುವ Wi\u2011Fi ಹಾಟ್ಸ್ಪಾಟ್</string>
     <string name="toggleBluetooth">ಬ್ಲೂಟೂತ್</string>
-    <string name="toggleGPS">ಜಿಪಿಎಸ್</string>
+    <string name="toggleLocation">ಸ್ಥಾನ</string>
     <string name="toggleData">ದತ್ತಾಂಶ ಸಂಪರ್ಕ</string>
     <string name="toggleSync">ಸ್ವಯಂ-ಸಿಂಕ್ ದತ್ತಾಂಶ</string>
     <string name="toggleNfc">ಎನ್ಎಫ್‍ಸಿ</string>

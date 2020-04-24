@@ -58,6 +58,7 @@
     <string name="profile_entries_off">Dimatikan</string>
     <string name="profile_reset_title">Tetapkan semula</string>
     <string name="connection_state_enabled">Mendayakan</string>
+    <string name="toggleLocation">Lokasi</string>
     <string name="ring_mode_mute">Redam</string>
     <string name="status_bar_quick_qs_pulldown_off">Dimatikan</string>
     <string name="status_bar_brightness_category">Kecerahan</string>

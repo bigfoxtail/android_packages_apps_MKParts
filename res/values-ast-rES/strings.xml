@@ -194,6 +194,7 @@
     <string name="profile_airplanemode_title">Mou avión</string>
     <string name="profile_brightness_title">Brilléu de pantalla</string>
     <string name="profile_brightness_override_checkbox_label">Anular brilléu</string>
+    <string name="toggleLocation">Allugamientu</string>
     <string name="toggleData">Conexón de datos</string>
     <string name="ring_mode_vibrate">Vibrar</string>
     <string name="incoming_call_volume_title">Timbre</string>

@@ -304,7 +304,7 @@
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Wi\u2011Fiテザリング</string>
     <string name="toggleBluetooth">ブルートゥース</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">場所</string>
     <string name="toggleData">データ接続</string>
     <string name="toggleSync">データの自動同期</string>
     <string name="toggleNfc">NFC</string>

@@ -298,7 +298,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Kannettava Wi\u2011Fi\u2011hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Sijainti</string>
     <string name="toggleData">Mobiilidata</string>
     <string name="toggleSync">Tietojen automaattinen synkronointi</string>
     <string name="toggleNfc">NFC</string>

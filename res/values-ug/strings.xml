@@ -51,6 +51,7 @@
     <string name="profile_menu_delete">ئۆچۈر</string>
     <string name="profile_entries_on">ئوچۇق</string>
     <string name="profile_reset_title">ئەسلىگە قايتۇر</string>
+    <string name="toggleLocation">ئورنى</string>
     <string name="ring_mode_normal">نورمال</string>
     <string name="ring_mode_vibrate">تىترەت</string>
     <string name="ring_mode_mute">ئۈنسىز</string>

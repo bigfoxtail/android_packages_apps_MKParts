@@ -269,6 +269,7 @@
     <string name="profile_brightness_override_summary">Vendose në %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Shpërfill ndriçimin</string>
     <string name="toggleWifiAp">Hotspot Wi\u2011Fi Portabël</string>
+    <string name="toggleLocation">Vendndodhja</string>
     <string name="toggleData">Lidhja me internetin</string>
     <string name="toggleSync">Sinkronizim automatik i të dhënave</string>
     <string name="ring_mode_title">Me zile</string>

@@ -49,6 +49,7 @@
     <string name="profile_entries_on">ເປີດ</string>
     <string name="profile_entries_off">ປິດ</string>
     <string name="profile_reset_title">ຄືນຄ່າ</string>
+    <string name="toggleLocation">ສະຖານທີ່</string>
     <string name="ring_mode_mute">ປີດສຽງ</string>
     <string name="status_bar_quick_qs_pulldown_off">ປິດ</string>
     <string name="status_bar_brightness_category">ຄວາມສະຫວ່າງ</string>

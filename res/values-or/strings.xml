@@ -26,6 +26,7 @@
     <string name="hardware_keys_action_launch_camera">କ୍ୟାମେରା ଉନ୍ମୋଚନ୍ଚ କରନ୍ତୁ</string>
     <string name="camera_launch_title">କ୍ୟାମେରା ଉନ୍ମୋଚନ୍ଚ କରନ୍ତୁ</string>
     <string name="button_backlight_title">ପୃଷ୍ଠପଟଆଲୋକ</string>
+    <string name="toggleLocation">ଅବସ୍ଥାନ</string>
     <string name="ring_mode_normal">ସାଧାରଣ</string>
     <string name="ring_mode_vibrate">କମ୍ପନ</string>
     <string name="media_volume_title">ମିଡିଆ</string>

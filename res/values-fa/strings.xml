@@ -54,7 +54,7 @@
     <string name="rename_dialog_title">تغییر نام</string>
     <string name="profile_reset_title">بازنشانی</string>
     <string name="toggleBluetooth">بلوث</string>
-    <string name="toggleGPS">جی‌پی‌اس</string>
+    <string name="toggleLocation">موقعیت مکانی</string>
     <string name="toggleNfc">ان‌اف‌سی</string>
     <string name="ring_mode_vibrate">لرزش</string>
     <string name="ring_mode_mute">بی‌صدا</string>

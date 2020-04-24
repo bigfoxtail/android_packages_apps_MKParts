@@ -40,6 +40,7 @@
     <string name="profile_menu_delete">මකන්න</string>
     <string name="profile_entries_on">සක්‍රීයයි</string>
     <string name="profile_reset_title">යළි පිහිටුවන්න</string>
+    <string name="toggleLocation">ස්ථානය</string>
     <string name="ring_mode_vibrate">කම්පනය</string>
     <string name="ring_mode_mute">නිශ්ශබ්ද කරන්න</string>
     <string name="media_volume_title">මාධ්‍යය</string>

@@ -303,7 +303,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">휴대용 Wi\u2011Fi 핫스팟</string>
     <string name="toggleBluetooth">블루투스</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">위치</string>
     <string name="toggleData">데이터 연결</string>
     <string name="toggleSync">데이터 자동 동기화</string>
     <string name="toggleNfc">NFC</string>

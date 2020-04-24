@@ -43,6 +43,7 @@
     <string name="profile_entries_on">Ieslēgts</string>
     <string name="profile_entries_off">Izslēgt</string>
     <string name="profile_reset_title">Atiestatīt</string>
+    <string name="toggleLocation">Atraš. vieta</string>
     <string name="ring_mode_vibrate">Vibrēt</string>
     <string name="ring_mode_mute">Izslēgt skaņu</string>
     <string name="notification_volume_title">Paziņojums</string>

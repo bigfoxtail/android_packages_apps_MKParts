@@ -170,7 +170,7 @@
     <string name="toggleWifi">वाई\u2011फाई</string>
     <string name="toggleWifiAp">पोर्टेबल वाई\u2011फाई हॉटस्पॉट</string>
     <string name="toggleBluetooth">ब्लूटूथ</string>
-    <string name="toggleGPS">जीपीएस</string>
+    <string name="toggleLocation">स्थान</string>
     <string name="toggleData">डेटा कनेक्शन</string>
     <string name="toggleSync">ऑटो-सिंक्रोनाइज़ डेटा</string>
     <string name="toggleNfc">एनएफसी</string>

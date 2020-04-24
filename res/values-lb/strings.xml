@@ -48,6 +48,7 @@
     <string name="profile_menu_delete">Läschen</string>
     <string name="profile_entries_on">Un</string>
     <string name="profile_reset_title">Zrécksetzen</string>
+    <string name="toggleLocation">Standuert</string>
     <string name="ring_mode_vibrate">Vibréieren</string>
     <string name="ring_mode_mute">Roueg</string>
     <string name="media_volume_title">Medien</string>

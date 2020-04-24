@@ -26,6 +26,7 @@
     <string name="hardware_keys_action_launch_camera">কেমেৰা লান্চ্চ কৰক</string>
     <string name="camera_launch_title">কেমেৰা লান্চ্চ কৰক</string>
     <string name="button_backlight_title">বেকলাইট</string>
+    <string name="toggleLocation">স্থান</string>
     <string name="ring_mode_normal">সাধাৰণ</string>
     <string name="ring_mode_vibrate">ভাইব্ৰেট</string>
     <string name="media_volume_title">মিডিয়া</string>

@@ -309,7 +309,7 @@
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Przenośny hotspot Wi-Fi</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Lokalizacja</string>
     <string name="toggleData">Transmisja danych</string>
     <string name="toggleSync">Automatyczna synchronizacja danych</string>
     <string name="toggleNfc">NFC</string>

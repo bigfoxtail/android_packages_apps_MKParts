@@ -39,6 +39,7 @@
     <string name="profile_menu_delete">मेट्नुहोस्</string>
     <string name="profile_entries_on">खुला</string>
     <string name="profile_reset_title">पुनःसेट गर्नुहोस्</string>
+    <string name="toggleLocation">स्थान</string>
     <string name="ring_mode_mute">आवाज बन्द गर्नुहोस्</string>
     <string name="status_bar_brightness_category">चमक</string>
 </resources>

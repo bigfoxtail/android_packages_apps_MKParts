@@ -35,6 +35,7 @@
     <string name="camera_launch_title">कॅमेरा सुरू करा</string>
     <string name="button_backlight_title">पार्श्वप्रकाश</string>
     <string name="profile_reset_title">रीसेट करा</string>
+    <string name="toggleLocation">स्थान</string>
     <string name="ring_mode_normal">सामान्य</string>
     <string name="ring_mode_vibrate">कंपन करा</string>
     <string name="media_volume_title">मीडिया</string>

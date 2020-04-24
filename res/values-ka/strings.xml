@@ -39,6 +39,7 @@
     <string name="profile_menu_delete">წაშლა</string>
     <string name="profile_entries_on">ჩართული</string>
     <string name="profile_reset_title">საწყის პრამეტრებზე დაბრუნება</string>
+    <string name="toggleLocation">მდებარეობა</string>
     <string name="ring_mode_mute">დადუმება</string>
     <string name="status_bar_brightness_category">სიკაშკაშე</string>
 </resources>

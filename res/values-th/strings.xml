@@ -56,7 +56,7 @@
     <string name="profile_entries_on">เปิด</string>
     <string name="profile_reset_title">รีเซ็ต</string>
     <string name="profile_airplanemode_title">โหมดเครื่องบิน</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">ตำแหน่ง</string>
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_normal">ปกติ</string>
     <string name="ring_mode_vibrate">สั่น</string>

@@ -236,7 +236,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Portabel Wi\u2011Fi-hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleGPS">GPS</string>
+    <string name="toggleLocation">Plats</string>
     <string name="toggleData">Dataanslutning</string>
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_title">Ringningsläge</string>

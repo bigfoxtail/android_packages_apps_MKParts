@@ -39,6 +39,7 @@
     <string name="profile_menu_delete">Futa</string>
     <string name="profile_entries_on">Imewashwa</string>
     <string name="profile_reset_title">Weka upya</string>
+    <string name="toggleLocation">Eneo</string>
     <string name="ring_mode_mute">Zima sauti</string>
     <string name="status_bar_brightness_category">Ung\'avu</string>
 </resources>
