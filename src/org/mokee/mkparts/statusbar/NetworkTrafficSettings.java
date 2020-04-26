@@ -42,15 +42,13 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.network_traffic_settings);
         final ContentResolver resolver = getActivity().getContentResolver();
 
-        mNetTrafficMode = (DropDownPreference)
-                findPreference(MKSettings.Secure.NETWORK_TRAFFIC_MODE);
+        mNetTrafficMode = findPreference(MKSettings.Secure.NETWORK_TRAFFIC_MODE);
         mNetTrafficMode.setOnPreferenceChangeListener(this);
         int mode = MKSettings.Secure.getInt(resolver,
                 MKSettings.Secure.NETWORK_TRAFFIC_MODE, 3);
         mNetTrafficMode.setValue(String.valueOf(mode));
 
-        mNetTrafficAutohide = (MKSecureSettingSwitchPreference)
-                findPreference(MKSettings.Secure.NETWORK_TRAFFIC_AUTOHIDE);
+        mNetTrafficAutohide = findPreference(MKSettings.Secure.NETWORK_TRAFFIC_AUTOHIDE);
         mNetTrafficAutohide.setOnPreferenceChangeListener(this);
 
         updateEnabledStates(mode);

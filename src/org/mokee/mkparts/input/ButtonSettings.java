@@ -164,43 +164,34 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final boolean showVolumeWake = (deviceWakeKeys & KEY_MASK_VOLUME) != 0;
 
         boolean hasAnyBindableKey = false;
-        final PreferenceCategory powerCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_POWER);
-        final PreferenceCategory homeCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
-        final PreferenceCategory backCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
-        final PreferenceCategory menuCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
-        final PreferenceCategory assistCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
-        final PreferenceCategory appSwitchCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
-        final PreferenceCategory volumeCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_VOLUME);
-        final PreferenceCategory cameraCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_CAMERA);
+        final PreferenceCategory powerCategory = prefScreen.findPreference(CATEGORY_POWER);
+        final PreferenceCategory homeCategory = prefScreen.findPreference(CATEGORY_HOME);
+        final PreferenceCategory backCategory = prefScreen.findPreference(CATEGORY_BACK);
+        final PreferenceCategory menuCategory = prefScreen.findPreference(CATEGORY_MENU);
+        final PreferenceCategory assistCategory = prefScreen.findPreference(CATEGORY_ASSIST);
+        final PreferenceCategory appSwitchCategory = prefScreen.findPreference(CATEGORY_APPSWITCH);
+        final PreferenceCategory volumeCategory = prefScreen.findPreference(CATEGORY_VOLUME);
+        final PreferenceCategory cameraCategory = prefScreen.findPreference(CATEGORY_CAMERA);
 
         // Power button ends calls.
-        mPowerEndCall = (SwitchPreference) findPreference(KEY_POWER_END_CALL);
+        mPowerEndCall = findPreference(KEY_POWER_END_CALL);
 
         // Long press power while display is off to activate torchlight
-        mTorchLongPressPowerGesture =
-                (SwitchPreference) findPreference(KEY_TORCH_LONG_PRESS_POWER_GESTURE);
+        mTorchLongPressPowerGesture = findPreference(KEY_TORCH_LONG_PRESS_POWER_GESTURE);
         final int torchLongPressPowerTimeout = MKSettings.System.getInt(resolver,
                 MKSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, 0);
         mTorchLongPressPowerTimeout = initList(KEY_TORCH_LONG_PRESS_POWER_TIMEOUT,
                 torchLongPressPowerTimeout);
 
         // Home button answers calls.
-        mHomeAnswerCall = (SwitchPreference) findPreference(KEY_HOME_ANSWER_CALL);
+        mHomeAnswerCall = findPreference(KEY_HOME_ANSWER_CALL);
 
         mHandler = new Handler();
 
         // Force Navigation bar related options
-        mDisableNavigationKeys = (SwitchPreference) findPreference(DISABLE_NAV_KEYS);
+        mDisableNavigationKeys = findPreference(DISABLE_NAV_KEYS);
 
-        mNavigationPreferencesCat = (PreferenceCategory) findPreference(CATEGORY_NAVBAR);
+        mNavigationPreferencesCat = findPreference(CATEGORY_NAVBAR);
 
         Action defaultHomeLongPressAction = Action.fromIntSafe(res.getInteger(
                 org.mokee.platform.internal.R.integer.config_longPressOnHomeBehavior));
@@ -222,7 +213,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 Action.NOTHING);
 
         // Navigation bar arrow keys while typing
-        mNavigationArrowKeys = (SwitchPreference) findPreference(KEY_NAVIGATION_ARROW_KEYS);
+        mNavigationArrowKeys = findPreference(KEY_NAVIGATION_ARROW_KEYS);
 
         // Navigation bar home long press
         mNavigationHomeLongPressAction = initList(KEY_NAVIGATION_HOME_LONG_PRESS,
@@ -358,10 +349,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         }
 
         if (hasCameraKey) {
-            mCameraWakeScreen = (SwitchPreference) findPreference(MKSettings.System.CAMERA_WAKE_SCREEN);
-            mCameraSleepOnRelease =
-                    (SwitchPreference) findPreference(MKSettings.System.CAMERA_SLEEP_ON_RELEASE);
-            mCameraLaunch = (SwitchPreference) findPreference(MKSettings.System.CAMERA_LAUNCH);
+            mCameraWakeScreen = findPreference(MKSettings.System.CAMERA_WAKE_SCREEN);
+            mCameraSleepOnRelease = findPreference(MKSettings.System.CAMERA_SLEEP_ON_RELEASE);
+            mCameraLaunch = findPreference(MKSettings.System.CAMERA_LAUNCH);
 
             if (!showCameraWake) {
                 prefScreen.removePreference(mCameraWakeScreen);
@@ -391,8 +381,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
             int swapVolumeKeys = MKSettings.System.getInt(getContentResolver(),
                     MKSettings.System.SWAP_VOLUME_KEYS_ON_ROTATION, 0);
-            mSwapVolumeButtons = (SwitchPreference)
-                    prefScreen.findPreference(KEY_SWAP_VOLUME_BUTTONS);
+            mSwapVolumeButtons = prefScreen.findPreference(KEY_SWAP_VOLUME_BUTTONS);
             if (mSwapVolumeButtons != null) {
                 mSwapVolumeButtons.setChecked(swapVolumeKeys > 0);
             }
@@ -400,8 +389,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             final boolean volumePanelOnLeft = MKSettings.Secure.getIntForUser(
                     getContentResolver(), MKSettings.Secure.VOLUME_PANEL_ON_LEFT, 0,
                     UserHandle.USER_CURRENT) != 0;
-            mVolumePanelOnLeft = (SwitchPreference)
-                    prefScreen.findPreference(KEY_VOLUME_PANEL_ON_LEFT);
+            mVolumePanelOnLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_ON_LEFT);
             if (mVolumePanelOnLeft != null) {
                 mVolumePanelOnLeft.setChecked(volumePanelOnLeft);
             }
@@ -415,8 +403,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference(mNavigationPreferencesCat);
         }
 
-        final ButtonBacklightBrightness backlight =
-                (ButtonBacklightBrightness) findPreference(KEY_BUTTON_BACKLIGHT);
+        final ButtonBacklightBrightness backlight = findPreference(KEY_BUTTON_BACKLIGHT);
         if (!backlight.isButtonSupported() /*&& !backlight.isKeyboardSupported()*/) {
             prefScreen.removePreference(backlight);
         }
@@ -428,8 +415,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             }
         }
 
-        mVolumeWakeScreen = (SwitchPreference) findPreference(MKSettings.System.VOLUME_WAKE_SCREEN);
-        mVolumeMusicControls = (SwitchPreference) findPreference(KEY_VOLUME_MUSIC_CONTROLS);
+        mVolumeWakeScreen = findPreference(MKSettings.System.VOLUME_WAKE_SCREEN);
+        mVolumeMusicControls = findPreference(KEY_VOLUME_MUSIC_CONTROLS);
 
         if (mVolumeWakeScreen != null) {
             if (mVolumeMusicControls != null) {
@@ -519,7 +506,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     }
 
     private ListPreference initList(String key, int value) {
-        ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
+        ListPreference list = getPreferenceScreen().findPreference(key);
         if (list == null) return null;
         list.setValue(Integer.toString(value));
         list.setSummary(list.getEntry());
@@ -611,15 +598,15 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         /* Disable hw-key options if they're disabled */
         final PreferenceCategory homeCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
+                prefScreen.findPreference(CATEGORY_HOME);
         final PreferenceCategory backCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
+                prefScreen.findPreference(CATEGORY_BACK);
         final PreferenceCategory menuCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
+                prefScreen.findPreference(CATEGORY_MENU);
         final PreferenceCategory assistCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
+                prefScreen.findPreference(CATEGORY_ASSIST);
         final PreferenceCategory appSwitchCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
+                prefScreen.findPreference(CATEGORY_APPSWITCH);
         final ButtonBacklightBrightness backlight =
                 (ButtonBacklightBrightness) prefScreen.findPreference(KEY_BUTTON_BACKLIGHT);
 

@@ -53,8 +53,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final int PULLDOWN_DIR_RIGHT = 1;
     private static final int PULLDOWN_DIR_LEFT = 2;
 
-    private MKSystemSettingListPreference mQuickPulldown;
     private MKSystemSettingListPreference mQSTileColumns;
+    private MKSystemSettingListPreference mQuickPulldown;
     private MKSystemSettingListPreference mStatusBarClock;
     private MKSystemSettingListPreference mStatusBarAmPm;
     private MKSystemSettingListPreference mStatusBarBattery;
@@ -68,31 +68,23 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.status_bar_settings);
 
-        mStatusBarAmPm =
-                (MKSystemSettingListPreference) findPreference(STATUS_BAR_AM_PM);
-        mStatusBarClock =
-                (MKSystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
+        mStatusBarAmPm = findPreference(STATUS_BAR_AM_PM);
+        mStatusBarClock = findPreference(STATUS_BAR_CLOCK_STYLE);
 
-        mStatusBarClockCategory =
-                (PreferenceCategory) getPreferenceScreen().findPreference(CATEGORY_CLOCK);
+        mStatusBarClockCategory = getPreferenceScreen().findPreference(CATEGORY_CLOCK);
 
-        mStatusBarBatteryShowPercent =
-                (MKSystemSettingListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
-        mStatusBarBattery =
-                (MKSystemSettingListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
+        mStatusBarBatteryShowPercent = findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
+        mStatusBarBattery = findPreference(STATUS_BAR_BATTERY_STYLE);
         mStatusBarBattery.setOnPreferenceChangeListener(this);
         enableStatusBarBatteryDependents(mStatusBarBattery.getIntValue(1));
 
-        mStatusBarBatteryCategory =
-                (PreferenceCategory) getPreferenceScreen().findPreference(CATEGORY_BATTERY);
+        mStatusBarBatteryCategory = getPreferenceScreen().findPreference(CATEGORY_BATTERY);
 
-        mQuickPulldown =
-                (MKSystemSettingListPreference) findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
+        mQuickPulldown = findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
 
-        mQSTileColumns =
-                (MKSystemSettingListPreference) findPreference(STATUS_BAR_QS_TILE_COLUMNS);
+        mQSTileColumns = findPreference(STATUS_BAR_QS_TILE_COLUMNS);
         mQSTileColumns.setOnPreferenceChangeListener(this);
     }
 
