@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2014-2015 The CyanogenMod Project
- * Copyright (C) 2014-2019 The MoKee Open Source Project
- *               2017-2019 The LineageOS Project
+ * Copyright (C) 2014-2020 The MoKee Open Source Project
+ *               2017-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
