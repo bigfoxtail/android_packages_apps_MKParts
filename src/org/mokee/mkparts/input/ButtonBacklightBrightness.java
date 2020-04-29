@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2013 The CyanogenMod Project
  * Copyright (C) 2013-2017 The MoKee Open Source Project
- *               2017 The LineageOS Project
+ *               2017-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -37,10 +37,9 @@ import android.widget.TextView;
 
 import androidx.preference.PreferenceManager;
 
+import org.mokee.mkparts.utils.DeviceUtils;
 import org.mokee.mkparts.widget.CustomDialogPreference;
 import org.mokee.mkparts.R;
-
-import static org.mokee.internal.util.DeviceKeysConstants.*;
 
 import mokee.providers.MKSettings;
 
@@ -70,13 +69,13 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         setDialogLayoutResource(R.layout.button_backlight);
 
         /*
-        if (isKeyboardSupported()) {
+        if (isKeyboardSupported(context)) {
             mKeyboardBrightness = new BrightnessControl(
                     MKSettings.Secure.KEYBOARD_BRIGHTNESS, false);
             mActiveControl = mKeyboardBrightness;
         }
         */
-        if (isButtonSupported()) {
+        if (isButtonSupported(context)) {
             boolean isSingleValue = !context.getResources().getBoolean(
                     com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
 
@@ -227,16 +226,14 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         }
     }
 
-    public boolean isButtonSupported() {
-        final Resources res = getContext().getResources();
-        final int deviceKeys = res.getInteger(
-                org.mokee.platform.internal.R.integer.config_deviceHardwareKeys);
+    public static boolean isButtonSupported(Context context) {
+        final Resources res = context.getResources();
         // All hardware keys besides volume and camera can possibly have a backlight
-        boolean hasBacklightKey = (deviceKeys & KEY_MASK_HOME) != 0
-                || (deviceKeys & KEY_MASK_BACK) != 0
-                || (deviceKeys & KEY_MASK_MENU) != 0
-                || (deviceKeys & KEY_MASK_ASSIST) != 0
-                || (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
+        boolean hasBacklightKey = DeviceUtils.hasHomeKey(context)
+                || DeviceUtils.hasBackKey(context)
+                || DeviceUtils.hasMenuKey(context)
+                || DeviceUtils.hasAssistKey(context)
+                || DeviceUtils.hasAppSwitchKey(context);
         boolean hasBacklight = res.getInteger(
                 com.android.internal.R.integer.config_buttonBrightnessSettingDefault) > 0;
 
@@ -244,8 +241,8 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     }
 
     /*
-    public boolean isKeyboardSupported() {
-        return getContext().getResources().getInteger(
+    public static boolean isKeyboardSupported(Context context) {
+        return context.getResources().getInteger(
                 com.android.internal.R.integer.config_keyboardBrightnessSettingDefault) > 0;
     }
     */
