@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2016 The CyanogenMod project
- *               2017 The LineageOS Project
- *               2017 The MoKee Open Source Project
+ *               2017,2019-2020 The LineageOS Project
+ *               2017-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,6 +23,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.util.ArraySet;
+import android.util.Log;
 
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceManager;
@@ -32,12 +34,21 @@ import mokee.hardware.TouchscreenGesture;
 
 import org.mokee.mkparts.R;
 import org.mokee.mkparts.SettingsPreferenceFragment;
+import org.mokee.mkparts.search.BaseSearchIndexProvider;
+import org.mokee.mkparts.search.Searchable;
 import org.mokee.mkparts.utils.ResourceUtils;
 
 import java.lang.System;
+import java.util.Set;
 
-public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
+public class TouchscreenGestureSettings extends SettingsPreferenceFragment
+        implements Searchable {
+
     private static final String KEY_TOUCHSCREEN_GESTURE = "touchscreen_gesture";
+    private static final String KEY_TOUCHSCREEN_GESTURE_SETTINGS =
+            "touchscreen_gesture_settings";
+    private static final String KEY_TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK =
+            "touchscreen_gesture_haptic_feedback";
     private static final String TOUCHSCREEN_GESTURE_TITLE = KEY_TOUCHSCREEN_GESTURE + "_%s_title";
 
     private TouchscreenGesture[] mTouchscreenGestures;
@@ -203,4 +214,19 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment {
         intent.setFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY);
         context.sendBroadcastAsUser(intent, UserHandle.CURRENT);
     }
+
+    public static final Searchable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+        @Override
+        public Set<String> getNonIndexableKeys(Context context) {
+            final Set<String> result = new ArraySet<String>();
+
+            if (!isTouchscreenGesturesSupported(context)) {
+                result.add(KEY_TOUCHSCREEN_GESTURE_SETTINGS);
+                result.add(KEY_TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK);
+            }
+            return result;
+        }
+    };
 }
