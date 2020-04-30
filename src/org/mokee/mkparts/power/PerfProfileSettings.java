@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2016 The CyanogenMod Project
  * Copyright (C) 2016 The MoKee Open Source Project
- *               2017 The LineageOS Project
+ *               2017-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.provider.Settings.Global;
+import android.util.ArraySet;
 import android.util.TypedValue;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Toast;
@@ -40,13 +41,15 @@ import androidx.preference.SwitchPreference;
 
 import org.mokee.mkparts.PartsUpdater;
 import org.mokee.mkparts.R;
-import org.mokee.mkparts.widget.SeekBarPreference;
 import org.mokee.mkparts.SettingsPreferenceFragment;
+import org.mokee.mkparts.search.BaseSearchIndexProvider;
+import org.mokee.mkparts.search.Searchable;
+import org.mokee.mkparts.widget.SeekBarPreference;
 import org.mokee.internal.graphics.drawable.StopMotionVectorDrawable;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.Set;
 
 import mokee.power.PerformanceManager;
 import mokee.power.PerformanceProfile;
@@ -57,7 +60,7 @@ import mokee.providers.MKSettings;
 import static mokee.power.PerformanceManager.PROFILE_POWER_SAVE;
 
 public class PerfProfileSettings extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceChangeListener {
+        implements Preference.OnPreferenceChangeListener, Searchable {
 
     private static final String KEY_PERF_PROFILE_CATEGORY = "perf_profile_category";
     private static final String KEY_AUTO_POWER_SAVE  = "auto_power_save";
@@ -289,6 +292,25 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
                         profile.getName());
             }
             return summary.replace("\\n", System.getProperty("line.separator"));
+        }
+    };
+
+    public static final Searchable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+        @Override
+        public Set<String> getNonIndexableKeys(Context context) {
+            final Set<String> result = new ArraySet<String>();
+
+            final PerformanceManager perfManager = PerformanceManager.getInstance(context);
+            final List<PerformanceProfile> profiles =
+                    new ArrayList<>(perfManager.getPowerProfiles());
+
+            if (profiles.size() == 0) {
+                result.add(KEY_PERF_PROFILE_CATEGORY);
+                result.add(KEY_PERF_SEEKBAR);
+            }
+            return result;
         }
     };
 }
