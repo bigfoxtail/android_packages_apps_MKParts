@@ -148,6 +148,7 @@
     <string name="toggleNfc">NFC</string>
     <string name="ring_mode_normal">இயல்பு</string>
     <string name="ring_mode_vibrate">அதிர்வு</string>
+    <string name="ring_mode_mute">ஒலியடக்கு</string>
     <string name="media_volume_title">மீடியா</string>
     <string name="doze_title">சூழல்சார் திரை</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">இடது</string>
@@ -182,6 +183,12 @@
     <string name="network_traffic_autohide">தானாக மறை</string>
     <string name="protected_apps_manager_title">பாதுகாக்கப்பட்ட ஆப்ஸ்</string>
     <string name="contributors_cloud_fragment_title">பங்களிப்பாளர்கள்</string>
+    <string name="contributor_info_menu">பங்களிப்போர் விவரம்</string>
+    <string name="contributions_info_menu">பங்களிப்போர் விவரம்</string>
+    <string name="accelerometer_title">திரையைத் தானாகச் சுழற்று</string>
+    <string name="display_rotation_title">சுழற்சி அமைப்புகள்</string>
+    <string name="display_rotation_enabled">தானியங்கு-சுழற்சி இயக்கப்பட்டுள்ளது</string>
+    <string name="display_rotation_disabled">தானியங்கு சுழற்சி முடக்கப்பட்டுள்ளது</string>
     <string name="display_rotation_0_title">0 டிகிரீ</string>
     <string name="display_rotation_90_title">90 டிகிரீ</string>
     <string name="display_rotation_180_title">180 டிகிரீ</string>
@@ -189,6 +196,7 @@
     <string name="weather_settings_title">வானிலை</string>
     <string name="weather_settings_button">வழங்குநர் அமைப்புகள்</string>
     <string name="weather_settings_general_settings_title">பொதுவானவை</string>
+    <string name="weather_settings_temp_units_title">வெப்பநிலை அலகு</string>
     <string name="status_bar_show_weather_title">வானிலையை காட்டு</string>
     <string name="perf_profile_category_title">சாதனச் செயல்திறன்</string>
     <string name="power_save_category_title">பேட்டரி சேமிப்பு</string>
@@ -196,9 +204,15 @@
     <string name="auto_power_save_title">தானியங்கு மின்சக்தி சேமிப்பான்</string>
     <string name="auto_power_save_never">ஒருபோதுமில்லை</string>
     <string name="long_screen_settings_title">முழு திரை பயன்பாடுகள்</string>
+    <string name="charging_sounds_settings_title">மின்னூட்ட ஒலிகள் </string>
     <string name="charging_sounds_enabled_title">இயக்கு</string>
+    <string name="charging_sounds_enabled_summary">ஒரு சக்தி மூலத்தை இணைக்கும்போது அல்லது துண்டிக்கும்போது ஒரு ஒலியை பிளே செய்</string>
     <string name="power_notifications_vibrate_title">அதிர்வு</string>
+    <string name="charging_sounds_ringtone_title">அறிவிப்பு ஒலி</string>
     <string name="charging_sounds_ringtone_silent">அமைதி</string>
+    <string name="touchscreen_gesture_settings_title">தொடுத்திரை சைகைகள்</string>
+    <string name="touchscreen_gestures_haptic_feedback_title">தீண்டும் பின்னூட்டம்</string>
+    <string name="touchscreen_gesture_up_arrow_title">ஒரு \"Λ\"ஐ வரையவும்</string>
     <string name="touchscreen_gesture_action_browser">உலாவியைத் திற</string>
     <string name="touchscreen_gesture_action_email">உங்கள் மின்னஞ்சல்களைப் பாருங்கள்</string>
     <string name="touchscreen_gesture_action_messages">உங்கள் செய்திகளைப் பாருங்கள்</string>
