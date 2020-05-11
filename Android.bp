@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The MoKee Open Source Project
+ * Copyright (C) 2019-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -43,4 +43,15 @@ android_app {
         "jsr305",
         "org.mokee.platform.internal",
     ],
+
+    required: [
+        "privapp_whitelist_org.mokee.mkparts"
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_org.mokee.mkparts",
+    sub_dir: "permissions",
+    src: "privapp_whitelist_org.mokee.mkparts.xml",
+    filename_from_src: true,
 }
