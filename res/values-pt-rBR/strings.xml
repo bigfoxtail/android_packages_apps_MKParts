@@ -200,6 +200,7 @@
     <string name="navigation_bar_home_long_press_title">Ação de toque longo no botão início</string>
     <string name="navigation_bar_home_double_tap_title">Ação de toque duplo no botão de Página Inicial</string>
     <string name="navigation_bar_app_switch_long_press_title">Ação de pressionar e segurar em aplicativos recentes</string>
+    <string name="navigation_bar_edge_long_swipe_title">Ação do deslize longo na borda</string>
     <string name="power_menu_title">Opções do botão liga/desliga</string>
     <string name="power_menu_screenshot_title">Captura de tela</string>
     <string name="power_menu_screenshot_summary">Pressione, segure e solte para obter uma captura de tela parcial</string>
@@ -428,6 +429,7 @@
     <string name="auto_power_save_never">Nunca</string>
     <string name="long_screen_settings_title">Aplicações em ecrã cheio</string>
     <string name="long_screen_settings_summary">Forçar aplicações antigas a usarem a apresentação em ecrã inteiro</string>
+    <string name="long_screen_settings_no_apps">Nenhum app</string>
     <string name="charging_sounds_settings_title">Notificação de carregamento</string>
     <string name="charging_sounds_enabled_title">Ativar</string>
     <string name="charging_sounds_enabled_summary">Tocar um som quando conectar ou desconectar o carregador</string>
@@ -444,6 +446,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Deslizar para baixo com um dedo</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Deslizar para esquerda com um dedo</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Deslizar para direita com um dedo</string>
+    <string name="touchscreen_gesture_single_tap_title">Toque único</string>
     <string name="touchscreen_gesture_up_arrow_title">Desenhe um \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Desenhe um \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Desenhe um \"&lt;\"</string>
@@ -474,6 +477,7 @@
     <string name="touchscreen_gesture_action_next_track">Avançar para a próxima faixa</string>
     <string name="touchscreen_gesture_action_volume_down">Diminuir o volume de mídia</string>
     <string name="touchscreen_gesture_action_volume_up">Aumentar o volume de mídia</string>
+    <string name="touchscreen_gesture_action_ambient_display">Mostrar tela ambiente</string>
     <string name="trust_category_features">Estado</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Forçado</string>

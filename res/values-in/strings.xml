@@ -34,6 +34,7 @@
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="search">Cari</string>
+    <string name="search_menu">Pencarian setelan</string>
     <string name="disabled">Dimatikan</string>
     <string name="enabled">Dihidupkan</string>
     <string name="privacy_settings_title">Privasi</string>
@@ -330,6 +331,7 @@
     <string name="status_bar_quick_qs_pulldown_right">Kanan</string>
     <string name="status_bar_double_tap_to_sleep_title">Ketuk dua kali untuk tidur</string>
     <string name="status_bar_double_tap_to_sleep_summary">Ketuk dua kali pada status bar untuk mematikan layar</string>
+    <string name="status_bar_qs_tile_columns_title">Kolom ubin QS Cepat</string>
     <string name="status_bar_icons_title">Ikon Status bar</string>
     <string name="status_bar_notif_count_title">Tampilkan hitungan pemberitahuan</string>
     <string name="status_bar_notif_count_summary">Tampilkan jumlah pemberitahuan yang tertunda</string>
@@ -425,6 +427,7 @@
     <string name="auto_power_save_never">Jangan pernah</string>
     <string name="long_screen_settings_title">Aplikasi layar penuh</string>
     <string name="long_screen_settings_summary">Paksa aplikasi lawas untuk menggunakan rasio aspek layar penuh</string>
+    <string name="long_screen_settings_no_apps">Tidak ada aplikasi</string>
     <string name="charging_sounds_settings_title">Suara pengisian daya</string>
     <string name="charging_sounds_enabled_title">Hidup</string>
     <string name="charging_sounds_enabled_summary">Putar suara peringatan saat menghubungkan atau melepaskan sumber daya</string>
@@ -441,6 +444,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Usap ke bawah dengan satu jari</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Usap ke kiri dengan satu jari</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Usap ke kanan dengan satu jari</string>
+    <string name="touchscreen_gesture_single_tap_title">Satu ketukan</string>
     <string name="touchscreen_gesture_up_arrow_title">Gambar \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Gambar \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Gambar \"&lt;\"</string>
@@ -471,6 +475,7 @@
     <string name="touchscreen_gesture_action_next_track">Lanjut ke trek musik berikutnya</string>
     <string name="touchscreen_gesture_action_volume_down">Lower media volume</string>
     <string name="touchscreen_gesture_action_volume_up">Tingkatkan media volume</string>
+    <string name="touchscreen_gesture_action_ambient_display">Tampilkan Layar Ambeien</string>
     <string name="trust_category_features">Status</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_enforcing">Enforcing</string>
@@ -497,6 +502,7 @@
     <string name="trust_onboarding_learn_more">Pelajadi lebih lanjut</string>
     <string name="trust_onboarding_done">Mengerti</string>
     <string name="trust_restrict_usb_title">Batasi USB</string>
+    <string name="trust_restrict_usb_summary">Nonaktifkan gadget USB baru saat perangkat terkunci</string>
     <string name="sms_security_check_limit_title">Batas pesan SMS</string>
     <string name="sms_security_check_limit_summary">Aplikasi dapat mengirim %s pesan dalam 1 menit sebelum konfirmasi</string>
     <string name="sms_security_check_limit_summary_none">Aplikasi tidak diperbolehkan untuk mengirim pesan tanpa konfirmasi</string>
