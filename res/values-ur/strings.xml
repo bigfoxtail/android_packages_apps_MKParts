@@ -18,7 +18,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">دوبارہ ترتیب دیں</string>
+    <string name="on">چالو</string>
+    <string name="off">بند</string>
+    <string name="default_time">عام </string>
     <string name="custom_time">حسب ضرورت</string>
+    <string name="pulse_length_normal">عام </string>
+    <string name="pulse_speed_normal">عام </string>
+    <string name="light_brightness_normal">عام </string>
     <string name="live_display_summary">پڑھنے کی صلاحیت کو بہتر بنانے اور آنکھ کی کمی کو کم کرنے کے لئے دن اور ماحول کے حالات پر مبنی آپ کی اسکرین کو بہتر بنائیں</string>
     <string name="live_display_outdoor_mode_summary">روشن سورج کی روشنی میں خود بخود چمکتا اور سنتریت میں اضافہ</string>
     <string name="live_display_low_power_summary">بغاوت کے بغیر سب سے کم بجلی کی کھپت کے لئے ڈسپلے کو ایڈجسٹ کریں</string>
@@ -42,12 +48,19 @@
     <string name="profile_nfc_text">این ایف سی ٹیگ پر پروفائل لکھنا پروفائل کا انتخاب کرنے کیلئے ٹیگ ٹیپ کرنے کی اجازت دیتا ہے. ایک بار پھر دوسری بار تھپپیٹ پہلے منتخب شدہ پروفائل کا انتخاب کریں گے.</string>
     <string name="profile_add_nfc_text">یہ این ایف سی ٹیگ ایک نامعلوم پروفائل سے مراد ہے. موجودہ پروفائل میں اس این ایف سی ٹیگ کو منسلک کرے گا مستقبل میں پروفائل کا انتخاب کرنے کی اجازت دے گی.</string>
     <string name="profile_app_group_item_instructions_summary">نوٹیفکیشن اوورائڈ اے پی گروپ اس پروفائل پر شامل کریں یا ہٹائیں</string>
+    <string name="profile_entries_on">چالو</string>
+    <string name="profile_entries_off">بند</string>
     <string name="profile_reset_title">دوبارہ ترتیب دیں</string>
     <string name="profile_reset_message">تمام صارف تخلیق کردہ پروفائلز اور ایپ گروپوں کو حذف کریں اور انہیں ڈیفالٹ میں بحال کریں؟</string>
     <string name="profile_lockmode_policy_disabled_summary">یہ پروفائل اختیار آلہ آلہ منتظم پالیسی کے ذریعہ غیر فعال ہے</string>
+    <string name="ring_mode_normal">عام </string>
+    <string name="ring_mode_vibrate">جھنجھنانا</string>
+    <string name="notification_volume_title">پیغام</string>
     <string name="status_bar_quick_qs_pulldown_summary">%1$s حیثیت کے بار کے کنارے فوری ترتیبات ھیںچیں</string>
+    <string name="status_bar_quick_qs_pulldown_off">بند</string>
     <string name="status_bar_notif_count_summary">زیر التواء اطلاعات کی تعداد دکھائیں</string>
     <string name="status_bar_system_icons_summary">کونسی حیثیت بار بار شبیہیں دکھائے جاتے ہیں</string>
+    <string name="status_bar_am_pm_normal">عام </string>
     <string name="status_bar_brightness_category">چمکیلا پن</string>
     <string name="status_bar_brightness_slider_auto_summary">سلائیڈر کے قریب انکولی چمک کے لئے ٹوگل دکھائیں</string>
     <string name="weather_settings_no_services_prompt">کوئی موسم فراہم کرنے والی خدمات انسٹال نہیں ہے</string>
@@ -57,4 +70,6 @@
     <string name="perf_profile_settings_summary">بجلی کی بچت کی خصوصیات اور آلہ کی کارکردگی کو ایڈجسٹ کریں</string>
     <string name="power_save_summary">اقتدار کو بچانے کیلئے آلہ کی کارکردگی اور پس منظر کی سرگرمی کو محدود کریں</string>
     <string name="charging_sounds_enabled_summary">بجلی کا منسلک منسلک یا منقطع کرتے وقت آواز چلائیں</string>
+    <string name="power_notifications_vibrate_title">جھنجھنانا</string>
+    <string name="charging_sounds_ringtone_silent">خاموش</string>
 </resources>
