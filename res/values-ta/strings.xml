@@ -68,7 +68,9 @@
     <string name="live_display_color_temperature_title">நிற தட்பவெப்பம்</string>
     <string name="live_display_day">பகல்</string>
     <string name="live_display_night">இரவு</string>
+    <string name="live_display_enhance_color_title">நிறங்களை மேம்படுத்து</string>
     <string name="live_display_color_profile_title">நிற சுயவிவரம்</string>
+    <string name="live_display_color_profile_cinema_title">திரைப்படம்</string>
     <string name="live_display_color_profile_photography_title">புகைப்படம்</string>
     <string name="live_display_color_profile_basic_title">அடிப்படை</string>
     <string name="live_display_color_profile_reading_title">படித்தல்</string>
@@ -165,6 +167,7 @@
     <string name="profile_selected">தேர்ந்தெடுக்கப்பட்ட சுயவிவரம்: %1$s</string>
     <string name="profile_unknown_nfc_tag">அறியாத சுயவிவரம்</string>
     <string name="profile_select">சுயவிவரத்தைத் தேர்ந்தெடு</string>
+    <string name="profile_remove_dialog_message">சுயவிவரம் %1$sஐ அகற்றவா?</string>
     <string name="profile_menu_fill_from_state">தற்போதைய சாதன அமைப்புகளை இறக்குமதிசெய்க</string>
     <string name="profile_remove_current_profile">தற்போதைய சுயவிவரத்தை நீக்க இயலவில்லை!</string>
     <string name="profile_entries_on">இயக்கு</string>
@@ -245,6 +248,7 @@
     <string name="network_traffic_autohide">தானாக மறை</string>
     <string name="protected_apps_manager_title">பாதுகாக்கப்பட்ட ஆப்ஸ்</string>
     <string name="contributors_cloud_fragment_title">பங்களிப்பாளர்கள்</string>
+    <string name="contributors_cloud_failed_message">பங்களிப்போர் தரவுகள் ஏற்றுமதிசெய்ய முடியவில்லை</string>
     <string name="contributor_info_menu">பங்களிப்போர் விவரம்</string>
     <string name="contributions_info_menu">பங்களிப்போர் விவரம்</string>
     <string name="accelerometer_title">திரையைத் தானாகச் சுழற்று</string>
@@ -282,15 +286,18 @@
     <string name="touchscreen_gesture_settings_title">தொடுத்திரை சைகைகள்</string>
     <string name="touchscreen_gestures_haptic_feedback_title">தீண்டும் பின்னூட்டம்</string>
     <string name="touchscreen_gesture_up_arrow_title">ஒரு \"Λ\"ஐ வரையவும்</string>
+    <string name="touchscreen_gesture_action_dialog_title">சைகை செயல்</string>
     <string name="touchscreen_gesture_action_do_nothing">எதுவும் செய்யாதே</string>
     <string name="touchscreen_gesture_action_camera">கேமரா திற</string>
     <string name="touchscreen_gesture_action_browser">உலாவியைத் திற</string>
     <string name="touchscreen_gesture_action_email">உங்கள் மின்னஞ்சல்களைப் பாருங்கள்</string>
     <string name="touchscreen_gesture_action_messages">உங்கள் செய்திகளைப் பாருங்கள்</string>
     <string name="touchscreen_gesture_action_volume_down">ஊடக ஒலியை குறை</string>
+    <string name="touchscreen_gesture_action_volume_up">ஊடக ஒலியை அதிகரி</string>
     <string name="trust_category_features">நிலை</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_disabled">முடக்கு</string>
+    <string name="trust_feature_security_patches_value_new">புதுப்பித்த நிலையில் உள்ளது</string>
     <string name="trust_feature_encryption">குறியாக்கம்</string>
     <string name="trust_feature_encryption_value_enabled">இயக்கு</string>
     <string name="trust_feature_encryption_value_disabled">முடக்கு</string>
@@ -300,4 +307,5 @@
     <string name="trust_onboarding_title">Trust இற்கு வணக்கம் சொல்க</string>
     <string name="trust_onboarding_learn_more">மேலும் அறிக</string>
     <string name="trust_onboarding_done">புரிந்தது</string>
+    <string name="sms_security_check_limit_title">SMS செய்தி வரம்பு</string>
 </resources>
