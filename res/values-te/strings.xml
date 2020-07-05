@@ -19,6 +19,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">రీసెట్ చేయి</string>
     <string name="next">తదుపరి</string>
+    <string name="on">ఆన్</string>
+    <string name="off">ఆఫ్‌లో ఉంది</string>
     <string name="default_time">సాధారణం</string>
     <string name="custom_time">అనుకూలం</string>
     <string name="pulse_length_normal">సాధారణం</string>
@@ -35,12 +37,16 @@
     <string name="camera_launch_title">కెమెరాను ప్రారంభించు</string>
     <string name="button_backlight_title">వెనక లైట్</string>
     <string name="torch_long_press_power_timeout_never">ఎప్పటికీ వద్దు</string>
+    <string name="profile_entries_on">ఆన్</string>
+    <string name="profile_entries_off">ఆఫ్‌లో ఉంది</string>
     <string name="profile_reset_title">రీసెట్ చేయి</string>
     <string name="toggleLocation">స్థానం</string>
     <string name="ring_mode_normal">సాధారణం</string>
     <string name="ring_mode_vibrate">వైబ్రేట్</string>
+    <string name="notification_volume_title">ప్రకటనలు </string>
     <string name="media_volume_title">మీడియా</string>
     <string name="doze_title">యాంబియెంట్ డిస్‌ప్లే</string>
+    <string name="status_bar_quick_qs_pulldown_off">ఆఫ్‌లో ఉంది</string>
     <string name="status_bar_double_tap_to_sleep_title">నిర్వీర్యం చేయడానికి రెండుసార్లు ట్యాప్ చేయండి</string>
     <string name="status_bar_double_tap_to_sleep_summary">డిస్ప్లేను ఆపివేయడానికి స్టేటస్ బార్ పైన రెండుసార్లు ట్యాప్ చేయండి</string>
     <string name="status_bar_am_pm_normal">సాధారణం</string>
@@ -54,4 +60,5 @@
     <string name="status_bar_show_weather_title">వాతావరణాన్ని చూపించు</string>
     <string name="auto_power_save_never">ఎప్పటికీ వద్దు</string>
     <string name="power_notifications_vibrate_title">వైబ్రేట్</string>
+    <string name="charging_sounds_ringtone_silent">నిశ్శబ్దం</string>
 </resources>
