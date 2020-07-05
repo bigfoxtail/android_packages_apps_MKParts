@@ -15,6 +15,13 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mkparts_title">MoKee அமைப்புகள்</string>
+    <string name="fingerprint_shortcut_settings_title">கைரேகையைக் குறுக்குவழி</string>
+    <string name="fingerprint_shortcut_not_specified">குறிப்பிடப்படவில்லை</string>
     <string name="fingerprint_shortcut_ok">சரி</string>
     <string name="fingerprint_shortcut_edit">திருத்தம்</string>
+    <string name="fingerprint_shortcut_delete">நீக்கு</string>
+    <string name="fingerprint_shortcut_editer">கைரேகையைக் குறுக்குவழியை அமை</string>
+    <string name="fingerprint_shortcut_manage">கைரேகைகளை நிர்வகி</string>
+    <string name="unit_dpi">DPI</string>
 </resources>

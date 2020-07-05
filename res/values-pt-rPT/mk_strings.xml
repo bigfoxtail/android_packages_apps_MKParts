@@ -15,7 +15,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="mkparts_title">Configurações MoKee</string>
+    <string name="mkparts_title">Definições MoKee</string>
     <string name="fingerprint_shortcut_settings_title">Atalhos de impressão digital</string>
     <string name="fingerprint_shortcut_not_specified">Não especificado</string>
     <string name="fingerprint_shortcut_ok">OK</string>
@@ -23,4 +23,16 @@
     <string name="fingerprint_shortcut_delete">Eliminar</string>
     <string name="fingerprint_shortcut_editer">Definir atalhos de impressão digital</string>
     <string name="fingerprint_shortcut_manage">Gerir impressões digitais</string>
+    <string name="bottom_gesture_navigation_settings_title">Gestos de navegação inferior</string>
+    <string name="bottom_gesture_navigation_settings_summary">Use os gestos de deslizar para baixo para navegação</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Use os gestos de deslizar para baixo em vez de chaves de hardware</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Use os gestos de deslizar para baixo em vez de chaves de hardware</string>
+    <string name="bottom_gesture_navigation_settings_text">Gestos disponíveis:\n\nVoltar\n- Deslize para cima no lado esquerdo ou direito\n\nPágina inicial\n- Deslize para cima a partir do centro\n\nAplicações recentes\n- Deslize pra cima a partir do centro e mantenha pressionado\n\nPressão longa na Página inicial\n- Deslize de forma curta para cima e mantenha pressionado no centro</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Altura da área de Swipe</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Altura da parte inferior para disparar</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Altura da área de Swipe</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Tempo limite antes da ação do gesto ser iniciada</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">ms</string>
 </resources>

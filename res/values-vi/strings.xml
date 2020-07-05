@@ -34,6 +34,7 @@
     <string name="yes">Có</string>
     <string name="no">Không</string>
     <string name="search">Tìm kiếm</string>
+    <string name="search_menu">Cài đặt tìm kiếm</string>
     <string name="disabled">Đã tắt</string>
     <string name="enabled">Đã bật</string>
     <string name="privacy_settings_title">Quyền riêng tư</string>
@@ -51,6 +52,7 @@
     <string name="privacy_guard_manager_show_system_apps">Hiện các ứng dụng tích hợp sẵn</string>
     <string name="privacy_guard_advanced_settings_title">Nâng cao</string>
     <string name="privacy_guard_notification_title">Hiện thông báo</string>
+    <string name="channel_light_settings_name">Xem trước cài đặt Light</string>
     <string name="edit_light_settings">Chỉnh sửa cài đặt đèn báo</string>
     <string name="pulse_speed_title">Chiều dài rung và tốc độ</string>
     <string name="default_time">Bình thường</string>
@@ -182,6 +184,8 @@
     <string name="power_end_call_summary">Kết thúc cuộc gọi hiện tại bằng cách nhấn phím nguồn</string>
     <string name="swap_volume_buttons_title">Đảo chiều phím âm lượng</string>
     <string name="swap_volume_buttons_summary">Đảo vị trí các nút âm lượng khi màn hình xoay</string>
+    <string name="volume_panel_on_left_title">Hiển thị bảng điều khiển âm lượng bên trái</string>
+    <string name="volume_panel_on_left_summary">Bảng điều khiển âm lượng hiển thị ở bên trái màn hình</string>
     <string name="button_wake_title">Đánh thức thiết bị</string>
     <string name="volume_answer_call_title">Trả lời cuộc gọi</string>
     <string name="volume_answer_call_summary">Trả lời cuộc gọi đến bằng cách nhấn nút âm lượng</string>
@@ -553,6 +557,8 @@
     <string name="trust_onboarding_description">Trust giúp bạn giữ an toàn cho thiết bị của mình và bảo vệ quyền riêng tư của bạn.\nBiểu tượng Trust sẽ chỉ hiển thị khi nội dung của trang đã được xác minh.</string>
     <string name="trust_onboarding_learn_more">Tìm hiểu thêm</string>
     <string name="trust_onboarding_done">Hiểu rồi</string>
+    <string name="trust_restrict_usb_title">Hạn chế USB</string>
+    <string name="trust_restrict_usb_summary">Vô hiệu hóa các tiện ích USB mới khi thiết bị bị khóa</string>
     <string name="sms_security_check_limit_title">Giới hạn tin nhắn SMS</string>
     <string name="sms_security_check_limit_summary">Ứng dụng có thể gửi tin nhắn %s trong 1 phút trước khi yêu cầu xác nhận</string>
     <string name="sms_security_check_limit_summary_none">Ứng dụng không được phép gửi bất kỳ tin nhắn nào mà không được xác nhận</string>
