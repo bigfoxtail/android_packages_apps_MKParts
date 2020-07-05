@@ -128,9 +128,9 @@
     <string name="live_display_color_profile_adaptive_title">自動調整</string>
     <string name="live_display_color_profile_adaptive_summary">自動按環境條件調整顏色</string>
     <string name="live_display_color_profile_reading_title">閱讀</string>
-    <string name="live_display_color_profile_reading_summary">溫暖的色彩少眼睛疲勞</string>
+    <string name="live_display_color_profile_reading_summary">暖色調減少眼睛疲勞</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">顏色準確到 sRGB 色域</string>
+    <string name="live_display_color_profile_srgb_summary">色彩精確到 sRGB 色域</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">顏色準確到 DCI-P3 色域</string>
     <string name="live_display_reading_mode_title">閱讀模式</string>

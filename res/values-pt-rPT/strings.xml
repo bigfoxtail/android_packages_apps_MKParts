@@ -34,6 +34,7 @@
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="search">Pesquisar</string>
+    <string name="search_menu">Definições de pesquisa</string>
     <string name="disabled">Desativada</string>
     <string name="enabled">Ativada</string>
     <string name="privacy_settings_title">Privacidade</string>
@@ -51,6 +52,7 @@
     <string name="privacy_guard_manager_show_system_apps">Mostrar aplicações de sistema</string>
     <string name="privacy_guard_advanced_settings_title">Avançadas</string>
     <string name="privacy_guard_notification_title">Mostrar notificação</string>
+    <string name="channel_light_settings_name">Pré-visualização das configs. de luz</string>
     <string name="edit_light_settings">Editar definições de luz</string>
     <string name="pulse_speed_title">Duração e velocidade da luz ao piscar</string>
     <string name="default_time">Normal</string>
@@ -182,6 +184,8 @@
     <string name="power_end_call_summary">Termina a chamada atual, pressionando o botão ligar/desligar</string>
     <string name="swap_volume_buttons_title">Reorientar</string>
     <string name="swap_volume_buttons_summary">Inverter os botões de volume quando o ecrã é rodado</string>
+    <string name="volume_panel_on_left_title">Mostrar o painel à esquerda</string>
+    <string name="volume_panel_on_left_summary">Mostrar o painel de volume no lado esquerdo do ecrã</string>
     <string name="button_wake_title">Acordar o dispositivo</string>
     <string name="volume_answer_call_title">Atender chamada</string>
     <string name="volume_answer_call_summary">Atender chamadas pressionando os botões de volume</string>
@@ -554,6 +558,7 @@
     <string name="trust_onboarding_learn_more">Saber mais</string>
     <string name="trust_onboarding_done">Percebi</string>
     <string name="trust_restrict_usb_title">Restringir USB</string>
+    <string name="trust_restrict_usb_summary">Desativar novos dispositivos USB quando o dispositivo estiver bloqueado</string>
     <string name="sms_security_check_limit_title">Limite de mensagens SMS</string>
     <string name="sms_security_check_limit_summary">As aplicações podem enviar %s mensagens durante 1 minuto antes de exigirem confirmação</string>
     <string name="sms_security_check_limit_summary_none">As aplicações não têm permissão para enviar quaisquer mensagens sem confirmação</string>

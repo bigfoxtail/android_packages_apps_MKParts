@@ -23,4 +23,16 @@
     <string name="fingerprint_shortcut_delete">Xóa</string>
     <string name="fingerprint_shortcut_editer">Thiết lập vân tay</string>
     <string name="fingerprint_shortcut_manage">Quản lý vân tay</string>
+    <string name="bottom_gesture_navigation_settings_title">Cử chỉ điều hướng phía dưới</string>
+    <string name="bottom_gesture_navigation_settings_summary">Sử dụng cử chỉ vuốt lên phía dưới để điều hướng</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Sử dụng cử chỉ vuốt lên phía dưới thay vì phím cứng</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Sử dụng cử chỉ vuốt lên phía dưới thay vì các phím điều hướng màn hình</string>
+    <string name="bottom_gesture_navigation_settings_text">Cử chỉ khả dụng:\n\nCử chỉ có sẵn:\n\nTrở về\n- Vuốt lên bên trái hay bên phải\n\nTrang chủ\n- Vuốt lên ở giữa\n\nĐa nhiệm\n- Vuốt lên ở trung tâm và giữ\n\nNhấn giữ nút Trang chủ\n- Vuốt ngắn lên và giữ ở giữa</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Độ cao khu vực vuốt</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Độ cao từ dưới lên để kích hoạt vuốt</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Thời gian kích hoạt vuốt</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Thời gian trước khi hành động cử chỉ được bắt đầu</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">điểm ảnh</string>
+    <string name="unit_msec">mili giây</string>
 </resources>
