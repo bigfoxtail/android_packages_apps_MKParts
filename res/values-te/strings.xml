@@ -43,7 +43,7 @@
     <string name="toggleLocation">స్థానం</string>
     <string name="ring_mode_normal">సాధారణం</string>
     <string name="ring_mode_vibrate">వైబ్రేట్</string>
-    <string name="notification_volume_title">ప్రకటనలు </string>
+    <string name="notification_volume_title">ప్రకటన</string>
     <string name="media_volume_title">మీడియా</string>
     <string name="doze_title">యాంబియెంట్ డిస్‌ప్లే</string>
     <string name="status_bar_quick_qs_pulldown_off">ఆఫ్‌లో ఉంది</string>
