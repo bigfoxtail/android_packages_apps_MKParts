@@ -79,6 +79,7 @@
     <string name="live_display_night">இரவு</string>
     <string name="live_display_enhance_color_title">நிறங்களை மேம்படுத்து</string>
     <string name="live_display_color_profile_title">நிற சுயவிவரம்</string>
+    <string name="live_display_color_profile_natural_title">இயற்கையான</string>
     <string name="live_display_color_profile_cinema_title">திரைப்படம்</string>
     <string name="live_display_color_profile_photography_title">புகைப்படம்</string>
     <string name="live_display_color_profile_basic_title">அடிப்படை</string>
@@ -121,6 +122,7 @@
     <string name="additional_buttons_title">கூடுதல் பொத்தான்கள்</string>
     <string name="button_backlight_title">பேக்லைட்</string>
     <string name="button_backlight_seekbar_title">பொத்தான் பிரகாசம்</string>
+    <string name="keyboard_backlight_seekbar_title">விசைப்பலகை பிரகாசம்</string>
     <string name="backlight_timeout_unlimited">அணைக்காதே</string>
     <string name="backlight_summary_disabled">முடக்கு</string>
     <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g>க்காக இயக்கப்பட்டுள்ளது </string>
@@ -180,6 +182,7 @@
     <string name="profile_unknown_nfc_tag">அறியாத சுயவிவரம்</string>
     <string name="profile_select">சுயவிவரத்தைத் தேர்ந்தெடு</string>
     <string name="profile_remove_dialog_message">சுயவிவரம் %1$sஐ அகற்றவா?</string>
+    <string name="profile_populate_profile_from_state">சுயவிவரத்தைத் தற்போதைய முறைமை அமைப்புகளைப் பயன்படுத்தி கட்டமைக்கவா?</string>
     <string name="profile_menu_fill_from_state">தற்போதைய சாதன அமைப்புகளை இறக்குமதிசெய்க</string>
     <string name="profile_remove_current_profile">தற்போதைய சுயவிவரத்தை நீக்க இயலவில்லை!</string>
     <string name="profile_entries_on">இயக்கு</string>
@@ -278,6 +281,7 @@
     <string name="display_rotation_title">சுழற்சி அமைப்புகள்</string>
     <string name="display_rotation_enabled">தானியங்கு-சுழற்சி இயக்கப்பட்டுள்ளது</string>
     <string name="display_rotation_disabled">தானியங்கு சுழற்சி முடக்கப்பட்டுள்ளது</string>
+    <string name="display_lockscreen_rotation_title">பூட்டுத் திரையைச் சுயற்று</string>
     <string name="display_rotation_0_title">0 டிகிரீ</string>
     <string name="display_rotation_90_title">90 டிகிரீ</string>
     <string name="display_rotation_180_title">180 டிகிரீ</string>

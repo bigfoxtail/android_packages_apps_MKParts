@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2015 The CyanogenMod Project
+	Copyright (C) 2015-2019 The MoKee Open Source Project
+	Copyright (C) 2017-2019 The LineageOS Project
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="loading">O kargañ\u2026</string>
+    <string name="dlg_ok">Mat eo</string>
+    <string name="cancel">Nullañ</string>
+    <string name="add">Ouzhpennañ</string>
+    <string name="reset">Adderaouekaat</string>
+    <string name="advanced">Kemplesoc\'h</string>
+    <string name="settings">Arventennoù</string>
+    <string name="name">Anv</string>
+    <string name="back">Kent</string>
+    <string name="finish">Echuiñ</string>
+    <string name="next">War-raok</string>
+    <string name="on">Enaouet</string>
+    <string name="off">Lazhet</string>
+    <string name="yes">Ya</string>
+    <string name="no">Ket</string>
+    <string name="search">Klask</string>
+    <string name="search_menu">Arventennoù klask</string>
+    <string name="disabled">Diweredekaet</string>
+    <string name="enabled">Gweredekaet</string>
+    <string name="privacy_settings_title">Buhez prevez</string>
+    <string name="privacy_guard_default_title">Gweredekaet dre ziouer</string>
+    <string name="privacy_guard_help_title">Skoazell</string>
+    <string name="privacy_guard_reset_title">Adderaouekaat</string>
+    <string name="privacy_guard_advanced_settings_title">Kemplesoc\'h</string>
+    <string name="default_time">Reizh</string>
+    <string name="custom_time">Personelaet</string>
+    <string name="dialog_delete_title">Dilemel</string>
+    <string name="brightness">Live a sklaerder</string>
+    <string name="pulse_length_very_short">Berr-tre</string>
+    <string name="pulse_length_short">Berr</string>
+    <string name="pulse_length_normal">Reizh</string>
+    <string name="pulse_length_long">Hir</string>
+    <string name="pulse_length_very_long">Hir-tre</string>
+    <string name="pulse_speed_very_fast">Buan-tre</string>
+    <string name="pulse_speed_fast">Buan</string>
+    <string name="pulse_speed_normal">Reizh</string>
+    <string name="pulse_speed_slow">Gorrek</string>
+    <string name="pulse_speed_very_slow">Gorrek-tre</string>
+    <string name="light_brightness_title">Liveoù a sklaerder</string>
+    <string name="light_brightness_normal">Reizh</string>
+    <string name="battery_light_list_title">Livioù</string>
+    <string name="battery_light_medium_color_title">O kargañ</string>
+    <string name="notification_light_advanced_title">Kemplesoc\'h</string>
+    <string name="notification_light_applist_title">Arloadoù</string>
+    <string name="notification_light_phonelist_title">Pellgomzer</string>
+    <string name="notification_light_default_value">Dre ziouer</string>
+    <string name="live_display_day">Deiz</string>
+    <string name="live_display_night">Noz</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="color_red_title">Ruz</string>
+    <string name="color_green_title">Gwer</string>
+    <string name="color_blue_title">Glas</string>
+    <string name="adj_hue_title">Arliv</string>
+    <string name="adj_saturation_title">Peurvec\'hiadur</string>
+    <string name="adj_intensity_title">Kreñvder</string>
+    <string name="adj_contrast_title">Dargemm</string>
+    <string name="button_pref_title">Afelloù</string>
+    <string name="hardware_keys_home_key_title">Afell degemer</string>
+    <string name="hardware_keys_menu_key_title">Afell lañser</string>
+    <string name="hardware_keys_assist_key_title">Afell klask</string>
+    <string name="hardware_keys_action_last_app">Arload diwezhañ</string>
+    <string name="volbtn_cursor_control_off">Diweredekaet</string>
+    <string name="additional_buttons_title">Afelloù ouzhpenn</string>
+    <string name="backlight_summary_disabled">Diweredekaet</string>
+    <string name="backlight_summary_enabled_with_timeout">Gweredekaet evit <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Gweredekaet</string>
+    <string name="power_menu_screenshot_title">Tapadenn-skramm</string>
+    <string name="torch_long_press_power_timeout_never">Morse</string>
+    <string name="torch_long_press_power_timeout_1min">1 vunutenn</string>
+    <string name="torch_long_press_power_timeout_2min">2 vunutenn</string>
+    <string name="torch_long_press_power_timeout_5min">5 munutenn</string>
+    <string name="torch_long_press_power_timeout_10min">10 munutenn</string>
+    <string name="profile_menu_delete_title">Dilemel</string>
+    <string name="profile_action_disable">Lazhañ</string>
+    <string name="profile_action_enable">Enaouiñ</string>
+    <string name="profile_tabs_wifi">Wi\u2011Fi</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
+    <string name="profile_tabs_nfc">NFC</string>
+    <string name="profiles_settings_title">Profiloù reizhiad</string>
+    <string name="profiles_add">Ouzhpennañ</string>
+    <string name="profile_menu_delete">Dilemel</string>
+    <string name="profile_settings_title">Profil</string>
+    <string name="profile_unknown_nfc_tag">Profil dianav</string>
+    <string name="profile_remove_dialog_message">Lemel ar profil %1$s?</string>
+    <string name="profile_entries_on">Enaouet</string>
+    <string name="profile_entries_off">Lazhet</string>
+    <string name="profile_name_title">Anv</string>
+    <string name="new_profile_name">&lt;profil nevez&gt;</string>
+    <string name="rename_dialog_title">Adenvel</string>
+    <string name="profile_reset_title">Adderaouekaat</string>
+    <string name="profile_app_delete_confirm">Dilemel an arload-mañ?</string>
+    <string name="profile_networkmode_2g">2G</string>
+    <string name="profile_networkmode_3g">3G</string>
+    <string name="profile_networkmode_4g">LTE</string>
+    <string name="profile_networkmode_2g3g">2G/3G</string>
+    <string name="profile_networkmode_2g3g4g">2G/3G/LTE</string>
+    <string name="connection_state_enabled">Gweredekaat</string>
+    <string name="profile_profiles_manage">Profiloù</string>
+    <string name="profile_profile_manage">Merañ ar profil</string>
+    <string name="profile_settings">Arventennoù ar profil</string>
+    <string name="profile_applist_title">Arloadoù</string>
+    <string name="profile_appgroup_name_title">Anv</string>
+    <string name="profile_system_settings_title">Arventennoù ar reizhiad</string>
+    <string name="toggleWifi">Wi\u2011Fi</string>
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleNfc">NFC</string>
+    <string name="ring_mode_normal">Reizh</string>
+    <string name="ring_mode_vibrate">Froumal</string>
+    <string name="notification_volume_title">Rebuzadur</string>
+    <string name="media_volume_title">Media</string>
+    <string name="status_bar_quick_qs_pulldown_summary_left">Kleiz</string>
+    <string name="status_bar_quick_qs_pulldown_summary_right">Dehou</string>
+    <string name="status_bar_quick_qs_pulldown_off">Lazhet</string>
+    <string name="status_bar_quick_qs_pulldown_left">Kleiz</string>
+    <string name="status_bar_quick_qs_pulldown_right">Dehou</string>
+    <string name="status_bar_clock_position_right">Dehou</string>
+    <string name="status_bar_clock_position_left">Kleiz</string>
+    <string name="status_bar_clock_position_center">Kreiz</string>
+    <string name="status_bar_am_pm_normal">Reizh</string>
+    <string name="status_bar_am_pm_small">Bihan</string>
+    <string name="status_bar_am_pm_hidden">Kuzhet</string>
+    <string name="status_bar_battery_style_circle">Kelc\'h</string>
+    <string name="status_bar_battery_style_text">Skrid</string>
+    <string name="status_bar_battery_percentage_default">Kuzhet</string>
+    <string name="status_bar_brightness_category">Sklaerder</string>
+    <string name="status_bar_brightness_slider_auto_title">Sklaerder emgefreek</string>
+    <string name="network_traffic_mode_disable">Diweredekaet</string>
+    <string name="contributors_cloud_fragment_title">Perzhidi</string>
+    <string name="display_rotation_0_title">0 derez</string>
+    <string name="display_rotation_90_title">90 derez</string>
+    <string name="display_rotation_180_title">180 derez</string>
+    <string name="display_rotation_270_title">270 derez</string>
+    <string name="weather_settings_title">Amzer</string>
+    <string name="weather_settings_temp_celsius">Celsius</string>
+    <string name="weather_settings_temp_fahrenheit">Fahrenheit</string>
+    <string name="weather_settings_keyword">amzer</string>
+    <string name="power_save_category_title"> Espern batiri</string>
+    <string name="auto_power_save_never">Morse</string>
+    <string name="charging_sounds_enabled_title">Gweredekaat</string>
+    <string name="power_notifications_vibrate_title">Froumal</string>
+    <string name="charging_sounds_ringtone_title">Son ar rebuzadurioù</string>
+    <string name="charging_sounds_ringtone_silent">Didrouz</string>
+    <string name="style_title">Stil</string>
+    <string name="style_global_title">Stil</string>
+    <string name="style_global_entry_light">Sklaer</string>
+    <string name="style_global_entry_dark">Teñval</string>
+    <string name="style_automagic_dialog_positive">Arloañ</string>
+    <string name="style_accent_default_name">Dre ziouer</string>
+    <string name="style_dark_overlay_title">Mod teñval</string>
+    <string name="style_dark_overlay_default">Dre ziouer</string>
+    <string name="style_dark_overlay_black">Du</string>
+    <string name="trust_category_features">Stad</string>
+    <string name="trust_feature_selinux">SELinux</string>
+    <string name="trust_feature_selinux_value_disabled">Diweredekaet</string>
+    <string name="trust_feature_root_value_disabled">Diweredekaet</string>
+    <string name="trust_feature_root_value_adb">ADB hepken</string>
+    <string name="trust_feature_encryption">Enrinegañ</string>
+    <string name="trust_feature_encryption_value_enabled">Gweredekaet</string>
+    <string name="trust_feature_encryption_value_disabled">Diweredekaet</string>
+    <string name="trust_category_tools">Buhez prevez</string>
+    <string name="trust_onboarding_learn_more">Gouzout hiroc\'h</string>
+</resources>
