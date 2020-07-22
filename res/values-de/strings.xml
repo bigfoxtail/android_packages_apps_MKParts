@@ -364,6 +364,8 @@
     <string name="status_bar_brightness_slider_summary">Helligkeit in den Schnelleinstellungen anpassen</string>
     <string name="status_bar_brightness_slider_auto_title">Automatische Helligkeit</string>
     <string name="status_bar_brightness_slider_auto_summary">Umschalter für adaptive Helligkeit neben dem Schieberegler anzeigen</string>
+    <string name="status_bar_brightness_slider_show_never">Nie anzeigen</string>
+    <string name="status_bar_brightness_slider_show_always">Immer anzeigen</string>
     <string name="status_bar_toggle_brightness">Helligkeitssteuerung</string>
     <string name="status_bar_toggle_brightness_summary">Helligkeit durch Wischen über die Statusleiste anpassen</string>
     <string name="network_traffic_settings_title">Netzwerkverkehr-Anzeige</string>
@@ -428,6 +430,7 @@
     <string name="auto_power_save_never">Nie</string>
     <string name="long_screen_settings_title">Vollbild Apps</string>
     <string name="long_screen_settings_summary">Zwinge vorherige Apps in den Vollbild-Modus</string>
+    <string name="long_screen_settings_no_apps">Keine Apps</string>
     <string name="charging_sounds_settings_title">Ladegeräte-Töne</string>
     <string name="charging_sounds_enabled_title">Aktivieren</string>
     <string name="charging_sounds_enabled_summary">Beim Anschließen oder Trennen einer Stromquelle einen Ton abspielen</string>
@@ -444,6 +447,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Mit einem Finger nach unten wischen</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Mit einem Finger nach links wischen</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Mit einem Finger nach rechts wischen</string>
+    <string name="touchscreen_gesture_single_tap_title">Einfaches Antippen</string>
     <string name="touchscreen_gesture_up_arrow_title">Zeichnen Sie ein \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Zeichnen Sie ein \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Zeichnen Sie ein \"&lt;\"</string>
