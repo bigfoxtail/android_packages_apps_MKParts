@@ -15,6 +15,11 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mkparts_title">تنظیمات MoKee</string>
+    <string name="fingerprint_shortcut_settings_title">میانبرهای اثر انگشت</string>
+    <string name="fingerprint_shortcut_not_specified">مشخص نشده است</string>
     <string name="fingerprint_shortcut_edit">ویرایش</string>
     <string name="fingerprint_shortcut_delete">حذف</string>
+    <string name="fingerprint_shortcut_editer">میانبر اثر انگشت را تنظیم کنید</string>
+    <string name="fingerprint_shortcut_manage">اثر انگشت را مدیریت کنید</string>
 </resources>

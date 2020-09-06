@@ -24,4 +24,6 @@
     <string name="fingerprint_shortcut_editer">கைரேகையைக் குறுக்குவழியை அமை</string>
     <string name="fingerprint_shortcut_manage">கைரேகைகளை நிர்வகி</string>
     <string name="unit_dpi">DPI</string>
+    <string name="unit_px">px</string>
+    <string name="unit_msec">நிமி</string>
 </resources>

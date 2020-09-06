@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">Кайтаруу</string>
+    <string name="off">Өчүрүү</string>
     <string name="privacy_guard_reset_title">Кайтаруу</string>
     <string name="custom_time">Өздүк</string>
     <string name="color_red_title">Кызыл</string>
@@ -26,7 +27,9 @@
     <string name="adj_hue_title">Кошумча түс</string>
     <string name="adj_saturation_title">Коюлтуу</string>
     <string name="adj_contrast_title">Контраст</string>
+    <string name="profile_entries_off">Өчүрүү</string>
     <string name="profile_reset_title">Кайтаруу</string>
+    <string name="status_bar_quick_qs_pulldown_off">Өчүрүү</string>
     <string name="status_bar_brightness_category">Жарыктыгы</string>
     <string name="style_title">Стиль</string>
     <string name="style_global_title">Стиль</string>
