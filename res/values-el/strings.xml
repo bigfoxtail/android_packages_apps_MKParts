@@ -301,6 +301,7 @@
     <string name="ring_mode_mute">Σίγαση</string>
     <string name="ring_volume_title">Ένταση ήχου κλήσης</string>
     <string name="incoming_call_volume_title">Ήχος κλήσης</string>
+    <string name="notification_volume_title">Ειδοποίηση</string>
     <string name="media_volume_title">Μέσα</string>
     <string name="alarm_volume_title">Ξυπνητήρι</string>
     <string name="doze_title">Οθόνη ambient</string>
