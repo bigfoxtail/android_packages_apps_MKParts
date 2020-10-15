@@ -32,7 +32,7 @@
             android:persistent="false" />
 
     <!-- Manual temperature selection -->
-    <org.mokee.mkparts.livedisplay.DisplayTemperature
+    <org.mokee.mokeeparts.livedisplay.DisplayTemperature
             android:key="live_display_color_temperature"
             android:title="@string/live_display_color_temperature_title"
             android:dialogTitle="@*mokee.platform:string/live_display_title"
@@ -58,7 +58,7 @@
             android:title="@string/advanced">
 
         <!-- RGB display color adjustments -->
-        <org.mokee.mkparts.livedisplay.DisplayColor
+        <org.mokee.mokeeparts.livedisplay.DisplayColor
                 android:key="color_calibration"
                 android:title="@string/color_calibration_title"
                 android:dialogTitle="@string/color_calibration_title"
@@ -66,7 +66,7 @@
                 android:persistent="false"/>
 
         <!-- HSIC display color adjustments -->
-        <org.mokee.mkparts.livedisplay.PictureAdjustment
+        <org.mokee.mokeeparts.livedisplay.PictureAdjustment
                 android:key="picture_adjustment"
                 android:title="@string/picture_adjustment_title"
                 android:dialogTitle="@string/picture_adjustment_title"

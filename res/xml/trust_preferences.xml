@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <org.mokee.mkparts.widget.WallOfTextPreference
+    <org.mokee.mokeeparts.widget.WallOfTextPreference
         android:icon="@drawable/ic_trust"
         android:summary="@string/trust_onboarding_description" />
 
@@ -59,7 +59,7 @@
         android:key="trust_category_warnings"
         android:title="@string/trust_notification_alerts_title">
 
-        <org.mokee.mkparts.widget.WallOfTextPreference
+        <org.mokee.mokeeparts.widget.WallOfTextPreference
             android:icon="@drawable/ic_info"
             android:summary="@string/trust_warnings_alerts_intro" />
 

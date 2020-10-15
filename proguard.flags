@@ -1,19 +1,19 @@
 # Keep all Fragments in this package, which are used by reflection.
--keep class org.mokee.mkparts.*Fragment
--keep class org.mokee.mkparts.*Picker
--keep class org.mokee.mkparts.*Settings
+-keep class org.mokee.mokeeparts.*Fragment
+-keep class org.mokee.mokeeparts.*Picker
+-keep class org.mokee.mokeeparts.*Settings
 
--keep class org.mokee.mkparts.contributors.*
--keep class org.mokee.mkparts.gestures.*
--keep class org.mokee.mkparts.hardware.*
--keep class org.mokee.mkparts.input.*
--keep class org.mokee.mkparts.livedisplay.*
--keep class org.mokee.mkparts.notificationlight.*
--keep class org.mokee.mkparts.power.*
--keep class org.mokee.mkparts.privacyguard.*
--keep class org.mokee.mkparts.profiles.*
--keep class org.mokee.mkparts.sounds.*
--keep class org.mokee.mkparts.stats.*
+-keep class org.mokee.mokeeparts.contributors.*
+-keep class org.mokee.mokeeparts.gestures.*
+-keep class org.mokee.mokeeparts.hardware.*
+-keep class org.mokee.mokeeparts.input.*
+-keep class org.mokee.mokeeparts.livedisplay.*
+-keep class org.mokee.mokeeparts.notificationlight.*
+-keep class org.mokee.mokeeparts.power.*
+-keep class org.mokee.mokeeparts.privacyguard.*
+-keep class org.mokee.mokeeparts.profiles.*
+-keep class org.mokee.mokeeparts.sounds.*
+-keep class org.mokee.mokeeparts.stats.*
 
 -dontwarn com.bun.miitmdid.core.**
 -keep class com.bun.miitmdid.core.** {*;} 

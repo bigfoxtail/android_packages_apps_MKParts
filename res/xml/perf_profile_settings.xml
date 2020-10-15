@@ -43,7 +43,7 @@
         android:key="perf_profile_category"
         android:title="@string/perf_profile_category_title">
 
-        <org.mokee.mkparts.widget.SeekBarPreference
+        <org.mokee.mokeeparts.widget.SeekBarPreference
             android:key="perf_seekbar"
             android:title="@string/perf_profile_title"
             android:max="4"

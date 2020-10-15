@@ -37,7 +37,7 @@
         android:defaultValue="3" />
 
     <PreferenceScreen
-        android:fragment="org.mokee.mkparts.statusbar.NetworkTrafficSettings"
+        android:fragment="org.mokee.mokeeparts.statusbar.NetworkTrafficSettings"
         android:key="network_traffic_settings"
         android:title="@string/network_traffic_settings_title"
         android:summary="@string/network_traffic_settings_summary" />
