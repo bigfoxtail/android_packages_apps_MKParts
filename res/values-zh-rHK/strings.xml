@@ -423,7 +423,7 @@
     <string name="power_save_title">極度省電</string>
     <string name="power_save_summary">限制裝置效能和背景活動，即可節省電源</string>
     <string name="auto_power_save_title">自動省電</string>
-    <string name="auto_power_save_summary_on">在 %d \u0025 電量時自動啟用省電模式</string>
+    <string name="auto_power_save_summary_on">在 %s 電量時自動啟用省電模式</string>
     <string name="auto_power_save_summary_off">不要自動啟用省電模式</string>
     <string name="auto_power_save_never">Noway</string>
     <string name="long_screen_settings_title">全螢幕應用程式</string>
