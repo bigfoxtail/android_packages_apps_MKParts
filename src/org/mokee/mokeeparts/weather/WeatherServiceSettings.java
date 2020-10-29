@@ -62,7 +62,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 import mokee.providers.WeatherContract;
 import mokee.weatherservice.WeatherProviderService;
 
@@ -101,7 +101,7 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
         mTemperatureUnit = ps.findPreference(PREFERENCE_TEMP_UNIT);
         mTemperatureUnit.setOnPreferenceChangeListener(this);
 
-        watch(MKSettings.Secure.getUriFor(MKSettings.Secure.WEATHER_PROVIDER_SERVICE));
+        watch(MoKeeSettings.Secure.getUriFor(MoKeeSettings.Secure.WEATHER_PROVIDER_SERVICE));
     }
 
     @Override
@@ -122,8 +122,8 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mTemperatureUnit) {
-            MKSettings.Global.putInt(mContext.getContentResolver(),
-                    MKSettings.Global.WEATHER_TEMPERATURE_UNIT,
+            MoKeeSettings.Global.putInt(mContext.getContentResolver(),
+                    MoKeeSettings.Global.WEATHER_TEMPERATURE_UNIT,
                     Integer.valueOf((String) newValue));
         }
         return true;
@@ -243,8 +243,8 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
      * If none is selected yet, returns a unit appropriate for the current locale
      */
     public static int getSelectedTemperatureUnit(Context context) {
-        int tempUnit = MKSettings.Global.getInt(context.getContentResolver(),
-                MKSettings.Global.WEATHER_TEMPERATURE_UNIT, -1);
+        int tempUnit = MoKeeSettings.Global.getInt(context.getContentResolver(),
+                MoKeeSettings.Global.WEATHER_TEMPERATURE_UNIT, -1);
         if (tempUnit != -1) {
             return tempUnit;
         }
@@ -349,8 +349,8 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
             if (!mInfo.isActive) {
                 markAsActiveProvider();
                 mInfo.isActive = true;
-                MKSettings.Secure.putString(mContext.getContentResolver(),
-                        MKSettings.Secure.WEATHER_PROVIDER_SERVICE,
+                MoKeeSettings.Secure.putString(mContext.getContentResolver(),
+                        MoKeeSettings.Secure.WEATHER_PROVIDER_SERVICE,
                         mInfo.componentName.flattenToString());
             }
         }
@@ -431,8 +431,8 @@ public class WeatherServiceSettings extends SettingsPreferenceFragment
     }
 
     private static ComponentName getEnabledWeatherServiceProvider(Context context) {
-        String activeWeatherServiceProvider = MKSettings.Secure.getString(
-                context.getContentResolver(), MKSettings.Secure.WEATHER_PROVIDER_SERVICE);
+        String activeWeatherServiceProvider = MoKeeSettings.Secure.getString(
+                context.getContentResolver(), MoKeeSettings.Secure.WEATHER_PROVIDER_SERVICE);
         if (activeWeatherServiceProvider == null) return null;
         return ComponentName.unflattenFromString(activeWeatherServiceProvider);
     }

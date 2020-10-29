@@ -33,7 +33,7 @@ import android.view.View;
 
 import androidx.preference.Preference;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 import org.mokee.mokeeparts.R;
 import org.mokee.mokeeparts.SettingsPreferenceFragment;
@@ -74,8 +74,8 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        String curTone = MKSettings.Global.getString(getContentResolver(),
-                MKSettings.Global.POWER_NOTIFICATIONS_RINGTONE);
+        String curTone = MoKeeSettings.Global.getString(getContentResolver(),
+                MoKeeSettings.Global.POWER_NOTIFICATIONS_RINGTONE);
 
         // Convert default sound file path to a media uri so that we can
         // set a proper default for the ringtone picker.
@@ -129,16 +129,16 @@ public class ChargingSoundsSettings extends SettingsPreferenceFragment {
         }
 
         mChargingSoundsRingtone.setSummary(toneTitle);
-        MKSettings.Global.putString(getContentResolver(),
-                MKSettings.Global.POWER_NOTIFICATIONS_RINGTONE, toneUriString);
+        MoKeeSettings.Global.putString(getContentResolver(),
+                MoKeeSettings.Global.POWER_NOTIFICATIONS_RINGTONE, toneUriString);
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mChargingSoundsRingtone) {
             launchNotificationSoundPicker(REQUEST_CODE_CHARGING_NOTIFICATIONS_RINGTONE,
-                    MKSettings.Global.getString(getContentResolver(),
-                    MKSettings.Global.POWER_NOTIFICATIONS_RINGTONE));
+                    MoKeeSettings.Global.getString(getContentResolver(),
+                    MoKeeSettings.Global.POWER_NOTIFICATIONS_RINGTONE));
         }
         return super.onPreferenceTreeClick(preference);
     }

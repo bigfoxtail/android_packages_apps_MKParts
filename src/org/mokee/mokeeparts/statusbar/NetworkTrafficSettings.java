@@ -22,8 +22,8 @@ import android.os.Bundle;
 import androidx.preference.DropDownPreference;
 import androidx.preference.Preference;
 
-import mokee.preference.MKSecureSettingSwitchPreference;
-import mokee.providers.MKSettings;
+import mokee.preference.MoKeeSecureSettingSwitchPreference;
+import mokee.providers.MoKeeSettings;
 import org.mokee.mokeeparts.R;
 import org.mokee.mokeeparts.SettingsPreferenceFragment;
 
@@ -34,7 +34,7 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
     private static final String TAG = "NetworkTrafficSettings";
 
     private DropDownPreference mNetTrafficMode;
-    private MKSecureSettingSwitchPreference mNetTrafficAutohide;
+    private MoKeeSecureSettingSwitchPreference mNetTrafficAutohide;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,13 +42,13 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.network_traffic_settings);
         final ContentResolver resolver = getActivity().getContentResolver();
 
-        mNetTrafficMode = findPreference(MKSettings.Secure.NETWORK_TRAFFIC_MODE);
+        mNetTrafficMode = findPreference(MoKeeSettings.Secure.NETWORK_TRAFFIC_MODE);
         mNetTrafficMode.setOnPreferenceChangeListener(this);
-        int mode = MKSettings.Secure.getInt(resolver,
-                MKSettings.Secure.NETWORK_TRAFFIC_MODE, 3);
+        int mode = MoKeeSettings.Secure.getInt(resolver,
+                MoKeeSettings.Secure.NETWORK_TRAFFIC_MODE, 3);
         mNetTrafficMode.setValue(String.valueOf(mode));
 
-        mNetTrafficAutohide = findPreference(MKSettings.Secure.NETWORK_TRAFFIC_AUTOHIDE);
+        mNetTrafficAutohide = findPreference(MoKeeSettings.Secure.NETWORK_TRAFFIC_AUTOHIDE);
         mNetTrafficAutohide.setOnPreferenceChangeListener(this);
 
         updateEnabledStates(mode);
@@ -58,8 +58,8 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mNetTrafficMode) {
             int mode = Integer.valueOf((String) newValue);
-            MKSettings.Secure.putInt(getActivity().getContentResolver(),
-                    MKSettings.Secure.NETWORK_TRAFFIC_MODE, mode);
+            MoKeeSettings.Secure.putInt(getActivity().getContentResolver(),
+                    MoKeeSettings.Secure.NETWORK_TRAFFIC_MODE, mode);
             updateEnabledStates(mode);
         }
         return true;

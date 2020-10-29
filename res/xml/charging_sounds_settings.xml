@@ -26,7 +26,7 @@
         android:summary="@string/charging_sounds_enabled_summary"
         android:defaultValue="true" />
 
-    <mokee.preference.MKGlobalSettingSwitchPreference
+    <mokee.preference.MoKeeGlobalSettingSwitchPreference
         android:key="power_notifications_vibrate"
         android:title="@string/power_notifications_vibrate_title"
         android:dependency="charging_sounds_enabled" />

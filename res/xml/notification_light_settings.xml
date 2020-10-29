@@ -28,7 +28,7 @@
             android:key="notification_light_pulse"
             android:title="@string/notification_light_title" />
 
-        <mokee.preference.MKSystemSettingSwitchPreference
+        <mokee.preference.MoKeeSystemSettingSwitchPreference
             android:key="notification_light_color_auto"
             android:title="@string/notification_light_automagic"
             android:dependency="notification_light_pulse"
@@ -63,12 +63,12 @@
         android:key="advanced_section"
         android:title="@string/advanced">
 
-        <mokee.preference.MKSystemSettingSwitchPreference
+        <mokee.preference.MoKeeSystemSettingSwitchPreference
             android:key="notification_light_screen_on_enable"
             android:title="@string/notification_light_screen_on"
             android:dependency="notification_light_pulse" />
 
-        <mokee.preference.MKSystemSettingSwitchPreference
+        <mokee.preference.MoKeeSystemSettingSwitchPreference
             android:key="notification_light_pulse_custom_enable"
             android:title="@string/notification_light_use_custom"
             android:dependency="notification_light_pulse" />

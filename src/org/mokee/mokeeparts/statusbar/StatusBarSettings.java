@@ -27,7 +27,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 
-import mokee.preference.MKSystemSettingListPreference;
+import mokee.preference.MoKeeSystemSettingListPreference;
 
 import org.mokee.mokeeparts.R;
 import org.mokee.mokeeparts.SettingsPreferenceFragment;
@@ -53,12 +53,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private static final int PULLDOWN_DIR_RIGHT = 1;
     private static final int PULLDOWN_DIR_LEFT = 2;
 
-    private MKSystemSettingListPreference mQSTileColumns;
-    private MKSystemSettingListPreference mQuickPulldown;
-    private MKSystemSettingListPreference mStatusBarClock;
-    private MKSystemSettingListPreference mStatusBarAmPm;
-    private MKSystemSettingListPreference mStatusBarBattery;
-    private MKSystemSettingListPreference mStatusBarBatteryShowPercent;
+    private MoKeeSystemSettingListPreference mQSTileColumns;
+    private MoKeeSystemSettingListPreference mQuickPulldown;
+    private MoKeeSystemSettingListPreference mStatusBarClock;
+    private MoKeeSystemSettingListPreference mStatusBarAmPm;
+    private MoKeeSystemSettingListPreference mStatusBarBattery;
+    private MoKeeSystemSettingListPreference mStatusBarBatteryShowPercent;
 
     private PreferenceCategory mStatusBarBatteryCategory;
     private PreferenceCategory mStatusBarClockCategory;

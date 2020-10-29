@@ -32,8 +32,8 @@ import org.mokee.internal.notification.LightsCapabilities;
 import org.mokee.mokeeparts.R;
 import org.mokee.mokeeparts.SettingsPreferenceFragment;
 
-import mokee.preference.MKSystemSettingSwitchPreference;
-import mokee.providers.MKSettings;
+import mokee.preference.MoKeeSystemSettingSwitchPreference;
+import mokee.providers.MoKeeSettings;
 
 public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -55,8 +55,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private ApplicationLightPreference mLowColorPref;
     private ApplicationLightPreference mMediumColorPref;
     private ApplicationLightPreference mFullColorPref;
-    private MKSystemSettingSwitchPreference mLightEnabledPref;
-    private MKSystemSettingSwitchPreference mPulseEnabledPref;
+    private MoKeeSystemSettingSwitchPreference mLightEnabledPref;
+    private MoKeeSystemSettingSwitchPreference mPulseEnabledPref;
     private BatteryBrightnessPreference mBatteryBrightnessPref;
     private BatteryBrightnessZenPreference mBatteryBrightnessZenPref;
     private int mDefaultLowColor;
@@ -150,7 +150,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             prefSet.removePreference(prefSet.findPreference(BRIGHTNESS_SECTION));
         }
 
-        watch(MKSettings.System.getUriFor(MKSettings.System.BATTERY_LIGHT_ENABLED));
+        watch(MoKeeSettings.System.getUriFor(MoKeeSettings.System.BATTERY_LIGHT_ENABLED));
     }
 
     @Override
@@ -164,20 +164,20 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         Resources res = getResources();
 
         if (mLowColorPref != null) {
-            int lowColor = MKSettings.System.getInt(resolver,
-                    MKSettings.System.BATTERY_LIGHT_LOW_COLOR, mDefaultLowColor);
+            int lowColor = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.BATTERY_LIGHT_LOW_COLOR, mDefaultLowColor);
             mLowColorPref.setAllValues(lowColor, 0, 0, false);
         }
 
         if (mMediumColorPref != null) {
-            int mediumColor = MKSettings.System.getInt(resolver,
-                    MKSettings.System.BATTERY_LIGHT_MEDIUM_COLOR, mDefaultMediumColor);
+            int mediumColor = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.BATTERY_LIGHT_MEDIUM_COLOR, mDefaultMediumColor);
             mMediumColorPref.setAllValues(mediumColor, 0, 0, false);
         }
 
         if (mFullColorPref != null) {
-            int fullColor = MKSettings.System.getInt(resolver,
-                    MKSettings.System.BATTERY_LIGHT_FULL_COLOR, mDefaultFullColor);
+            int fullColor = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.BATTERY_LIGHT_FULL_COLOR, mDefaultFullColor);
             mFullColorPref.setAllValues(fullColor, 0, 0, false);
             updateBrightnessPrefColor(fullColor);
         }
@@ -203,11 +203,11 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
 
         if (key.equals(LOW_COLOR_PREF)) {
-            MKSettings.System.putInt(resolver, MKSettings.System.BATTERY_LIGHT_LOW_COLOR, color);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.BATTERY_LIGHT_LOW_COLOR, color);
         } else if (key.equals(MEDIUM_COLOR_PREF)) {
-            MKSettings.System.putInt(resolver, MKSettings.System.BATTERY_LIGHT_MEDIUM_COLOR, color);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.BATTERY_LIGHT_MEDIUM_COLOR, color);
         } else if (key.equals(FULL_COLOR_PREF)) {
-            MKSettings.System.putInt(resolver, MKSettings.System.BATTERY_LIGHT_FULL_COLOR, color);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.BATTERY_LIGHT_FULL_COLOR, color);
             updateBrightnessPrefColor(color);
         }
     }
@@ -237,11 +237,11 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
 
         // Reset to the framework default colors
-        MKSettings.System.putInt(resolver, MKSettings.System.BATTERY_LIGHT_LOW_COLOR,
+        MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.BATTERY_LIGHT_LOW_COLOR,
                 mDefaultLowColor);
-        MKSettings.System.putInt(resolver, MKSettings.System.BATTERY_LIGHT_MEDIUM_COLOR,
+        MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.BATTERY_LIGHT_MEDIUM_COLOR,
                 mDefaultMediumColor);
-        MKSettings.System.putInt(resolver, MKSettings.System.BATTERY_LIGHT_FULL_COLOR,
+        MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.BATTERY_LIGHT_FULL_COLOR,
                 mDefaultFullColor);
         refreshColors();
     }
@@ -267,8 +267,8 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     public static final SummaryProvider SUMMARY_PROVIDER = new SummaryProvider() {
         @Override
         public String getSummary(Context context, String key) {
-            if (MKSettings.System.getInt(context.getContentResolver(),
-                    MKSettings.System.BATTERY_LIGHT_ENABLED, 1) == 1) {
+            if (MoKeeSettings.System.getInt(context.getContentResolver(),
+                    MoKeeSettings.System.BATTERY_LIGHT_ENABLED, 1) == 1) {
                 return context.getString(R.string.enabled);
             }
             return context.getString(R.string.disabled);

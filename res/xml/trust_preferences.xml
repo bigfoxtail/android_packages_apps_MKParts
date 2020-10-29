@@ -39,7 +39,7 @@
         android:key="trust_category_tools"
         android:title="@string/trust_category_tools">
 
-        <mokee.preference.MKSecureSettingSwitchPreference
+        <mokee.preference.MoKeeSecureSettingSwitchPreference
             android:key="trust_restrict_usb"
             android:title="@string/trust_restrict_usb_title"
             android:summary="@string/trust_restrict_usb_summary"

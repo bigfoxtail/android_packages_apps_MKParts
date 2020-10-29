@@ -39,14 +39,14 @@
             android:persistent="false" />
 
     <!-- Outdoor mode / SRE -->
-    <mokee.preference.MKSystemSettingSwitchPreference
+    <mokee.preference.MoKeeSystemSettingSwitchPreference
             android:key="display_auto_outdoor_mode"
             android:title="@string/live_display_outdoor_mode_title"
             android:summary="@string/live_display_outdoor_mode_summary"
             android:defaultValue="@*mokee.platform:bool/config_defaultAutoOutdoorMode" />
 
     <!-- Reading mode -->
-    <mokee.preference.MKSystemSettingSwitchPreference
+    <mokee.preference.MoKeeSystemSettingSwitchPreference
             android:key="display_reading_mode"
             android:title="@string/live_display_reading_mode_title"
             android:summary="@string/live_display_reading_mode_summary"
@@ -74,14 +74,14 @@
                 android:persistent="false"/>
 
         <!-- Adaptive backlight -->
-        <mokee.preference.MKSystemSettingSwitchPreference
+        <mokee.preference.MoKeeSystemSettingSwitchPreference
                 android:key="display_low_power"
                 android:title="@string/live_display_low_power_title"
                 android:summary="@string/live_display_low_power_summary"
                 android:defaultValue="@*mokee.platform:bool/config_defaultCABC" />
 
         <!-- Color enhancement -->
-        <mokee.preference.MKSystemSettingSwitchPreference
+        <mokee.preference.MoKeeSystemSettingSwitchPreference
                 android:key="display_color_enhance"
                 android:title="@string/live_display_enhance_color_title"
                 android:summary="@string/live_display_enhance_color_summary"

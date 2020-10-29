@@ -41,7 +41,7 @@ import org.mokee.mokeeparts.utils.DeviceUtils;
 import org.mokee.mokeeparts.widget.CustomDialogPreference;
 import org.mokee.mokeeparts.R;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialog> implements
         SeekBar.OnSeekBarChangeListener {
@@ -71,7 +71,7 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         /*
         if (isKeyboardSupported(context)) {
             mKeyboardBrightness = new BrightnessControl(
-                    MKSettings.Secure.KEYBOARD_BRIGHTNESS, false);
+                    MoKeeSettings.Secure.KEYBOARD_BRIGHTNESS, false);
             mActiveControl = mKeyboardBrightness;
         }
         */
@@ -85,8 +85,8 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
                             .config_buttonBrightnessSettingDefaultFloat);
 
             mButtonBrightness = new ButtonBrightnessControl(
-                    MKSettings.Secure.BUTTON_BRIGHTNESS,
-                    MKSettings.System.BUTTON_BACKLIGHT_ONLY_WHEN_PRESSED,
+                    MoKeeSettings.Secure.BUTTON_BRIGHTNESS,
+                    MoKeeSettings.System.BUTTON_BACKLIGHT_ONLY_WHEN_PRESSED,
                     isSingleValue, defaultBrightness);
             mActiveControl = mButtonBrightness;
         }
@@ -276,13 +276,13 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
     }
 
     private int getTimeout() {
-        return MKSettings.Secure.getInt(mResolver,
-                MKSettings.Secure.BUTTON_BACKLIGHT_TIMEOUT, DEFAULT_BUTTON_TIMEOUT * 1000) / 1000;
+        return MoKeeSettings.Secure.getInt(mResolver,
+                MoKeeSettings.Secure.BUTTON_BACKLIGHT_TIMEOUT, DEFAULT_BUTTON_TIMEOUT * 1000) / 1000;
     }
 
     private void applyTimeout(int timeout) {
-        MKSettings.Secure.putInt(mResolver,
-                MKSettings.Secure.BUTTON_BACKLIGHT_TIMEOUT, timeout * 1000);
+        MoKeeSettings.Secure.putInt(mResolver,
+                MoKeeSettings.Secure.BUTTON_BACKLIGHT_TIMEOUT, timeout * 1000);
     }
 
     private void updateBrightnessPreview() {
@@ -414,11 +414,11 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
             } else if (mSeekBar != null && !persisted) {
                 return mSeekBar.getProgress() / 100.0f;
             }
-            return MKSettings.Secure.getFloat(mResolver, mSetting, mDefaultBrightness);
+            return MoKeeSettings.Secure.getFloat(mResolver, mSetting, mDefaultBrightness);
         }
 
         public void applyBrightness() {
-            MKSettings.Secure.putFloat(mResolver, mSetting, getBrightness(false));
+            MoKeeSettings.Secure.putFloat(mResolver, mSetting, getBrightness(false));
         }
 
         /* Behaviors when it's a seekbar */
@@ -493,11 +493,11 @@ public class ButtonBacklightBrightness extends CustomDialogPreference<AlertDialo
         }
 
         public boolean isOnlyWhenPressedEnabled() {
-            return MKSettings.System.getInt(mResolver, mOnlyWhenPressedSetting, 0) == 1;
+            return MoKeeSettings.System.getInt(mResolver, mOnlyWhenPressedSetting, 0) == 1;
         }
 
         public void setOnlyWhenPressedEnabled(boolean enabled) {
-            MKSettings.System.putInt(mResolver, mOnlyWhenPressedSetting, enabled ? 1 : 0);
+            MoKeeSettings.System.putInt(mResolver, mOnlyWhenPressedSetting, enabled ? 1 : 0);
         }
     }
 }

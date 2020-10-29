@@ -32,7 +32,7 @@ import android.widget.Toast;
 
 import mokee.app.Profile;
 import mokee.app.ProfileManager;
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 import org.mokee.mokeeparts.R;
 
@@ -87,8 +87,8 @@ public class NFCProfile extends Activity {
     private void handleProfileMimeType(byte[] payload) {
         UUID profileUuid = NFCProfileUtils.toUUID(payload);
 
-        boolean enabled = MKSettings.System.getInt(getContentResolver(),
-                MKSettings.System.SYSTEM_PROFILES_ENABLED, 1) == 1;
+        boolean enabled = MoKeeSettings.System.getInt(getContentResolver(),
+                MoKeeSettings.System.SYSTEM_PROFILES_ENABLED, 1) == 1;
 
         if (enabled) {
             // Only do NFC profile changing if System Profile support is enabled

@@ -57,8 +57,8 @@ import static org.mokee.internal.util.DeviceKeysConstants.*;
 import java.util.List;
 import java.util.Set;
 
-import mokee.hardware.MKHardwareManager;
-import mokee.providers.MKSettings;
+import mokee.hardware.MoKeeHardwareManager;
+import mokee.providers.MoKeeSettings;
 
 public class ButtonSettings extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener, Searchable {
@@ -185,8 +185,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
 
         // Long press power while display is off to activate torchlight
         mTorchLongPressPowerGesture = findPreference(KEY_TORCH_LONG_PRESS_POWER_GESTURE);
-        final int torchLongPressPowerTimeout = MKSettings.System.getInt(resolver,
-                MKSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, 0);
+        final int torchLongPressPowerTimeout = MoKeeSettings.System.getInt(resolver,
+                MoKeeSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, 0);
         mTorchLongPressPowerTimeout = initList(KEY_TORCH_LONG_PRESS_POWER_TIMEOUT,
                 torchLongPressPowerTimeout);
 
@@ -207,16 +207,16 @@ public class ButtonSettings extends SettingsPreferenceFragment
         Action defaultAppSwitchLongPressAction = Action.fromIntSafe(res.getInteger(
                 org.mokee.platform.internal.R.integer.config_longPressOnAppSwitchBehavior));
         Action homeLongPressAction = Action.fromSettings(resolver,
-                MKSettings.System.KEY_HOME_LONG_PRESS_ACTION,
+                MoKeeSettings.System.KEY_HOME_LONG_PRESS_ACTION,
                 defaultHomeLongPressAction);
         Action homeDoubleTapAction = Action.fromSettings(resolver,
-                MKSettings.System.KEY_HOME_DOUBLE_TAP_ACTION,
+                MoKeeSettings.System.KEY_HOME_DOUBLE_TAP_ACTION,
                 defaultHomeDoubleTapAction);
         Action appSwitchLongPressAction = Action.fromSettings(resolver,
-                MKSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
+                MoKeeSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION,
                 defaultAppSwitchLongPressAction);
         Action edgeLongSwipeAction = Action.fromSettings(resolver,
-                MKSettings.System.KEY_EDGE_LONG_SWIPE_ACTION,
+                MoKeeSettings.System.KEY_EDGE_LONG_SWIPE_ACTION,
                 Action.NOTHING);
 
         // Navigation bar arrow keys while typing
@@ -297,11 +297,11 @@ public class ButtonSettings extends SettingsPreferenceFragment
             }
 
             Action pressAction = Action.fromSettings(resolver,
-                    MKSettings.System.KEY_MENU_ACTION, Action.MENU);
+                    MoKeeSettings.System.KEY_MENU_ACTION, Action.MENU);
             mMenuPressAction = initList(KEY_MENU_PRESS, pressAction);
 
             Action longPressAction = Action.fromSettings(resolver,
-                        MKSettings.System.KEY_MENU_LONG_PRESS_ACTION,
+                        MoKeeSettings.System.KEY_MENU_LONG_PRESS_ACTION,
                         hasAssistKey ? Action.NOTHING : Action.APP_SWITCH);
             mMenuLongPressAction = initList(KEY_MENU_LONG_PRESS, longPressAction);
 
@@ -316,11 +316,11 @@ public class ButtonSettings extends SettingsPreferenceFragment
             }
 
             Action pressAction = Action.fromSettings(resolver,
-                    MKSettings.System.KEY_ASSIST_ACTION, Action.SEARCH);
+                    MoKeeSettings.System.KEY_ASSIST_ACTION, Action.SEARCH);
             mAssistPressAction = initList(KEY_ASSIST_PRESS, pressAction);
 
             Action longPressAction = Action.fromSettings(resolver,
-                    MKSettings.System.KEY_ASSIST_LONG_PRESS_ACTION, Action.VOICE_SEARCH);
+                    MoKeeSettings.System.KEY_ASSIST_LONG_PRESS_ACTION, Action.VOICE_SEARCH);
             mAssistLongPressAction = initList(KEY_ASSIST_LONG_PRESS, longPressAction);
 
             hasAnyBindableKey = true;
@@ -334,7 +334,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
             }
 
             Action pressAction = Action.fromSettings(resolver,
-                    MKSettings.System.KEY_APP_SWITCH_ACTION, Action.APP_SWITCH);
+                    MoKeeSettings.System.KEY_APP_SWITCH_ACTION, Action.APP_SWITCH);
             mAppSwitchPressAction = initList(KEY_APP_SWITCH_PRESS, pressAction);
 
             mAppSwitchLongPressAction = initList(KEY_APP_SWITCH_LONG_PRESS, appSwitchLongPressAction);
@@ -374,15 +374,15 @@ public class ButtonSettings extends SettingsPreferenceFragment
             mVolumeKeyCursorControl = initList(KEY_VOLUME_KEY_CURSOR_CONTROL,
                     cursorControlAction);
 
-            int swapVolumeKeys = MKSettings.System.getInt(getContentResolver(),
-                    MKSettings.System.SWAP_VOLUME_KEYS_ON_ROTATION, 0);
+            int swapVolumeKeys = MoKeeSettings.System.getInt(getContentResolver(),
+                    MoKeeSettings.System.SWAP_VOLUME_KEYS_ON_ROTATION, 0);
             mSwapVolumeButtons = prefScreen.findPreference(KEY_SWAP_VOLUME_BUTTONS);
             if (mSwapVolumeButtons != null) {
                 mSwapVolumeButtons.setChecked(swapVolumeKeys > 0);
             }
 
-            final boolean volumePanelOnLeft = MKSettings.Secure.getIntForUser(
-                    getContentResolver(), MKSettings.Secure.VOLUME_PANEL_ON_LEFT, 0,
+            final boolean volumePanelOnLeft = MoKeeSettings.Secure.getIntForUser(
+                    getContentResolver(), MoKeeSettings.Secure.VOLUME_PANEL_ON_LEFT, 0,
                     UserHandle.USER_CURRENT) != 0;
             mVolumePanelOnLeft = prefScreen.findPreference(KEY_VOLUME_PANEL_ON_LEFT);
             if (mVolumePanelOnLeft != null) {
@@ -488,11 +488,11 @@ public class ButtonSettings extends SettingsPreferenceFragment
 
         // Home button answers calls.
         if (mHomeAnswerCall != null) {
-            final int incallHomeBehavior = MKSettings.Secure.getInt(getContentResolver(),
-                    MKSettings.Secure.RING_HOME_BUTTON_BEHAVIOR,
-                    MKSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_DEFAULT);
+            final int incallHomeBehavior = MoKeeSettings.Secure.getInt(getContentResolver(),
+                    MoKeeSettings.Secure.RING_HOME_BUTTON_BEHAVIOR,
+                    MoKeeSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_DEFAULT);
             final boolean homeButtonAnswersCall =
-                (incallHomeBehavior == MKSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER);
+                (incallHomeBehavior == MoKeeSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER);
             mHomeAnswerCall.setChecked(homeButtonAnswersCall);
         }
     }
@@ -514,7 +514,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
         String value = (String) newValue;
         int index = pref.findIndexOfValue(value);
         pref.setSummary(pref.getEntries()[index]);
-        MKSettings.System.putInt(getContentResolver(), setting, Integer.valueOf(value));
+        MoKeeSettings.System.putInt(getContentResolver(), setting, Integer.valueOf(value));
     }
 
     private void handleSystemListChange(ListPreference pref, Object newValue, String setting) {
@@ -529,37 +529,37 @@ public class ButtonSettings extends SettingsPreferenceFragment
         if (preference == mHomeLongPressAction ||
                 preference == mNavigationHomeLongPressAction) {
             handleListChange((ListPreference) preference, newValue,
-                    MKSettings.System.KEY_HOME_LONG_PRESS_ACTION);
+                    MoKeeSettings.System.KEY_HOME_LONG_PRESS_ACTION);
             return true;
         } else if (preference == mHomeDoubleTapAction ||
                 preference == mNavigationHomeDoubleTapAction) {
             handleListChange((ListPreference) preference, newValue,
-                    MKSettings.System.KEY_HOME_DOUBLE_TAP_ACTION);
+                    MoKeeSettings.System.KEY_HOME_DOUBLE_TAP_ACTION);
             return true;
         } else if (preference == mMenuPressAction) {
             handleListChange(mMenuPressAction, newValue,
-                    MKSettings.System.KEY_MENU_ACTION);
+                    MoKeeSettings.System.KEY_MENU_ACTION);
             return true;
         } else if (preference == mMenuLongPressAction) {
             handleListChange(mMenuLongPressAction, newValue,
-                    MKSettings.System.KEY_MENU_LONG_PRESS_ACTION);
+                    MoKeeSettings.System.KEY_MENU_LONG_PRESS_ACTION);
             return true;
         } else if (preference == mAssistPressAction) {
             handleListChange(mAssistPressAction, newValue,
-                    MKSettings.System.KEY_ASSIST_ACTION);
+                    MoKeeSettings.System.KEY_ASSIST_ACTION);
             return true;
         } else if (preference == mAssistLongPressAction) {
             handleListChange(mAssistLongPressAction, newValue,
-                    MKSettings.System.KEY_ASSIST_LONG_PRESS_ACTION);
+                    MoKeeSettings.System.KEY_ASSIST_LONG_PRESS_ACTION);
             return true;
         } else if (preference == mAppSwitchPressAction) {
             handleListChange(mAppSwitchPressAction, newValue,
-                    MKSettings.System.KEY_APP_SWITCH_ACTION);
+                    MoKeeSettings.System.KEY_APP_SWITCH_ACTION);
             return true;
         } else if (preference == mAppSwitchLongPressAction ||
                 preference == mNavigationAppSwitchLongPressAction) {
             handleListChange((ListPreference) preference, newValue,
-                    MKSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION);
+                    MoKeeSettings.System.KEY_APP_SWITCH_LONG_PRESS_ACTION);
             return true;
         } else if (preference == mVolumeKeyCursorControl) {
             handleSystemListChange(mVolumeKeyCursorControl, newValue,
@@ -567,24 +567,24 @@ public class ButtonSettings extends SettingsPreferenceFragment
             return true;
         } else if (preference == mTorchLongPressPowerTimeout) {
             handleListChange(mTorchLongPressPowerTimeout, newValue,
-                    MKSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT);
+                    MoKeeSettings.System.TORCH_LONG_PRESS_POWER_TIMEOUT);
             return true;
         } else if (preference == mEdgeLongSwipeAction) {
             handleListChange(mEdgeLongSwipeAction, newValue,
-                    MKSettings.System.KEY_EDGE_LONG_SWIPE_ACTION);
+                    MoKeeSettings.System.KEY_EDGE_LONG_SWIPE_ACTION);
             return true;
         }
         return false;
     }
 
     private static void writeDisableNavkeysOption(Context context, boolean enabled) {
-        MKSettings.System.putIntForUser(context.getContentResolver(),
-                MKSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
+        MoKeeSettings.System.putIntForUser(context.getContentResolver(),
+                MoKeeSettings.System.FORCE_SHOW_NAVBAR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
     }
 
     private void updateDisableNavkeysOption() {
-        boolean enabled = MKSettings.System.getIntForUser(getActivity().getContentResolver(),
-                MKSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
+        boolean enabled = MoKeeSettings.System.getIntForUser(getActivity().getContentResolver(),
+                MoKeeSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
 
         mDisableNavigationKeys.setChecked(enabled);
     }
@@ -675,8 +675,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
     }
 
     private static boolean isKeyDisablerSupported(Context context) {
-        final MKHardwareManager hardware = MKHardwareManager.getInstance(context);
-        return hardware.isSupported(MKHardwareManager.FEATURE_KEY_DISABLE);
+        final MoKeeHardwareManager hardware = MoKeeHardwareManager.getInstance(context);
+        return hardware.isSupported(MoKeeHardwareManager.FEATURE_KEY_DISABLE);
     }
 
     public static void restoreKeyDisabler(Context context) {
@@ -684,8 +684,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             return;
         }
 
-        boolean enabled = MKSettings.System.getIntForUser(context.getContentResolver(),
-                MKSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
+        boolean enabled = MoKeeSettings.System.getIntForUser(context.getContentResolver(),
+                MoKeeSettings.System.FORCE_SHOW_NAVBAR, 0, UserHandle.USER_CURRENT) != 0;
 
         writeDisableNavkeysOption(context, enabled);
     }
@@ -709,11 +709,11 @@ public class ButtonSettings extends SettingsPreferenceFragment
                 /* Disable the re-orient functionality */
                 value = 0;
             }
-            MKSettings.System.putInt(getActivity().getContentResolver(),
-                    MKSettings.System.SWAP_VOLUME_KEYS_ON_ROTATION, value);
+            MoKeeSettings.System.putInt(getActivity().getContentResolver(),
+                    MoKeeSettings.System.SWAP_VOLUME_KEYS_ON_ROTATION, value);
         } else if (preference == mVolumePanelOnLeft) {
-            MKSettings.Secure.putIntForUser(getActivity().getContentResolver(),
-                    MKSettings.Secure.VOLUME_PANEL_ON_LEFT,
+            MoKeeSettings.Secure.putIntForUser(getActivity().getContentResolver(),
+                    MoKeeSettings.Secure.VOLUME_PANEL_ON_LEFT,
                     mVolumePanelOnLeft.isChecked() ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         } else if (preference == mDisableNavigationKeys) {
@@ -749,10 +749,10 @@ public class ButtonSettings extends SettingsPreferenceFragment
     }
 
     private void handleToggleHomeButtonAnswersCallPreferenceClick() {
-        MKSettings.Secure.putInt(getContentResolver(),
-                MKSettings.Secure.RING_HOME_BUTTON_BEHAVIOR, (mHomeAnswerCall.isChecked()
-                        ? MKSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER
-                        : MKSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_DO_NOTHING));
+        MoKeeSettings.Secure.putInt(getContentResolver(),
+                MoKeeSettings.Secure.RING_HOME_BUTTON_BEHAVIOR, (mHomeAnswerCall.isChecked()
+                        ? MoKeeSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_ANSWER
+                        : MoKeeSettings.Secure.RING_HOME_BUTTON_BEHAVIOR_DO_NOTHING));
     }
 
     public static final Searchable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

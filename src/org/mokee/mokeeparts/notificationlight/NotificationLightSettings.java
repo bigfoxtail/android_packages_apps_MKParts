@@ -56,9 +56,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import mokee.preference.MKSystemSettingSwitchPreference;
+import mokee.preference.MoKeeSystemSettingSwitchPreference;
 import mokee.preference.SystemSettingSwitchPreference;
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 import mokee.util.ColorUtils;
 
 public class NotificationLightSettings extends SettingsPreferenceFragment implements
@@ -87,9 +87,9 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     private PreferenceGroup mApplicationPrefList;
     private NotificationBrightnessPreference mNotificationBrightnessPref;
     private SystemSettingSwitchPreference mEnabledPref;
-    private MKSystemSettingSwitchPreference mCustomEnabledPref;
-    private MKSystemSettingSwitchPreference mScreenOnLightsPref;
-    private MKSystemSettingSwitchPreference mAutoGenerateColors;
+    private MoKeeSystemSettingSwitchPreference mCustomEnabledPref;
+    private MoKeeSystemSettingSwitchPreference mScreenOnLightsPref;
+    private MoKeeSystemSettingSwitchPreference mAutoGenerateColors;
     private ApplicationLightPreference mDefaultPref;
     private ApplicationLightPreference mCallPref;
     private ApplicationLightPreference mVoicemailPref;
@@ -140,16 +140,16 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
 
         mDefaultPref = findPreference(DEFAULT_PREF);
 
-        mAutoGenerateColors = findPreference(MKSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO);
+        mAutoGenerateColors = findPreference(MoKeeSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO);
 
         // Advanced light settings
         mNotificationBrightnessPref =
-                findPreference(MKSettings.System.NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL);
+                findPreference(MoKeeSettings.System.NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL);
         mScreenOnLightsPref =
-                findPreference(MKSettings.System.NOTIFICATION_LIGHT_SCREEN_ON);
+                findPreference(MoKeeSettings.System.NOTIFICATION_LIGHT_SCREEN_ON);
         mScreenOnLightsPref.setOnPreferenceChangeListener(this);
         mCustomEnabledPref =
-                findPreference(MKSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_ENABLE);
+                findPreference(MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_ENABLE);
         if (!mMultiColorLed && !mHALAdjustableBrightness) {
             removePreference(BRIGHTNESS_SECTION);
         }
@@ -196,7 +196,7 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
             mGeneralPrefs.removePreference(mAutoGenerateColors);
         } else {
             mAutoGenerateColors.setOnPreferenceChangeListener(this);
-            watch(MKSettings.System.getUriFor(MKSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO));
+            watch(MoKeeSettings.System.getUriFor(MoKeeSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO));
         }
 
         watch(Settings.System.getUriFor(Settings.System.NOTIFICATION_LIGHT_PULSE));
@@ -212,34 +212,34 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
 
     private void refreshDefault() {
         ContentResolver resolver = getActivity().getContentResolver();
-        int color = MKSettings.System.getInt(resolver,
-                MKSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR, mDefaultColor);
-        int timeOn = MKSettings.System.getInt(resolver,
-                MKSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_ON, mDefaultLedOn);
-        int timeOff = MKSettings.System.getInt(resolver,
-                MKSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF, mDefaultLedOff);
+        int color = MoKeeSettings.System.getInt(resolver,
+                MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR, mDefaultColor);
+        int timeOn = MoKeeSettings.System.getInt(resolver,
+                MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_ON, mDefaultLedOn);
+        int timeOff = MoKeeSettings.System.getInt(resolver,
+                MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF, mDefaultLedOff);
 
         mDefaultPref.setAllValues(color, timeOn, timeOff);
 
         // Get Missed call and Voicemail values
         if (mCallPref != null) {
-            int callColor = MKSettings.System.getInt(resolver,
-                    MKSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, mDefaultColor);
-            int callTimeOn = MKSettings.System.getInt(resolver,
-                    MKSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON, mDefaultLedOn);
-            int callTimeOff = MKSettings.System.getInt(resolver,
-                    MKSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF, mDefaultLedOff);
+            int callColor = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, mDefaultColor);
+            int callTimeOn = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON, mDefaultLedOn);
+            int callTimeOff = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF, mDefaultLedOff);
 
             mCallPref.setAllValues(callColor, callTimeOn, callTimeOff);
         }
 
         if (mVoicemailPref != null) {
-            int vmailColor = MKSettings.System.getInt(resolver,
-                    MKSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, mDefaultColor);
-            int vmailTimeOn = MKSettings.System.getInt(resolver,
-                    MKSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON, mDefaultLedOn);
-            int vmailTimeOff = MKSettings.System.getInt(resolver,
-                    MKSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF, mDefaultLedOff);
+            int vmailColor = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, mDefaultColor);
+            int vmailTimeOn = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON, mDefaultLedOn);
+            int vmailTimeOff = MoKeeSettings.System.getInt(resolver,
+                    MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF, mDefaultLedOff);
 
             mVoicemailPref.setAllValues(vmailColor, vmailTimeOn, vmailTimeOff);
         }
@@ -331,8 +331,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     }
 
     private int getInitialColorForPackage(String packageName) {
-        boolean autoColor = MKSettings.System.getInt(getActivity().getContentResolver(),
-                MKSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO, mMultiColorLed ? 1 : 0) == 1;
+        boolean autoColor = MoKeeSettings.System.getInt(getActivity().getContentResolver(),
+                MoKeeSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO, mMultiColorLed ? 1 : 0) == 1;
         int color = mDefaultColor;
         if (autoColor) {
             try {
@@ -364,8 +364,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
     }
 
     private boolean parsePackageList() {
-        final String baseString = MKSettings.System.getString(getActivity().getContentResolver(),
-                MKSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_VALUES);
+        final String baseString = MoKeeSettings.System.getString(getActivity().getContentResolver(),
+                MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_VALUES);
 
         if (TextUtils.equals(mPackageList, baseString)) {
             return false;
@@ -399,8 +399,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         if (preferencesUpdated) {
             mPackageList = value;
         }
-        MKSettings.System.putString(getActivity().getContentResolver(),
-                                  MKSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_VALUES, value);
+        MoKeeSettings.System.putString(getActivity().getContentResolver(),
+                                  MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_VALUES, value);
     }
 
     /**
@@ -415,21 +415,21 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         ContentResolver resolver = getActivity().getContentResolver();
 
         if (packageName.equals(DEFAULT_PREF)) {
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR, color);
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_ON, timeon);
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF, timeoff);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR, color);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_ON, timeon);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_LED_OFF, timeoff);
             refreshDefault();
             return;
         } else if (packageName.equals(MISSED_CALL_PREF)) {
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, color);
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON, timeon);
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF, timeoff);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, color);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_ON, timeon);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_LED_OFF, timeoff);
             refreshDefault();
             return;
         } else if (packageName.equals(VOICEMAIL_PREF)) {
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, color);
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON, timeon);
-            MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF, timeoff);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, color);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_ON, timeon);
+            MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_LED_OFF, timeoff);
             refreshDefault();
             return;
         }
@@ -448,9 +448,9 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         ContentResolver resolver = getActivity().getContentResolver();
 
         // Reset to the framework default colors
-        MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR, mDefaultColor);
-        MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, mDefaultColor);
-        MKSettings.System.putInt(resolver, MKSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, mDefaultColor);
+        MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_DEFAULT_COLOR, mDefaultColor);
+        MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_CALL_COLOR, mDefaultColor);
+        MoKeeSettings.System.putInt(resolver, MoKeeSettings.System.NOTIFICATION_LIGHT_PULSE_VMAIL_COLOR, mDefaultColor);
 
         refreshDefault();
     }
@@ -614,8 +614,8 @@ public class NotificationLightSettings extends SettingsPreferenceFragment implem
         public String getSummary(Context context, String key) {
             if (Settings.System.getInt(context.getContentResolver(),
                     Settings.System.NOTIFICATION_LIGHT_PULSE, 1) == 1) {
-                if (MKSettings.System.getInt(context.getContentResolver(),
-                        MKSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO, 1) == 1) {
+                if (MoKeeSettings.System.getInt(context.getContentResolver(),
+                        MoKeeSettings.System.NOTIFICATION_LIGHT_COLOR_AUTO, 1) == 1) {
                     return context.getString(R.string.notification_light_automagic_summary);
                 }
                 return context.getString(R.string.enabled);

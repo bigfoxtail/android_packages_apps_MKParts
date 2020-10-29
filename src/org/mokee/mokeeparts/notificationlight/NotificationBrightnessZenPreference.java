@@ -20,7 +20,7 @@ import android.content.Context;
 import android.os.UserHandle;
 import android.util.AttributeSet;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 public class NotificationBrightnessZenPreference extends BrightnessPreference {
     private static String TAG = "NotificationBrightnessZenPreference";
@@ -34,15 +34,15 @@ public class NotificationBrightnessZenPreference extends BrightnessPreference {
 
     @Override
     protected int getBrightnessSetting() {
-        return MKSettings.System.getIntForUser(mContext.getContentResolver(),
-                MKSettings.System.NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL_ZEN,
+        return MoKeeSettings.System.getIntForUser(mContext.getContentResolver(),
+                MoKeeSettings.System.NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL_ZEN,
                 LIGHT_BRIGHTNESS_MAXIMUM, UserHandle.USER_CURRENT);
     }
 
     @Override
     protected void setBrightnessSetting(int brightness) {
-        MKSettings.System.putIntForUser(mContext.getContentResolver(),
-                MKSettings.System.NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL_ZEN,
+        MoKeeSettings.System.putIntForUser(mContext.getContentResolver(),
+                MoKeeSettings.System.NOTIFICATION_LIGHT_BRIGHTNESS_LEVEL_ZEN,
                 brightness, UserHandle.USER_CURRENT);
     }
 }

@@ -22,7 +22,7 @@ import android.content.Intent;
 
 import mokee.app.Profile;
 import mokee.app.ProfileManager;
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 import java.util.UUID;
 
@@ -31,8 +31,8 @@ public class SetupDefaultProfileReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        if (MKSettings.System.getInt(context.getContentResolver(),
-                MKSettings.System.SYSTEM_PROFILES_ENABLED, 1) == 1) {
+        if (MoKeeSettings.System.getInt(context.getContentResolver(),
+                MoKeeSettings.System.SYSTEM_PROFILES_ENABLED, 1) == 1) {
             ProfileManager profileManager = ProfileManager.getInstance(context);
             Profile defaultProfile = profileManager.getProfile(
                     UUID.fromString("0230226d-0d05-494a-a9bd-d222a1117655"));

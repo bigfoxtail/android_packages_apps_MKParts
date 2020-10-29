@@ -52,7 +52,7 @@ import android.view.KeyEvent;
 
 import com.android.internal.os.DeviceKeyHandler;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 import java.util.List;
 
@@ -158,8 +158,8 @@ public class KeyHandler implements DeviceKeyHandler {
 
         if (action != 0 && !mEventHandler.hasMessages(GESTURE_REQUEST)) {
             final Message msg = getMessageForAction(action);
-            final boolean proxWakeEnabled = MKSettings.System.getInt(mContext.getContentResolver(),
-                    MKSettings.System.PROXIMITY_ON_WAKE, mDefaultProximity ? 1 : 0) == 1;
+            final boolean proxWakeEnabled = MoKeeSettings.System.getInt(mContext.getContentResolver(),
+                    MoKeeSettings.System.PROXIMITY_ON_WAKE, mDefaultProximity ? 1 : 0) == 1;
             if (mProximityWakeSupported && proxWakeEnabled && mProximitySensor != null) {
                 mGestureWakeLock.acquire(2 * mProximityTimeOut);
                 mEventHandler.sendMessageDelayed(msg, mProximityTimeOut);
@@ -384,8 +384,8 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 
         if (mAudioManager.getRingerMode() != AudioManager.RINGER_MODE_SILENT) {
-            final boolean enabled = MKSettings.System.getInt(mContext.getContentResolver(),
-                    MKSettings.System.TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK, 1) != 0;
+            final boolean enabled = MoKeeSettings.System.getInt(mContext.getContentResolver(),
+                    MoKeeSettings.System.TOUCHSCREEN_GESTURE_HAPTIC_FEEDBACK, 1) != 0;
             if (enabled) {
                 mVibrator.vibrate(VibrationEffect.createOneShot(50,
                         VibrationEffect.DEFAULT_AMPLITUDE));

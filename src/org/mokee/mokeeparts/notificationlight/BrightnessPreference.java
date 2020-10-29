@@ -37,10 +37,10 @@ import android.widget.TextView;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 import org.mokee.internal.notification.LightsCapabilities;
-import org.mokee.internal.notification.MKNotification;
+import org.mokee.internal.notification.MoKeeNotification;
 import org.mokee.mokeeparts.widget.CustomDialogPreference;
 import org.mokee.mokeeparts.R;
 
@@ -99,8 +99,8 @@ public class BrightnessPreference extends CustomDialogPreference<AlertDialog>
 
         // Force lights on when screen is on and also force maximum brightness.
         Bundle bundle = new Bundle();
-        bundle.putBoolean(MKNotification.EXTRA_FORCE_SHOW_LIGHTS, true);
-        bundle.putInt(MKNotification.EXTRA_FORCE_LIGHT_BRIGHTNESS, LIGHT_BRIGHTNESS_MAXIMUM);
+        bundle.putBoolean(MoKeeNotification.EXTRA_FORCE_SHOW_LIGHTS, true);
+        bundle.putInt(MoKeeNotification.EXTRA_FORCE_LIGHT_BRIGHTNESS, LIGHT_BRIGHTNESS_MAXIMUM);
 
         mNotificationBuilder = new Notification.Builder(mContext);
         mNotificationBuilder.setExtras(bundle)

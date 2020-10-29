@@ -49,7 +49,7 @@ import android.widget.TextView;
 
 import org.mokee.internal.notification.LedValues;
 import org.mokee.internal.notification.LightsCapabilities;
-import org.mokee.internal.notification.MKNotification;
+import org.mokee.internal.notification.MoKeeNotification;
 import org.mokee.mokeeparts.R;
 
 import java.util.ArrayList;
@@ -314,13 +314,13 @@ public class LightSettingsDialog extends AlertDialog implements
 
         // Set a notification to display the LED color
         final Bundle b = new Bundle();
-        b.putBoolean(MKNotification.EXTRA_FORCE_SHOW_LIGHTS, true);
+        b.putBoolean(MoKeeNotification.EXTRA_FORCE_SHOW_LIGHTS, true);
         if  (mLedBrightness > 0 && mLedBrightness < LedValues.LIGHT_BRIGHTNESS_MAXIMUM) {
-            b.putInt(MKNotification.EXTRA_FORCE_LIGHT_BRIGHTNESS, mLedBrightness);
+            b.putInt(MoKeeNotification.EXTRA_FORCE_LIGHT_BRIGHTNESS, mLedBrightness);
         }
-        b.putInt(MKNotification.EXTRA_FORCE_COLOR, color);
-        b.putInt(MKNotification.EXTRA_FORCE_LIGHT_ON_MS, speedOn);
-        b.putInt(MKNotification.EXTRA_FORCE_LIGHT_OFF_MS, speedOff);
+        b.putInt(MoKeeNotification.EXTRA_FORCE_COLOR, color);
+        b.putInt(MoKeeNotification.EXTRA_FORCE_LIGHT_ON_MS, speedOn);
+        b.putInt(MoKeeNotification.EXTRA_FORCE_LIGHT_OFF_MS, speedOff);
 
         createNotificationChannel();
 

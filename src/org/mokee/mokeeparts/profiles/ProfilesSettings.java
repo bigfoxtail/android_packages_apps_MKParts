@@ -49,7 +49,7 @@ import java.util.UUID;
 
 import mokee.app.Profile;
 import mokee.app.ProfileManager;
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 public class ProfilesSettings extends SettingsPreferenceFragment
         implements MKBaseSystemSettingSwitchBar.SwitchBarChangeCallback,
@@ -168,7 +168,7 @@ public class ProfilesSettings extends SettingsPreferenceFragment
         super.onStart();
         final PartsActivity activity = (PartsActivity) getActivity();
         mProfileEnabler = new MKBaseSystemSettingSwitchBar(activity, activity.getSwitchBar(),
-                MKSettings.System.SYSTEM_PROFILES_ENABLED, true, this);
+                MoKeeSettings.System.SYSTEM_PROFILES_ENABLED, true, this);
     }
 
     @Override
@@ -231,8 +231,8 @@ public class ProfilesSettings extends SettingsPreferenceFragment
     private void updateProfilesEnabledState() {
         Activity activity = getActivity();
 
-        mEnabled = MKSettings.System.getInt(activity.getContentResolver(),
-                MKSettings.System.SYSTEM_PROFILES_ENABLED, 1) == 1;
+        mEnabled = MoKeeSettings.System.getInt(activity.getContentResolver(),
+                MoKeeSettings.System.SYSTEM_PROFILES_ENABLED, 1) == 1;
         activity.invalidateOptionsMenu();
 
         getFloatingActionButton().setVisibility(mEnabled ? View.VISIBLE : View.GONE);

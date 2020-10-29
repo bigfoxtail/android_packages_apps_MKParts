@@ -24,7 +24,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 import mokee.trust.TrustInterface;
 
 import org.mokee.mokeeparts.R;
@@ -70,8 +70,8 @@ public class TrustOnBoardingActivity extends AppCompatActivity {
     }
 
     private void setOnboardingCompleted() {
-        MKSettings.System.putInt(getContentResolver(),
-                MKSettings.System.TRUST_INTERFACE_HINTED, 1);
+        MoKeeSettings.System.putInt(getContentResolver(),
+                MoKeeSettings.System.TRUST_INTERFACE_HINTED, 1);
         // Run security check test now that the user is aware of what Trust is
         mInterface.runTest();
     }

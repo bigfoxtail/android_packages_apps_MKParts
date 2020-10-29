@@ -45,12 +45,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import mokee.hardware.MKHardwareManager;
+import mokee.hardware.MoKeeHardwareManager;
 import mokee.hardware.DisplayMode;
 import mokee.hardware.LiveDisplayConfig;
 import mokee.hardware.LiveDisplayManager;
 import mokee.preference.SettingsHelper;
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 import static mokee.hardware.LiveDisplayManager.FEATURE_CABC;
 import static mokee.hardware.LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT;
@@ -93,11 +93,11 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
             KEY_LIVE_DISPLAY_COLOR_PROFILE + "_%s_summary";
 
     private final Uri DISPLAY_TEMPERATURE_DAY_URI =
-            MKSettings.System.getUriFor(MKSettings.System.DISPLAY_TEMPERATURE_DAY);
+            MoKeeSettings.System.getUriFor(MoKeeSettings.System.DISPLAY_TEMPERATURE_DAY);
     private final Uri DISPLAY_TEMPERATURE_NIGHT_URI =
-            MKSettings.System.getUriFor(MKSettings.System.DISPLAY_TEMPERATURE_NIGHT);
+            MoKeeSettings.System.getUriFor(MoKeeSettings.System.DISPLAY_TEMPERATURE_NIGHT);
     private final Uri DISPLAY_TEMPERATURE_MODE_URI =
-            MKSettings.System.getUriFor(MKSettings.System.DISPLAY_TEMPERATURE_MODE);
+            MoKeeSettings.System.getUriFor(MoKeeSettings.System.DISPLAY_TEMPERATURE_MODE);
 
     private ListPreference mLiveDisplay;
 
@@ -122,7 +122,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
     private LiveDisplayManager mLiveDisplayManager;
     private LiveDisplayConfig mConfig;
 
-    private MKHardwareManager mHardware;
+    private MoKeeHardwareManager mHardware;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -131,7 +131,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
         final boolean isNightDisplayAvailable =
                 ColorDisplayManager.isNightDisplayAvailable(getContext());
 
-        mHardware = MKHardwareManager.getInstance(getActivity());
+        mHardware = MoKeeHardwareManager.getInstance(getActivity());
         mLiveDisplayManager = LiveDisplayManager.getInstance(getActivity());
         mConfig = mLiveDisplayManager.getConfig();
 
@@ -221,7 +221,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
 
         mReadingMode = findPreference(KEY_LIVE_DISPLAY_READING_ENHANCEMENT);
         if (liveDisplayPrefs != null && mReadingMode != null &&
-                (!mHardware.isSupported(MKHardwareManager.FEATURE_READING_ENHANCEMENT) ||
+                (!mHardware.isSupported(MoKeeHardwareManager.FEATURE_READING_ENHANCEMENT) ||
                 PackageManagerUtils.isAppEnabled(getContext(), getContext().getString(
                         com.android.internal.R.string.config_defaultWellbeingPackage)))) {
             liveDisplayPrefs.removePreference(mReadingMode);
@@ -370,7 +370,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
     private void updateReadingModeStatus() {
         if (mReadingMode != null) {
             mReadingMode.setChecked(
-                    mHardware.get(MKHardwareManager.FEATURE_READING_ENHANCEMENT));
+                    mHardware.get(MoKeeHardwareManager.FEATURE_READING_ENHANCEMENT));
         }
     }
 
@@ -389,7 +389,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
                 }
             }
         } else if (preference == mReadingMode) {
-            mHardware.set(MKHardwareManager.FEATURE_READING_ENHANCEMENT, (Boolean) objValue);
+            mHardware.set(MoKeeHardwareManager.FEATURE_READING_ENHANCEMENT, (Boolean) objValue);
         }
         return true;
     }
@@ -455,7 +455,7 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements S
 
             // Add keywords for supported color profiles
             if (config.hasFeature(FEATURE_DISPLAY_MODES)) {
-                DisplayMode[] modes = MKHardwareManager.getInstance(context).getDisplayModes();
+                DisplayMode[] modes = MoKeeHardwareManager.getInstance(context).getDisplayModes();
                 if (modes != null && modes.length > 0) {
                     for (DisplayMode mode : modes) {
                         result.add(ResourceUtils.getLocalizedString(

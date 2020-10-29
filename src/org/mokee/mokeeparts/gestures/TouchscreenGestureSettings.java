@@ -29,7 +29,7 @@ import android.util.Log;
 import androidx.preference.ListPreference;
 import androidx.preference.PreferenceManager;
 
-import mokee.hardware.MKHardwareManager;
+import mokee.hardware.MoKeeHardwareManager;
 import mokee.hardware.TouchscreenGesture;
 
 import org.mokee.mokeeparts.R;
@@ -65,7 +65,7 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment
     }
 
     private void initTouchscreenGestures() {
-        final MKHardwareManager manager = MKHardwareManager.getInstance(getContext());
+        final MoKeeHardwareManager manager = MoKeeHardwareManager.getInstance(getContext());
         mTouchscreenGestures = manager.getTouchscreenGestures();
         final int[] actions = getDefaultGestureActions(getContext(), mTouchscreenGestures);
         for (final TouchscreenGesture gesture : mTouchscreenGestures) {
@@ -100,7 +100,7 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment
         @Override
         public boolean callChangeListener(final Object newValue) {
             final int action = Integer.parseInt(String.valueOf(newValue));
-            final MKHardwareManager manager = MKHardwareManager.getInstance(mContext);
+            final MoKeeHardwareManager manager = MoKeeHardwareManager.getInstance(mContext);
             if (!manager.setTouchscreenGestureEnabled(mGesture, action > 0)) {
                 return false;
             }
@@ -156,7 +156,7 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment
             return;
         }
 
-        final MKHardwareManager manager = MKHardwareManager.getInstance(context);
+        final MoKeeHardwareManager manager = MoKeeHardwareManager.getInstance(context);
         final TouchscreenGesture[] gestures = manager.getTouchscreenGestures();
         final int[] actionList = buildActionList(context, gestures);
         for (final TouchscreenGesture gesture : gestures) {
@@ -167,8 +167,8 @@ public class TouchscreenGestureSettings extends SettingsPreferenceFragment
     }
 
     private static boolean isTouchscreenGesturesSupported(final Context context) {
-        final MKHardwareManager manager = MKHardwareManager.getInstance(context);
-        return manager.isSupported(MKHardwareManager.FEATURE_TOUCHSCREEN_GESTURES);
+        final MoKeeHardwareManager manager = MoKeeHardwareManager.getInstance(context);
+        return manager.isSupported(MoKeeHardwareManager.FEATURE_TOUCHSCREEN_GESTURES);
     }
 
     private static int[] getDefaultGestureActions(final Context context,

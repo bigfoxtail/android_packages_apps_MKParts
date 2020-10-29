@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.widget.Switch;
 
 import mokee.preference.SettingsHelper;
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeListener,
         SettingsHelper.OnSettingsChangeListener {
@@ -73,7 +73,7 @@ public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeLis
         if (!mListeningToOnSwitchChange) {
             mSwitchBar.addOnSwitchChangeListener(this);
             SettingsHelper.get(mContext).startWatching(
-                    this, MKSettings.System.getUriFor(mSettingKey));
+                    this, MoKeeSettings.System.getUriFor(mSettingKey));
 
             mListeningToOnSwitchChange = true;
         }
@@ -98,7 +98,7 @@ public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeLis
     }
 
     private void setSwitchState() {
-        boolean enabled = MKSettings.System.getInt(mContext.getContentResolver(),
+        boolean enabled = MoKeeSettings.System.getInt(mContext.getContentResolver(),
                 mSettingKey, mDefaultState) == 1;
         mStateMachineEvent = true;
         setSwitchBarChecked(enabled);
@@ -113,7 +113,7 @@ public class MKBaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeLis
         }
 
         // Handle a switch change
-        MKSettings.System.putInt(mContext.getContentResolver(),
+        MoKeeSettings.System.putInt(mContext.getContentResolver(),
                 mSettingKey, isChecked ? 1 : 0);
 
         if (mCallback != null) {

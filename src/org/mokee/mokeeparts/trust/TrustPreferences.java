@@ -30,8 +30,8 @@ import androidx.preference.SwitchPreference;
 import org.mokee.mokeeparts.R;
 import org.mokee.mokeeparts.SettingsPreferenceFragment;
 
-import mokee.preference.MKSecureSettingSwitchPreference;
-import mokee.providers.MKSettings;
+import mokee.preference.MoKeeSecureSettingSwitchPreference;
+import mokee.providers.MoKeeSettings;
 import mokee.trust.TrustInterface;
 
 public class TrustPreferences extends SettingsPreferenceFragment {
@@ -41,7 +41,7 @@ public class TrustPreferences extends SettingsPreferenceFragment {
     private Preference mSecurityPatchesPref;
     private Preference mEncryptionPref;
     private PreferenceCategory mToolsCategory;
-    private MKSecureSettingSwitchPreference mUsbRestrictorPref;
+    private MoKeeSecureSettingSwitchPreference mUsbRestrictorPref;
     private ListPreference mSmsLimitPref;
 
     private PreferenceCategory mWarnScreen;
@@ -99,8 +99,8 @@ public class TrustPreferences extends SettingsPreferenceFragment {
         setupSecurityPatches(secPLevel, secVLevel);
         setupEncryption(encryptLevel);
 
-        int currentFeatures = MKSettings.Secure.getInt(getContext().getContentResolver(),
-                MKSettings.Secure.TRUST_WARNINGS, TrustInterface.TRUST_WARN_MAX_VALUE);
+        int currentFeatures = MoKeeSettings.Secure.getInt(getContext().getContentResolver(),
+                MoKeeSettings.Secure.TRUST_WARNINGS, TrustInterface.TRUST_WARN_MAX_VALUE);
         // mWarnSELinuxPref.setChecked((currentFeatures & TrustInterface.TRUST_WARN_SELINUX) != 0);
         mWarnKeysPref.setChecked((currentFeatures & TrustInterface.TRUST_WARN_PUBLIC_KEY) != 0);
 
@@ -226,11 +226,11 @@ public class TrustPreferences extends SettingsPreferenceFragment {
     }
 
     private boolean onWarningChanged(Boolean value, int feature) {
-        int original = MKSettings.Secure.getInt(getContext().getContentResolver(),
-                MKSettings.Secure.TRUST_WARNINGS, TrustInterface.TRUST_WARN_MAX_VALUE);
+        int original = MoKeeSettings.Secure.getInt(getContext().getContentResolver(),
+                MoKeeSettings.Secure.TRUST_WARNINGS, TrustInterface.TRUST_WARN_MAX_VALUE);
         int newValue = value ? (original | feature) : (original & ~feature);
-        boolean success = MKSettings.Secure.putInt(getContext().getContentResolver(),
-                MKSettings.Secure.TRUST_WARNINGS,
+        boolean success = MoKeeSettings.Secure.putInt(getContext().getContentResolver(),
+                MoKeeSettings.Secure.TRUST_WARNINGS,
                 newValue & TrustInterface.TRUST_WARN_MAX_VALUE);
         if (success && !value) {
             mInterface.removeNotificationForFeature(feature);

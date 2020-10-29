@@ -36,7 +36,7 @@ import org.mokee.mokeeparts.SettingsPreferenceFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 import static org.mokee.internal.util.PowerMenuConstants.*;
 
@@ -183,8 +183,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
     private void getUserConfig() {
         mLocalUserConfig.clear();
         String[] defaultActions;
-        String savedActions = MKSettings.Secure.getStringForUser(mContext.getContentResolver(),
-                MKSettings.Secure.POWER_MENU_ACTIONS, UserHandle.USER_CURRENT);
+        String savedActions = MoKeeSettings.Secure.getStringForUser(mContext.getContentResolver(),
+                MoKeeSettings.Secure.POWER_MENU_ACTIONS, UserHandle.USER_CURRENT);
 
         if (savedActions == null) {
             defaultActions = mContext.getResources().getStringArray(
@@ -218,8 +218,8 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
             }
         }
 
-        MKSettings.Secure.putStringForUser(getContentResolver(),
-                MKSettings.Secure.POWER_MENU_ACTIONS, s.toString(), UserHandle.USER_CURRENT);
+        MoKeeSettings.Secure.putStringForUser(getContentResolver(),
+                MoKeeSettings.Secure.POWER_MENU_ACTIONS, s.toString(), UserHandle.USER_CURRENT);
         updatePowerMenuDialog();
     }
 

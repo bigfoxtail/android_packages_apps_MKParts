@@ -54,7 +54,7 @@ import java.util.Set;
 import mokee.power.PerformanceManager;
 import mokee.power.PerformanceProfile;
 
-import mokee.providers.MKSettings;
+import mokee.providers.MoKeeSettings;
 
 
 import static mokee.power.PerformanceManager.PROFILE_POWER_SAVE;
@@ -119,7 +119,7 @@ public class PerfProfileSettings extends SettingsPreferenceFragment
             mPerfSeekBar.setOnPreferenceChangeListener(this);
             updatePerfSettings();
 
-            watch(MKSettings.Secure.getUriFor(MKSettings.Secure.PERFORMANCE_PROFILE));
+            watch(MoKeeSettings.Secure.getUriFor(MoKeeSettings.Secure.PERFORMANCE_PROFILE));
         }
 
         mAutoPowerSavePref.setEntries(R.array.auto_power_save_entries);
