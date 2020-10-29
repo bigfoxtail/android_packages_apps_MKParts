@@ -399,8 +399,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
         }
 
         final ButtonBacklightBrightness backlight = findPreference(KEY_BUTTON_BACKLIGHT);
-        if (!backlight.isButtonSupported(getActivity())
-                /*&& !backlight.isKeyboardSupported(getActivity())*/) {
+        if (!DeviceUtils.hasButtonBacklightSupport(getActivity())
+                && !DeviceUtils.hasKeyboardBacklightSupport(getActivity())) {
             prefScreen.removePreference(backlight);
         }
 
@@ -842,8 +842,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
                 result.add(KEY_DISABLE_NAV_KEYS);
             }
 
-            if (!ButtonBacklightBrightness.isButtonSupported(context)
-                    /*&& !backlight.isKeyboardSupported(getActivity())*/) {
+            if (!DeviceUtils.hasButtonBacklightSupport(context)
+                    && !DeviceUtils.hasKeyboardBacklightSupport(context)) {
                 result.add(KEY_BUTTON_BACKLIGHT);
             }
 
