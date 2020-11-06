@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018-2019 The LineageOS Project
+ * Copyright (C) 2018-2020 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -252,8 +252,12 @@ public class TrustPreferences extends SettingsPreferenceFragment {
         int original = MKSettings.Secure.getInt(getContext().getContentResolver(),
                 MKSettings.Secure.TRUST_WARNINGS, TrustInterface.TRUST_WARN_MAX_VALUE);
         int newValue = value ? (original | feature) : (original & ~feature);
-        return MKSettings.Secure.putInt(getContext().getContentResolver(),
+        boolean success = MKSettings.Secure.putInt(getContext().getContentResolver(),
                 MKSettings.Secure.TRUST_WARNINGS, newValue);
+        if (success && !value) {
+            mInterface.removeNotificationForFeature(feature);
+        }
+        return success;
     }
 
 
