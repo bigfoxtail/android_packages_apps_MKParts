@@ -71,11 +71,6 @@
           android:fragment="org.mokee.mokeeparts.statusbar.StatusBarSettings"
           mokee:xmlRes="@xml/status_bar_settings" />
 
-    <part android:key="power_menu"
-          android:title="@string/power_menu_title"
-          android:fragment="org.mokee.mokeeparts.input.PowerMenuActions"
-          mokee:xmlRes="@xml/power_menu_settings" />
-
     <part android:key="weather_settings"
           android:title="@string/weather_settings_title"
           android:fragment="org.mokee.mokeeparts.weather.WeatherServiceSettings"

@@ -100,6 +100,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             "torch_long_press_power_gesture";
     private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT =
             "torch_long_press_power_timeout";
+    private static final String KEY_CLICK_PARTIAL_SCREENSHOT =
+            "click_partial_screenshot";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -111,6 +113,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
     private static final String CATEGORY_VOLUME = "volume_keys";
     private static final String CATEGORY_BACKLIGHT = "key_backlight";
     private static final String CATEGORY_NAVBAR = "navigation_bar_category";
+    private static final String CATEGORY_EXTRAS = "extras_category";
 
     private ListPreference mHomeLongPressAction;
     private ListPreference mHomeDoubleTapAction;
@@ -179,6 +182,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
         final PreferenceCategory appSwitchCategory = prefScreen.findPreference(CATEGORY_APPSWITCH);
         final PreferenceCategory volumeCategory = prefScreen.findPreference(CATEGORY_VOLUME);
         final PreferenceCategory cameraCategory = prefScreen.findPreference(CATEGORY_CAMERA);
+        final PreferenceCategory extrasCategory = prefScreen.findPreference(CATEGORY_EXTRAS);
 
         // Power button ends calls.
         mPowerEndCall = findPreference(KEY_POWER_END_CALL);
@@ -256,7 +260,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
                 powerCategory.removePreference(mTorchLongPressPowerGesture);
                 powerCategory.removePreference(mTorchLongPressPowerTimeout);
             }
-        } else {
+        }
+        if (!hasPowerKey || powerCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(powerCategory);
         }
 
@@ -278,7 +283,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             }
 
             hasAnyBindableKey = true;
-        } else {
+        }
+        if (!hasHomeKey || homeCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(homeCategory);
         }
 
@@ -287,7 +293,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
                 backCategory.removePreference(findPreference(KEY_BACK_WAKE_SCREEN));
                 prefScreen.removePreference(backCategory);
             }
-        } else {
+        }
+        if (!hasBackKey || backCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(backCategory);
         }
 
@@ -306,7 +313,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             mMenuLongPressAction = initList(KEY_MENU_LONG_PRESS, longPressAction);
 
             hasAnyBindableKey = true;
-        } else {
+        }
+        if (!hasMenuKey || menuCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(menuCategory);
         }
 
@@ -324,7 +332,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             mAssistLongPressAction = initList(KEY_ASSIST_LONG_PRESS, longPressAction);
 
             hasAnyBindableKey = true;
-        } else {
+        }
+        if (!hasAssistKey || assistCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(assistCategory);
         }
 
@@ -340,7 +349,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             mAppSwitchLongPressAction = initList(KEY_APP_SWITCH_LONG_PRESS, appSwitchLongPressAction);
 
             hasAnyBindableKey = true;
-        } else {
+        }
+        if (!hasAppSwitchKey || appSwitchCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(appSwitchCategory);
         }
 
@@ -356,7 +366,8 @@ public class ButtonSettings extends SettingsPreferenceFragment
             if (res.getBoolean(org.mokee.platform.internal.R.bool.config_singleStageCameraKey)) {
                 prefScreen.removePreference(mCameraSleepOnRelease);
             }
-        } else {
+        }
+        if (!hasCameraKey || cameraCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(cameraCategory);
         }
 
@@ -389,6 +400,9 @@ public class ButtonSettings extends SettingsPreferenceFragment
                 mVolumePanelOnLeft.setChecked(volumePanelOnLeft);
             }
         } else {
+            extrasCategory.removePreference(findPreference(KEY_CLICK_PARTIAL_SCREENSHOT));
+        }
+        if (!hasVolumeKeys || volumeCategory.getPreferenceCount() == 0) {
             prefScreen.removePreference(volumeCategory);
         }
 
@@ -829,6 +843,7 @@ public class ButtonSettings extends SettingsPreferenceFragment
                 result.add(KEY_VOLUME_MUSIC_CONTROLS);
                 result.add(KEY_VOLUME_PANEL_ON_LEFT);
                 result.add(KEY_VOLUME_WAKE_SCREEN);
+                result.add(KEY_CLICK_PARTIAL_SCREENSHOT);
             } else if (!DeviceUtils.canWakeUsingVolumeKeys(context)) {
                 result.add(KEY_VOLUME_WAKE_SCREEN);
             }

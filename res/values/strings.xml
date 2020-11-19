@@ -212,6 +212,8 @@
     <string name="home_answer_call_summary">Answer incoming calls by pressing the home button</string>
     <string name="extras_title">Extras</string>
     <string name="additional_buttons_title">Additional buttons</string>
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 
     <!-- Key backlight -->
     <string name="button_backlight_title">Backlight</string>
@@ -241,16 +243,6 @@
     <string name="navigation_bar_home_double_tap_title">Home double tap action</string>
     <string name="navigation_bar_app_switch_long_press_title">Recents long press action</string>
     <string name="navigation_bar_edge_long_swipe_title">Edge long swipe action</string>
-
-    <!-- Power menu -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenshot_summary">Long-press for partial screenshot</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_users_title">User switcher</string>
-    <string name="power_menu_bug_report_title">Bug report</string>
-    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
 
     <string name="camera_double_tap_power_gesture_title">Press power button twice for camera</string>
 
