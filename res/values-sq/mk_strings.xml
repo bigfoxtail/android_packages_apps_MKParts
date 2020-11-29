@@ -15,6 +15,21 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mkparts_title">Cilësimet e mokee</string>
+    <string name="fingerprint_shortcut_settings_title">Konfigurimi i shenjave të gishtave</string>
+    <string name="fingerprint_shortcut_not_specified">I pa specifikuar</string>
+    <string name="fingerprint_shortcut_ok">Në rregull</string>
     <string name="fingerprint_shortcut_edit">Redakto</string>
     <string name="fingerprint_shortcut_delete">Fshi</string>
+    <string name="fingerprint_shortcut_editer">Konfigurimi i shenjave të gishtave</string>
+    <string name="fingerprint_shortcut_manage">Menaxho gjurm. gishtit</string>
+    <string name="bottom_gesture_navigation_settings_title">Gjestet e lundrimit në fund</string>
+    <string name="bottom_gesture_navigation_settings_summary">Përdorni gjestet rrëshqitëse në fund për navigim</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Përdorni gjeste të rrëshqitjes në fund në vend të çelësave të pajisjes</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Përdorni gjestet e rrëshqitjes në fund në vend të çelësave të navigimit në ekran</string>
+    <string name="bottom_gesture_navigation_settings_text">Gjestet e disponueshme:\n\n Mbrapa\n- Rrëshqitni lart në anën e majtë ose të djathtë\n\n Shtëpia\n- Rrëshqitni lart qendrën\n\n Aplikimet e fundit\n- Rrëshqitni lart qendrën dhe mbajeni\n\n Shtypni gjatë në shtëpi \n- Shkurt rrëshqitni lart dhe mbajeni në qendër</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Rrëshqitni lartësinë e këmbëzës</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Lartësia nga poshtë për të shkaktuar rrëshqitjen</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Rrëshqitni skadimin e afatit</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Koha para se të fillojë veprimi i gjestit</string>
 </resources>
