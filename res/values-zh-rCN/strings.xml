@@ -179,6 +179,8 @@
     <string name="home_answer_call_summary">按 Home 键接听来电</string>
     <string name="extras_title">附加功能</string>
     <string name="additional_buttons_title">附加按钮</string>
+    <string name="click_partial_screenshot_title">点击截取屏幕的一部分</string>
+    <string name="click_partial_screenshot_summary">同时按下音量和电源以截取局部截图</string>
     <string name="button_backlight_title">背光</string>
     <string name="button_backlight_enabled">点亮按键</string>
     <string name="button_backlight_only_when_pressed_title">仅在按下时点亮按键</string>
