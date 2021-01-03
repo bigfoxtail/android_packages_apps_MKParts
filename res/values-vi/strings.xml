@@ -179,6 +179,8 @@
     <string name="home_answer_call_summary">Trả lời cuộc gọi đến bằng cách nhấn nút trang chính</string>
     <string name="extras_title">Tiện ích</string>
     <string name="additional_buttons_title">Nút bổ sung</string>
+    <string name="click_partial_screenshot_title">Nhấp để chụp màn hình một phần</string>
+    <string name="click_partial_screenshot_summary">Nhấp nhanh vào Giảm âm lượng và Nguồn để chụp màn hình một phần</string>
     <string name="button_backlight_title">Đèn nền</string>
     <string name="button_backlight_enabled">Phát sáng các phím</string>
     <string name="button_backlight_only_when_pressed_title">Chỉ phát sáng các nút khi được nhấn</string>
