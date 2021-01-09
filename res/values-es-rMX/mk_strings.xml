@@ -24,6 +24,14 @@
     <string name="fingerprint_shortcut_editer">Acceso directo a Huella dactilar</string>
     <string name="fingerprint_shortcut_manage">Administrar huellas</string>
     <string name="bottom_gesture_navigation_settings_title">Gestos de navegación inferior</string>
+    <string name="bottom_gesture_navigation_settings_summary">Deslizar hacia arriba desde la parte inferior para navegación</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">Deslizar hacia arriba desde la parte inferior en lugar de teclas físicas</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">Deslizar hacia arriba desde la parte inferior en lugar de teclas de navegación en pantalla</string>
+    <string name="bottom_gesture_navigation_settings_text">Gestos disponibles:\n\nRegresar\n- Desliza hacia arriba en la parte izquierda o derecha\n\nHogar\n- Desliza hacia arriba en el centro\n\nAplicaciones recientes\n- Desliza hacia arriba en el centro y mantén pulsado\n\nPulsación larga a botón hogar\n- Desliza hacia arriba y mantén en el centro por un corto tiempo</string>
+    <string name="bottom_gesture_navigation_swipe_length_title">Altura de activación para gestos</string>
+    <string name="bottom_gesture_navigation_swipe_length_summary">Altura desde abajo para activar deslizamientos</string>
+    <string name="bottom_gesture_navigation_action_timeout_title">Tiempo de espera de deslizamientos</string>
+    <string name="bottom_gesture_navigation_action_timeout_summary">Tiempo de espera antes de que la acción del gesto inicie</string>
     <string name="unit_dpi">dpi</string>
     <string name="unit_px">px</string>
     <string name="unit_msec">ms</string>
