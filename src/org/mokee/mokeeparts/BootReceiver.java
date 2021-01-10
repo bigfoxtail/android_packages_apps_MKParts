@@ -41,6 +41,7 @@ public class BootReceiver extends BroadcastReceiver {
             setRestoredTunable(ctx);
         }
 
+        ButtonSettings.restoreKeySwapper(ctx);
         TouchscreenGestureSettings.restoreTouchscreenGestureStates(ctx);
 
         // Extract the contributors database
