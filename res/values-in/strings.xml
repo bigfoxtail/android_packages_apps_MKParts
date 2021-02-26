@@ -34,6 +34,7 @@
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="search">Cari</string>
+    <string name="search_menu">Pencarian setelan</string>
     <string name="disabled">Dimatikan</string>
     <string name="enabled">Dihidupkan</string>
     <string name="privacy_settings_title">Privasi</string>
@@ -51,6 +52,7 @@
     <string name="privacy_guard_manager_show_system_apps">Tampilkan aplikasi bawaan</string>
     <string name="privacy_guard_advanced_settings_title">Lanjutan</string>
     <string name="privacy_guard_notification_title">Tampilkan notifikasi</string>
+    <string name="channel_light_settings_name">Pratinjau pengaturan cahaya</string>
     <string name="edit_light_settings">Sunting pengaturan lampu</string>
     <string name="pulse_speed_title">Panjang dan kecepatan kedipan</string>
     <string name="default_time">Keadaan normal</string>
@@ -182,6 +184,8 @@
     <string name="power_end_call_summary">Mengakhiri panggilan aktif dengan menekan tombol power</string>
     <string name="swap_volume_buttons_title">Reorientasi</string>
     <string name="swap_volume_buttons_summary">Tukar fungsi tombol volume ketika layar diputar</string>
+    <string name="volume_panel_on_left_title">Tampilkan panel di kiri</string>
+    <string name="volume_panel_on_left_summary">Tampilkan panel volume di sisi kiri layar</string>
     <string name="button_wake_title">Bangunkan perangkat</string>
     <string name="volume_answer_call_title">Jawab panggilan</string>
     <string name="volume_answer_call_summary">Menjawab panggilan dengan menekan tombol volume</string>
@@ -553,6 +557,8 @@
     <string name="trust_onboarding_description">Trust membantu anda menjaga perangkat anda tetap aman dan melindungi privasi anda.\nKonsep Trust hanya akan tampil saat konten laman telah diverifikasi.</string>
     <string name="trust_onboarding_learn_more">Pelajadi lebih lanjut</string>
     <string name="trust_onboarding_done">Mengerti</string>
+    <string name="trust_restrict_usb_title">Batasi USB</string>
+    <string name="trust_restrict_usb_summary">Nonaktifkan gadget USB baru saat perangkat terkunci</string>
     <string name="sms_security_check_limit_title">Batas pesan SMS</string>
     <string name="sms_security_check_limit_summary">Aplikasi dapat mengirim %s pesan dalam 1 menit sebelum konfirmasi</string>
     <string name="sms_security_check_limit_summary_none">Aplikasi tidak diperbolehkan untuk mengirim pesan tanpa konfirmasi</string>
