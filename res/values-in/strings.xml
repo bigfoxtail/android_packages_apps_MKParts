@@ -38,6 +38,7 @@
     <string name="disabled">Dimatikan</string>
     <string name="enabled">Dihidupkan</string>
     <string name="privacy_settings_title">Privasi</string>
+    <string name="channel_light_settings_name">Pratinjau pengaturan cahaya</string>
     <string name="edit_light_settings">Sunting pengaturan lampu</string>
     <string name="pulse_speed_title">Panjang dan kecepatan kedipan</string>
     <string name="default_time">Normal</string>
