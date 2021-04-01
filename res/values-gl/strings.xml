@@ -53,6 +53,7 @@
     <string name="privacy_guard_notification_title">Amosar notificacións</string>
     <string name="edit_light_settings">Editar a configuración da luz</string>
     <string name="pulse_speed_title">Duración e velocidade ao pestanexar</string>
+    <string name="default_time">Normal</string>
     <string name="custom_time">Personalizado</string>
     <string name="dialog_delete_title">Eliminar</string>
     <string name="dialog_delete_message">Eliminar o elemento seleccionado?</string>
@@ -60,12 +61,15 @@
     <string name="pulse_length_always_on">Sempre acendida</string>
     <string name="pulse_length_very_short">Moi curta</string>
     <string name="pulse_length_short">Curta</string>
+    <string name="pulse_length_normal">Normal</string>
     <string name="pulse_length_long">Longa</string>
     <string name="pulse_length_very_long">Moi longa</string>
     <string name="pulse_speed_very_fast">Moi rápida</string>
     <string name="pulse_speed_fast">Rápido</string>
+    <string name="pulse_speed_normal">Normal</string>
     <string name="pulse_speed_slow">Lenta</string>
     <string name="pulse_speed_very_slow">Moi lenta</string>
+    <string name="light_brightness_normal">Normal</string>
     <string name="battery_light_title">Luz da batería</string>
     <string name="battery_low_pulse_title">Parpadear se hai pouca batería</string>
     <string name="battery_light_list_title">Cores</string>
@@ -219,6 +223,7 @@
     <string name="profile_action_enable">Acender</string>
     <string name="profile_trigger_a2dp_connect">Ao conectar A2DP</string>
     <string name="profile_trigger_a2dp_disconnect">Ao desconectar A2DP</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_triggers_header">Eventos que activarán este perfil</string>
     <string name="profile_setup_setup_triggers_title">Paso 1: Engadir eventos</string>
     <string name="profile_setup_setup_triggers_title_config">Modificar eventos: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -303,6 +308,7 @@
     <string name="profile_brightness_override_summary">Estabelecer en %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Cambiar o comportamento do brillo</string>
     <string name="toggleWifiAp">Punto de acceso wifi portátil</string>
+    <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleData">Conexión de datos</string>
     <string name="toggleSync">Sincronización automática dos datos</string>
     <string name="ring_mode_title">Modo de chamada</string>
@@ -337,6 +343,7 @@
     <string name="status_bar_clock_position_center">Centro</string>
     <string name="status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="status_bar_am_pm_info">O formato de 24 horas está ativo</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_am_pm_small">Pequeno</string>
     <string name="status_bar_am_pm_hidden">Agochado</string>
     <string name="status_bar_battery_title">Indicador da batería</string>

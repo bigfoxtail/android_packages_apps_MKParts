@@ -154,7 +154,7 @@
     <string name="profile_trigger_a2dp_connect">A2DP இணையும்போது</string>
     <string name="profile_trigger_a2dp_disconnect">A2DP துண்டிக்கும்போது</string>
     <string name="profile_tabs_wifi">Wi\u2011Fi</string>
-    <string name="profile_tabs_bluetooth">Bluetooth</string>
+    <string name="profile_tabs_bluetooth">புளூடூத்</string>
     <string name="profile_tabs_nfc">NFC</string>
     <string name="profile_triggers_header">இந்த சுயவிவரத்தை செயற்படுத்தும் அறிகுறிகள்</string>
     <string name="profile_setup_setup_triggers_title">படி 1: அறிகுறிகளைச் சேர்</string>
@@ -222,7 +222,7 @@
     <string name="profile_airplanemode_title">விமானப் பயன்முறை</string>
     <string name="profile_brightness_title">திரை பிரகாசம்</string>
     <string name="toggleWifi">Wi\u2011Fi</string>
-    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="toggleBluetooth">புளூடூத்</string>
     <string name="toggleGPS">GPS</string>
     <string name="toggleData">தரவு இணைப்பு</string>
     <string name="toggleSync">தரவைத் தானாக ஒத்திசை</string>

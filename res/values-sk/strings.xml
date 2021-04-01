@@ -34,6 +34,7 @@
     <string name="yes">Áno</string>
     <string name="no">Nie</string>
     <string name="search">Vyhľadať</string>
+    <string name="search_menu">Nastavenie vyhľadávania</string>
     <string name="disabled">Vypnuté</string>
     <string name="enabled">Povolené</string>
     <string name="privacy_settings_title">Súkromie</string>

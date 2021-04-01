@@ -21,6 +21,7 @@
     <string name="search">Serĉi</string>
     <string name="custom_time">Propra</string>
     <string name="dialog_delete_title">Forigi</string>
+    <string name="live_display_day">Tago</string>
     <string name="torch_long_press_power_timeout_1min">1 minuto</string>
     <string name="torch_long_press_power_timeout_2min">2 minutoj</string>
     <string name="torch_long_press_power_timeout_5min">5 minutoj</string>
