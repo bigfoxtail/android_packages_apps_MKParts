@@ -26,7 +26,11 @@
     <string name="pulse_length_normal">సాధారణం</string>
     <string name="pulse_speed_normal">సాధారణం</string>
     <string name="light_brightness_normal">సాధారణం</string>
+    <string name="notification_light_phonelist_title">ఫోన్</string>
+    <string name="notification_light_default_value">డిఫాల్ట్</string>
     <string name="live_display_color_temperature_title">వర్ణ ఉష్ణోగ్రత</string>
+    <string name="live_display_day">పగలు</string>
+    <string name="live_display_night">రాత్రి</string>
     <string name="color_red_title">ఎరుపు రంగు</string>
     <string name="color_green_title">పచ్చ రంగు</string>
     <string name="color_blue_title">నీలి రంగు</string>
@@ -37,9 +41,11 @@
     <string name="camera_launch_title">కెమెరాను ప్రారంభించు</string>
     <string name="button_backlight_title">వెనక లైట్</string>
     <string name="torch_long_press_power_timeout_never">ఎప్పటికీ వద్దు</string>
+    <string name="profile_tabs_bluetooth">బ్లూటూత్</string>
     <string name="profile_entries_on">ఆన్</string>
     <string name="profile_entries_off">ఆఫ్‌లో ఉంది</string>
     <string name="profile_reset_title">రీసెట్ చేయి</string>
+    <string name="toggleBluetooth">బ్లూటూత్</string>
     <string name="toggleLocation">స్థానం</string>
     <string name="ring_mode_normal">సాధారణం</string>
     <string name="ring_mode_vibrate">వైబ్రేట్</string>

@@ -312,7 +312,7 @@
     <string name="toggleWifi">Wi-Fi</string>
     <string name="toggleWifiAp">Prijenosni Wi-Fi Hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleLocation">Position</string>
+    <string name="toggleLocation">Lieu</string>
     <string name="toggleData">Connexion de données</string>
     <string name="toggleSync">Synchronisation automatique des données</string>
     <string name="toggleNfc">CCP</string>

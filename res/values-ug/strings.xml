@@ -22,6 +22,7 @@
     <string name="back">قايت</string>
     <string name="next">كېيىنكى</string>
     <string name="on">ئوچۇق</string>
+    <string name="off">تاقاق</string>
     <string name="yes">ھەئە</string>
     <string name="search">ئىزدە</string>
     <string name="default_time">نورمال</string>
@@ -30,7 +31,11 @@
     <string name="pulse_length_normal">نورمال</string>
     <string name="pulse_speed_normal">نورمال</string>
     <string name="light_brightness_normal">نورمال</string>
+    <string name="notification_light_phonelist_title">تېلېفون</string>
+    <string name="notification_light_default_value">كۆڭۈلدىكى</string>
     <string name="live_display_color_temperature_title">رەڭ تېمپېراتۇرىسى</string>
+    <string name="live_display_day">كۈن</string>
+    <string name="live_display_night">كېچە</string>
     <string name="color_red_title">قىزىل</string>
     <string name="color_green_title">يېشىل</string>
     <string name="color_blue_title">كۆك</string>
@@ -48,15 +53,19 @@
     <string name="torch_long_press_power_timeout_5min">5 مىنۇت</string>
     <string name="torch_long_press_power_timeout_10min">10 مىنۇت</string>
     <string name="profile_menu_delete_title">ئۆچۈر</string>
+    <string name="profile_tabs_bluetooth">كۆكچىش</string>
     <string name="profile_menu_delete">ئۆچۈر</string>
     <string name="profile_entries_on">ئوچۇق</string>
+    <string name="profile_entries_off">تاقاق</string>
     <string name="profile_reset_title">ئەسلىگە قايتۇر</string>
+    <string name="toggleBluetooth">كۆكچىش</string>
     <string name="toggleLocation">ئورنى</string>
     <string name="ring_mode_normal">نورمال</string>
     <string name="ring_mode_vibrate">تىترەت</string>
     <string name="ring_mode_mute">ئۈنسىز</string>
     <string name="media_volume_title">ۋاستە</string>
     <string name="doze_title">مۇھىتنى كۆرسىتىدۇ</string>
+    <string name="status_bar_quick_qs_pulldown_off">تاقاق</string>
     <string name="status_bar_double_tap_to_sleep_title">قوش چېكىلسە ئۇخلىتىدۇ</string>
     <string name="status_bar_double_tap_to_sleep_summary">ئېكراننى تاقاش ئۈچۈن ھالەت بالداقنى قوش چېكىڭ</string>
     <string name="status_bar_am_pm_normal">نورمال</string>
@@ -71,4 +80,5 @@
     <string name="status_bar_show_weather_title">ھاۋارايىنى كۆرسەت</string>
     <string name="auto_power_save_never">ھەرگىز</string>
     <string name="power_notifications_vibrate_title">تىترەت</string>
+    <string name="charging_sounds_ringtone_silent">ئۈنسىز</string>
 </resources>

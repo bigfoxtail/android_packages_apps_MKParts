@@ -21,4 +21,10 @@
         <item quantity="few"><xliff:g id="seconds">%d</xliff:g> diogan</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> diog</item>
     </plurals>
+    <plurals name="app_ops_count">
+        <item quantity="one">%d turas</item>
+        <item quantity="two">%d thuras</item>
+        <item quantity="few">%d tursan</item>
+        <item quantity="other">%d turas</item>
+    </plurals>
 </resources>

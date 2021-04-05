@@ -19,4 +19,8 @@
         <item quantity="one"><xliff:g id="seconds">%d</xliff:g> секунда</item>
         <item quantity="other"><xliff:g id="seconds">%d</xliff:g> секунди</item>
     </plurals>
+    <plurals name="app_ops_count">
+        <item quantity="one">еднаш</item>
+        <item quantity="other">%d времиња</item>
+    </plurals>
 </resources>

@@ -17,5 +17,25 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">Air adhart</string>
+    <string name="off">Dheth</string>
+    <string name="default_time">Àbhaisteach</string>
+    <string name="custom_time">Gnàthaichte</string>
+    <string name="pulse_length_normal">Àbhaisteach</string>
+    <string name="pulse_speed_normal">Àbhaisteach</string>
+    <string name="light_brightness_normal">Àbhaisteach</string>
+    <string name="notification_light_phonelist_title">Fòn</string>
+    <string name="notification_light_default_value">Bun-roghainn</string>
+    <string name="live_display_day">Latha</string>
+    <string name="live_display_night">Oidhche</string>
+    <string name="live_display_reading_mode_title">Modh leughaidh</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
+    <string name="profile_entries_off">Dheth</string>
+    <string name="rename_dialog_title">Thoir ainm ùr air</string>
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="ring_mode_normal">Àbhaisteach</string>
     <string name="doze_title">Taisbeanadh cuairteach</string>
+    <string name="status_bar_quick_qs_pulldown_off">Dheth</string>
+    <string name="status_bar_am_pm_normal">Àbhaisteach</string>
+    <string name="charging_sounds_ringtone_silent">Sàmhach</string>
 </resources>

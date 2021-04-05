@@ -29,6 +29,8 @@
     <string name="pulse_length_normal">Նորմալ</string>
     <string name="pulse_speed_normal">Նորմալ</string>
     <string name="light_brightness_normal">Նորմալ</string>
+    <string name="notification_light_default_value">Լռելյայն</string>
+    <string name="live_display_day">Օր</string>
     <string name="color_red_title">Կարմիր</string>
     <string name="color_green_title">Կանաչ</string>
     <string name="color_blue_title">Կապույտ</string>

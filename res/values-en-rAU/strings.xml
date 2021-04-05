@@ -26,7 +26,11 @@
     <string name="no">No</string>
     <string name="disabled">Disabled</string>
     <string name="privacy_settings_title">Privacy</string>
+    <string name="default_time">Normal</string>
     <string name="custom_time">Customise</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="light_brightness_normal">Normal</string>
     <string name="battery_light_list_title">Colours</string>
     <string name="notification_light_phonelist_title">Phone</string>
     <string name="notification_light_default_value">Default</string>
@@ -35,6 +39,7 @@
     <string name="notification_light_automagic_summary">Choosing colours automatically</string>
     <string name="live_display_summary">Optimise your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_color_temperature_title">Colour temperature</string>
+    <string name="live_display_day">Day</string>
     <string name="live_display_night">Night</string>
     <string name="live_display_enhance_color_title">Enhance colours</string>
     <string name="live_display_enhance_color_summary">Improve colour vibrance of flesh tones, scenery, and other images</string>
@@ -48,6 +53,7 @@
     <string name="live_display_color_profile_reading_summary">Warmer colours for less eye strain</string>
     <string name="live_display_color_profile_srgb_summary">Colours accurate to the sRGB colour space</string>
     <string name="live_display_color_profile_dci_p3_summary">Colours accurate to the DCI-P3 colour space</string>
+    <string name="live_display_reading_mode_title">Reading mode</string>
     <string name="color_calibration_title">Colour calibration</string>
     <string name="color_calibration_summary">Calibrate on-screen colours</string>
     <string name="camera_launch_summary">A long press and release will launch camera</string>
@@ -59,10 +65,16 @@
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_airplane_title">Aeroplane mode</string>
     <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_entries_off">Off</string>
+    <string name="rename_dialog_title">Rename</string>
     <string name="profile_airplanemode_title">Aeroplane mode</string>
+    <string name="toggleBluetooth">Bluetooth</string>
+    <string name="ring_mode_normal">Normal</string>
+    <string name="doze_title">Ambient display</string>
     <string name="status_bar_quick_qs_pulldown_off">Off</string>
     <string name="status_bar_clock_position_center">Centre</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
     <string name="network_traffic_mode_disable">Disabled</string>
     <string name="auto_power_save_never">Never</string>
     <string name="charging_sounds_ringtone_silent">Silent</string>

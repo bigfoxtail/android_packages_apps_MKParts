@@ -18,19 +18,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="next">ପରବର୍ତ୍ତୀ</string>
+    <string name="off">ଅଫ୍</string>
     <string name="default_time">ସାଧାରଣ</string>
+    <string name="custom_time">କଷ୍ଟମ୍</string>
     <string name="pulse_length_normal">ସାଧାରଣ</string>
     <string name="pulse_speed_normal">ସାଧାରଣ</string>
     <string name="light_brightness_normal">ସାଧାରଣ</string>
+    <string name="notification_light_phonelist_title">ଫୋନ୍</string>
+    <string name="notification_light_default_value">ଡିଫଲ୍ଟ</string>
     <string name="live_display_color_temperature_title">ରଙ୍ଗ ତାପମାତ୍ରା</string>
+    <string name="live_display_day">ଦିନ</string>
+    <string name="live_display_night">ରାତ୍ରି</string>
     <string name="hardware_keys_action_launch_camera">କ୍ୟାମେରା ଉନ୍ମୋଚନ୍ଚ କରନ୍ତୁ</string>
     <string name="camera_launch_title">କ୍ୟାମେରା ଉନ୍ମୋଚନ୍ଚ କରନ୍ତୁ</string>
     <string name="button_backlight_title">ପୃଷ୍ଠପଟଆଲୋକ</string>
+    <string name="profile_tabs_bluetooth">ବ୍ଲୁଟୁଥ୍</string>
+    <string name="profile_entries_off">ଅଫ୍</string>
+    <string name="toggleBluetooth">ବ୍ଲୁଟୁଥ୍</string>
     <string name="toggleLocation">ଅବସ୍ଥାନ</string>
     <string name="ring_mode_normal">ସାଧାରଣ</string>
     <string name="ring_mode_vibrate">କମ୍ପନ</string>
     <string name="media_volume_title">ମିଡିଆ</string>
     <string name="doze_title">ଏମ୍ବିଏଣ୍ଟ ପ୍ରଦର୍ଶନ</string>
+    <string name="status_bar_quick_qs_pulldown_off">ଅଫ୍</string>
     <string name="status_bar_double_tap_to_sleep_title">ଶୋ‍ଇବା ପାଇଁ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
     <string name="status_bar_double_tap_to_sleep_summary">ଡିସ୍‍ପ୍ଲେ ଅଫ୍‍ କରିବା ପାଇଁ ଷ୍ଟାଟସ୍‍ ବାର୍‍ରେ ଦୁଇଥର ଟ୍ୟାପ୍‍ କରନ୍ତୁ</string>
     <string name="status_bar_am_pm_normal">ସାଧାରଣ</string>
@@ -42,4 +52,5 @@
     <string name="display_rotation_270_title">270 ଡିଗ୍ରୀ</string>
     <string name="status_bar_show_weather_title">ପାଣିପାଗ ଦେଖାନ୍ତୁ</string>
     <string name="power_notifications_vibrate_title">କମ୍ପନ</string>
+    <string name="charging_sounds_ringtone_silent">ଶାନ୍ତ</string>
 </resources>

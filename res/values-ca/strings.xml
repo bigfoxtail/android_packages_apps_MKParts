@@ -209,6 +209,7 @@
     <string name="profile_action_enable">Activa</string>
     <string name="profile_trigger_a2dp_connect">En connectar l\'A2DP</string>
     <string name="profile_trigger_a2dp_disconnect">En desconnectar l\'A2DP</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_triggers_header">Activadors que activaran aquest perfil</string>
     <string name="profile_setup_setup_triggers_title">Pas 1: Afegeix activadors</string>
     <string name="profile_setup_setup_triggers_title_config">Modifica els activadors: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -282,6 +283,7 @@
     <string name="profile_brightness_override_summary">Estableix a %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Anul·la la lluminositat</string>
     <string name="toggleWifiAp">Punt d\'accés Wi\u2011Fi portàtil</string>
+    <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleLocation">Ubicació</string>
     <string name="toggleData">Connexió de dades</string>
     <string name="toggleSync">Sincronització automàtica de dades</string>

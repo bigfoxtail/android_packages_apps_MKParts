@@ -18,19 +18,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="next">পৰৱৰ্তী</string>
+    <string name="off">অফ</string>
     <string name="default_time">সাধাৰণ</string>
+    <string name="custom_time">কাষ্টম</string>
     <string name="pulse_length_normal">সাধাৰণ</string>
     <string name="pulse_speed_normal">সাধাৰণ</string>
     <string name="light_brightness_normal">সাধাৰণ</string>
+    <string name="notification_light_phonelist_title">ফোন</string>
+    <string name="notification_light_default_value">ডিফল্ট</string>
     <string name="live_display_color_temperature_title">ৰং তাপমাত্ৰা</string>
+    <string name="live_display_day">দিন</string>
+    <string name="live_display_night">নাইট</string>
     <string name="hardware_keys_action_launch_camera">কেমেৰা লান্চ্চ কৰক</string>
     <string name="camera_launch_title">কেমেৰা লান্চ্চ কৰক</string>
     <string name="button_backlight_title">বেকলাইট</string>
-    <string name="toggleLocation">স্থান</string>
+    <string name="profile_tabs_bluetooth">ব্লুটুথ</string>
+    <string name="profile_entries_off">অফ</string>
+    <string name="toggleBluetooth">ব্লুটুথ</string>
+    <string name="toggleLocation">অৱস্থান</string>
     <string name="ring_mode_normal">সাধাৰণ</string>
     <string name="ring_mode_vibrate">ভাইব্ৰেট</string>
     <string name="media_volume_title">মিডিয়া</string>
     <string name="doze_title">পৰিপাৰ্শ্বিক ডিচপ্লে</string>
+    <string name="status_bar_quick_qs_pulldown_off">অফ</string>
     <string name="status_bar_double_tap_to_sleep_title">সুপ্ত কৰিবলৈ দুবাৰ টেপ কৰক</string>
     <string name="status_bar_double_tap_to_sleep_summary">প্রদর্শন অফ কৰিবলৈ ষ্টেটাছ বাৰত দুবাৰ ক্লিক কৰক</string>
     <string name="status_bar_am_pm_normal">সাধাৰণ</string>
@@ -42,4 +52,5 @@
     <string name="display_rotation_270_title">270 ডিগ্ৰী</string>
     <string name="status_bar_show_weather_title">বতৰ প্ৰদৰ্শন কৰক</string>
     <string name="power_notifications_vibrate_title">ভাইব্ৰেট</string>
+    <string name="charging_sounds_ringtone_silent">ছাইলেণ্ট</string>
 </resources>

@@ -38,6 +38,7 @@
     <string name="disabled">Deshabilitado</string>
     <string name="enabled">Activado</string>
     <string name="privacy_settings_title">Privacidad</string>
+    <string name="channel_light_settings_name">Vista previa de ajustes de luz</string>
     <string name="edit_light_settings">Editar los ajustes de iluminación</string>
     <string name="pulse_speed_title">Frecuencia y duración del pulso</string>
     <string name="default_time">Normal</string>

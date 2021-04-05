@@ -19,12 +19,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="reset">रीसेट करा</string>
     <string name="next">पुढील</string>
+    <string name="off">बंद</string>
     <string name="default_time">सामान्य</string>
     <string name="custom_time">सानुकूल</string>
     <string name="pulse_length_normal">सामान्य</string>
     <string name="pulse_speed_normal">सामान्य</string>
     <string name="light_brightness_normal">सामान्य</string>
+    <string name="notification_light_phonelist_title">फोन</string>
+    <string name="notification_light_default_value">डीफॉल्ट</string>
     <string name="live_display_color_temperature_title">रंग तापमान</string>
+    <string name="live_display_day">दिवस</string>
+    <string name="live_display_night">रात्र</string>
     <string name="color_red_title">लाल</string>
     <string name="color_green_title">हिरवा</string>
     <string name="color_blue_title">निळा</string>
@@ -34,12 +39,16 @@
     <string name="hardware_keys_action_launch_camera">कॅमेरा सुरू करा</string>
     <string name="camera_launch_title">कॅमेरा सुरू करा</string>
     <string name="button_backlight_title">पार्श्वप्रकाश</string>
+    <string name="profile_tabs_bluetooth">ब</string>
+    <string name="profile_entries_off">बंद</string>
     <string name="profile_reset_title">रीसेट करा</string>
+    <string name="toggleBluetooth">ब</string>
     <string name="toggleLocation">स्थान</string>
     <string name="ring_mode_normal">सामान्य</string>
     <string name="ring_mode_vibrate">कंपन करा</string>
     <string name="media_volume_title">मीडिया</string>
     <string name="doze_title">अँबियन्ट प्रदर्शन</string>
+    <string name="status_bar_quick_qs_pulldown_off">बंद</string>
     <string name="status_bar_double_tap_to_sleep_title">झोपेसाठी दुहेरी-टॅप करा</string>
     <string name="status_bar_double_tap_to_sleep_summary">प्रदर्शन बंद करण्यासाठी स्थिती बारवर दुहेरी-टॅप करा</string>
     <string name="status_bar_am_pm_normal">सामान्य</string>
@@ -52,4 +61,5 @@
     <string name="display_rotation_270_title">270 अंश</string>
     <string name="status_bar_show_weather_title">हवामान दर्शवा</string>
     <string name="power_notifications_vibrate_title">कंपन करा</string>
+    <string name="charging_sounds_ringtone_silent">मूक</string>
 </resources>

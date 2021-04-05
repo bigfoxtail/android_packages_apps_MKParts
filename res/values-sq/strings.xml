@@ -29,8 +29,8 @@
     <string name="back">Prapa</string>
     <string name="finish">Mbaro</string>
     <string name="next">Vazhdo</string>
-    <string name="on">Aktivizuar</string>
-    <string name="off">Çaktivizuar</string>
+    <string name="on">Aktiv</string>
+    <string name="off">Inaktiv</string>
     <string name="yes">Po</string>
     <string name="no">Jo</string>
     <string name="search">Kërko</string>
@@ -263,8 +263,8 @@
     <string name="profile_app_group_category_title">Shpërfillja e njoftimeve</string>
     <string name="profile_app_group_item_instructions">Shto ose hiq grupe</string>
     <string name="profile_app_group_item_instructions_summary">Shto ose hiq nga ky profil ato grupe aplikacionesh që mund të shpërfillin njoftimet</string>
-    <string name="profile_entries_on">Aktivizuar</string>
-    <string name="profile_entries_off">Çaktivizuar</string>
+    <string name="profile_entries_on">Aktiv</string>
+    <string name="profile_entries_off">Inaktiv</string>
     <string name="profile_entries_no_override">Mos shpërfill</string>
     <string name="profile_name_title">Emri</string>
     <string name="new_profile_name">&lt;profil i ri&gt;</string>
@@ -328,7 +328,7 @@
     <string name="status_bar_quick_qs_pulldown_summary">Duke rrëshqitur nga skaji i %1$s i shiritit të statusit, do të hapen Parametrat e Shpejtë</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Majtas</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Djathtas</string>
-    <string name="status_bar_quick_qs_pulldown_off">Çaktivizuar</string>
+    <string name="status_bar_quick_qs_pulldown_off">Inaktiv</string>
     <string name="status_bar_quick_qs_pulldown_left">Majtas</string>
     <string name="status_bar_quick_qs_pulldown_right">Djathtas</string>
     <string name="status_bar_double_tap_to_sleep_title">Shtyp dy herë për të fikur ekranin</string>

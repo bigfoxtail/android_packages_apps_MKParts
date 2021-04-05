@@ -29,15 +29,22 @@
     <string name="back">Atrás</string>
     <string name="finish">Finar</string>
     <string name="next">Siguiente</string>
+    <string name="on">Sí</string>
+    <string name="off">Non</string>
     <string name="yes">Sí</string>
     <string name="no">Non</string>
     <string name="search">Guetar</string>
     <string name="disabled">Deshabilitóse</string>
     <string name="privacy_settings_title">Privacidá</string>
     <string name="edit_light_settings">Editar axustes de lluz</string>
+    <string name="default_time">Normal</string>
+    <string name="custom_time">Custom</string>
     <string name="dialog_delete_title">Desaniciar</string>
     <string name="dialog_delete_message">¿Desaniciar l\'elementu esbilláu?</string>
     <string name="brightness">Nivel de brilléu</string>
+    <string name="pulse_length_normal">Normal</string>
+    <string name="pulse_speed_normal">Normal</string>
+    <string name="light_brightness_normal">Normal</string>
     <string name="battery_light_title">Lluz de batería</string>
     <string name="battery_low_pulse_title">Parpaguiar cola batería baxa</string>
     <string name="battery_light_list_title">Colores</string>
@@ -49,6 +56,7 @@
     <string name="notification_light_applist_title">Aplicaciones</string>
     <string name="notification_light_phonelist_title">Teléfonu</string>
     <string name="notification_light_use_custom">Usar valores personalizaos</string>
+    <string name="notification_light_default_value">Por defeutu</string>
     <string name="notification_light_missed_call_title">Llamada perdida</string>
     <string name="notification_light_screen_on">Lluces cola pantalla prendida</string>
     <string name="notification_light_zen_mode">Lluces nel Mou Nun molestar</string>
@@ -68,6 +76,7 @@
     <string name="live_display_color_profile_astronomy_title">Astronomía</string>
     <string name="live_display_color_profile_photography_title">Fotografía</string>
     <string name="live_display_color_profile_reading_title">Llectura</string>
+    <string name="live_display_reading_mode_title">Mou de llectura</string>
     <string name="color_calibration_title">Calibración de color</string>
     <string name="color_calibration_summary">Calibra los colores de la pantalla</string>
     <string name="color_red_title">Bermeyu</string>
@@ -143,6 +152,7 @@
     <string name="profile_action_none">Dexar ensin cambeos</string>
     <string name="profile_trigger_a2dp_connect">Al coneutar A2DP</string>
     <string name="profile_trigger_a2dp_disconnect">Al desconeutar A2DP</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_triggers_header">Los aicionadores qu\'activarán esti perfil</string>
     <string name="profile_setup_setup_triggers_title">Pasu 1: Amestar aicionadores</string>
     <string name="profile_setup_setup_triggers_title_config">Modificar aicionadores: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -169,6 +179,8 @@
     <string name="profile_remove_dialog_message">¿Desaniciar el perfil %1$s?</string>
     <string name="profile_populate_profile_from_state">¿Configurar perfil usando los axustes actuales del preséu?</string>
     <string name="profile_remove_current_profile">¡Nun pue desaniciase\'l perfil actual!</string>
+    <string name="profile_entries_on">Sí</string>
+    <string name="profile_entries_off">Non</string>
     <string name="profile_name_title">Nome</string>
     <string name="new_profile_name">&lt;perfil nuevu&gt;</string>
     <string name="rename_dialog_title">Renomar</string>
@@ -194,8 +206,10 @@
     <string name="profile_airplanemode_title">Mou avión</string>
     <string name="profile_brightness_title">Brilléu de pantalla</string>
     <string name="profile_brightness_override_checkbox_label">Anular brilléu</string>
+    <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleLocation">Allugamientu</string>
     <string name="toggleData">Conexón de datos</string>
+    <string name="ring_mode_normal">Normal</string>
     <string name="ring_mode_vibrate">Vibrar</string>
     <string name="incoming_call_volume_title">Timbre</string>
     <string name="media_volume_title">Multimedia</string>
@@ -203,6 +217,7 @@
     <string name="status_bar_title">Barra d\'estáu</string>
     <string name="status_bar_quick_qs_pulldown_title">Baxada rápida</string>
     <string name="status_bar_quick_qs_pulldown_summary">El berbesu %1$s de la barra d\'estáu estenderexa los axustes rápidos</string>
+    <string name="status_bar_quick_qs_pulldown_off">Non</string>
     <string name="status_bar_double_tap_to_sleep_title">Calcu doblu pa dormir</string>
     <string name="status_bar_double_tap_to_sleep_summary">Calca dos vegaes na barra d\'estáu p\'apagar la pantalla</string>
     <string name="status_bar_icons_title">Iconos de barra d\'estáu</string>
@@ -214,6 +229,7 @@
     <string name="status_bar_clock_position_title">Posición del reló</string>
     <string name="status_bar_am_pm_title">Estilu AM/PM</string>
     <string name="status_bar_am_pm_info">El reló de 24 hores ta habilitáu</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
     <string name="status_bar_battery_title">Indicador de batería</string>
     <string name="status_bar_battery_style_title">Estilu d\'estáu de la batería</string>
     <string name="status_bar_battery_style_icon_portrait">Iconu vertical</string>

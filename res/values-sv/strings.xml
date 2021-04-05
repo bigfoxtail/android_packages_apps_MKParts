@@ -248,6 +248,7 @@
     <string name="notification_volume_title">Notifikation</string>
     <string name="media_volume_title">Media</string>
     <string name="alarm_volume_title">Alarm</string>
+    <string name="doze_title">Ambient display</string>
     <string name="status_bar_title">Statusfält</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Vänster</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Höger</string>

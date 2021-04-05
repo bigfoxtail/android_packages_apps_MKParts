@@ -281,7 +281,7 @@
     <string name="profile_brightness_override_checkbox_label">Tilsidesæt lysstyrke</string>
     <string name="toggleWifiAp">Flytbar Wi\u2011Fi-hotspot</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleLocation">Placering</string>
+    <string name="toggleLocation">Sted</string>
     <string name="toggleData">Dataforbindelse</string>
     <string name="toggleSync">Auto-synk. data</string>
     <string name="ring_mode_title">Lydtilstand</string>

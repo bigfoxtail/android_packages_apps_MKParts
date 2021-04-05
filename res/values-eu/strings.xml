@@ -29,6 +29,8 @@
     <string name="back">Atzera</string>
     <string name="finish">Amaitu</string>
     <string name="next">Hurrengoa</string>
+    <string name="on">Bai</string>
+    <string name="off">Ez</string>
     <string name="yes">Bai</string>
     <string name="no">Ez</string>
     <string name="search">Bilatu</string>
@@ -208,6 +210,7 @@
     <string name="profile_action_enable">Piztu</string>
     <string name="profile_trigger_a2dp_connect">A2DP konektatzean</string>
     <string name="profile_trigger_a2dp_disconnect">A2DP deskonektatzean</string>
+    <string name="profile_tabs_bluetooth">Bluetooth</string>
     <string name="profile_triggers_header">Profil hau abiaraziko duten eragileak</string>
     <string name="profile_setup_setup_triggers_title">1. urratsa: Gehitu eragileak</string>
     <string name="profile_setup_setup_triggers_title_config">Aldatu eragileak: <xliff:g id="profile_name">%1$s</xliff:g></string>
@@ -242,6 +245,8 @@
     <string name="profile_app_group_category_title">Jakinarazpen gainidazteak</string>
     <string name="profile_app_group_item_instructions">Gehitu edo ezabatu taldeak</string>
     <string name="profile_app_group_item_instructions_summary">Gehitu edo ezabatu jakinarazpenak gainidatziko dituzten aplikazio taldeak profil honetara</string>
+    <string name="profile_entries_on">Bai</string>
+    <string name="profile_entries_off">Ez</string>
     <string name="profile_entries_no_override">Ez gainidatzi</string>
     <string name="profile_name_title">Izena</string>
     <string name="new_profile_name">&lt;profil berria&gt;</string>
@@ -279,6 +284,7 @@
     <string name="profile_brightness_override_summary">Ezarri %1$d%%</string>
     <string name="profile_brightness_override_checkbox_label">Gainidatzi distira</string>
     <string name="toggleWifiAp">Wi\u2011Fi gune eramangarria</string>
+    <string name="toggleBluetooth">Bluetooth</string>
     <string name="toggleLocation">Kokalekua</string>
     <string name="toggleData">Datu-konexioa</string>
     <string name="toggleSync">Automatikoki sinkronizatu datuak</string>
@@ -291,11 +297,13 @@
     <string name="notification_volume_title">Jakinarazpena</string>
     <string name="media_volume_title">Multimedia</string>
     <string name="alarm_volume_title">Alarma</string>
+    <string name="doze_title">Ambient display</string>
     <string name="status_bar_title">Egoera-barra</string>
     <string name="status_bar_quick_qs_pulldown_title">Hedapen azkarra</string>
     <string name="status_bar_quick_qs_pulldown_summary">Jakinarazpen barraren %1$s ertzak ezarpen azkarren taula hedatuko du</string>
     <string name="status_bar_quick_qs_pulldown_summary_left">Ezkerrean</string>
     <string name="status_bar_quick_qs_pulldown_summary_right">Eskuinean</string>
+    <string name="status_bar_quick_qs_pulldown_off">Ez</string>
     <string name="status_bar_quick_qs_pulldown_left">Ezkerrean</string>
     <string name="status_bar_quick_qs_pulldown_right">Eskuinean</string>
     <string name="status_bar_double_tap_to_sleep_title">Birritan sakatu lokartzeko</string>

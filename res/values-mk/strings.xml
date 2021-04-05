@@ -29,6 +29,7 @@
     <string name="back">Назад</string>
     <string name="finish">Завршо</string>
     <string name="next">Следно</string>
+    <string name="on">Уклучено</string>
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="search">Пребарај</string>
@@ -236,6 +237,7 @@
     <string name="profile_app_group_category_title">Известувањето се преклопува</string>
     <string name="profile_app_group_item_instructions">Додај или отстрани групи</string>
     <string name="profile_app_group_item_instructions_summary">Додај или отстрани апликација за превземање на известување за овој профил</string>
+    <string name="profile_entries_on">Уклучено</string>
     <string name="profile_entries_no_override">Без замена</string>
     <string name="profile_name_title">Име</string>
     <string name="new_profile_name">&lt;нов профил&gt;</string>
@@ -276,6 +278,7 @@
     <string name="toggleData">Мобилни податоци</string>
     <string name="toggleSync">Авто-синхронизација на податоци</string>
     <string name="ring_mode_title">Режим на ѕвонење</string>
+    <string name="ring_mode_vibrate">Вибрирај</string>
     <string name="ring_mode_mute">Мутирај</string>
     <string name="ring_volume_title">Јачина на ѕвонење</string>
     <string name="incoming_call_volume_title">Мелодија</string>
@@ -376,6 +379,7 @@
     <string name="charging_sounds_settings_title">Звуци за полнење</string>
     <string name="charging_sounds_enabled_title">Овозможи</string>
     <string name="charging_sounds_enabled_summary">Репродуцирај звук при поврзување или исклучување на извор на енергија</string>
+    <string name="power_notifications_vibrate_title">Вибрирај</string>
     <string name="charging_sounds_ringtone_title">Звук за известување</string>
     <string name="touchscreen_gesture_settings_title">Гестови на допир</string>
     <string name="touchscreen_gesture_settings_summary">Изведување на различни гестови на допир за брзо дејство</string>

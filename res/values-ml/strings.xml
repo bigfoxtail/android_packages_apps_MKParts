@@ -22,12 +22,17 @@
     <string name="cancel">റദ്ദാക്കുക</string>
     <string name="reset">പുനഃസജ്ജമാക്കുക</string>
     <string name="next">അടുത്തത്</string>
+    <string name="off">ഓഫാണ്</string>
     <string name="default_time">സാധാരണ</string>
     <string name="custom_time">ഇഷ്‌ടാനുസൃതം</string>
     <string name="pulse_length_normal">സാധാരണ</string>
     <string name="pulse_speed_normal">സാധാരണ</string>
     <string name="light_brightness_normal">സാധാരണ</string>
+    <string name="notification_light_phonelist_title">ഫോണ്‍</string>
+    <string name="notification_light_default_value">സ്ഥിരമായത്</string>
     <string name="live_display_color_temperature_title">നിറം താപനില</string>
+    <string name="live_display_day">ദിവസം</string>
+    <string name="live_display_night">രാത്രി</string>
     <string name="color_red_title">ചുവപ്പ്</string>
     <string name="color_green_title">പച്ച</string>
     <string name="color_blue_title">നീല</string>
@@ -39,12 +44,16 @@
     <string name="button_backlight_title">ബാക്ക്‌ലൈറ്റ്</string>
     <string name="power_menu_screenshot_title">സ്ക്രീൻഷോട്ട്</string>
     <string name="torch_long_press_power_timeout_never">ഇതുവരെയില്ല</string>
+    <string name="profile_tabs_bluetooth">ബ്ലൂടൂത്ത്</string>
+    <string name="profile_entries_off">ഓഫാണ്</string>
     <string name="profile_reset_title">പുനഃസജ്ജമാക്കുക</string>
+    <string name="toggleBluetooth">ബ്ലൂടൂത്ത്</string>
     <string name="toggleLocation">ലൊക്കേഷൻ</string>
     <string name="ring_mode_normal">സാധാരണ</string>
     <string name="ring_mode_vibrate">വൈബ്രേറ്റുചെയ്യുക</string>
     <string name="media_volume_title">മീഡിയ</string>
     <string name="doze_title">ആമ്പിയന്റ് ഡിസ്‌പ്ലേ</string>
+    <string name="status_bar_quick_qs_pulldown_off">ഓഫാണ്</string>
     <string name="status_bar_double_tap_to_sleep_title">നിഷ്ക്രിയമാക്കുന്നതിന് ഇരട്ട-അമര്‍ത്തല്‍ ചെയ്യുക</string>
     <string name="status_bar_double_tap_to_sleep_summary">ഡിസ്പ്ലേ ഓഫ് ചെയ്യുന്നതിന് സ്റ്റാറ്റസ് ബാറിൽ ഇരട്ട-അമര്‍ത്തല്‍ ചെയ്യുക</string>
     <string name="status_bar_am_pm_normal">സാധാരണ</string>
@@ -58,4 +67,5 @@
     <string name="status_bar_show_weather_title">കാലാവസ്ഥ ദൃശ്യമാക്കുക</string>
     <string name="auto_power_save_never">ഇതുവരെയില്ല</string>
     <string name="power_notifications_vibrate_title">വൈബ്രേറ്റുചെയ്യുക</string>
+    <string name="charging_sounds_ringtone_silent">നിശബ്‌ദം</string>
 </resources>

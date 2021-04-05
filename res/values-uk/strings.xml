@@ -309,7 +309,7 @@
     <string name="toggleWifi">Wi\u2011Fi</string>
     <string name="toggleWifiAp">Портативна Wi\u2011Fi точка</string>
     <string name="toggleBluetooth">Bluetooth</string>
-    <string name="toggleLocation">Місцезнаходження</string>
+    <string name="toggleLocation">Розташування</string>
     <string name="toggleData">Передача даних</string>
     <string name="toggleSync">Автосинхронізація даних</string>
     <string name="toggleNfc">NFC</string>
