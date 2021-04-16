@@ -428,6 +428,7 @@
     <string name="auto_power_save_never">Asnjeherë</string>
     <string name="long_screen_settings_title">Aplikacione që shfaqen në gjithë ekranin</string>
     <string name="long_screen_settings_summary">Detyro aplikacionet e vjetra të përdorin dimension me ekran të plotë</string>
+    <string name="long_screen_settings_no_apps">Nuk ka aplikacione</string>
     <string name="charging_sounds_settings_title">Tingujt e karikimit</string>
     <string name="charging_sounds_enabled_title">Aktivizo</string>
     <string name="charging_sounds_enabled_summary">Luaj një tingull gjatë lidhjes apo shpëputjes me një burim energjie</string>
