@@ -18,6 +18,13 @@
     <string name="mkparts_title">موکی سیٹنگز</string>
     <string name="fingerprint_shortcut_settings_title">فنگرپرنٹ شارٹ کٹس</string>
     <string name="fingerprint_shortcut_not_specified">وضاحت نہیں ہوئی</string>
+    <string name="fingerprint_shortcut_ok">ٹھیک ہے</string>
+    <string name="fingerprint_shortcut_edit">ترمیم کریں</string>
+    <string name="fingerprint_shortcut_delete">مٹائیں</string>
     <string name="fingerprint_shortcut_editer">فنگرپرنٹ شارٹ کٹس لگائیں</string>
     <string name="fingerprint_shortcut_manage">فنگر پرنٹس کا انتظام کریں</string>
+    <string name="bottom_gesture_navigation_settings_title">نیچےکےنیویگیشن کےاشارے</string>
+    <string name="bottom_gesture_navigation_settings_summary">نیچےکےسوائپ اپ اشارےکونیویگیشن کے لئے استعال کریں </string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">نیچےکےسوائپ اپ اشارےکو ہارڈویئر بٹنوں کی جگہ استعمال کریں</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_bar">نیچےکےسوائپ‌اپ‌اشارےکواسکرین‌نیویگیشن‌بٹنوں‌کی‌جگہ‌استعمال‌کریں</string>
 </resources>

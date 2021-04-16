@@ -17,6 +17,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dlg_ok">ٹھیک ہے</string>
     <string name="reset">دوبارہ ترتیب دیں</string>
     <string name="on">چالو</string>
     <string name="off">بند</string>
@@ -26,6 +27,7 @@
     <string name="privacy_guard_help_text">اس اسکرین میں آپ اس بات کا انتخاب کرسکتے ہیں کہ کون سا اطلاقات رازداری کے تحفظ کو صرف ان پر ٹپ کر کے لئے فعال ہونا چاہئے. منتخب کردہ ایپس آپ کے ذاتی ڈیٹا جیسے رابطے، پیغامات یا کال لاگ ان تک رسائی حاصل نہیں کرسکیں گے. اپلی کیشن کا اندراج طویل عرصہ تک اپنی ایپ کی تفصیلات اسکرین کو کھولتا ہے.\n\n بلٹ میں اطلاقات ڈیفالٹ کی طرف سے نہیں دکھایا جاتا ہے لیکن متعلقہ مینو اختیار کو منتخب کرکے ظاہر کیا جاسکتا ہے.</string>
     <string name="default_time">عام </string>
     <string name="custom_time">حسب ضرورت</string>
+    <string name="dialog_delete_title">مٹائیں</string>
     <string name="pulse_length_normal">عام </string>
     <string name="pulse_speed_normal">عام </string>
     <string name="light_brightness_normal">عام </string>
@@ -47,8 +49,10 @@
     <string name="navigation_bar_arrow_keys_summary">لکھتے وقت بائیں اور دائیں کرسر بٹن دکھائیں. اوورائڈس IME سوئچر.</string>
     <string name="power_menu_bug_report_disabled">ترقی کی ترتیبات میں بگ رپورٹنگ غیر فعال ہے</string>
     <string name="camera_double_tap_power_gesture_desc">آپ کی اسکرین کو غیر فعال کرنے کے بغیر جلدی کیمرے کھولیں</string>
+    <string name="profile_menu_delete_title">مٹائیں</string>
     <string name="no_bluetooth_triggers">کوئی بلوٹوت آلات شامل نہیں ہیں.\n ٹرگروں کو ترتیب دینے سے پہلے بلوٹوت آلہ جوڑنے کیلئے ٹیپ کریں.</string>
     <string name="profile_setup_actions_description">جب پروفائل فعال ہوجاتا ہے تو اب کیا طے کریں</string>
+    <string name="profile_menu_delete">مٹائیں</string>
     <string name="profile_nfc_text">این ایف سی ٹیگ پر پروفائل لکھنا پروفائل کا انتخاب کرنے کیلئے ٹیگ ٹیپ کرنے کی اجازت دیتا ہے. ایک بار پھر دوسری بار تھپپیٹ پہلے منتخب شدہ پروفائل کا انتخاب کریں گے.</string>
     <string name="profile_add_nfc_text">یہ این ایف سی ٹیگ ایک نامعلوم پروفائل سے مراد ہے. موجودہ پروفائل میں اس این ایف سی ٹیگ کو منسلک کرے گا مستقبل میں پروفائل کا انتخاب کرنے کی اجازت دے گی.</string>
     <string name="profile_app_group_item_instructions_summary">نوٹیفکیشن اوورائڈ اے پی گروپ اس پروفائل پر شامل کریں یا ہٹائیں</string>
