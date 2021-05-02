@@ -16,7 +16,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="mkparts_title">הגדרות MoKee</string>
+    <string name="fingerprint_shortcut_settings_title">קיצורי דרך של טביעות אצבע</string>
+    <string name="fingerprint_shortcut_not_specified">לא מוגדר</string>
     <string name="fingerprint_shortcut_ok">אישור</string>
     <string name="fingerprint_shortcut_edit">ערוך</string>
     <string name="fingerprint_shortcut_delete">מחק</string>
+    <string name="fingerprint_shortcut_editer">הגדר קיצור דרך של טביעת אצבע</string>
+    <string name="fingerprint_shortcut_manage">נהל טביעות אצבע</string>
+    <string name="bottom_gesture_navigation_settings_title">מחוות ניווט תחתונות</string>
+    <string name="bottom_gesture_navigation_settings_summary">השתמש במחוות החלקה תחתונות לצורך ניווט</string>
+    <string name="bottom_gesture_navigation_settings_summary_nav_keys">השתמש במחוות החלקה תחתונות במקום כפתורי החומרה</string>
+    <string name="unit_px">פיקסלים</string>
 </resources>
