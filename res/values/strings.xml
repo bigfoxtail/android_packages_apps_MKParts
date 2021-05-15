@@ -190,8 +190,7 @@
     <string name="hardware_keys_action_sleep">Turn screen off</string>
     <string name="hardware_keys_action_last_app">Last app</string>
     <string name="hardware_keys_action_split_screen">Split screen</string>
-    <string name="hardware_keys_action_single_handed_left">Single hand mode (left)</string>
-    <string name="hardware_keys_action_single_handed_right">Single hand mode (right)</string>
+    <string name="hardware_keys_action_kill_app">Kill foreground app</string>
     <string name="camera_sleep_on_release_title">Screen peek</string>
     <string name="camera_sleep_on_release_summary">A half press will keep the screen on only while the button is held down</string>
     <string name="camera_launch_title">Launch camera</string>
@@ -246,6 +245,7 @@
     <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
     <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
     <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
+    <string name="navigation_bar_back_long_press_title">Back long press action</string>
     <string name="navigation_bar_home_long_press_title">Home long press action</string>
     <string name="navigation_bar_home_double_tap_title">Home double tap action</string>
     <string name="navigation_bar_app_switch_long_press_title">Recents long press action</string>
