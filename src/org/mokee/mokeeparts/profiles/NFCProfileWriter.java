@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2012 The CyanogenMod Project
  * Copyright (C) 2012-2018 The MoKee Open Source Project
- *               2017-2018 The LineageOS Project
+ *               2017-2018,2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -85,7 +85,8 @@ public class NFCProfileWriter extends Activity {
 
     private PendingIntent getPendingIntent() {
         return PendingIntent.getActivity(this, 0,
-                new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0);
+                new Intent(this, getClass()).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP),
+                        PendingIntent.FLAG_IMMUTABLE);
     }
 
     private void disableTagWriteMode() {

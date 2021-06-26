@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2014 The CyanogenMod Project
- *               2017 The LineageOS Project
+ *               2017,2021 The LineageOS Project
  * Copyright (C) 2014-2020 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -90,7 +90,7 @@ public class NfcTriggerFragment extends Fragment implements NFCProfileTagCallbac
     private PendingIntent getPendingIntent() {
         Intent intent = new Intent(getActivity(), getActivity().getClass())
                 .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-        return PendingIntent.getActivity(getActivity(), 0, intent, 0);
+        return PendingIntent.getActivity(getActivity(), 0, intent, PendingIntent.FLAG_IMMUTABLE);
     }
 
     private void disableTagWriteMode() {
