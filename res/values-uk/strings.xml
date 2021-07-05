@@ -485,9 +485,6 @@
     <string name="trust_feature_selinux_explain">SELinux визначає, які процеси мають доступ до файлів на вашому пристрої.\nЦе запобігає доступу додатків і сервісів до файлів, з якими вони не повинні мати справу: таким чином, шкідливий процес має обмежений доступ, щоб ваша безпека була збережена.</string>
     <string name="trust_feature_security_patches">Патч безпеки Android</string>
     <string name="trust_feature_security_patches_value_base">Платформа: %1$s\nВиробник: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">Немає оновлень</string>
-    <string name="trust_feature_security_patches_value_medium">застарілий на кілька місяців</string>
-    <string name="trust_feature_security_patches_value_old">Застарілий</string>
     <string name="trust_feature_security_patches_explain">Пакети безпеки випускаються щомісяця компанією Google і постачальниками SoC для усунення недоліків в системі, які можуть бути використані шкідливими додатками для обходу обмежень безпеки і можуть завдати тимчасової або постійної шкоди вашому пристрою. В той час, як патчі платформи оновлюються щомісяця, самі виробники пристроїв оновлюють патчі не поспішаючи. Для того, щоб ваш пристрій був безпечним, переконайтеся, що ваша збірка MoKee завжди актуальна.</string>
     <string name="trust_feature_encryption">Шифрування</string>
     <string name="trust_feature_encryption_value_enabled">Увімкнено</string>

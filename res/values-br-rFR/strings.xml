@@ -182,7 +182,6 @@
     <string name="trust_category_features">Stad</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_disabled">Diweredekaet</string>
-    <string name="trust_feature_security_patches_value_new">hizivaet</string>
     <string name="trust_feature_encryption">Enrinegañ</string>
     <string name="trust_feature_encryption_value_enabled">Gweredekaet</string>
     <string name="trust_feature_encryption_value_disabled">Diweredekaet</string>

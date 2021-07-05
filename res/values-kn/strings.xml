@@ -464,9 +464,6 @@
     <string name="trust_feature_selinux_value_disabled">ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ</string>
     <string name="trust_feature_security_patches">Android ಭದ್ರತಾ ಪಟ್ಟಿಗಳು</string>
     <string name="trust_feature_security_patches_value_base">ವೇದಿಕೆ: %1$s\nತಯಾರಕ: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">ದಿನಾಂಕದವರೆಗೆ</string>
-    <string name="trust_feature_security_patches_value_medium">ಕೆಲವು ತಿಂಗಳು ಹಿಂದೆಯಿದೆ</string>
-    <string name="trust_feature_security_patches_value_old">ದಿನಾಂಕ ಮುಗಿದು ಹೋಗಿದೆ</string>
     <string name="trust_feature_encryption">ಗೂಢಲಿಪೀಕರಣ</string>
     <string name="trust_feature_encryption_value_enabled">ಸಕ್ರಿಯ</string>
     <string name="trust_feature_encryption_value_nolock">ಸುರಕ್ಷಿತ ಲಾಕ್‌ ಮಾಡಿದ ಪರದೆಯ ಅಗತ್ಯವಿದೆ</string>

@@ -304,7 +304,6 @@
     <string name="trust_category_features">நிலை</string>
     <string name="trust_feature_selinux">SELinux</string>
     <string name="trust_feature_selinux_value_disabled">முடக்கு</string>
-    <string name="trust_feature_security_patches_value_new">புதுப்பித்த நிலையில் உள்ளது</string>
     <string name="trust_feature_encryption">குறியாக்கம்</string>
     <string name="trust_feature_encryption_value_enabled">இயக்கு</string>
     <string name="trust_feature_encryption_value_disabled">முடக்கு</string>

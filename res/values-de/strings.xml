@@ -486,9 +486,6 @@
     <string name="trust_feature_selinux_explain">SELinux gibt vor, welche Prozesse Zugang zu welchen Daten auf ihrem Gerät haben.\n Das verhindert Apps und Dienste davon Zugang zu Daten zu erhalten, auf welche sie keinen Zugang haben sollten: auf diese Weise hat ein böswilliger Prozess nur limitierten Zugang damit ihre Sicherheit erhalten bleibt.</string>
     <string name="trust_feature_security_patches">Android Sicherheit-Patches</string>
     <string name="trust_feature_security_patches_value_base">Plattform: %1$s\nVendor: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">auf dem neuesten Stand</string>
-    <string name="trust_feature_security_patches_value_medium">einige Monate alt</string>
-    <string name="trust_feature_security_patches_value_old">veraltet</string>
     <string name="trust_feature_security_patches_explain">Sicherheit-Patches werden monatlich von Google und SoC-Anbietern veröffentlich um Probleme im System zu beheben, welche von bösartigen Apps dazu ausgenutzt werden könnte, die Sicherheitseinschränkungen zu umgehen und ihr Gerät vorübergehend oder dauerhaft zu beschädigen.\n Während Plattform-Patches monatlich Global aktualisiert werden, werden Anbieter-Patches von Zeit zu Zeit vom Hersteller aktualisiert.\n Damit ihr Gerät sicher bleibt, stellen sie sicher, dass ihr MoKee immer auf dem neuesten Stand ist.</string>
     <string name="trust_feature_encryption">Verschlüsselung</string>
     <string name="trust_feature_encryption_value_enabled">Aktiviert</string>

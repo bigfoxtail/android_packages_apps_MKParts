@@ -481,9 +481,6 @@
     <string name="trust_feature_selinux_explain">تملي SELinux العمليات التي لها حق الوصول إلى الملفات الموجودة على جهازك.\nويمنع ذلك التطبيقات والخدمات من الوصول إلى الملفات التي ليس من المفترض أن يتعامل معها: بهذه الطريقة ، فإن العملية الخبيثة لديها وصول محدود حتى يتم الحفاظ على الأمن الخاص بك.</string>
     <string name="trust_feature_security_patches">تصحيحات أمان الاندرويد</string>
     <string name="trust_feature_security_patches_value_base">المنصة: %1$s البائع: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">مُحدث</string>
-    <string name="trust_feature_security_patches_value_medium">بضعة أشهر قبل اخر تحديث</string>
-    <string name="trust_feature_security_patches_value_old">غير محدّث</string>
     <string name="trust_feature_security_patches_explain">يتم إصدار تصحيحات الأمان شهريًا من قِبل موردي Google و SoC لمعالجة العيوب في النظام والتي يمكن استغلالها بواسطة التطبيقات الضارة لتجاوز القيود الأمنية وقد تتسبب في تلف مؤقت أو دائم في جهازك.\nيتم تحديث تصحيحات البرامج على مستوى العالم كل شهر ، يتم تحديثها من OEM من وقت لآخر.\nللحفاظ على جهازك آمنًا ، تأكد من تحديث MoKee دائمًا.</string>
     <string name="trust_feature_encryption">التشفير</string>
     <string name="trust_feature_encryption_value_enabled">مفعل</string>

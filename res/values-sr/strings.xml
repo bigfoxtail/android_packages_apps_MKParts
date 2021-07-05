@@ -482,9 +482,6 @@
     <string name="trust_feature_selinux_explain">SELinux контролише приступе подацима на телефону.\nТиме се повећава безбедност и заштита од вируса и штетних апликација.</string>
     <string name="trust_feature_security_patches">Андроид сигуроносна подешавања</string>
     <string name="trust_feature_security_patches_value_base">Platform: %1$s\nVendor: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">освежено</string>
-    <string name="trust_feature_security_patches_value_medium">прошло је неколико месеци од задњег освежавања</string>
-    <string name="trust_feature_security_patches_value_old">застарело</string>
     <string name="trust_feature_security_patches_explain">Сигуроносна освежавања се раде на месечном нивоу од стране Гоогле-а. Произвођач телефона је одговаран за брзину примена ових освежавања ( updates) на ваш модел телефона. Да би вам телефон био што сигурнији увек радите сигуроносна освежавања инсталирањем најновије актуелне верзије MoKee Ром-а за ваш уређај. Такође проверите да је vendor image освежен на најновију верзију препоручену од стране MoKee.</string>
     <string name="trust_feature_encryption">Енкрипција</string>
     <string name="trust_feature_encryption_value_enabled">Омогућено</string>

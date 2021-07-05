@@ -179,6 +179,8 @@
     <string name="home_answer_call_summary">Atender chamadas pressionando o botão Página Inicial</string>
     <string name="extras_title">Extras</string>
     <string name="additional_buttons_title">Botões adicionais</string>
+    <string name="click_partial_screenshot_title">Clique para realizar uma captura de ecrã parcial</string>
+    <string name="click_partial_screenshot_summary">Clique simultâneo no botão de Volume Baixo e no botão de ligar/desligar para realizar uma captura de ecrã parcial</string>
     <string name="button_backlight_title">Luz de fundo</string>
     <string name="button_backlight_enabled">Iluminar os botões</string>
     <string name="button_backlight_only_when_pressed_title">Iluminar botões apenas ao tocar</string>
@@ -489,9 +491,6 @@
     <string name="trust_feature_selinux_explain">O SELinux dita que processos têm acesso a que ficheiros/pastas do seu dispositivo.\nIsto evita que aplicações e serviços possam aceder a ficheiros com os quais não é suposto lidarem. Desta forma um processo malicioso terá acesso limitado e assim a sua segurança é preservada.</string>
     <string name="trust_feature_security_patches">Patch de segurança do Android</string>
     <string name="trust_feature_security_patches_value_base">Plataforma: %1$s\nFabricante: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">atualizado</string>
-    <string name="trust_feature_security_patches_value_medium">desatualizado alguns meses</string>
-    <string name="trust_feature_security_patches_value_old">fora de validade</string>
     <string name="trust_feature_security_patches_explain">Os patches de segurança são lançados mensalmente pela Google em cooperação com os fabricantes de SoC para corrigirem falhas que possam ser exploradas por aplicações maliciosas a fim de contornarem restrições de segurança e causarem danos permanentes no seu dispositivo. Os patches disponibilizados pela Google são aplicados todos os meses em todos os dispositivos suportados, mas os patches a código proprietário só podem ser aplicados pelo fabricante do seu dispositivo. Para manter o seu dispositivo seguro certifique-se de que a sua compilação MoKee está sempre atualizada e, se aplicável, certifique-se de que a sua imagem do fabricante é atualizada para a mais recente recomendada pela equipa MoKee.</string>
     <string name="trust_feature_encryption">Encriptação</string>
     <string name="trust_feature_encryption_value_enabled">Ativada</string>

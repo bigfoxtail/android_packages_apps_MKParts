@@ -480,9 +480,6 @@
     <string name="trust_feature_selinux_explain">SELinux dicta qué procesos tienen acceso a qué archivos en tu dispositivo.\nEsto impide que las aplicaciones y los servicios tengan acceso a archivos que no deben tratar: de esta forma, un proceso malicioso tiene acceso limitado, por lo que se preserva tu seguridad.</string>
     <string name="trust_feature_security_patches">Nivel de parche de seguridad de Android</string>
     <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nProveedor: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">última versión</string>
-    <string name="trust_feature_security_patches_value_medium">algunos meses desactualizados</string>
-    <string name="trust_feature_security_patches_value_old">obsoleto</string>
     <string name="trust_feature_security_patches_explain">Google lanza parches de seguridad en cooperación con vendedores de SoC para resolver fallos que podrían ser explotados por aplicaciones maliciosas para evitar restricciones de seguridad y causar daños permanentes a su dispositivo. Los parches puestos a disposición de Google se aplican cada mes en todos los dispositivos compatibles, pero los parches al código propietario sólo pueden ser aplicados por el fabricante de su dispositivo. Para mantener su dispositivo seguro, asegúrese de que su compilación MoKee siempre está actualizada, y (si es aplicable) asegurar que su imagen de vendedor se actualiza a la última recomendada por MoKee.</string>
     <string name="trust_feature_encryption">Titkosítás</string>
     <string name="trust_feature_encryption_value_enabled">Activado</string>

@@ -469,9 +469,6 @@
     <string name="trust_category_features">Статус</string>
     <string name="trust_feature_selinux_value_disabled">Деактивирано</string>
     <string name="trust_feature_selinux_explain">SELinux диктува кои процеси имат достъп до файлове на Вашето устройство. \nТова предотвратява приложения и услуги да имат достъп до файлове, които те не би трябвало да имат. По този начин зловредните процеси са ограничени, така че Вашата сигурност се запазва.</string>
-    <string name="trust_feature_security_patches_value_new">актуално</string>
-    <string name="trust_feature_security_patches_value_medium">необновявано от няколко месеца</string>
-    <string name="trust_feature_security_patches_value_old">неактуален</string>
     <string name="trust_feature_encryption">Криптиране</string>
     <string name="trust_feature_encryption_value_enabled">Активирано</string>
     <string name="trust_feature_encryption_value_nolock">Нуждае се от заключване на екрана</string>

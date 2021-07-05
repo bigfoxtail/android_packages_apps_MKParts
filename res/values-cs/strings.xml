@@ -491,9 +491,6 @@
     <string name="trust_feature_selinux_explain">SELinux určuje, které procesy mají přístup k souborům/cestám ve vašem zařízení.\nZabraňuje tomu, aby aplikace a služby měly přístup k souborům, se kterými se nemusí zabývat: tímto způsobem má nebezpečný proces omezený přístup, takže vaše bezpečnost je zachována.</string>
     <string name="trust_feature_security_patches">Bezpečnostní záplaty Android</string>
     <string name="trust_feature_security_patches_value_base">Platforma: %1$s\nDodavatel: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">aktuální</string>
-    <string name="trust_feature_security_patches_value_medium">staré několik měsíců</string>
-    <string name="trust_feature_security_patches_value_old">zastaralé</string>
     <string name="trust_feature_security_patches_explain">Bezpečnostní záplaty jsou vydávány měsíčně společností Google a dodavateli SoC na řešení nedostatků v systému, které by mohly být zneužity škodlivými aplikacemi na obejití bezpečnostních omezení a mohly by způsobit dočasné nebo trvalé poškození zařízení.\nZáplaty platformy jsou aktualizovány globálně každý měsíc. Záplaty OEM dodavatelů jsou aktualizovány velmi sporadicky.\nPokud chcete, aby vaše zařízení bylo v bezpečí, ujistěte se, že vaše sestava MoKee je vždy aktuální.</string>
     <string name="trust_feature_encryption">Šifrování</string>
     <string name="trust_feature_encryption_value_enabled">Zapnuto</string>

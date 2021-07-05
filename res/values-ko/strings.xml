@@ -473,9 +473,6 @@
     <string name="trust_feature_selinux_value_disabled">사용 안 함</string>
     <string name="trust_feature_selinux_explain">SELinux는 각 프로세스가 기기의 어떤 파일에 액세스 할 수 있는지를 결정합니다.\nSELinux를 사용하면 앱 및 서비스가 사용하면 안 되는 파일에 접근하는 것을 막아 줍니다. 따라서 악성 프로세스의 접근이 제한되므로 보안을 유지할 수 있습니다.</string>
     <string name="trust_feature_security_patches_value_base">플랫폼: %1$s\n공급업체: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">최신 상태</string>
-    <string name="trust_feature_security_patches_value_medium">수 개월 지남</string>
-    <string name="trust_feature_security_patches_value_old">오래됨</string>
     <string name="trust_feature_security_patches_explain">보안 패치는 Google이 SoC 공급업체와의 협력으로 매월 발표되며 디바이스를 영구적으로 손상시킬수 있는 프로그램을 막아냅니다. 이 보안 패치는 적용 가능한 어떠한 디바이스에서나 적용되지만 제조 업체에서만 독점으로 적용이 가능합니다. 디바이스를 보호하려면 MoKee를 항상 업데이트하고, (해당 되는 경우) 권장 최신 MoKee의 공급 업체의 이미지를 업데이트 합니다.</string>
     <string name="trust_feature_encryption">암호화</string>
     <string name="trust_feature_encryption_value_enabled">사용</string>

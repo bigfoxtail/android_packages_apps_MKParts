@@ -484,9 +484,6 @@
     <string name="trust_feature_selinux_explain">SELinux menentukan proses apa yang memiliki akses ke berkas/jalur di perangkat anda.\nIni mencegah aplikasi dan layanan mengakses berkas yang tidak seharusnya: cara ini proses berbahaya yang potensial terbatas, dan keamanan anda terjaga.</string>
     <string name="trust_feature_security_patches">Patch keamanan android</string>
     <string name="trust_feature_security_patches_value_base">Platform: %1$s\nVendor: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">terbaru</string>
-    <string name="trust_feature_security_patches_value_medium">beberapa bulan tertinggal</string>
-    <string name="trust_feature_security_patches_value_old">tertinggal</string>
     <string name="trust_feature_security_patches_explain">Patch keamanan dirilis setiap bulan oleh Google bekerja sama dengan vendor SoC untuk mengatasi kekurangan yang dapat dieksploitasi oleh aplikasi berbahaya untuk melewati pembatasan keamanan dan menyebabkan kerusakan permanen pada perangkat anda. Patch yang disediakan oleh Google diterapkan setiap bulan pada semua perangkat yang didukung, tetapi patch untuk kode kepemilikan hanya dapat diterapkan oleh pabrikan perangkat anda. Untuk menjaga perangkat Anda tetap aman, pastikan MoKee anda selalu diperbarui, dan (jika berlaku) pastikan vendor image anda diperbarui ke yang terbaru yang direkomendasikan oleh MoKee.</string>
     <string name="trust_feature_encryption">Enkripsi</string>
     <string name="trust_feature_encryption_value_enabled">Dihidupkan</string>

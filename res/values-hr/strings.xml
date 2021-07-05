@@ -475,9 +475,6 @@
     <string name="trust_feature_selinux_explain">SELinux diktira koji procesi imaju pristup datotekama/putanjama na vašem uređaju.\nTo sprječava aplikacije i usluge da imaju pristup datotekama s kojima se ne bi trebale baviti: na taj način zlonamjerni procesi imaju ograničen pristup kako bi se vaša sigurnost očuvala.</string>
     <string name="trust_feature_security_patches">Android sigurnosne zakrpe</string>
     <string name="trust_feature_security_patches_value_base">Platform: %1$s\nVendor: %2$s</string>
-    <string name="trust_feature_security_patches_value_new">Ažurirano</string>
-    <string name="trust_feature_security_patches_value_medium">zastarjelo nekoliko mjeseci</string>
-    <string name="trust_feature_security_patches_value_old">zastarjelo</string>
     <string name="trust_feature_security_patches_explain">Sigurnosne zakrpe, Google objavljuje mjesečno u suradnji s proizvođačima SoC-a kako bi se riješili problemi koje zlonamjerne aplikacije mogu iskoristiti za zaobilaženje sigurnosnih ograničenja i prouzročiti trajno oštećenje uređaja. Zakrpe koje je omogućio Google, primjenjuju se svaki mjesec na svim podržanim uređajima, ali zakrpe za vlasnički kôd mogu primijeniti samo proizvođači uređaja. Da bi vaš uređaj bio siguran, provjerite je li MoKee sustav uvijek ažuriran i (ako je primjenjivo) provjerite je li vaš image dobavljača ažuriran na najnoviju verziju koju preporučuje MoKee.</string>
     <string name="trust_feature_encryption">Šifriranje</string>
     <string name="trust_feature_encryption_value_enabled">Omogućeno</string>
