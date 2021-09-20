@@ -491,6 +491,9 @@
     <string name="trust_feature_selinux_explain">A SELinux szabja meg, hogy mely folyamatok melyik fájlokhoz férhetnek hozzá az Ön készülékén.\nEz megakadályozza, hogy az alkalmazások és szolgáltatások hozzáférjenek azokhoz a fájlokhoz, amelyekhez nincs közük. Így a rosszindulatú folyamatnak korlátozható a hozzáférése, így az Ön biztonsága megmarad.</string>
     <string name="trust_feature_security_patches">Biztonsági javítócsomagok szintje</string>
     <string name="trust_feature_security_patches_value_base">Androidos: %1$s\nGyártói: %2$s</string>
+    <string name="trust_feature_security_patches_value_new">Naprakész</string>
+    <string name="trust_feature_security_patches_value_medium">Pár hónapja elavult</string>
+    <string name="trust_feature_security_patches_value_old">Elavult</string>
     <string name="trust_feature_security_patches_explain">Az Androidos biztonsági hibajavító csomagok havonta jelennek meg a Google és a SoC gyártók jóvoltából, a rendszerben fellépő olyan hibák kezelésére, amelyeket a rosszindulatú alkalmazások kihasználhatnak a biztonsági korlátozások megkerülésére, és ideiglenesen vagy tartósan károsíthatják a készüléket.\nMíg a platformjavítások havonta frissülnek globálisan, a gyártói javításokat csak időnként frissítik az OEM-eken keresztül.\nA készülékbiztonság megőrzéséhez győződjön meg róla, hogy az Ön MoKee kiadása mindig naprakész-e.</string>
     <string name="trust_feature_encryption">Titkosítás</string>
     <string name="trust_feature_encryption_value_enabled">Engedélyezve</string>

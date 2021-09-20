@@ -34,9 +34,11 @@
     <string name="yes">はい</string>
     <string name="no">いいえ</string>
     <string name="search">検索</string>
+    <string name="search_menu">設定を検索</string>
     <string name="disabled">無効</string>
     <string name="enabled">有効</string>
     <string name="privacy_settings_title">プライバシー</string>
+    <string name="channel_light_settings_name">ライト設定のプレビュー</string>
     <string name="edit_light_settings">ライトの設定を編集</string>
     <string name="pulse_speed_title">点滅時間と点滅速度</string>
     <string name="default_time">標準</string>
@@ -168,6 +170,8 @@
     <string name="power_end_call_summary">電源ボタンを押して現在の通話を終了する</string>
     <string name="swap_volume_buttons_title">再配置</string>
     <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
+    <string name="volume_panel_on_left_title">パネルを左側に表示</string>
+    <string name="volume_panel_on_left_summary">画面の左側に音量パネルを表示する</string>
     <string name="button_wake_title">端末をスリープ解除</string>
     <string name="volume_answer_call_title">着信に応答</string>
     <string name="volume_answer_call_summary">音量ボタンを押して着信に応答する</string>
@@ -491,6 +495,7 @@
     <string name="trust_onboarding_description">Trust は端末を安全に保ち、プライバシーを保護するのに役立ちます。\nTrust アイコンはページの内容が確認された場合にのみ表示されます。</string>
     <string name="trust_onboarding_learn_more">詳細</string>
     <string name="trust_onboarding_done">了解</string>
+    <string name="trust_restrict_usb_title">USB の制限</string>
     <string name="sms_security_check_limit_title">SMSメッセージの制限</string>
     <string name="sms_security_check_limit_summary">アプリは確認をする前に1分間に%s通のメッセージを送信できます</string>
     <string name="sms_security_check_limit_summary_none">アプリは許可無くメッセージを送信することはできません</string>

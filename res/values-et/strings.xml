@@ -491,6 +491,9 @@
     <string name="trust_feature_selinux_explain">SELinux määrab, millised protsessid saavad ligipääsu millistele failidele/failiteedele sinu seadmes.\nSee väldib rakendustel ja teenustel ligipääsu failidele, millele nad ei tohiks ligi pääseda, seega potensiaalselt ohtlikud protsessid piiratakse ning sinu turvalisus säilib.</string>
     <string name="trust_feature_security_patches">Androidi turvapaigad</string>
     <string name="trust_feature_security_patches_value_base">Platvorm: %1$s\nTarnija: %2$s</string>
+    <string name="trust_feature_security_patches_value_new">Uuendatud</string>
+    <string name="trust_feature_security_patches_value_medium">Paar kuud vana</string>
+    <string name="trust_feature_security_patches_value_old">Vananenud</string>
     <string name="trust_feature_security_patches_explain">Google väljastab iga kuu turvapaikasid koostöös SoC tarnijatega, parandamaks vigu, mida võivad pahatahtlikud rakendused ära kasutada, et pääseda mööda turvapiirangutest ning põhjustada püsivat kahju sinu seadmele. Paigad, mille Google väljastab rakendatakse iga kuu kõikidele toetatud seadmetele, aga omandiõigustega koodile saab paiku määrata ainult sinu seadme tootja. Et hoida oma seade turvalisena, veendu, et sinu MoKee järk on alati kaasaegne ning (võimalusel) veendu, et sinu tarnija tõmmis on uuendatud MoKee poolt viimasena soovitatud versioonile.</string>
     <string name="trust_feature_encryption">Krüpteerimine</string>
     <string name="trust_feature_encryption_value_enabled">Lubatud</string>
