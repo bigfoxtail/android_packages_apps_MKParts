@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2014-2015 The CyanogenMod Project
- *               2017-2021 The LineageOS Project
+ *               2017-2022 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,6 +32,7 @@ import com.android.internal.widget.LockPatternUtils;
 import org.mokee.internal.util.PowerMenuConstants;
 import org.mokee.mokeeparts.R;
 import org.mokee.mokeeparts.SettingsPreferenceFragment;
+import org.mokee.mokeeparts.utils.TelephonyUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,6 +83,11 @@ public class PowerMenuActions extends SettingsPreferenceFragment {
             } else if (action.equals(GLOBAL_ACTION_KEY_EMERGENCY)) {
                 mEmergencyPref = findPreference(GLOBAL_ACTION_KEY_EMERGENCY);
             }
+        }
+
+        if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+            getPreferenceScreen().removePreference(mEmergencyPref);
+            mEmergencyPref = null;
         }
 
         mLocalUserConfig = mMoKeeGlobalActions.getLocalUserConfig();
