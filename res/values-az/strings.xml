@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="loading">Yüklənir\u2026</string>
+    <string name="dlg_ok">OK</string>
     <string name="reset">Sıfırla</string>
     <string name="back">Geri</string>
     <string name="next">Sonrakı</string>
